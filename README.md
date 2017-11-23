@@ -1,2 +1,2 @@
 # Project-PFAA
-Support repo for the pack
+Support repo for the pack Per Fabrica ad Astra
