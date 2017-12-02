@@ -1,6 +1,6 @@
 <version>
     <pack>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <minecraft>1.7.10</minecraft>
         <memory>3072</memory>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -299,6 +299,10 @@
         <mod name="scripts" version="1.0.1" url="packs/PerFabricaadAstra/files/extracts/scripts_1.0.1.zip" file="scripts_1.0.1.zip" md5="faada2e2b671e756ac55efeadd366975" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="MT scripts" client="yes" optional="no" server="yes" serveroptional="no" />
 
         <!-- Optional mods -->
+        <mod name="Singleplayer scripts" version="1.0.0" url="packs/PerFabricaadAstra/files/extracts/Singleplayer_script.zip" file="Singleplayer_script.zip" md5="69167dc7a84e5d2ad5af5d75d53cddfc" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Scripts for those who would like to play singleplayer" client="yes" optional="yes" server="no" serveroptional="no" />
+
+        <mod name="More ore generation" version="1.0.0" url="packs/PerFabricaadAstra/files/extracts/Extra_ores.zip" file="Extra_ores.zip" md5="2f3d0e3f76f05dd3535e51c256b8a032" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Config for more frequest ore generation, best used for singleplaer" client="yes" optional="yes" server="no" serveroptional="yes"  />
+
         <mod name="ArmorStatusHUD" version="1.28" url="packs/PerFabricaadAstra/files/mods/[1.7.10]ArmorStatusHUD-client-1.28.jar" file="[1.7.10]ArmorStatusHUD-client-1.28.jar" md5="f0da1af3ea5b7797d2742b7a2b874e92" download="server" type="mods" website="http://www.minecraftforum.net/topic/1114612-/" donation="https://www.paypal.com/cgi-bin/webscr?return=https://minecraft.curseforge.com/projects/armorstatushud?gameCategorySlug=mc-mods&amp;projectID=225564&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=briefcase.speakers%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=https://minecraft.curseforge.com/projects/armorstatushud?gameCategorySlug=mc-mods&amp;projectID=225564&amp;lc=US&amp;item_name=ArmorStatusHUD+(from+curseforge.com)&amp;cmd=_donations&amp;rm=1&amp;no_shipping=1&amp;currency_code=USD" authors="bspkrs" description="Provides a HUD with your equipped armor/item stats." client="yes" optional="yes" server="no" serveroptional="no" recommended="yes" />
 
         <mod name="StatusEffectHUD" version="1.27" url="packs/PerFabricaadAstra/files/mods/[1.7.10]StatusEffectHUD-client-1.27.jar" file="[1.7.10]StatusEffectHUD-client-1.27.jar" md5="d3b526e884043c01d5b1d23ca88a8cd4" download="server" type="mods" website="http://www.minecraftforum.net/topic/1114612-/" donation="https://www.paypal.com/cgi-bin/webscr?return=https://minecraft.curseforge.com/projects/statuseffecthud?gameCategorySlug=mc-mods&amp;projectID=225566&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=briefcase.speakers%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=https://minecraft.curseforge.com/projects/statuseffecthud?gameCategorySlug=mc-mods&amp;projectID=225566&amp;lc=US&amp;item_name=StatusEffectHUD+(from+curseforge.com)&amp;cmd=_donations&amp;rm=1&amp;no_shipping=1&amp;currency_code=USD" authors="bspkrs" description="Shows active player effects (potions, etc) without opening your inventory!" client="yes" optional="yes" server="no" serveroptional="no" recommended="yes" />
