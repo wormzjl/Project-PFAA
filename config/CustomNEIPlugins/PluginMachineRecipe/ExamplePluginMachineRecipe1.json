@@ -1,0 +1,41 @@
+{
+	"plugin_type": "plugin_machine_recipe",
+	"plugin_enabled": "false",
+	"plugin_recipe_per_page": "1",
+	"plugin_unlocalized_title_name": "examplemod.neiplguin.fakeCraftingTableRecipe.title.name",
+	"plugin_background_texture": "nei:textures/gui/recipebg.png",
+	"plugin_gui_texture": "minecraft:textures/gui/container/crafting_table.png",
+	"plugin_gui_class": "net.minecraft.client.gui.inventory.GuiCrafting",
+	"this_is_a_comment_and_you_can_delete_it_safely": "You can use the gui class from custom_stuff2 mod, for which you should write \"custom_stuff2.modid.gui_name\" above.",
+	"plugin_recipe_identifier": "CustomExamplePlugin_CraftingTable",
+	"plugin_transfer_rect":[
+		{
+			"posX": "74",
+			"posY": "44",
+			"width": "24",
+			"height": "17"
+		}
+	],
+	"plugin_progress_bar":[
+	],
+	"plugin_gui_offset": [
+		{
+			"offsetX": "5",
+			"offsetY": "11"
+		}
+	],
+	"plugin_recipes":[
+		{
+			"inputs":[ 
+				{"item": "minecraft:nether_star", "stacksize": "1", "oredict": "false", "posX": "25", "posY": "6"},
+				{"item": "minecraft:diamond", "stacksize": "1", "oredict": "false", "posX": "43", "posY": "6"}
+			],
+			"outputs":[
+				{"item": "minecraft:dirt", "stacksize": "16", "oredict_search": "false", "posX": "119", "posY": "24"}
+			],
+			"strings":[ 
+			]
+		}
+	]
+}
+

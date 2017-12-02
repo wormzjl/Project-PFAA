@@ -1,0 +1,2 @@
+count=1-5
+contents=minecraft:book;0;1-3;20,minecraft:paper;0;2-7;20,minecraft:map;0;1-1;1,minecraft:compass;0;1-1;1,minecraft:enchanted_book;0;1-5;2,lightsabers:lightsaber_crystal;0;1-1;1,lightsabers:lightsaber_crystal;0;1-1;1,lightsabers:lightsaber_crystal;0;1-1;1

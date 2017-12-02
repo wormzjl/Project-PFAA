@@ -1,0 +1,11 @@
+§2§lFirst Steps
+
+Upon entering the world, your first objective will be survival. For those new to terrafirmacraft, I’d recommend watching some tutorial videos before playing. The initial game experience was unchanged except food preparation, which is modified by the "Cooking with TFC" mod.
+
+TFC terrain is vast, and you'll probably travel a lot seeking for different resources. I'd recommend establishing your base in a sedimentary region with close access to coal and iron mines, also it's a good idea to have your base close to an oil source, which is heavily-consumed during mid-game. Keep an eye on chalk, limestone, rock salt and granite when exploring, you will either need the rock themselves or the ore product from that layer during your progression. Also, find some olive tree, they will be essential during early technical progression.
+
+The primary objective during this age will be getting steel and black steel. For this purpose, graphite and nickel will be essential. The ore generation rate has been increased slighly, but if you really can't find nickel, you might want to use TFC udary mod's methode of getting nickel from limonite.
+{"text":"§1Link to the mod's thread", "click":{"type":"url", "data":"http://terrafirmacraft.com/f/topic/7587-tfc-07929-udary-mod-galenalimonite-extraction-ingame-alloy-calculator-tucker-bag-evaporator-pan-drying-mat/"}}
+
+
+

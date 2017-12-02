@@ -1,0 +1,21 @@
+§2§lIHL mod basic tutorial
+
+You have probably never heard this mod, IHL is an addon for IC2 which tries to add some degree of realism in machine fabrication and chemistry. However, realism means complexity, just like TFC.
+The official wiki of this mod can be found in the following link, but many informations are outdated, so this chapter tries to provide a simple guide for this mod.
+{"text":"§1Wiki", "click":{"type":"url", "data":"https://minecraft.gamepedia.com/Mods/IHL_Tools_%26_Machines"}}
+
+To start with IHL, you will need a iron workbench which will hold all your tools and do all the crafting jobs in this mod. All crafting in the iron workbench needs to be done manually and will craft a maximum stack with available resources, so do not put more materials than you need. Your first objective will be preparing the tools, if you have enough resources, make two or three of each. 
+
+Another major crafting method introduced by IHL is casting by molds. The mold is either made by clay or liquid glass, depending on their type. After crafting the mold, put it down on the ground. Put some metal ingot inside a crucible and heat it up in the muffle furnace. Pour the molten metal into the mold by rightclicking it's top with the crucible, wait at least 10 seconds and break the mold, now you get your product. Some largely used components can be casted via foundry mod to reduce manual grind.
+
+After some work, you will need some additions to you iron workbench: the lathe and the gas welding station. They need to be placed close to the iron workbench, and provided with power / material to work.
+For the gas welding station, simply place a oxygen cell in the blue bottle (oxygen from air distillation), and water + calcium carbide in the red bottle to form acetylene.
+{"image":"welder2.png"}
+
+{"image":"welder.png"}
+
+
+The lathe is made of 2 parts, and it needs to be placed like this to work
+{"image":"lathe.png"}
+
+Now you can craft almost every machine in IHL.

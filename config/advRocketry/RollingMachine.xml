@@ -1,0 +1,224 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="false">
+	<Recipe timeRequired="100" power="200">
+		<input>
+			<oreDict>ingotTungstensteel 1</oreDict>
+    </input>
+		<output>
+      <itemStack>techreborn:plates 1 34</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="200">
+		<input>
+			<oreDict>ingotTungsten 1</oreDict>
+    </input>
+		<output>
+      <itemStack>techreborn:plates 1 33</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="100">
+		<input>
+			<oreDict>ingotChrome 1</oreDict>
+    </input>
+		<output>
+      <itemStack>techreborn:plates 1 5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="50" power="20">
+		<input>
+			<oreDict>ingotBronze 1</oreDict>
+    </input>
+		<output>
+      <itemStack>IC2:itemPlates 1 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<oreDict>sheetIron 2</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:pressureTank</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="2">
+		<input>
+			<oreDict>sheetSteel 2</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:pressureTank 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<oreDict>sheetAluminum 2</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:pressureTank 1 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="8">
+		<input>
+			<oreDict>sheetTitanium 2</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:pressureTank 1 3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIron 1</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductplate 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="200">
+		<input>
+			<oreDict>plateIron 1</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductsheet 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotGold 1</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductplate 1 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSilicon 1</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductplate 1 3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCopper 1</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductplate 1 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="200">
+		<input>
+			<oreDict>plateCopper 1</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductsheet 1 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTin 1</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductplate 1 5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSteel 1</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductplate 1 6</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="200">
+		<input>
+			<oreDict>plateSteel 1</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductsheet 1 6</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitanium 1</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductplate 1 7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="200">
+		<input>
+			<oreDict>plateTitanium 1</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductsheet 1 7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="200">
+		<input>
+			<oreDict>plateAluminum 1</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductsheet 1 9</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIridium 1</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductplate 1 10</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitaniumAluminide 1</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:advancedRocketryproductplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="200">
+		<input>
+			<oreDict>plateTitaniumAluminide 1</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:advancedRocketryproductsheet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitaniumIridium 1</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:advancedRocketryproductplate 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="200">
+		<input>
+			<oreDict>plateTitaniumIridium 1</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:advancedRocketryproductsheet 1 1</itemStack>
+		</output>
+	</Recipe>
+</Recipes>

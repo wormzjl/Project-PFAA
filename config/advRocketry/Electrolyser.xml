@@ -1,0 +1,140 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="false">
+	<Recipe timeRequired="500" power="1350">
+		<input>
+			<fluidStack>ic2distilledwater 900</fluidStack>
+        </input>
+		<output>
+			<fluidStack>hydrogen 600</fluidStack>
+			<fluidStack>oxygen 300</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="1024">
+		<input>
+			<fluidStack>slurrynativecopper 1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>sulfuricwastewater 500</fluidStack>
+			<fluidStack>liquidcopper 173</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power="1024">
+		<input>
+			<fluidStack>slurrynativegold 1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>cyanidewastewater 500</fluidStack>
+			<fluidStack>liquidgold 173</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="1024">
+		<input>
+			<fluidStack>slurrynativeplatinum 1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidplatinum 173</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power="1024">
+		<input>
+			<fluidStack>slurrynativesilver 1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>cyanidewastewater 1000</fluidStack>
+			<fluidStack>liquidsilver 173</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="1024">
+		<input>
+			<fluidStack>slurrycassiterite 1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>sulfuricwastewater 500</fluidStack>
+			<fluidStack>liquidtin 173</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="1024">
+		<input>
+			<fluidStack>slurrygalena 1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>sulfuricwastewater 500</fluidStack>
+			<fluidStack>liquidlead 173</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="1024">
+		<input>
+			<fluidStack>slurrygarnierite 1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>sulfuricwastewater 500</fluidStack>
+			<fluidStack>liquidnickel 173</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="1024">
+		<input>
+			<fluidStack>slurrymalachite 1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>sulfuricwastewater 500</fluidStack>
+			<fluidStack>liquidcopper 173</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="1024">
+		<input>
+			<fluidStack>slurrymagnetite 1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>sulfuricwastewater 500</fluidStack>
+			<fluidStack>liquidiron 173</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="1024">
+		<input>
+			<fluidStack>slurrysphalerite 1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>sulfuricwastewater 500</fluidStack>
+			<fluidStack>liquidzinc 173</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="1024">
+		<input>
+			<fluidStack>slurrytetrahedrite 1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>sulfuricwastewater 500</fluidStack>
+			<fluidStack>liquidcopper 173</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power="1300">
+		<input>
+			<fluidStack>saltwater 1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>chlorine 125</fluidStack>
+			<fluidStack>solution.natriumhydroxide 875</fluidStack>
+		</output>
+	</Recipe>
+</Recipes>

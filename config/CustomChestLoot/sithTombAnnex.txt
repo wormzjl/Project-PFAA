@@ -1,0 +1,2 @@
+count=3-7
+contents=minecraft:bone;0;4-6;4,minecraft:rotten_flesh;0;3-7;3,minecraft:iron_ingot;0;2-7;3,lightsabers:lightsaber_circuitry;0;1-1;2,lightsabers:lightsaber_blade_emitter;0;1-1;1,lightsabers:lightsaber_blade_emitter;0;1-1;1,lightsabers:lightsaber_blade_emitter;0;1-1;1,lightsabers:lightsaber_crystal;0;1-1;1,lightsabers:lightsaber_crystal;0;1-1;1,lightsabers:lightsaber_crystal;0;1-1;1

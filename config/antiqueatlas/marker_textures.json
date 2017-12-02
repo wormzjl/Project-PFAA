@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "data": {
+    "bed": "antiqueatlas:textures/gui/markers/bed.png",
+    "diamond": "antiqueatlas:textures/gui/markers/diamond.png",
+    "google": "antiqueatlas:textures/gui/markers/google_marker.png",
+    "nether_portal": "antiqueatlas:textures/gui/markers/nether_portal.png",
+    "pickaxe": "antiqueatlas:textures/gui/markers/pickaxe.png",
+    "red_x_large": "antiqueatlas:textures/gui/markers/red_x_large.png",
+    "red_x_small": "antiqueatlas:textures/gui/markers/red_x_small.png",
+    "scroll": "antiqueatlas:textures/gui/markers/scroll.png",
+    "skull": "antiqueatlas:textures/gui/markers/skull.png",
+    "sword": "antiqueatlas:textures/gui/markers/sword.png",
+    "tomb": "antiqueatlas:textures/gui/markers/tomb.png",
+    "tower": "antiqueatlas:textures/gui/markers/tower.png",
+    "village": "antiqueatlas:textures/gui/markers/village.png"
+  }
+}

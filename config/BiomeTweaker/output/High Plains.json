@@ -1,0 +1,113 @@
+
+{
+  "ID": 35,
+  "Name": "High Plains",
+  "Class": "com.bioxx.tfc.WorldGen.TFCBiome",
+  "Color": 0,
+  "Root Height": -2.3,
+  "Height Variation": -2.27,
+  "Top Block": "minecraft:grass",
+  "Filler Block": "minecraft:dirt",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.5,
+  "Humidity": 0.5,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "HOT",
+    "SPARSE",
+    "SAVANNA",
+    "PLAINS"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "com.bioxx.tfc.Entities.Mobs.EntityPheasantTFC",
+      "Weight": 16,
+      "Min Group Count": 0,
+      "Max Group Count": 0
+    },
+    {
+      "Entity Class": "com.bioxx.tfc.Entities.Mobs.EntityPheasantTFC",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.bioxx.tfc.Entities.Mobs.EntityDeer",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "com.bioxx.tfc.Entities.Mobs.EntitySpiderTFC",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.bioxx.tfc.Entities.Mobs.EntityZombieTFC",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.bioxx.tfc.Entities.Mobs.EntitySkeletonTFC",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.bioxx.tfc.Entities.Mobs.EntityCreeperTFC",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.bioxx.tfc.Entities.Mobs.EntitySlimeTFC",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.bioxx.tfc.Entities.Mobs.EntityEndermanTFC",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "matteroverdrive.entity.monster.EntityMeleeRougeAndroidMob",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "matteroverdrive.entity.monster.EntityRangedRogueAndroidMob",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "techguns.entities.npc.TGDummySpawn",
+      "Weight": 0,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": false
+}

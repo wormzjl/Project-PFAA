@@ -1,0 +1,13 @@
+§2§lReturning from the moon
+
+Assuming that you have obtained enough titanium, certus quartz and all 4 press from AE2, it's time to reinforce the industry, mainly in energy production.
+
+You can now build gas turbines from advanced generators mod, which burns all fuels with a much higher efficiency.
+
+The syngas producer can create syngas from solid fuels, which can boost your hydrogen production and increase the general yield of oil/gas processing.
+
+If you found a pitchblende ore cluster and want some IC2 fission power, make sure to use the fluid reactor. The simple one has a very low efficiency while the output of fluid reactor has been boosted. The AG heat exchanger can be used with the fluid reactor with a higher heat-to-energy ratio. Also it prevents your reactor from blowing up when the server lags.
+
+AE can be started now, but note that the power usage has been increased 10 times, so you might want to limit it to item storge for the moment.
+
+Having your power grid augmented, it's time for another challenge: UU matter production

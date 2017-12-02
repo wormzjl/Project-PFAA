@@ -1,0 +1,688 @@
+{
+    "fluids":[
+        {
+            "name":"acetone",
+            "textureName": "tower",
+            "temperature": 200,
+            "density": 784,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"acetoneoilmix",
+            "textureName": "tower",
+            "temperature": 200,
+            "density": 850,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"acetonephenolmix",
+            "textureName": "Phenol",
+            "temperature": 200,
+            "density": 880,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"ammonia",
+            "textureName": "tower",
+            "temperature": 200,
+            "density": 1,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"benzene",
+            "textureName": "Phenol",
+            "temperature": 200,
+            "density": 876,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"bisphenola",
+            "textureName": "Phenol",
+            "temperature": 200,
+            "density": 1200,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"bisphenolamix",
+            "textureName": "Phenol",
+            "temperature": 200,
+            "density": 1250,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"butadiene",
+            "textureName": "tower",
+            "temperature": 200,
+            "density": 615,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"butane",
+            "textureName": "tower",
+            "temperature": 200,
+            "density": 2,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"butanemix",
+            "textureName": "tower",
+            "temperature": 200,
+            "density": 3,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"butene",
+            "textureName": "tower",
+            "temperature": 200,
+            "density": 1,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"carbonmonoxide",
+            "textureName": "tower",
+            "temperature": 200,
+            "density": 1,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"chloramine",
+            "textureName": "tower",
+            "temperature": 200,
+            "density": 4,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"co2",
+            "textureName": "tower",
+            "temperature": 200,
+            "density": 2,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"cyanidewastewater",
+            "textureName": "tower",
+            "temperature": 200,
+            "density": 1000,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"dimethylamine",
+            "textureName": "tower",
+            "temperature": 200,
+            "density": 670,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"dimethylhydrazine",
+            "textureName": "tower",
+            "temperature": 200,
+            "density": 793,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"ethane",
+            "textureName": "tower",
+            "temperature": 200,
+            "density": 1,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"ethanemix",
+            "textureName": "tower",
+            "temperature": 200,
+            "density": 1,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"ethene",
+            "textureName": "tower",
+            "temperature": 200,
+            "density": 1,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"ferricchloride",
+            "textureName": "ferric chloride solution",
+            "temperature": 200,
+            "density": 1060,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"ftproduct",
+            "textureName": "tower",
+            "temperature": 200,
+            "density": 300,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"fumingsulfuricacid",
+            "textureName": "SulfuricAcid",
+            "temperature": 200,
+            "density": 1900,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"gascondensates",
+            "textureName": "Gas condensantes",
+            "temperature": 200,
+            "density": 500,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"hotbutene",
+            "textureName": "tower",
+            "temperature": 1500,
+            "density": 620,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"hotcrackinggas",
+            "textureName": "tower",
+            "temperature": 1500,
+            "density": 1,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"hotethene",
+            "textureName": "tower",
+            "temperature": 1500,
+            "density": 1,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"hotlng",
+            "textureName": "tower",
+            "temperature": 1500,
+            "density": 2,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"hotlpg",
+            "textureName": "tower",
+            "temperature": 1500,
+            "density": 3,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"hotnaturalgas",
+            "textureName": "natural_gas",
+            "temperature": 1500,
+            "density": 1,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"hotpropene",
+            "textureName": "tower",
+            "temperature": 1500,
+            "density": 2,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"hotsyngas",
+            "textureName": "syngas",
+            "temperature": 1500,
+            "density": 1,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"hydrazine",
+            "textureName": "tower",
+            "temperature": 300,
+            "density": 1020,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"hydrogencyanide",
+            "textureName": "tower",
+            "temperature": 300,
+            "density": 687,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"hydrogensulfide",
+            "textureName": "tower",
+            "temperature": 300,
+            "density": 1,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 4
+        },
+        {
+            "name":"liquidpolycarbonate",
+            "textureName": "plastic",
+            "temperature": 300,
+            "density": 1500,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"LNG",
+            "textureName": "LNG",
+            "temperature": 300,
+            "density": 440,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"methane",
+            "textureName": "tower",
+            "temperature": 300,
+            "density": 1,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"methanemix",
+            "textureName": "tower",
+            "temperature": 300,
+            "density": 1,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"methanenatural",
+            "textureName": "tower",
+            "temperature": 300,
+            "density": 1,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"moltencryolite",
+            "textureName": "fluidMolten",
+            "temperature": 1500,
+            "density": 2000,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"naphthamix",
+            "textureName": "kerosene",
+            "temperature": 300,
+            "density": 750,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"oildesalted",
+            "textureName": "oil",
+            "temperature": 300,
+            "density": 850,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"oildesulfurized",
+            "textureName": "oil",
+            "temperature": 300,
+            "density": 840,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"oildesulfurizedhot",
+            "textureName": "oil",
+            "temperature": 300,
+            "density": 840,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"phosgene",
+            "textureName": "Phosgene",
+            "temperature": 300,
+            "density": 4,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"processedoil",
+            "textureName": "oil",
+            "temperature": 300,
+            "density": 900,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"propane",
+            "textureName": "tower",
+            "temperature": 300,
+            "density": 2,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"propanemix",
+            "textureName": "tower",
+            "temperature": 300,
+            "density": 2,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"propene",
+            "textureName": "tower",
+            "temperature": 300,
+            "density": 2,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"purifiedslagsolution",
+            "textureName": "Slag solution",
+            "temperature": 300,
+            "density": 1300,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"pygas",
+            "textureName": "Phenol",
+            "temperature": 300,
+            "density": 700,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"residualoil",
+            "textureName": "oil",
+            "temperature": 300,
+            "density": 1200,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"slagsolution",
+            "textureName": "Slag solution",
+            "temperature": 300,
+            "density": 1300,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"slurrybismuthinite",
+            "textureName": "Bismuthinite",
+            "temperature": 300,
+            "density": 1300,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"slurrycassiterite",
+            "textureName": "Cassiterite",
+            "temperature": 300,
+            "density": 1300,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"slurrygalena",
+            "textureName": "Galena",
+            "temperature": 300,
+            "density": 1300,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"slurrygarnierite",
+            "textureName": "Garnierite",
+            "temperature": 300,
+            "density": 1300,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"slurryhematite",
+            "textureName": "Hematite",
+            "temperature": 300,
+            "density": 1300,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"slurrymagnetite",
+            "textureName": "Magnetite",
+            "temperature": 300,
+            "density": 1300,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"slurrymalachite",
+            "textureName": "Malachite",
+            "temperature": 300,
+            "density": 1300,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"slurrynativecopper",
+            "textureName": "Native copper",
+            "temperature": 300,
+            "density": 1300,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"slurrynativegold",
+            "textureName": "Native gold",
+            "temperature": 300,
+            "density": 1300,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"slurrynativeplatinum",
+            "textureName": "Native platinum",
+            "temperature": 300,
+            "density": 1300,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"slurrynativesilver",
+            "textureName": "Native silver",
+            "temperature": 300,
+            "density": 1300,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"slurrypitchblende",
+            "textureName": "Pitchblende",
+            "temperature": 300,
+            "density": 1300,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"slurrysphalerite",
+            "textureName": "Sphalerite",
+            "temperature": 300,
+            "density": 1300,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"slurrytetrahedrite",
+            "textureName": "Tetrahedrite",
+            "temperature": 300,
+            "density": 1300,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"sodiumcyanide",
+            "textureName": "tower",
+            "temperature": 300,
+            "density": 1050,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"sodiumhypochlorite",
+            "textureName": "Sodium hypochlorite",
+            "temperature": 300,
+            "density": 1110,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"sulfurdioxide",
+            "textureName": "tower",
+            "temperature": 300,
+            "density": 3,
+            "viscosity": 1000,
+            "isGas": true,
+            "flowLength": 4
+        },
+        {
+            "name":"sulfuricanhydride",
+            "textureName": "fluidSulfuricAnhydride",
+            "temperature": 300,
+            "density": 1970,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"sulfuricwastewater",
+            "textureName": "Sulfuric waste water",
+            "temperature": 300,
+            "density": 1100,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"titaniumchloride",
+            "textureName": "Titanium Chloride",
+            "temperature": 300,
+            "density": 1730,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"toluene",
+            "textureName": "Phenol",
+            "temperature": 300,
+            "density": 867,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"toluenediisocyanate",
+            "textureName": "Phenol",
+            "temperature": 300,
+            "density": 1210,
+            "viscosity": 1000,
+            "isGas": false,
+            "flowLength": 4
+        }
+    ]
+}

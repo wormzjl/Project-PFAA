@@ -1,0 +1,20 @@
+§2§lGuide to fluid automation
+
+Techreborn tries to replicate the old gregtech 2. Due to the lack of information of the old age, the usage of multiblock machines is presented here.
+All TR multiblock machines are formed by standard/reinforced/advanced machine casings and a controller block.
+
+§C§LWarning: Due to TR bugs, all machines only accept a maximum voltage of 32 EU/packet (LV), use transformers arrays if you want to provide them with enough power.
+
+§3§lIndustrail blast furnace
+The most fundamental device of this mode, the hull can be made with all 3 type of casings, while increasing the casing tier will increase its maximum temperature (i.e. smelting silicon will need a couple of advanced casings). The block placement is as follows
+{"image":"blastfurnace.png"}
+
+§3§lIndustrail grinder
+A built-in grinder + washer.
+{"image":"grinder.png"}
+
+Note: if you play thaumcraft, do not put this machine in the range of arcane lamps. The grinder does not like a light source generated in its center.
+
+§3§lImplosion compressor
+You need this to make iridium plates.
+{"image":"implosion.png"}

@@ -1,0 +1,10 @@
+Total amount of conflicted potion ids: 7
+IDs in conflict:
+
+6 is asked by: potion.heal (net.minecraft.potion.PotionHealth), potion.heal (taeo.ttfcapi.potion.PotionHeal)
+7 is asked by: potion.harm (net.minecraft.potion.PotionHealth), potion.harm (taeo.ttfcapi.potion.PotionHarm)
+10 is asked by: potion.regeneration (net.minecraft.potion.Potion), potion.regeneration (taeo.ttfcapi.potion.PotionRegeneration)
+17 is asked by: potion.hunger (net.minecraft.potion.Potion), potion.hunger (taeo.ttfcapi.potion.PotionHunger)
+22 is asked by: potion.absorption (net.minecraft.potion.PotionAbsoption), potion.absorption (taeo.ttfcapi.potion.PotionAbsorption)
+23 is asked by: potion.saturation (net.minecraft.potion.PotionHealth), potion.saturation (taeo.ttfcapi.potion.PotionSaturation)
+24 is asked by: ic2.potion.radiation (ic2.core.IC2Potion), effect.bleed (com.bioxx.tfc.Food.TFCPotion)

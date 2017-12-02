@@ -1,0 +1,264 @@
+Total amount of free potion ids: 222
+Total amount of occupied potion ids: 38
+Total amount of conflicted potion ids: 7
+All ids and their position:
+0 is Avaible
+1 is Occupied by potion.moveSpeed ([Lnet.minecraft.potion.Potion;)
+2 is Occupied by potion.moveSlowdown ([Lnet.minecraft.potion.Potion;)
+3 is Occupied by potion.digSpeed ([Lnet.minecraft.potion.Potion;)
+4 is Occupied by potion.digSlowDown ([Lnet.minecraft.potion.Potion;)
+5 is Occupied by potion.damageBoost ([Lnet.minecraft.potion.Potion;)
+6 is asked by: potion.heal (net.minecraft.potion.PotionHealth), potion.heal (taeo.ttfcapi.potion.PotionHeal)
+7 is asked by: potion.harm (net.minecraft.potion.PotionHealth), potion.harm (taeo.ttfcapi.potion.PotionHarm)
+8 is Occupied by potion.jump ([Lnet.minecraft.potion.Potion;)
+9 is Occupied by potion.confusion ([Lnet.minecraft.potion.Potion;)
+10 is asked by: potion.regeneration (net.minecraft.potion.Potion), potion.regeneration (taeo.ttfcapi.potion.PotionRegeneration)
+11 is Occupied by potion.resistance ([Lnet.minecraft.potion.Potion;)
+12 is Occupied by potion.fireResistance ([Lnet.minecraft.potion.Potion;)
+13 is Occupied by potion.waterBreathing ([Lnet.minecraft.potion.Potion;)
+14 is Occupied by potion.invisibility ([Lnet.minecraft.potion.Potion;)
+15 is Occupied by potion.blindness ([Lnet.minecraft.potion.Potion;)
+16 is Occupied by potion.nightVision ([Lnet.minecraft.potion.Potion;)
+17 is asked by: potion.hunger (net.minecraft.potion.Potion), potion.hunger (taeo.ttfcapi.potion.PotionHunger)
+18 is Occupied by potion.weakness ([Lnet.minecraft.potion.Potion;)
+19 is Occupied by potion.poison ([Lnet.minecraft.potion.Potion;)
+20 is Occupied by potion.wither ([Lnet.minecraft.potion.Potion;)
+21 is Occupied by potion.healthBoost ([Lnet.minecraft.potion.Potion;)
+22 is asked by: potion.absorption (net.minecraft.potion.PotionAbsoption), potion.absorption (taeo.ttfcapi.potion.PotionAbsorption)
+23 is asked by: potion.saturation (net.minecraft.potion.PotionHealth), potion.saturation (taeo.ttfcapi.potion.PotionSaturation)
+24 is asked by: ic2.potion.radiation (ic2.core.IC2Potion), effect.bleed (com.bioxx.tfc.Food.TFCPotion)
+25 is Occupied by potion.fluxtaint ([Lnet.minecraft.potion.Potion;)
+26 is Occupied by potion.visexhaust ([Lnet.minecraft.potion.Potion;)
+27 is Occupied by potion.infvisexhaust ([Lnet.minecraft.potion.Potion;)
+28 is Occupied by potion.unhunger ([Lnet.minecraft.potion.Potion;)
+29 is Occupied by potion.warpward ([Lnet.minecraft.potion.Potion;)
+30 is Occupied by potion.deathgaze ([Lnet.minecraft.potion.Potion;)
+31 is Occupied by potion.blurred ([Lnet.minecraft.potion.Potion;)
+32 is Occupied by potion.sunscorned ([Lnet.minecraft.potion.Potion;)
+33 is Occupied by potion.thaumarhia ([Lnet.minecraft.potion.Potion;)
+34 is Avaible
+35 is Avaible
+36 is Avaible
+37 is Avaible
+38 is Avaible
+39 is Avaible
+40 is Occupied by potion.featherfall ([Lnet.minecraft.potion.Potion;)
+41 is Avaible
+42 is Avaible
+43 is Avaible
+44 is Avaible
+45 is Avaible
+46 is Avaible
+47 is Avaible
+48 is Avaible
+49 is Avaible
+50 is Avaible
+51 is Avaible
+52 is Avaible
+53 is Avaible
+54 is Avaible
+55 is Avaible
+56 is Avaible
+57 is Avaible
+58 is Avaible
+59 is Avaible
+60 is Avaible
+61 is Avaible
+62 is Avaible
+63 is Avaible
+64 is Avaible
+65 is Avaible
+66 is Avaible
+67 is Avaible
+68 is Avaible
+69 is Avaible
+70 is Avaible
+71 is Avaible
+72 is Avaible
+73 is Avaible
+74 is Avaible
+75 is Avaible
+76 is Avaible
+77 is Avaible
+78 is Avaible
+79 is Avaible
+80 is Avaible
+81 is Avaible
+82 is Avaible
+83 is Avaible
+84 is Avaible
+85 is Avaible
+86 is Avaible
+87 is Avaible
+88 is Avaible
+89 is Avaible
+90 is Occupied by immersiveengineering.potion.conductive ([Lnet.minecraft.potion.Potion;)
+91 is Occupied by immersiveengineering.potion.flammable ([Lnet.minecraft.potion.Potion;)
+92 is Occupied by immersiveengineering.potion.slippery ([Lnet.minecraft.potion.Potion;)
+93 is Occupied by immersiveengineering.potion.sticky ([Lnet.minecraft.potion.Potion;)
+94 is Avaible
+95 is Avaible
+96 is Avaible
+97 is Avaible
+98 is Avaible
+99 is Avaible
+100 is Avaible
+101 is Avaible
+102 is Avaible
+103 is Avaible
+104 is Avaible
+105 is Avaible
+106 is Avaible
+107 is Avaible
+108 is Avaible
+109 is Avaible
+110 is Avaible
+111 is Avaible
+112 is Avaible
+113 is Avaible
+114 is Avaible
+115 is Avaible
+116 is Avaible
+117 is Avaible
+118 is Avaible
+119 is Avaible
+120 is Avaible
+121 is Avaible
+122 is Avaible
+123 is Avaible
+124 is Avaible
+125 is Avaible
+126 is Avaible
+127 is Avaible
+128 is Avaible
+129 is Avaible
+130 is Avaible
+131 is Avaible
+132 is Avaible
+133 is Avaible
+134 is Avaible
+135 is Avaible
+136 is Avaible
+137 is Avaible
+138 is Avaible
+139 is Avaible
+140 is Avaible
+141 is Avaible
+142 is Avaible
+143 is Avaible
+144 is Avaible
+145 is Avaible
+146 is Avaible
+147 is Avaible
+148 is Avaible
+149 is Avaible
+150 is Avaible
+151 is Avaible
+152 is Avaible
+153 is Avaible
+154 is Avaible
+155 is Avaible
+156 is Avaible
+157 is Avaible
+158 is Avaible
+159 is Avaible
+160 is Avaible
+161 is Avaible
+162 is Avaible
+163 is Avaible
+164 is Avaible
+165 is Avaible
+166 is Avaible
+167 is Avaible
+168 is Avaible
+169 is Avaible
+170 is Avaible
+171 is Avaible
+172 is Avaible
+173 is Avaible
+174 is Avaible
+175 is Avaible
+176 is Avaible
+177 is Avaible
+178 is Avaible
+179 is Avaible
+180 is Avaible
+181 is Avaible
+182 is Avaible
+183 is Avaible
+184 is Avaible
+185 is Avaible
+186 is Avaible
+187 is Avaible
+188 is Avaible
+189 is Avaible
+190 is Avaible
+191 is Avaible
+192 is Avaible
+193 is Avaible
+194 is Avaible
+195 is Avaible
+196 is Avaible
+197 is Avaible
+198 is Avaible
+199 is Avaible
+200 is Avaible
+201 is Avaible
+202 is Avaible
+203 is Avaible
+204 is Avaible
+205 is Avaible
+206 is Avaible
+207 is Avaible
+208 is Avaible
+209 is Avaible
+210 is Avaible
+211 is Avaible
+212 is Avaible
+213 is Avaible
+214 is Avaible
+215 is Avaible
+216 is Avaible
+217 is Avaible
+218 is Avaible
+219 is Avaible
+220 is Avaible
+221 is Avaible
+222 is Avaible
+223 is Avaible
+224 is Avaible
+225 is Avaible
+226 is Avaible
+227 is Avaible
+228 is Avaible
+229 is Avaible
+230 is Avaible
+231 is Avaible
+232 is Avaible
+233 is Avaible
+234 is Avaible
+235 is Avaible
+236 is Avaible
+237 is Avaible
+238 is Avaible
+239 is Avaible
+240 is Avaible
+241 is Avaible
+242 is Avaible
+243 is Avaible
+244 is Avaible
+245 is Avaible
+246 is Avaible
+247 is Avaible
+248 is Avaible
+249 is Avaible
+250 is Avaible
+251 is Avaible
+252 is Avaible
+253 is Avaible
+254 is Avaible
+255 is Avaible
+256 is Avaible
+257 is Avaible
+258 is Avaible
+259 is Avaible

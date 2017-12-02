@@ -1,0 +1,209 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="false">
+	<Recipe timeRequired="4000" power="4096">
+		<input>
+			<itemStack>libVulpes:libVulpesproductrod 1 10</itemStack>
+			<oreDict>dustGold 4</oreDict>
+        </input>
+		<output>
+			<itemStack>MekanismGenerators:Hohlraum 1 0</itemStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="100" power="128">
+		<input>
+			<oreDict>plateSteel 4</oreDict>
+			<itemStack>minecraft:iron_bars 4 0</itemStack>
+			<itemStack>IC2:itemRecipePart 1 1</itemStack>
+        </input>
+		<output>
+			<itemStack>IC2:reactorVent 2 1</itemStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="100" power="128">
+		<input>
+			<oreDict>plateTin 3</oreDict>
+			<itemStack>IC2:itemPartCircuit 1 0</itemStack>
+			<itemStack>IC2:itemRecipePart 1 5</itemStack>
+        </input>
+		<output>
+			<itemStack>IC2:reactorHeatSwitch 2 1</itemStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="500" power="128">
+		<input>
+			<oreDict>plateTin 1</oreDict>
+			<itemStack>IC2:itemPartCircuitAdv 1 0</itemStack>
+			<itemStack>advancedRocketry:satellitePrimaryFunction 1 1</itemStack>
+        </input>
+		<output>
+			<itemStack>advancedRocketry:item.atmAnalyser 1 0</itemStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="500" power="128">
+		<input>
+			<itemStack>advancedRocketry:lens 2 0</itemStack>
+			<itemStack>ihl:item.ihlSimpleItem 1 66</itemStack>
+			<itemStack>advancedRocketry:advancedRocketryproductrod 2 0</itemStack>
+        </input>
+		<output>
+			<itemStack>advancedRocketry:itemUpgrade 1 4</itemStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="500" power="128">
+		<input>
+			<itemStack>minecraft:diamond 1 0</itemStack>
+			<itemStack>techreborn:part 1 4</itemStack>
+        </input>
+		<output>
+			<itemStack>advancedRocketry:itemUpgrade 1 0</itemStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="500" power="128">
+		<input>
+			<itemStack>minecraft:diamond 1 0</itemStack>
+			<itemStack>techreborn:part 1 5</itemStack>
+        </input>
+		<output>
+			<itemStack>advancedRocketry:itemUpgrade 1 1</itemStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="500" power="256">
+		<input>
+			<itemStack>libVulpes:tile.eliteMotor 1 1</itemStack>
+			<itemStack>techreborn:part 1 4</itemStack>
+			<itemStack>GraviSuiteReloaded:ItemMiscQuantumCircuit 1 0</itemStack>
+        </input>
+		<output>
+			<itemStack>advancedRocketry:itemUpgrade 1 2</itemStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="500" power="128">
+		<input>
+			<itemStack>techreborn:part 1 4</itemStack>
+			<itemStack>advancedRocketry:wafer 2 0</itemStack>
+			<oreDict>stickTitanium 2</oreDict>
+			<oreDict>stickCopper 2</oreDict>
+        </input>
+		<output>
+			<itemStack>advancedRocketry:satellitePrimaryFunction 1 5</itemStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="140" power="128">
+		<input>
+			<itemStack>IC2:itemPartCircuitAdv 1 0</itemStack>
+			<itemStack>techreborn:part 2 7</itemStack>
+        </input>
+		<output>
+			<itemStack>advancedRocketry:dataUnit 1 0</itemStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="120" power="128">
+		<input>
+			<itemStack>IC2:itemCable 8 1</itemStack>
+			<oreDict>stickSteel 1</oreDict>
+        </input>
+		<output>
+			<itemStack>IC2:itemRecipePart 2 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="120" power="128">
+		<input>
+			<itemStack>IC2:itemRecipePart 2 0</itemStack>
+			<itemStack>IC2:itemCasing 2 5</itemStack>
+			<oreDict>stickSteel 1</oreDict>
+        </input>
+		<output>
+			<itemStack>IC2:itemRecipePart 2 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="120" power="128">
+		<input>
+			<itemStack>customitems:polyurathaneplastic 2 0</itemStack>
+			<oreDict>plateCopper 1</oreDict>
+        </input>
+		<output>
+			<itemStack>IC2:itemRecipePart 1 5</itemStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="400" power="1024">
+		<input>
+			<itemStack>techreborn:part 2 4</itemStack>
+			<itemStack>techreborn:part 2 5</itemStack>
+			<oreDict>plateIridium 1</oreDict>
+			<itemStack>customitems:polyurathaneplastic 2 0</itemStack>
+        </input>
+		<output>
+			<itemStack>GraviSuiteReloaded:ItemMiscQuantumCircuit 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="256">
+		<input>
+			<itemStack>techreborn:part 1 3</itemStack>
+			<itemStack>techreborn:part 8 7</itemStack>
+        </input>
+		<output>
+			<itemStack>techreborn:part 1 5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="256">
+		<input>
+			<itemStack>techreborn:part 1 3</itemStack>
+			<itemStack>IC2:itemPartCircuitAdv 2 0</itemStack>
+			<itemStack>customitems:cpu 2 0</itemStack>
+        </input>
+		<output>
+			<itemStack>techreborn:part 1 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power="128">
+		<input>
+			<itemStack>techreborn:part 1 2</itemStack>
+			<itemStack>techreborn:part 1 0</itemStack>
+        </input>
+		<output>
+			<itemStack>IC2:itemPartCircuitAdv 2 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="128">
+		<input>
+			<itemStack>techreborn:part 1 1</itemStack>
+			<itemStack>IC2:itemCable 6 0</itemStack>
+			<oreDict>dustRedstone 2</oreDict>
+        </input>
+		<output>
+			<itemStack>IC2:itemPartCircuit 2 0</itemStack>
+		</output>
+	</Recipe>
+</Recipes>

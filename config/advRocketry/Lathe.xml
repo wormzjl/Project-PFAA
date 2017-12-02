@@ -1,0 +1,88 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="false">
+	<Recipe timeRequired="20" power="20">
+		<input>
+			<oreDict>plateIron 1</oreDict>
+        </input>
+		<output>
+			<itemStack>ImmersiveEngineering:metalDevice2 2 5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="100">
+		<input>
+			<oreDict>ingotIron</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductrod 2 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductrod 2 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductrod 2 6</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductrod 2 7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductrod 2 10</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitaniumAluminide</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:advancedRocketryproductrod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitaniumIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:advancedRocketryproductrod 2 1</itemStack>
+		</output>
+	</Recipe>
+</Recipes>

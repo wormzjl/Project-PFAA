@@ -1,0 +1,1228 @@
+{
+    "items": [
+        {
+            "maxStackSize": 32,
+            "registerOrder": 1,
+            "textureName": "itemCrushedNativecopperOre",
+            "name": "itemcrushednativecopperore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 2,
+            "textureName": "itemCrushedNativeGoldOre",
+            "name": "itemcrushednativegoldore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 3,
+            "textureName": "itemCrushedNativePlatinumOre",
+            "name": "itemcrushednativeplatinumore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 4,
+            "textureName": "itemCrushedHematiteOre",
+            "name": "itemcrushedhematiteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 5,
+            "textureName": "itemCrushedNativeSilverOre",
+            "name": "itemcrushednativesilverore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 6,
+            "textureName": "itemCrushedCassiteriteOre",
+            "name": "itemcrushedcassiteriteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 7,
+            "textureName": "itemCrushedGalenaOre",
+            "name": "itemcrushedgalenaore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 8,
+            "textureName": "itemCrushedBismuthiniteOre",
+            "name": "itemcrushedbismuthiniteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 9,
+            "textureName": "itemCrushedGarnieriteOre",
+            "name": "itemcrushedgarnieriteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 10,
+            "textureName": "itemCrushedMalachiteOre",
+            "name": "itemcrushedmalachiteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 11,
+            "textureName": "itemCrushedMagnetiteOre",
+            "name": "itemcrushedmagnetiteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 12,
+            "textureName": "itemCrushedLimoniteOre",
+            "name": "itemcrushedlimoniteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 13,
+            "textureName": "itemCrushedSphaleriteOre",
+            "name": "itemcrushedsphaleriteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 14,
+            "textureName": "itemCrushedTetrahedriteOre",
+            "name": "itemcrushedtetrahedriteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 15,
+            "textureName": "itemCrushedPitchblendeOre",
+            "name": "itemcrushedpitchblendeore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 16,
+            "textureName": "itemCrushedBauxiteOre",
+            "name": "itemcrushedbauxiteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 17,
+            "textureName": "itemCrushedRutileOre",
+            "name": "itemcrushedrutileore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 18,
+            "textureName": "itemCrushedWolframiteOre",
+            "name": "itemcrushedwolframiteore"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 19,
+            "textureName": "Nativecoppercrush_sm",
+            "name": "nativecoppercrush_sm"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 20,
+            "textureName": "nativegoldcrush_sm",
+            "name": "nativegoldcrush_sm"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 21,
+            "textureName": "nativeplatinumcrush_sm",
+            "name": "nativeplatinumcrush_sm"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 22,
+            "textureName": "hematitecrush_sm",
+            "name": "hematitecrush_sm"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 23,
+            "textureName": "nativesilvercrush_sm",
+            "name": "nativesilvercrush_sm"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 24,
+            "textureName": "Cassiteritecrush_sm",
+            "name": "cassiteritecrush_sm"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 25,
+            "textureName": "galenacrush_sm",
+            "name": "galenacrush_sm"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 26,
+            "textureName": "bismuthinitecrush_sm",
+            "name": "bismuthinitecrush_sm"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 27,
+            "textureName": "garnieritecrush_sm",
+            "name": "garnieritecrush_sm"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 28,
+            "textureName": "malachitecrush_sm",
+            "name": "malachitecrush_sm"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 29,
+            "textureName": "magnetitecrush_sm",
+            "name": "magnetitecrush_sm"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 30,
+            "textureName": "limonitecrush_sm",
+            "name": "limonitecrush_sm"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 31,
+            "textureName": "Sphaleritecrush_sm",
+            "name": "sphaleritecrush_sm"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 32,
+            "textureName": "tetrahedritecrush_sm",
+            "name": "tetrahedritecrush_sm"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 33,
+            "textureName": "pitchblendecrush_sm",
+            "name": "pitchblendecrush_sm"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 34,
+            "textureName": "Bauxitecrush_sm",
+            "name": "bauxitecrush_sm"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 35,
+            "textureName": "itemWashedCrushedNativeCopperOre",
+            "name": "itemwashedcrushednativecopperore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 36,
+            "textureName": "itemWashedCrushedNativeGoldOre",
+            "name": "itemwashedcrushednativegoldore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 37,
+            "textureName": "itemWashedCrushedNativePlatinumOre",
+            "name": "itemwashedcrushednativeplatinumore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 38,
+            "textureName": "itemWashedCrushedHematiteOre",
+            "name": "itemwashedcrushedhematiteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 39,
+            "textureName": "itemWashedCrushedNativeSilverOre",
+            "name": "itemwashedcrushednativesilverore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 40,
+            "textureName": "itemWashedCrushedCassiteriteOre",
+            "name": "itemwashedcrushedcassiteriteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 41,
+            "textureName": "itemWashedCrushedGalenaOre",
+            "name": "itemwashedcrushedgalenaore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 42,
+            "textureName": "itemWashedCrushedBismuthiniteOre",
+            "name": "itemwashedcrushedbismuthiniteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 43,
+            "textureName": "itemWashedCrushedGarnieriteOre",
+            "name": "itemwashedcrushedgarnieriteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 44,
+            "textureName": "itemWashedCrushedMalachiteOre",
+            "name": "itemwashedcrushedmalachiteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 45,
+            "textureName": "itemWashedCrushedMagnetiteOre",
+            "name": "itemwashedcrushedmagnetiteore"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 46,
+            "textureName": "itemWashedCrushedLimoniteOre",
+            "name": "itemwashedcrushedlimoniteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 47,
+            "textureName": "itemWashedCrushedSphaleriteOre",
+            "name": "itemwashedcrushedsphaleriteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 48,
+            "textureName": "itemWashedCrushedTetrahedriteOre",
+            "name": "itemwashedcrushedtetrahedriteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 49,
+            "textureName": "itemWashedCrushedPitchblendeOre",
+            "name": "itemwashedcrushedpitchblendeore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 50,
+            "textureName": "itemWashedCrushedBauxitere",
+            "name": "itemwashedcrushedbauxitere"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 51,
+            "textureName": "itemWashedCrushedRutileOre",
+            "name": "itemwashedcrushedrutileore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 52,
+            "textureName": "itemWashedCrushedWolframiteOre",
+            "name": "itemwashedcrushedwolframiteore"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 53,
+            "textureName": "itemWashedCrushedBerylOre",
+            "name": "itemwashedcrushedberylore"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 54,
+            "textureName": "Nativecopper_smw",
+            "name": "nativecopper_smw"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 55,
+            "textureName": "Nativegold_smw",
+            "name": "nativegold_smw"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 56,
+            "textureName": "Nativeplatinum_smw",
+            "name": "nativeplatinum_smw"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 57,
+            "textureName": "Hematite_smw",
+            "name": "hematite_smw"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 58,
+            "textureName": "Nativesilver_smw",
+            "name": "nativesilver_smw"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 59,
+            "textureName": "Cassiterite_smw",
+            "name": "cassiterite_smw"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 60,
+            "textureName": "Galena_smw",
+            "name": "galena_smw"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 61,
+            "textureName": "Bismuthinite_smw",
+            "name": "bismuthinite_smw"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 62,
+            "textureName": "Garnierite_smw",
+            "name": "garnierite_smw"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 63,
+            "textureName": "Malachite_smw",
+            "name": "malachite_smw"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 64,
+            "textureName": "Magnetite_smw",
+            "name": "magnetite_smw"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 65,
+            "textureName": "Limonite_smw",
+            "name": "limonite_smw"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 66,
+            "textureName": "Sphalerite_smw",
+            "name": "sphalerite_smw"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 67,
+            "textureName": "Tetrahedrite_smw",
+            "name": "tetrahedrite_smw"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 68,
+            "textureName": "Pitchblende_smw",
+            "name": "pitchblende_smw"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 69,
+            "textureName": "Bauxite_smw",
+            "name": "bauxite_smw"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 70,
+            "textureName": "Rutile_smw",
+            "name": "rutile_smw"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 71,
+            "textureName": "Wolframite_smw",
+            "name": "wolframite_smw"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 72,
+            "textureName": "Beryl_smw",
+            "name": "beryl_smw"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 73,
+            "textureName": "Nativecopper_pd",
+            "name": "nativecopper_pd"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 74,
+            "textureName": "Nativegold_pd",
+            "name": "nativegold_pd"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 75,
+            "textureName": "Nativeplatinum_pd",
+            "name": "nativeplatinum_pd"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 76,
+            "textureName": "Hematite_pd",
+            "name": "hematite_pd"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 77,
+            "textureName": "Nativesilver_pd",
+            "name": "nativesilver_pd"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 78,
+            "textureName": "Cassiterite_pd",
+            "name": "cassiterite_pd"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 79,
+            "textureName": "Galena_pd",
+            "name": "galena_pd"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 80,
+            "textureName": "Bismuthinite_pd",
+            "name": "bismuthinite_pd"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 81,
+            "textureName": "Garnierite_pd",
+            "name": "garnierite_pd"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 82,
+            "textureName": "Malachite_pd",
+            "name": "malachite_pd"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 83,
+            "textureName": "Magnetite_pd",
+            "name": "magnetite_pd"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 84,
+            "textureName": "Limonite_pd",
+            "name": "limonite_pd"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 85,
+            "textureName": "Sphalerite_pd",
+            "name": "sphalerite_pd"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 86,
+            "textureName": "Tetrahedrite_pd",
+            "name": "tetrahedrite_pd"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 87,
+            "textureName": "Pitchblende_pd",
+            "name": "pitchblende_pd"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 88,
+            "textureName": "Bauxite_pd",
+            "name": "bauxite_pd"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 89,
+            "textureName": "Rutile_pd",
+            "name": "rutile_pd"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 90,
+            "textureName": "Beryl_pd",
+            "name": "beryl_pd"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 91,
+            "textureName": "chunk_Nativecopper",
+            "name": "chunk_nativecopper"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 92,
+            "textureName": "chunk_Nativegold",
+            "name": "chunk_nativegold"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 93,
+            "textureName": "chunk_Nativeplatinum",
+            "name": "chunk_nativeplatinum"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 94,
+            "textureName": "chunk_Hematite",
+            "name": "chunk_hematite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 95,
+            "textureName": "chunk_Nativesilver",
+            "name": "chunk_nativesilver"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 96,
+            "textureName": "chunk_Cassiterite",
+            "name": "chunk_cassiterite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 97,
+            "textureName": "chunk_Galena",
+            "name": "chunk_galena"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 98,
+            "textureName": "chunk_Bismuthinite",
+            "name": "chunk_bismuthinite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 99,
+            "textureName": "chunk_Garnierite",
+            "name": "chunk_garnierite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 100,
+            "textureName": "chunk_Malachite",
+            "name": "chunk_malachite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 101,
+            "textureName": "chunk_Magnetite",
+            "name": "chunk_magnetite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 102,
+            "textureName": "chunk_Limonite",
+            "name": "chunk_limonite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 103,
+            "textureName": "chunk_Sphalerite",
+            "name": "chunk_sphalerite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 104,
+            "textureName": "chunk_Tetrahedrite",
+            "name": "chunk_tetrahedrite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 105,
+            "textureName": "chunk_Pitchblende",
+            "name": "chunk_pitchblende"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 106,
+            "textureName": "chunk_Bauxite",
+            "name": "chunk_bauxite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 107,
+            "textureName": "chunk_Rutile",
+            "name": "chunk_rutile"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 108,
+            "textureName": "chunk_Wolframite",
+            "name": "chunk_wolframite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 109,
+            "textureName": "rubble_Nativecopper",
+            "name": "rubble_nativecopper"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 110,
+            "textureName": "rubble_Nativegold",
+            "name": "rubble_nativegold"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 111,
+            "textureName": "rubble_Nativeplatinum",
+            "name": "rubble_nativeplatinum"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 112,
+            "textureName": "rubble_Hematite",
+            "name": "rubble_hematite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 113,
+            "textureName": "rubble_Nativesilver",
+            "name": "rubble_nativesilver"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 114,
+            "textureName": "rubble_Cassiterite",
+            "name": "rubble_cassiterite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 115,
+            "textureName": "rubble_Galena",
+            "name": "rubble_galena"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 116,
+            "textureName": "rubble_Bismuthinite",
+            "name": "rubble_bismuthinite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 117,
+            "textureName": "rubble_Garnierite",
+            "name": "rubble_garnierite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 118,
+            "textureName": "rubble_Malachite",
+            "name": "rubble_malachite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 119,
+            "textureName": "rubble_Magnetite",
+            "name": "rubble_magnetite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 120,
+            "textureName": "rubble_Limonite",
+            "name": "rubble_limonite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 121,
+            "textureName": "rubble_Sphalerite",
+            "name": "rubble_sphalerite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 122,
+            "textureName": "rubble_Tetrahedrite",
+            "name": "rubble_tetrahedrite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 123,
+            "textureName": "rubble_Pitchblende",
+            "name": "rubble_pitchblende"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 124,
+            "textureName": "rubble_Bauxite",
+            "name": "rubble_bauxite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 125,
+            "textureName": "rubble_Rutile",
+            "name": "rubble_rutile"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 126,
+            "textureName": "rubble_Wolframite",
+            "name": "rubble_wolframite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 127,
+            "textureName": "pebbles_Nativecopper",
+            "name": "pebbles_nativecopper"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 128,
+            "textureName": "pebbles_Nativegold",
+            "name": "pebbles_nativegold"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 129,
+            "textureName": "pebbles_Nativeplatinum",
+            "name": "pebbles_nativeplatinum"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 130,
+            "textureName": "pebbles_Hematite",
+            "name": "pebbles_hematite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 131,
+            "textureName": "pebbles_Nativesilver",
+            "name": "pebbles_nativesilver"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 132,
+            "textureName": "pebbles_Cassiterite",
+            "name": "pebbles_cassiterite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 133,
+            "textureName": "pebbles_Galena",
+            "name": "pebbles_galena"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 134,
+            "textureName": "pebbles_Bismuthinite",
+            "name": "pebbles_bismuthinite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 135,
+            "textureName": "pebbles_Garnierite",
+            "name": "pebbles_Garnierite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 136,
+            "textureName": "pebbles_Malachite",
+            "name": "pebbles_malachite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 137,
+            "textureName": "pebbles_Magnetite",
+            "name": "pebbles_magnetite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 138,
+            "textureName": "pebbles_Limonite",
+            "name": "pebbles_limonite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 139,
+            "textureName": "pebbles_Sphalerite",
+            "name": "pebbles_sphalerite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 140,
+            "textureName": "pebbles_Tetrahedrite",
+            "name": "pebbles_tetrahedrite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 141,
+            "textureName": "pebbles_Pitchblende",
+            "name": "pebbles_pitchblende"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 142,
+            "textureName": "pebbles_Bauxite",
+            "name": "pebbles_bauxite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 143,
+            "textureName": "pebbles_Rutile",
+            "name": "pebbles_rutile"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 144,
+            "textureName": "pebbles_Wolframite",
+            "name": "pebbles_wolframite"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 145,
+            "textureName": "seed_iron",
+            "name": "seed_iron"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 146,
+            "textureName": "seed_gold",
+            "name": "seed_gold"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 147,
+            "textureName": "seed_copper",
+            "name": "seed_copper"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 148,
+            "textureName": "seed_tin",
+            "name": "seed_tin"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 149,
+            "textureName": "seed_silver",
+            "name": "seed_silver"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 150,
+            "textureName": "seed_lead",
+            "name": "seed_lead"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 151,
+            "textureName": "seed_nickel",
+            "name": "seed_nickel"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 152,
+            "textureName": "seed_antimony",
+            "name": "seed_antimony"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 153,
+            "textureName": "seed_manganese",
+            "name": "seed_manganese"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 154,
+            "textureName": "seed_indium",
+            "name": "seed_indium"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 155,
+            "textureName": "seed_cadmium",
+            "name": "seed_cadmium"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 156,
+            "textureName": "seed_cobalt",
+            "name": "seed_cobalt"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 157,
+            "textureName": "seed_chrome",
+            "name": "seed_chrome"
+        },
+        {
+            "maxStackSize": 32,
+            "registerOrder": 158,
+            "textureName": "seed_quartz",
+            "name": "seed_quartz"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 159,
+            "textureName": "MagnesiumChloride",
+            "name": "magnesiumchloride"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 160,
+            "textureName": "MagnesiumChloride",
+            "name": "magnesiumhydroxide"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 161,
+            "textureName": "Sodiumcyanide",
+            "name": "sodiumcyanideitem"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 162,
+            "textureName": "Alumina",
+            "name": "alumina"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 163,
+            "textureName": "Yellowcake",
+            "name": "yellowcake"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 164,
+            "textureName": "Tungstenhexachloride",
+            "name": "tungstenhexachloride"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 165,
+            "textureName": "Tungstencarbide",
+            "name": "tungstencarbide"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 166,
+            "textureName": "Boraxdust",
+            "name": "boraxdust"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 167,
+            "textureName": "whitedust",
+            "name": "sodiummetavanadate"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 168,
+            "textureName": "Vanadiumredcake",
+            "name": "vanadiumredcake"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 169,
+            "textureName": "vanadiumpentoxide",
+            "name": "vanadiumpentoxide"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 170,
+            "textureName": "Urea",
+            "name": "urea"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 171,
+            "textureName": "lithiumchlorate",
+            "name": "lithiumperchlorate"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 172,
+            "textureName": "lithiumchlorate",
+            "name": "lithiumchlorate"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 173,
+            "textureName": "lithiumhydroxide",
+            "name": "lithiumhydroxide"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 174,
+            "textureName": "lithiumcobaltoxide",
+            "name": "lithiumcobaltoxide"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 175,
+            "textureName": "Dinitrotoluene",
+            "name": "dinitrotoluene"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 176,
+            "textureName": "Trinitrotoluene",
+            "name": "trinitrotoluene"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 177,
+            "textureName": "Diaminotoluene",
+            "name": "diaminotoluene"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 178,
+            "textureName": "potassiumpersulfate",
+            "name": "potassiumpersulfate"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 179,
+            "textureName": "Polycarbonateplastic",
+            "name": "polycarbonateplastic"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 180,
+            "textureName": "Polyurathaneplastic",
+            "name": "polyurathaneplastic"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 181,
+            "textureName": "Ammoniumnitrate",
+            "name": "ammoniumnitrate"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 182,
+            "textureName": "Urea",
+            "name": "ureanitrate"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 183,
+            "textureName": "potassiumpersulfate",
+            "name": "siliconnitride"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 184,
+            "textureName": "Smallpileoftitaniumdioxide",
+            "name": "smallpileofmagnesiumoxide"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 185,
+            "textureName": "pitchblendenuggets",
+            "name": "pitchblendenugget"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 186,
+            "textureName": "Tinypileofantimonyoxide",
+            "name": "tinypileofantimonyoxide"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 187,
+            "textureName": "whitedust",
+            "name": "berylliumsulfate"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 188,
+            "textureName": "potassiumpersulfate",
+            "name": "berylliumhydroxide"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 189,
+            "textureName": "whitedust",
+            "name": "berylliumchloride"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 190,
+            "textureName": "Berylliumdust",
+            "name": "berylliumdust"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 191,
+            "textureName": "Berylliumingot",
+            "name": "berylliumingot"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 192,
+            "textureName": "Titaniumdioxide",
+            "name": "titaniumdioxide"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 193,
+            "textureName": "Titaniumsponge",
+            "name": "titaniumsponge"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 194,
+            "textureName": "Smallpileoftitaniumdioxide",
+            "name": "smallpileoftitaniumdioxide"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 195,
+            "textureName": "mold_pipe",
+            "name": "mold_pipe"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 196,
+            "textureName": "mold_wire",
+            "name": "mold_wire"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 197,
+            "textureName": "mold_doubleIngot",
+            "name": "mold_doubleIngot"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 198,
+            "textureName": "mold_pipeline",
+            "name": "mold_pipeline"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 199,
+            "textureName": "mold_pipeline_hard",
+            "name": "mold_pipeline_hard"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 200,
+            "textureName": "pressure_mold",
+            "name": "pressure_mold"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 201,
+            "textureName": "pressure_mold_hard",
+            "name": "pressure_mold_hard"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 202,
+            "textureName": "motor_mold",
+            "name": "motor_mold"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 203,
+            "textureName": "motor_mold_hard",
+            "name": "motor_mold_hard"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 204,
+            "textureName": "cpu",
+            "name": "cpu"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+Table of occupied dimension ids and their owners
+id:name(class)
+-42 : The Outer Lands, Provider: (id: -42, class: class thaumcraft.common.lib.world.dim.WorldProviderOuter)
+-2 : Space, Provider: (id: -2, class: class zmaster587.advancedRocketry.world.provider.WorldProviderSpace)
+-1 : Nether, Provider: (id: -1, class: class com.bioxx.tfc.WorldGen.TFCProviderHell)
+0 : DEFAULT, Provider: (id: 0, class: class com.bioxx.tfc.WorldGen.TFCProvider)
+1 : DEFAULT, Provider: (id: 1, class: class com.bioxx.tfc.WorldGen.TFCProvider)

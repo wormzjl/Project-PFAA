@@ -1,0 +1,110 @@
+<ConfigSection>
+    <IfCondition condition=':= dimension.id = 0'>
+            <Substitute name='Native Copper' block='Techguns:oreClusterCustom'>
+                <Replaces block='terrafirmacraft:Ore1:0' weight='0.01' />
+            </Substitute>
+            <Substitute name='Native Gold' block='Techguns:oreClusterCustom:1'>
+                <Replaces block='terrafirmacraft:Ore1:1' weight='0.005' />
+            </Substitute>
+            <Substitute name='Native Platinum' block='Techguns:oreClusterCustom:2'>
+                <Replaces block='terrafirmacraft:Ore1:2' weight='0.004' />
+            </Substitute>
+            <Substitute name='Hematite' block='Techguns:oreClusterCustom:3'>
+                <Replaces block='terrafirmacraft:Ore1:3' weight='0.01' />
+            </Substitute>
+            <Substitute name='Native Silver' block='Techguns:oreClusterCustom:4'>
+                <Replaces block='terrafirmacraft:Ore1:4' weight='0.008' />
+            </Substitute>
+            <Substitute name='Cassiterite' block='Techguns:oreClusterCustom:5'>
+                <Replaces block='terrafirmacraft:Ore1:5' weight='0.008' />
+            </Substitute>
+            <Substitute name='Galena' block='Techguns:oreClusterCustom:6'>
+                <Replaces block='terrafirmacraft:Ore1:6' weight='0.008' />
+            </Substitute>
+            <Substitute name='Bismuthinite' block='Techguns:oreClusterCustom:7'>
+                <Replaces block='terrafirmacraft:Ore1:7' weight='0.008' />
+            </Substitute>
+            <Substitute name='Garnierite' block='Techguns:oreClusterCustom:8'>
+                <Replaces block='terrafirmacraft:Ore1:8' weight='0.008' />
+            </Substitute>
+            <Substitute name='Malachite' block='Techguns:oreClusterCustom:9'>
+                <Replaces block='terrafirmacraft:Ore1:9' weight='0.009' />
+            </Substitute>
+            <Substitute name='Magnetite' block='Techguns:oreClusterCustom:10'>
+                <Replaces block='terrafirmacraft:Ore1:10' weight='0.009' />
+            </Substitute>
+            <Substitute name='Limonite' block='Techguns:oreClusterCustom:11'>
+                <Replaces block='terrafirmacraft:Ore1:11' weight='0.01' />
+            </Substitute>
+            <Substitute name='Sphalerite' block='Techguns:oreClusterCustom:12'>
+                <Replaces block='terrafirmacraft:Ore1:12' weight='0.01' />
+            </Substitute>
+            <Substitute name='Tetrahedrite' block='Techguns:oreClusterCustom:13'>
+                <Replaces block='terrafirmacraft:Ore1:13' weight='0.009' />
+            </Substitute>
+            <Substitute name='Coal' block='Techguns:oreCluster:3'>
+                <Replaces block='terrafirmacraft:Ore1:14' weight='0.01' />
+                <Replaces block='terrafirmacraft:Ore1:15' weight='0.008' />
+            </Substitute>
+            <Substitute name='Bauxite' block='Techguns:oreClusterCustom:14'>
+                <Replaces block='tfctech:Ore4' weight='0.008' />
+            </Substitute>
+            <Substitute name='Diamond' block='Techguns:oreCluster:5'>
+                <Replaces block='terrafirmacraft:Ore2:5' weight='0.00005' />
+            </Substitute>
+            <Substitute name='Kaolinite' block='Techguns:oreClusterCustom2:1'>
+                <Replaces block='terrafirmacraft:Ore2:0' weight='0.008' />
+            </Substitute>
+            <Substitute name='Datolite' block='Techguns:oreClusterCustom2:2'>
+                <Replaces block='terrafirmacraft:Ore2:1' weight='0.009' />
+            </Substitute>
+            <Substitute name='Trona' block='Techguns:oreClusterCustom2:3'>
+                <Replaces block='terrafirmacraft:Ore2:2' weight='0.008' />
+            </Substitute>
+            <Substitute name='Bischofite' block='Techguns:oreClusterCustom2:4'>
+                <Replaces block='terrafirmacraft:Ore2:3' weight='0.008' />
+            </Substitute>
+            <Substitute name='Graphite' block='Techguns:oreClusterCustom2:5'>
+                <Replaces block='terrafirmacraft:Ore2:4' weight='0.006' />
+            </Substitute>
+            <Substitute name='Stibnite' block='Techguns:oreClusterCustom2:6'>
+                <Replaces block='terrafirmacraft:Ore2:8' weight='0.006' />
+            </Substitute>
+            <Substitute name='Pitchblende' block='Techguns:oreClusterCustom2:7'>
+                <Replaces block='terrafirmacraft:Ore2:10' weight='0.006' />
+            </Substitute>
+            <Substitute name='Cinnabar' block='Techguns:oreClusterCustom2:8'>
+                <Replaces block='terrafirmacraft:Ore2:11' weight='0.008' />
+            </Substitute>
+            <Substitute name='Cryolite' block='Techguns:oreClusterCustom2:9'>
+                <Replaces block='terrafirmacraft:Ore2:12' weight='0.008' />
+            </Substitute>
+            <Substitute name='Saltpeter' block='Techguns:oreClusterCustom2:10'>
+                <Replaces block='terrafirmacraft:Ore2:13' weight='0.008' />
+            </Substitute>
+            <Substitute name='Beryl' block='Techguns:oreClusterCustom2:11'>
+                <Replaces block='terrafirmacraft:Ore2:14' weight='0.008' />
+            </Substitute>
+            <Substitute name='Sylvite' block='Techguns:oreClusterCustom2:12'>
+                <Replaces block='terrafirmacraft:Ore2:15' weight='0.01' />
+            </Substitute>
+            <Substitute name='Borax' block='Techguns:oreClusterCustom2:13'>
+                <Replaces block='terrafirmacraft:Ore3' weight='0.01' />
+            </Substitute>
+            <Substitute name='Olivine' block='Techguns:oreClusterCustom2:14'>
+                <Replaces block='terrafirmacraft:Ore3:1' weight='0.001' />
+            </Substitute>
+            <Substitute name='Lapis' block='Techguns:oreCluster:4'>
+                <Replaces block='terrafirmacraft:Ore3:2' weight='0.008' />
+            </Substitute>
+            <Substitute name='TGOil' block='Techguns:oreCluster2:3'>
+                <Replaces block='BuildCraft|Core:eternalSpring:1' weight='1.0' />
+            </Substitute>
+            <Substitute name='TGGas' block='Techguns:oreClusterCustom2:15'>
+                <Replaces block='Techguns:oreCluster3:4' weight='0.5' />
+            </Substitute>
+            <Substitute name='WTF' block='minecraft:air'>
+                <Replaces block='minecraft:chest' weight='1.0' />
+            </Substitute>
+    </IfCondition>
+</ConfigSection>

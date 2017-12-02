@@ -1,0 +1,7 @@
+<Asteroids>
+	<asteroid name="Small Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability="1" richness="0.2" richnessVariability="0.5">
+		<ore itemStack="terrafirmacraft:item.Ore" chance="15" />
+		<ore itemStack="terrafirmacraft:item.Ore:10" chance="10" />
+		<ore itemStack="terrafirmacraft:item.Ore:1" chance="10" />
+	</asteroid>
+</Asteroids>

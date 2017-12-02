@@ -1,0 +1,2 @@
+count=2-2
+contents=minecraft:arrow;0;2-7;30

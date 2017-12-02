@@ -1,0 +1,900 @@
+<!-- =================================================================
+     Custom Ore Generation "Simple Ores" Module: This configuration
+     covers copper, tin, mythril, adamantium, and onyx.
+     ================================================================= -->
+
+
+<!-- This mod provides several "simple ores" to expand Minecraft
+     gameplay. -->
+
+
+
+
+<!-- Is the "Simple Ores" mod on the system?  Let's find out! -->
+<IfModInstalled name="simpleores">
+
+    <!-- Starting Configuration for Custom Ore Generation. -->
+    <ConfigSection>
+
+
+
+
+
+        <!-- Setup Screen Configuration -->
+        <ConfigSection>
+            <OptionDisplayGroup name='groupSimpleOres' displayName='Simple Ores' displayState='shown'>
+                <Description>
+                    Distribution options for Simple Ores Ores.
+                </Description>
+            </OptionDisplayGroup>
+            <OptionChoice name='enableSimpleOres' displayName='Handle Simple Ores Setup?' default='true' displayState='shown_dynamic' displayGroup='groupSimpleOres'>
+                <Description> Should Custom Ore Generation handle Simple Ores ore generation? </Description>
+                <Choice value=':= ?true' displayValue='Yes' description='Use Custom Ore Generation to handle Simple Ores ores.'/>
+                <Choice value=':= ?false' displayValue='No' description='Simple Ores ores will be handled by the mod itself.'/>
+            </OptionChoice>
+
+            <!-- Copper Configuration UI Starting -->
+            <ConfigSection>
+                <OptionChoice name='smpoCopperDist'  displayState=':= if(?enableSimpleOres, "shown", "hidden")' displayGroup='groupSimpleOres'>
+                    <Description> Controls how Copper is generated </Description>
+                    <DisplayName>Simple Ores Copper</DisplayName>
+                    <Choice value='LayeredVeins' displayValue='Layered Veins'>
+                        <Description>
+                            Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                        </Description>
+                    </Choice>
+                    <Choice value='Cloud' displayValue='Strategic Cloud'>
+                        <Description>
+                            Large irregular clouds filled lightly with ore.
+                        </Description>
+                    </Choice>
+                    <Choice value='Vanilla' displayValue='Vanilla'>
+                        <Description>
+                            Simulates Vanilla Minecraft.
+                        </Description>
+                    </Choice>
+                    <Choice value='none' displayValue='None' description='Copper is not generated in the world.'/>
+                </OptionChoice>
+                <OptionNumeric name='smpoCopperFreq' default='1'  min='0' max='5' displayState=':= if(?enableSimpleOres, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupSimpleOres'>
+                    <Description> Frequency multiplier for Simple Ores Copper distributions </Description>
+                    <DisplayName>Simple Ores Copper Freq.</DisplayName>
+                </OptionNumeric>
+                <OptionNumeric name='smpoCopperSize' default='1'  min='0' max='5' displayState=':= if(?enableSimpleOres, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupSimpleOres'>
+                    <Description> Size multiplier for Simple Ores Copper distributions </Description>
+                    <DisplayName>Simple Ores Copper Size</DisplayName>
+                </OptionNumeric>
+            </ConfigSection>
+            <!-- Copper Configuration UI Complete -->
+
+
+            <!-- Tin Configuration UI Starting -->
+            <ConfigSection>
+                <OptionChoice name='smpoTinDist'  displayState=':= if(?enableSimpleOres, "shown", "hidden")' displayGroup='groupSimpleOres'>
+                    <Description> Controls how Tin is generated </Description>
+                    <DisplayName>Simple Ores Tin</DisplayName>
+                    <Choice value='LayeredVeins' displayValue='Layered Veins'>
+                        <Description>
+                            Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                        </Description>
+                    </Choice>
+                    <Choice value='Cloud' displayValue='Strategic Cloud'>
+                        <Description>
+                            Large irregular clouds filled lightly with ore.
+                        </Description>
+                    </Choice>
+                    <Choice value='Vanilla' displayValue='Vanilla'>
+                        <Description>
+                            Simulates Vanilla Minecraft.
+                        </Description>
+                    </Choice>
+                    <Choice value='none' displayValue='None' description='Tin is not generated in the world.'/>
+                </OptionChoice>
+                <OptionNumeric name='smpoTinFreq' default='1'  min='0' max='5' displayState=':= if(?enableSimpleOres, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupSimpleOres'>
+                    <Description> Frequency multiplier for Simple Ores Tin distributions </Description>
+                    <DisplayName>Simple Ores Tin Freq.</DisplayName>
+                </OptionNumeric>
+                <OptionNumeric name='smpoTinSize' default='1'  min='0' max='5' displayState=':= if(?enableSimpleOres, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupSimpleOres'>
+                    <Description> Size multiplier for Simple Ores Tin distributions </Description>
+                    <DisplayName>Simple Ores Tin Size</DisplayName>
+                </OptionNumeric>
+            </ConfigSection>
+            <!-- Tin Configuration UI Complete -->
+
+
+            <!-- Mythril Configuration UI Starting -->
+            <ConfigSection>
+                <OptionChoice name='smpoMythrilDist'  displayState=':= if(?enableSimpleOres, "shown", "hidden")' displayGroup='groupSimpleOres'>
+                    <Description> Controls how Mythril is generated </Description>
+                    <DisplayName>Simple Ores Mythril</DisplayName>
+                    <Choice value='LayeredVeins' displayValue='Layered Veins'>
+                        <Description>
+                            Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                        </Description>
+                    </Choice>
+                    <Choice value='Cloud' displayValue='Strategic Cloud'>
+                        <Description>
+                            Large irregular clouds filled lightly with ore.
+                        </Description>
+                    </Choice>
+                    <Choice value='Vanilla' displayValue='Vanilla'>
+                        <Description>
+                            Simulates Vanilla Minecraft.
+                        </Description>
+                    </Choice>
+                    <Choice value='none' displayValue='None' description='Mythril is not generated in the world.'/>
+                </OptionChoice>
+                <OptionNumeric name='smpoMythrilFreq' default='1'  min='0' max='5' displayState=':= if(?enableSimpleOres, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupSimpleOres'>
+                    <Description> Frequency multiplier for Simple Ores Mythril distributions </Description>
+                    <DisplayName>Simple Ores Mythril Freq.</DisplayName>
+                </OptionNumeric>
+                <OptionNumeric name='smpoMythrilSize' default='1'  min='0' max='5' displayState=':= if(?enableSimpleOres, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupSimpleOres'>
+                    <Description> Size multiplier for Simple Ores Mythril distributions </Description>
+                    <DisplayName>Simple Ores Mythril Size</DisplayName>
+                </OptionNumeric>
+            </ConfigSection>
+            <!-- Mythril Configuration UI Complete -->
+
+
+            <!-- Adamantium Configuration UI Starting -->
+            <ConfigSection>
+                <OptionChoice name='smpoAdamantiumDist'  displayState=':= if(?enableSimpleOres, "shown", "hidden")' displayGroup='groupSimpleOres'>
+                    <Description> Controls how Adamantium is generated </Description>
+                    <DisplayName>Simple Ores Adamantium</DisplayName>
+                    <Choice value='LayeredVeins' displayValue='Layered Veins'>
+                        <Description>
+                            Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                        </Description>
+                    </Choice>
+                    <Choice value='Cloud' displayValue='Strategic Cloud'>
+                        <Description>
+                            Large irregular clouds filled lightly with ore.
+                        </Description>
+                    </Choice>
+                    <Choice value='Vanilla' displayValue='Vanilla'>
+                        <Description>
+                            Simulates Vanilla Minecraft.
+                        </Description>
+                    </Choice>
+                    <Choice value='none' displayValue='None' description='Adamantium is not generated in the world.'/>
+                </OptionChoice>
+                <OptionNumeric name='smpoAdamantiumFreq' default='1'  min='0' max='5' displayState=':= if(?enableSimpleOres, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupSimpleOres'>
+                    <Description> Frequency multiplier for Simple Ores Adamantium distributions </Description>
+                    <DisplayName>Simple Ores Adamantium Freq.</DisplayName>
+                </OptionNumeric>
+                <OptionNumeric name='smpoAdamantiumSize' default='1'  min='0' max='5' displayState=':= if(?enableSimpleOres, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupSimpleOres'>
+                    <Description> Size multiplier for Simple Ores Adamantium distributions </Description>
+                    <DisplayName>Simple Ores Adamantium Size</DisplayName>
+                </OptionNumeric>
+            </ConfigSection>
+            <!-- Adamantium Configuration UI Complete -->
+
+
+            <!-- Onyx Configuration UI Starting -->
+            <ConfigSection>
+                <OptionChoice name='smpoOnyxDist'  displayState=':= if(?enableSimpleOres, "shown", "hidden")' displayGroup='groupSimpleOres'>
+                    <Description> Controls how Onyx is generated </Description>
+                    <DisplayName>Simple Ores Onyx</DisplayName>
+                    <Choice value='PipeVeins' displayValue='Pipe Veins'>
+                        <Description>
+                            Short and sparsely filled compound veins containing one material inside another.
+                        </Description>
+                    </Choice>
+                    <Choice value='Cloud' displayValue='Strategic Cloud'>
+                        <Description>
+                            Large irregular clouds filled lightly with ore.
+                        </Description>
+                    </Choice>
+                    <Choice value='Vanilla' displayValue='Vanilla'>
+                        <Description>
+                            Simulates Vanilla Minecraft.
+                        </Description>
+                    </Choice>
+                    <Choice value='none' displayValue='None' description='Onyx is not generated in the world.'/>
+                </OptionChoice>
+                <OptionNumeric name='smpoOnyxFreq' default='1'  min='0' max='5' displayState=':= if(?enableSimpleOres, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupSimpleOres'>
+                    <Description> Frequency multiplier for Simple Ores Onyx distributions </Description>
+                    <DisplayName>Simple Ores Onyx Freq.</DisplayName>
+                </OptionNumeric>
+                <OptionNumeric name='smpoOnyxSize' default='1'  min='0' max='5' displayState=':= if(?enableSimpleOres, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupSimpleOres'>
+                    <Description> Size multiplier for Simple Ores Onyx distributions </Description>
+                    <DisplayName>Simple Ores Onyx Size</DisplayName>
+                </OptionNumeric>
+            </ConfigSection>
+            <!-- Onyx Configuration UI Complete -->
+
+        </ConfigSection>
+        <!-- Setup Screen Complete -->
+
+        <IfCondition condition=':= ?enableSimpleOres'>
+
+
+
+
+            <!-- Overworld Setup Beginning -->
+
+            <IfCondition condition=':= ?COGActive'>
+
+                <!-- Starting Original "Overworld" Block Removal -->
+
+                <IfCondition condition=':= ?blockExists("minecraft:stone")'>
+                    <Substitute name='smpoOverworldBlockSubstitute0' block='minecraft:stone'>
+                        <Description>
+                            Replace vanilla-generated ore clusters.
+                        </Description>
+                        <Comment>
+                            The global option  deferredPopulationRange
+                            must be large  enough to catch all ore
+                            clusters (>=  32).
+                        </Comment>
+                        <IfCondition condition=':= ?blockExists("simpleores:adamantium_ore")'> <Replaces block='simpleores:adamantium_ore' weight='1.0' /> </IfCondition>
+                        <IfCondition condition=':= ?blockExists("simpleores:copper_ore")'> <Replaces block='simpleores:copper_ore' weight='1.0' /> </IfCondition>
+                        <IfCondition condition=':= ?blockExists("simpleores:mythril_ore")'> <Replaces block='simpleores:mythril_ore' weight='1.0' /> </IfCondition>
+                        <IfCondition condition=':= ?blockExists("simpleores:tin_ore")'> <Replaces block='simpleores:tin_ore' weight='1.0' /> </IfCondition>
+                    </Substitute>
+                </IfCondition>
+
+                <!-- Original "Overworld" Block Removal Complete -->
+
+                <!-- Adding blocks -->
+
+                <!-- Begin Copper Generation -->
+
+                <!-- Starting LayeredVeins Preset for Copper. -->
+                <ConfigSection>
+                    <IfCondition condition=':= smpoCopperDist = "LayeredVeins"'>
+                        <Veins name='smpoCopperVeins'  inherits='PresetLayeredVeins' drawWireframe='true' wireframeColor='0x60FF8E2B' drawBoundBox='false' boundBoxColor='0x60FF8E2B'>
+                            <Description>
+                                Small, fairly rare motherlodes  with
+                                2-4 horizontal veins each.
+                            </Description>
+                            <IfCondition condition=':= ?blockExists("simpleores:copper_ore")'> <OreBlock block='simpleores:copper_ore' weight='1.0' /> </IfCondition>
+                            <IfCondition condition=':= ?blockExists("minecraft:stone")'> <Replaces block='minecraft:stone' weight='1.0' /> </IfCondition>
+                            <Biome name='.*'  />
+                            <Setting name='MotherlodeFrequency' avg=':= 2.770 * _default_ * smpoCopperFreq ' range=':= 2.770 * _default_ * smpoCopperFreq ' type='normal' scaleTo='base' />
+                            <Setting name='MotherlodeSize' avg=':= 1.185 * _default_ * smpoCopperSize ' range=':= 1.185 * _default_ * smpoCopperSize ' type='normal' />
+                            <Setting name='MotherlodeHeight' avg=':= 48 ' range=':= 42 ' type='normal' scaleTo='base' />
+                            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchLength' avg=':= 1.664 * _default_ ' range=':= 1.664 * _default_ ' type='normal' />
+                            <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentLength' avg=':= _default_ * smpoCopperSize ' range=':= _default_ * smpoCopperSize ' type='normal' />
+                            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentRadius' avg=':= 1.290 * _default_ * smpoCopperSize ' range=':= 1.290 * _default_ * smpoCopperSize ' type='normal' />
+                            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </Veins>
+                    </IfCondition>
+                </ConfigSection>
+                <!-- LayeredVeins Preset for Copper is complete. -->
+
+
+                <!-- Starting Cloud Preset for Copper. -->
+                <ConfigSection>
+                    <IfCondition condition=':= smpoCopperDist = "Cloud"'>
+                        <Cloud name='smpoCopperCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60FF8E2B' drawBoundBox='false' boundBoxColor='0x60FF8E2B'>
+                            <Description>
+                                Large irregular clouds filled  lightly
+                                with ore.  These are  huge, spanning
+                                several adjacent  chunks, and
+                                consequently rather  rare.  They
+                                contain a sizeable  amount of ore, but
+                                it takes some  time and effort to mine
+                                due to  low density. The intent for
+                                strategic clouds is that the  player
+                                will need to actively  search for one
+                                and then set up a  semi-permanent
+                                mining base and  spend some time
+                                actually mining  the ore.
+                            </Description>
+                            <IfCondition condition=':= ?blockExists("simpleores:copper_ore")'> <OreBlock block='simpleores:copper_ore' weight='1.0' /> </IfCondition>
+                            <IfCondition condition=':= ?blockExists("minecraft:stone")'> <Replaces block='minecraft:stone' weight='1.0' /> </IfCondition>
+                            <Biome name='.*'  />
+                            <Setting name='CloudRadius' avg=':= 1.557 * _default_ * smpoCopperSize ' range=':= 1.557 * _default_ * smpoCopperSize ' type='normal' />
+                            <Setting name='CloudThickness' avg=':= 1.557 * _default_ * smpoCopperSize ' range=':= 1.557 * _default_ * smpoCopperSize ' type='normal' scaleTo='base' />
+                            <Setting name='DistributionFrequency' avg=':= 2.423 * _default_ * smpoCopperFreq ' range=':= 2.423 * _default_ * smpoCopperFreq ' type='normal' scaleTo='base' />
+                            <Setting name='CloudHeight' avg=':= 48 ' range=':= 42 ' type='normal' scaleTo='base' />
+                            <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='CloudSizeNoise' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='CloudInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='OreVolumeNoiseCutoff' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Veins name='smpoCopperHintVeins'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x60FF8E2B' drawBoundBox='false' boundBoxColor='0x60FF8E2B'>
+                                <Description>
+                                    Single blocks, generously
+                                    scattered through all heights
+                                    (density is about that of  vanilla
+                                    iron ore). They will  replace dirt
+                                    and sandstone  (but not grass or
+                                    sand), so  they can be found
+                                    nearer to  the surface than most
+                                    ores.  Intened to be used as a
+                                    child  distribution for large,
+                                    rare  strategic deposits that
+                                    would  otherwise be very difficult
+                                    to find.  Note that the  frequency
+                                    is multiplied by  ground level to
+                                    maintain a  constant density, but
+                                    not by  ore frequency because it
+                                    is  assumed that the frequency of
+                                    the parent distribution will
+                                    already be scaled by that.
+                                </Description>
+                                <IfCondition condition=':= ?blockExists("simpleores:copper_ore")'> <OreBlock block='simpleores:copper_ore' weight='1.0' /> </IfCondition>
+                                <IfCondition condition=':= ?blockExists("minecraft:dirt")'> <Replaces block='minecraft:dirt' weight='1.0' /> </IfCondition>
+                                <IfCondition condition=':= ?blockExists("minecraft:sandstone")'> <Replaces block='minecraft:sandstone' weight='1.0' /> </IfCondition>
+                            </Veins>
+                        </Cloud>
+                    </IfCondition>
+                </ConfigSection>
+                <!-- Cloud Preset for Copper is complete. -->
+
+
+                <!-- Starting Vanilla Preset for Copper. -->
+                <ConfigSection>
+                    <IfCondition condition=':= smpoCopperDist = "Vanilla"'>
+                        <StandardGen name='smpoCopperStandard'  inherits='PresetStandardGen' drawWireframe='true' wireframeColor='0x60FF8E2B' drawBoundBox='false' boundBoxColor='0x60FF8E2B'>
+                            <Description>
+                                A master preset for standardgen  ore
+                                distributions.
+                            </Description>
+                            <IfCondition condition=':= ?blockExists("simpleores:copper_ore")'> <OreBlock block='simpleores:copper_ore' weight='1.0' /> </IfCondition>
+                            <IfCondition condition=':= ?blockExists("minecraft:stone")'> <Replaces block='minecraft:stone' weight='1.0' /> </IfCondition>
+                            <Biome name='.*'  />
+                            <Setting name='Size' avg=':= 7.000 * smpoCopperSize ' range=':= _default_ * smpoCopperSize ' type='normal' />
+                            <Setting name='Frequency' avg=':= 35.000 * smpoCopperFreq ' range=':= _default_ * smpoCopperFreq ' type='normal' scaleTo='base' />
+                            <Setting name='Height' avg=':= 48 ' range=':= 42 ' type='normal' scaleTo='base' />
+                            <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </StandardGen>
+                    </IfCondition>
+                </ConfigSection>
+                <!-- Vanilla Preset for Copper is complete. -->
+
+                <!-- End Copper Generation -->
+
+
+                <!-- Begin Tin Generation -->
+
+                <!-- Starting LayeredVeins Preset for Tin. -->
+                <ConfigSection>
+                    <IfCondition condition=':= smpoTinDist = "LayeredVeins"'>
+                        <Veins name='smpoTinVeins'  inherits='PresetLayeredVeins' drawWireframe='true' wireframeColor='0x60E8E8E8' drawBoundBox='false' boundBoxColor='0x60E8E8E8'>
+                            <Description>
+                                Small, fairly rare motherlodes  with
+                                2-4 horizontal veins each.
+                            </Description>
+                            <IfCondition condition=':= ?blockExists("simpleores:tin_ore")'> <OreBlock block='simpleores:tin_ore' weight='1.0' /> </IfCondition>
+                            <IfCondition condition=':= ?blockExists("minecraft:stone")'> <Replaces block='minecraft:stone' weight='1.0' /> </IfCondition>
+                            <Biome name='.*'  />
+                            <Setting name='MotherlodeFrequency' avg=':= 2.564 * _default_ * smpoTinFreq ' range=':= 2.564 * _default_ * smpoTinFreq ' type='normal' scaleTo='base' />
+                            <Setting name='MotherlodeSize' avg=':= 1.170 * _default_ * smpoTinSize ' range=':= 1.170 * _default_ * smpoTinSize ' type='normal' />
+                            <Setting name='MotherlodeHeight' avg=':= 48 ' range=':= 42 ' type='normal' scaleTo='base' />
+                            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchLength' avg=':= 1.601 * _default_ ' range=':= 1.601 * _default_ ' type='normal' />
+                            <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentLength' avg=':= _default_ * smpoTinSize ' range=':= _default_ * smpoTinSize ' type='normal' />
+                            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentRadius' avg=':= 1.265 * _default_ * smpoTinSize ' range=':= 1.265 * _default_ * smpoTinSize ' type='normal' />
+                            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </Veins>
+                    </IfCondition>
+                </ConfigSection>
+                <!-- LayeredVeins Preset for Tin is complete. -->
+
+
+                <!-- Starting Cloud Preset for Tin. -->
+                <ConfigSection>
+                    <IfCondition condition=':= smpoTinDist = "Cloud"'>
+                        <Cloud name='smpoTinCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60E8E8E8' drawBoundBox='false' boundBoxColor='0x60E8E8E8'>
+                            <Description>
+                                Large irregular clouds filled  lightly
+                                with ore.  These are  huge, spanning
+                                several adjacent  chunks, and
+                                consequently rather  rare.  They
+                                contain a sizeable  amount of ore, but
+                                it takes some  time and effort to mine
+                                due to  low density. The intent for
+                                strategic clouds is that the  player
+                                will need to actively  search for one
+                                and then set up a  semi-permanent
+                                mining base and  spend some time
+                                actually mining  the ore.
+                            </Description>
+                            <IfCondition condition=':= ?blockExists("simpleores:tin_ore")'> <OreBlock block='simpleores:tin_ore' weight='1.0' /> </IfCondition>
+                            <IfCondition condition=':= ?blockExists("minecraft:stone")'> <Replaces block='minecraft:stone' weight='1.0' /> </IfCondition>
+                            <Biome name='.*'  />
+                            <Setting name='CloudRadius' avg=':= 1.498 * _default_ * smpoTinSize ' range=':= 1.498 * _default_ * smpoTinSize ' type='normal' />
+                            <Setting name='CloudThickness' avg=':= 1.498 * _default_ * smpoTinSize ' range=':= 1.498 * _default_ * smpoTinSize ' type='normal' scaleTo='base' />
+                            <Setting name='DistributionFrequency' avg=':= 2.244 * _default_ * smpoTinFreq ' range=':= 2.244 * _default_ * smpoTinFreq ' type='normal' scaleTo='base' />
+                            <Setting name='CloudHeight' avg=':= 48 ' range=':= 42 ' type='normal' scaleTo='base' />
+                            <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='CloudSizeNoise' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='CloudInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='OreVolumeNoiseCutoff' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Veins name='smpoTinHintVeins'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x60E8E8E8' drawBoundBox='false' boundBoxColor='0x60E8E8E8'>
+                                <Description>
+                                    Single blocks, generously
+                                    scattered through all heights
+                                    (density is about that of  vanilla
+                                    iron ore). They will  replace dirt
+                                    and sandstone  (but not grass or
+                                    sand), so  they can be found
+                                    nearer to  the surface than most
+                                    ores.  Intened to be used as a
+                                    child  distribution for large,
+                                    rare  strategic deposits that
+                                    would  otherwise be very difficult
+                                    to find.  Note that the  frequency
+                                    is multiplied by  ground level to
+                                    maintain a  constant density, but
+                                    not by  ore frequency because it
+                                    is  assumed that the frequency of
+                                    the parent distribution will
+                                    already be scaled by that.
+                                </Description>
+                                <IfCondition condition=':= ?blockExists("simpleores:tin_ore")'> <OreBlock block='simpleores:tin_ore' weight='1.0' /> </IfCondition>
+                                <IfCondition condition=':= ?blockExists("minecraft:dirt")'> <Replaces block='minecraft:dirt' weight='1.0' /> </IfCondition>
+                                <IfCondition condition=':= ?blockExists("minecraft:sandstone")'> <Replaces block='minecraft:sandstone' weight='1.0' /> </IfCondition>
+                            </Veins>
+                        </Cloud>
+                    </IfCondition>
+                </ConfigSection>
+                <!-- Cloud Preset for Tin is complete. -->
+
+
+                <!-- Starting Vanilla Preset for Tin. -->
+                <ConfigSection>
+                    <IfCondition condition=':= smpoTinDist = "Vanilla"'>
+                        <StandardGen name='smpoTinStandard'  inherits='PresetStandardGen' drawWireframe='true' wireframeColor='0x60E8E8E8' drawBoundBox='false' boundBoxColor='0x60E8E8E8'>
+                            <Description>
+                                A master preset for standardgen  ore
+                                distributions.
+                            </Description>
+                            <IfCondition condition=':= ?blockExists("simpleores:tin_ore")'> <OreBlock block='simpleores:tin_ore' weight='1.0' /> </IfCondition>
+                            <IfCondition condition=':= ?blockExists("minecraft:stone")'> <Replaces block='minecraft:stone' weight='1.0' /> </IfCondition>
+                            <Biome name='.*'  />
+                            <Setting name='Size' avg=':= 7.000 * smpoTinSize ' range=':= _default_ * smpoTinSize ' type='normal' />
+                            <Setting name='Frequency' avg=':= 30.000 * smpoTinFreq ' range=':= _default_ * smpoTinFreq ' type='normal' scaleTo='base' />
+                            <Setting name='Height' avg=':= 48 ' range=':= 42 ' type='normal' scaleTo='base' />
+                            <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </StandardGen>
+                    </IfCondition>
+                </ConfigSection>
+                <!-- Vanilla Preset for Tin is complete. -->
+
+                <!-- End Tin Generation -->
+
+
+                <!-- Begin Mythril Generation -->
+
+                <!-- Starting LayeredVeins Preset for Mythril. -->
+                <ConfigSection>
+                    <IfCondition condition=':= smpoMythrilDist = "LayeredVeins"'>
+                        <Veins name='smpoMythrilVeins'  inherits='PresetLayeredVeins' drawWireframe='true' wireframeColor='0x6079AFD2' drawBoundBox='false' boundBoxColor='0x6079AFD2'>
+                            <Description>
+                                Small, fairly rare motherlodes  with
+                                2-4 horizontal veins each.
+                            </Description>
+                            <IfCondition condition=':= ?blockExists("simpleores:mythril_ore")'> <OreBlock block='simpleores:mythril_ore' weight='1.0' /> </IfCondition>
+                            <IfCondition condition=':= ?blockExists("minecraft:stone")'> <Replaces block='minecraft:stone' weight='1.0' /> </IfCondition>
+                            <Biome name='.*'  />
+                            <Setting name='MotherlodeFrequency' avg=':= 1.001 * _default_ * smpoMythrilFreq ' range=':= 1.001 * _default_ * smpoMythrilFreq ' type='normal' scaleTo='base' />
+                            <Setting name='MotherlodeSize' avg=':= 1.000 * _default_ * smpoMythrilSize ' range=':= 1.000 * _default_ * smpoMythrilSize ' type='normal' />
+                            <Setting name='MotherlodeHeight' avg=':= 20 ' range=':= 15 ' type='normal' scaleTo='base' />
+                            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchLength' avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' />
+                            <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentLength' avg=':= _default_ * smpoMythrilSize ' range=':= _default_ * smpoMythrilSize ' type='normal' />
+                            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentRadius' avg=':= 1.000 * _default_ * smpoMythrilSize ' range=':= 1.000 * _default_ * smpoMythrilSize ' type='normal' />
+                            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </Veins>
+                    </IfCondition>
+                </ConfigSection>
+                <!-- LayeredVeins Preset for Mythril is complete. -->
+
+
+                <!-- Starting Cloud Preset for Mythril. -->
+                <ConfigSection>
+                    <IfCondition condition=':= smpoMythrilDist = "Cloud"'>
+                        <Cloud name='smpoMythrilCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x6079AFD2' drawBoundBox='false' boundBoxColor='0x6079AFD2'>
+                            <Description>
+                                Large irregular clouds filled  lightly
+                                with ore.  These are  huge, spanning
+                                several adjacent  chunks, and
+                                consequently rather  rare.  They
+                                contain a sizeable  amount of ore, but
+                                it takes some  time and effort to mine
+                                due to  low density. The intent for
+                                strategic clouds is that the  player
+                                will need to actively  search for one
+                                and then set up a  semi-permanent
+                                mining base and  spend some time
+                                actually mining  the ore.
+                            </Description>
+                            <IfCondition condition=':= ?blockExists("simpleores:mythril_ore")'> <OreBlock block='simpleores:mythril_ore' weight='1.0' /> </IfCondition>
+                            <IfCondition condition=':= ?blockExists("minecraft:stone")'> <Replaces block='minecraft:stone' weight='1.0' /> </IfCondition>
+                            <Biome name='.*'  />
+                            <Setting name='CloudRadius' avg=':= 0.936 * _default_ * smpoMythrilSize ' range=':= 0.936 * _default_ * smpoMythrilSize ' type='normal' />
+                            <Setting name='CloudThickness' avg=':= 0.936 * _default_ * smpoMythrilSize ' range=':= 0.936 * _default_ * smpoMythrilSize ' type='normal' scaleTo='base' />
+                            <Setting name='DistributionFrequency' avg=':= 0.876 * _default_ * smpoMythrilFreq ' range=':= 0.876 * _default_ * smpoMythrilFreq ' type='normal' scaleTo='base' />
+                            <Setting name='CloudHeight' avg=':= 20 ' range=':= 15 ' type='normal' scaleTo='base' />
+                            <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='CloudSizeNoise' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='CloudInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='OreVolumeNoiseCutoff' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Veins name='smpoMythrilHintVeins'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x6079AFD2' drawBoundBox='false' boundBoxColor='0x6079AFD2'>
+                                <Description>
+                                    Single blocks, generously
+                                    scattered through all heights
+                                    (density is about that of  vanilla
+                                    iron ore). They will  replace dirt
+                                    and sandstone  (but not grass or
+                                    sand), so  they can be found
+                                    nearer to  the surface than most
+                                    ores.  Intened to be used as a
+                                    child  distribution for large,
+                                    rare  strategic deposits that
+                                    would  otherwise be very difficult
+                                    to find.  Note that the  frequency
+                                    is multiplied by  ground level to
+                                    maintain a  constant density, but
+                                    not by  ore frequency because it
+                                    is  assumed that the frequency of
+                                    the parent distribution will
+                                    already be scaled by that.
+                                </Description>
+                                <IfCondition condition=':= ?blockExists("simpleores:mythril_ore")'> <OreBlock block='simpleores:mythril_ore' weight='1.0' /> </IfCondition>
+                                <IfCondition condition=':= ?blockExists("minecraft:dirt")'> <Replaces block='minecraft:dirt' weight='1.0' /> </IfCondition>
+                                <IfCondition condition=':= ?blockExists("minecraft:sandstone")'> <Replaces block='minecraft:sandstone' weight='1.0' /> </IfCondition>
+                            </Veins>
+                        </Cloud>
+                    </IfCondition>
+                </ConfigSection>
+                <!-- Cloud Preset for Mythril is complete. -->
+
+
+                <!-- Starting Vanilla Preset for Mythril. -->
+                <ConfigSection>
+                    <IfCondition condition=':= smpoMythrilDist = "Vanilla"'>
+                        <StandardGen name='smpoMythrilStandard'  inherits='PresetStandardGen' drawWireframe='true' wireframeColor='0x6079AFD2' drawBoundBox='false' boundBoxColor='0x6079AFD2'>
+                            <Description>
+                                A master preset for standardgen  ore
+                                distributions.
+                            </Description>
+                            <IfCondition condition=':= ?blockExists("simpleores:mythril_ore")'> <OreBlock block='simpleores:mythril_ore' weight='1.0' /> </IfCondition>
+                            <IfCondition condition=':= ?blockExists("minecraft:stone")'> <Replaces block='minecraft:stone' weight='1.0' /> </IfCondition>
+                            <Biome name='.*'  />
+                            <Setting name='Size' avg=':= 4.000 * smpoMythrilSize ' range=':= _default_ * smpoMythrilSize ' type='normal' />
+                            <Setting name='Frequency' avg=':= 8.000 * smpoMythrilFreq ' range=':= _default_ * smpoMythrilFreq ' type='normal' scaleTo='base' />
+                            <Setting name='Height' avg=':= 20 ' range=':= 15 ' type='normal' scaleTo='base' />
+                            <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </StandardGen>
+                    </IfCondition>
+                </ConfigSection>
+                <!-- Vanilla Preset for Mythril is complete. -->
+
+                <!-- End Mythril Generation -->
+
+
+                <!-- Begin Adamantium Generation -->
+
+                <!-- Starting LayeredVeins Preset for Adamantium. -->
+                <ConfigSection>
+                    <IfCondition condition=':= smpoAdamantiumDist = "LayeredVeins"'>
+                        <Veins name='smpoAdamantiumVeins'  inherits='PresetLayeredVeins' drawWireframe='true' wireframeColor='0x60159800' drawBoundBox='false' boundBoxColor='0x60159800'>
+                            <Description>
+                                Small, fairly rare motherlodes  with
+                                2-4 horizontal veins each.
+                            </Description>
+                            <IfCondition condition=':= ?blockExists("simpleores:adamantium_ore")'> <OreBlock block='simpleores:adamantium_ore' weight='1.0' /> </IfCondition>
+                            <IfCondition condition=':= ?blockExists("minecraft:stone")'> <Replaces block='minecraft:stone' weight='1.0' /> </IfCondition>
+                            <Biome name='.*'  />
+                            <Setting name='MotherlodeFrequency' avg=':= 0.708 * _default_ * smpoAdamantiumFreq ' range=':= 0.708 * _default_ * smpoAdamantiumFreq ' type='normal' scaleTo='base' />
+                            <Setting name='MotherlodeSize' avg=':= 0.944 * _default_ * smpoAdamantiumSize ' range=':= 0.944 * _default_ * smpoAdamantiumSize ' type='normal' />
+                            <Setting name='MotherlodeHeight' avg=':= 13 ' range=':= 7 ' type='normal' scaleTo='base' />
+                            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchLength' avg=':= 0.841 * _default_ ' range=':= 0.841 * _default_ ' type='normal' />
+                            <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentLength' avg=':= _default_ * smpoAdamantiumSize ' range=':= _default_ * smpoAdamantiumSize ' type='normal' />
+                            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentRadius' avg=':= 0.917 * _default_ * smpoAdamantiumSize ' range=':= 0.917 * _default_ * smpoAdamantiumSize ' type='normal' />
+                            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </Veins>
+                    </IfCondition>
+                </ConfigSection>
+                <!-- LayeredVeins Preset for Adamantium is complete. -->
+
+
+                <!-- Starting Cloud Preset for Adamantium. -->
+                <ConfigSection>
+                    <IfCondition condition=':= smpoAdamantiumDist = "Cloud"'>
+                        <Cloud name='smpoAdamantiumCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60159800' drawBoundBox='false' boundBoxColor='0x60159800'>
+                            <Description>
+                                Large irregular clouds filled  lightly
+                                with ore.  These are  huge, spanning
+                                several adjacent  chunks, and
+                                consequently rather  rare.  They
+                                contain a sizeable  amount of ore, but
+                                it takes some  time and effort to mine
+                                due to  low density. The intent for
+                                strategic clouds is that the  player
+                                will need to actively  search for one
+                                and then set up a  semi-permanent
+                                mining base and  spend some time
+                                actually mining  the ore.
+                            </Description>
+                            <IfCondition condition=':= ?blockExists("simpleores:adamantium_ore")'> <OreBlock block='simpleores:adamantium_ore' weight='1.0' /> </IfCondition>
+                            <IfCondition condition=':= ?blockExists("minecraft:stone")'> <Replaces block='minecraft:stone' weight='1.0' /> </IfCondition>
+                            <Biome name='.*'  />
+                            <Setting name='CloudRadius' avg=':= 0.787 * _default_ * smpoAdamantiumSize ' range=':= 0.787 * _default_ * smpoAdamantiumSize ' type='normal' />
+                            <Setting name='CloudThickness' avg=':= 0.787 * _default_ * smpoAdamantiumSize ' range=':= 0.787 * _default_ * smpoAdamantiumSize ' type='normal' scaleTo='base' />
+                            <Setting name='DistributionFrequency' avg=':= 0.619 * _default_ * smpoAdamantiumFreq ' range=':= 0.619 * _default_ * smpoAdamantiumFreq ' type='normal' scaleTo='base' />
+                            <Setting name='CloudHeight' avg=':= 13 ' range=':= 7 ' type='normal' scaleTo='base' />
+                            <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='CloudSizeNoise' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='CloudInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='OreVolumeNoiseCutoff' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Veins name='smpoAdamantiumHintVeins'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x60159800' drawBoundBox='false' boundBoxColor='0x60159800'>
+                                <Description>
+                                    Single blocks, generously
+                                    scattered through all heights
+                                    (density is about that of  vanilla
+                                    iron ore). They will  replace dirt
+                                    and sandstone  (but not grass or
+                                    sand), so  they can be found
+                                    nearer to  the surface than most
+                                    ores.  Intened to be used as a
+                                    child  distribution for large,
+                                    rare  strategic deposits that
+                                    would  otherwise be very difficult
+                                    to find.  Note that the  frequency
+                                    is multiplied by  ground level to
+                                    maintain a  constant density, but
+                                    not by  ore frequency because it
+                                    is  assumed that the frequency of
+                                    the parent distribution will
+                                    already be scaled by that.
+                                </Description>
+                                <IfCondition condition=':= ?blockExists("simpleores:adamantium_ore")'> <OreBlock block='simpleores:adamantium_ore' weight='1.0' /> </IfCondition>
+                                <IfCondition condition=':= ?blockExists("minecraft:dirt")'> <Replaces block='minecraft:dirt' weight='1.0' /> </IfCondition>
+                                <IfCondition condition=':= ?blockExists("minecraft:sandstone")'> <Replaces block='minecraft:sandstone' weight='1.0' /> </IfCondition>
+                            </Veins>
+                        </Cloud>
+                    </IfCondition>
+                </ConfigSection>
+                <!-- Cloud Preset for Adamantium is complete. -->
+
+
+                <!-- Starting Vanilla Preset for Adamantium. -->
+                <ConfigSection>
+                    <IfCondition condition=':= smpoAdamantiumDist = "Vanilla"'>
+                        <StandardGen name='smpoAdamantiumStandard'  inherits='PresetStandardGen' drawWireframe='true' wireframeColor='0x60159800' drawBoundBox='false' boundBoxColor='0x60159800'>
+                            <Description>
+                                A master preset for standardgen  ore
+                                distributions.
+                            </Description>
+                            <IfCondition condition=':= ?blockExists("simpleores:adamantium_ore")'> <OreBlock block='simpleores:adamantium_ore' weight='1.0' /> </IfCondition>
+                            <IfCondition condition=':= ?blockExists("minecraft:stone")'> <Replaces block='minecraft:stone' weight='1.0' /> </IfCondition>
+                            <Biome name='.*'  />
+                            <Setting name='Size' avg=':= 4.000 * smpoAdamantiumSize ' range=':= _default_ * smpoAdamantiumSize ' type='normal' />
+                            <Setting name='Frequency' avg=':= 4.000 * smpoAdamantiumFreq ' range=':= _default_ * smpoAdamantiumFreq ' type='normal' scaleTo='base' />
+                            <Setting name='Height' avg=':= 13 ' range=':= 7 ' type='normal' scaleTo='base' />
+                            <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </StandardGen>
+                    </IfCondition>
+                </ConfigSection>
+                <!-- Vanilla Preset for Adamantium is complete. -->
+
+                <!-- End Adamantium Generation -->
+
+                <!-- Finished adding blocks -->
+
+            </IfCondition>
+            <!-- Overworld Setup Complete -->
+
+
+
+
+
+            <!-- Nether Setup Beginning -->
+
+            <IfCondition condition=':= dimension.generator = "HellRandomLevelSource"'>
+
+                <!-- Starting Original "Nether" Block Removal -->
+
+                <IfCondition condition=':= ?blockExists("minecraft:netherrack")'>
+                    <Substitute name='smpoNetherBlockSubstitute0' block='minecraft:netherrack'>
+                        <Description>
+                            Replace vanilla-generated ore clusters.
+                        </Description>
+                        <Comment>
+                            The global option  deferredPopulationRange
+                            must be large  enough to catch all ore
+                            clusters (>=  32).
+                        </Comment>
+                        <IfCondition condition=':= ?blockExists("simpleores:onyx_ore")'> <Replaces block='simpleores:onyx_ore' weight='1.0' /> </IfCondition>
+                    </Substitute>
+                </IfCondition>
+
+                <!-- Original "Nether" Block Removal Complete -->
+
+                <!-- Adding blocks -->
+
+                <!-- Begin Onyx Generation -->
+
+                <!-- Starting PipeVeins Preset for Onyx. -->
+                <ConfigSection>
+                    <IfCondition condition=':= smpoOnyxDist = "PipeVeins"'>
+                        <Veins name='smpoOnyxVeins'  inherits='PresetPipeVeins' seed='0x1523' drawWireframe='true' wireframeColor='0x60232323' drawBoundBox='false' boundBoxColor='0x60232323'>
+                            <Description>
+                                Short sparsely filled veins  sloping
+                                up from near the bottom  of the map.
+                            </Description>
+                            <IfCondition condition=':= ?blockExists("simpleores:onyx_ore")'> <OreBlock block='simpleores:onyx_ore' weight='1.0' /> </IfCondition>
+                            <IfCondition condition=':= ?blockExists("minecraft:netherrack")'> <Replaces block='minecraft:netherrack' weight='1.0' /> </IfCondition>
+                            <Biome name='.*'  />
+                            <Setting name='MotherlodeFrequency' avg=':= 1.597 * _default_ * smpoOnyxFreq ' range=':= 1.597 * _default_ * smpoOnyxFreq ' type='normal' scaleTo='base' />
+                            <Setting name='MotherlodeSize' avg=':= 0 * _default_ * smpoOnyxSize ' range=':= 0 * _default_ * smpoOnyxSize ' type='normal' />
+                            <Setting name='MotherlodeHeight' avg=':= 72 ' range=':= 56 ' type='uniform' scaleTo='base' />
+                            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchLength' avg=':= 1.264 * _default_ ' range=':= 1.264 * _default_ ' type='normal' />
+                            <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentLength' avg=':= _default_ * smpoOnyxSize ' range=':= _default_ * smpoOnyxSize ' type='normal' />
+                            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentRadius' avg=':= 1.124 * _default_ * smpoOnyxSize ' range=':= 1.124 * _default_ * smpoOnyxSize ' type='normal' />
+                            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </Veins>
+
+                        <!-- Configuring contained material. -->
+                        <Veins name='smpoOnyxVeinsPipe'  inherits='smpoOnyxVeins' seed='0x1523' drawWireframe='true' wireframeColor='0x60232323' drawBoundBox='false' boundBoxColor='0x60232323'>
+                            <IfCondition condition=':= ?blockExists("minecraft:stone")'> <OreBlock block='minecraft:stone' weight='1.0' /> </IfCondition>
+                            <IfCondition condition=':= ?blockExists("minecraft:netherrack")'> <Replaces block='minecraft:netherrack' weight='1.0' /> </IfCondition>
+                            <IfCondition condition=':= ?blockExists("simpleores:onyx_ore")'> <Replaces block='simpleores:onyx_ore' weight='1.0' /> </IfCondition>
+                            <Setting name='MotherlodeSize' avg=':= 0 * _default_ * smpoOnyxSize  * 0.5 ' range=':= 0 * _default_ * smpoOnyxSize  * 0.5 ' type='normal' />
+                            <Setting name='SegmentRadius' avg=':= 1.124 * _default_ * smpoOnyxSize  * 0.5 ' range=':= 1.124 * _default_ * smpoOnyxSize  * 0.5 ' type='normal' />
+                            <Setting name='OreDensity' avg=':= 1.0 ' range=':= 0 ' type='normal' />
+                        </Veins>
+                    </IfCondition>
+                </ConfigSection>
+                <!-- PipeVeins Preset for Onyx is complete. -->
+
+
+                <!-- Starting Cloud Preset for Onyx. -->
+                <ConfigSection>
+                    <IfCondition condition=':= smpoOnyxDist = "Cloud"'>
+                        <Cloud name='smpoOnyxCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60232323' drawBoundBox='false' boundBoxColor='0x60232323'>
+                            <Description>
+                                Large irregular clouds filled  lightly
+                                with ore.  These are  huge, spanning
+                                several adjacent  chunks, and
+                                consequently rather  rare.  They
+                                contain a sizeable  amount of ore, but
+                                it takes some  time and effort to mine
+                                due to  low density. The intent for
+                                strategic clouds is that the  player
+                                will need to actively  search for one
+                                and then set up a  semi-permanent
+                                mining base and  spend some time
+                                actually mining  the ore.
+                            </Description>
+                            <IfCondition condition=':= ?blockExists("simpleores:onyx_ore")'> <OreBlock block='simpleores:onyx_ore' weight='1.0' /> </IfCondition>
+                            <IfCondition condition=':= ?blockExists("minecraft:netherrack")'> <Replaces block='minecraft:netherrack' weight='1.0' /> </IfCondition>
+                            <Biome name='.*'  />
+                            <Setting name='CloudRadius' avg=':= 0.957 * _default_ * smpoOnyxSize ' range=':= 0.957 * _default_ * smpoOnyxSize ' type='normal' />
+                            <Setting name='CloudThickness' avg=':= 0.957 * _default_ * smpoOnyxSize ' range=':= 0.957 * _default_ * smpoOnyxSize ' type='normal' scaleTo='base' />
+                            <Setting name='DistributionFrequency' avg=':= 0.916 * _default_ * smpoOnyxFreq ' range=':= 0.916 * _default_ * smpoOnyxFreq ' type='normal' scaleTo='base' />
+                            <Setting name='CloudHeight' avg=':= 72 ' range=':= 56 ' type='uniform' scaleTo='base' />
+                            <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='CloudSizeNoise' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='CloudInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='OreVolumeNoiseCutoff' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Veins name='smpoOnyxHintVeins'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x60232323' drawBoundBox='false' boundBoxColor='0x60232323'>
+                                <Description>
+                                    Single blocks, generously
+                                    scattered through all heights
+                                    (density is about that of  vanilla
+                                    iron ore). They will  replace dirt
+                                    and sandstone  (but not grass or
+                                    sand), so  they can be found
+                                    nearer to  the surface than most
+                                    ores.  Intened to be used as a
+                                    child  distribution for large,
+                                    rare  strategic deposits that
+                                    would  otherwise be very difficult
+                                    to find.  Note that the  frequency
+                                    is multiplied by  ground level to
+                                    maintain a  constant density, but
+                                    not by  ore frequency because it
+                                    is  assumed that the frequency of
+                                    the parent distribution will
+                                    already be scaled by that.
+                                </Description>
+                                <IfCondition condition=':= ?blockExists("simpleores:onyx_ore")'> <OreBlock block='simpleores:onyx_ore' weight='1.0' /> </IfCondition>
+                                <IfCondition condition=':= ?blockExists("minecraft:dirt")'> <Replaces block='minecraft:dirt' weight='1.0' /> </IfCondition>
+                                <IfCondition condition=':= ?blockExists("minecraft:sandstone")'> <Replaces block='minecraft:sandstone' weight='1.0' /> </IfCondition>
+                            </Veins>
+                        </Cloud>
+                    </IfCondition>
+                </ConfigSection>
+                <!-- Cloud Preset for Onyx is complete. -->
+
+
+                <!-- Starting Vanilla Preset for Onyx. -->
+                <ConfigSection>
+                    <IfCondition condition=':= smpoOnyxDist = "Vanilla"'>
+                        <StandardGen name='smpoOnyxStandard'  inherits='PresetStandardGen' drawWireframe='true' wireframeColor='0x60232323' drawBoundBox='false' boundBoxColor='0x60232323'>
+                            <Description>
+                                A master preset for standardgen  ore
+                                distributions.
+                            </Description>
+                            <IfCondition condition=':= ?blockExists("simpleores:onyx_ore")'> <OreBlock block='simpleores:onyx_ore' weight='1.0' /> </IfCondition>
+                            <IfCondition condition=':= ?blockExists("minecraft:netherrack")'> <Replaces block='minecraft:netherrack' weight='1.0' /> </IfCondition>
+                            <Biome name='.*'  />
+                            <Setting name='Size' avg=':= 7.000 * smpoOnyxSize ' range=':= _default_ * smpoOnyxSize ' type='normal' />
+                            <Setting name='Frequency' avg=':= 5.000 * smpoOnyxFreq ' range=':= _default_ * smpoOnyxFreq ' type='normal' scaleTo='base' />
+                            <Setting name='Height' avg=':= 72 ' range=':= 56 ' type='uniform' scaleTo='base' />
+                            <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </StandardGen>
+                    </IfCondition>
+                </ConfigSection>
+                <!-- Vanilla Preset for Onyx is complete. -->
+
+                <!-- End Onyx Generation -->
+
+                <!-- Finished adding blocks -->
+
+            </IfCondition>
+            <!-- Nether Setup Complete -->
+
+
+        </IfCondition>
+
+    </ConfigSection>
+    <!-- Configuration for Custom Ore Generation Complete! -->
+
+</IfModInstalled>
+<!-- The "Simple Ores" mod is now configured. -->
+
+
+
+
+
+<!-- =================================================================
+     This file was made using the Sprocket Configuration Generator.
+     If you wish to make your own configurations for a mod not
+     currently supported by Custom Ore Generation, and you don't want
+     the hassle of writing XML, you can find the generator script at
+     its GitHub page: http://https://github.com/reteo/Sprocket
+     ================================================================= -->

@@ -1,0 +1,15 @@
+{
+    "blocks": [
+        {
+            "name": "methaneice",
+            "textureName": "ice",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "isOpaque" : false,
+            "resistance": 2,
+            "hardness": 1,
+            "type": "NORMAL"
+        }
+    ]
+}

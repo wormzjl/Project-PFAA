@@ -1,0 +1,311 @@
+<ConfigSection>
+    <IfCondition condition=':= dimension.id = 10'>
+                <Cloud name='TungstenCloud' inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60212121' drawBoundBox='false' boundBoxColor='0x60212121'>
+                    <OreBlock block='ihl:oreGyubnera' weight='0.994' />
+                    <OreBlock block='Techguns:oreClusterCustom2' weight='0.006' />
+                    <Biome name='.*'  />
+                    <Setting name='DistributionFrequency' avg=':= 1.5 * _default_ ' range=':= 1.2 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='CloudRadius' avg=':= 1.9 * _default_ ' range=':= 1.9 * _default_ ' type='normal' />
+                    <Setting name='CloudThickness' avg=':= 1.2 * _default_ ' range=':= 1.2 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='CloudHeight' avg=':= 45' range=':= 5' type='normal'/>
+                    <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='CloudSizeNoise' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='CloudInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='OreDensity' avg=':= 0.7 * _default_ ' range=':= 1.2 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='OreVolumeNoiseCutoff' avg=':= 0.5 * _default_ ' range=':= 0.5 * _default_ ' type='normal' />
+                    <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Veins name='TungstenHintVeins'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x60212121' drawBoundBox='false' boundBoxColor='0x60212121'>
+                        <OreBlock block='ihl:oreGyubnera' weight='1.0' />
+                        <Setting name='MotherlodeHeight' avg=':= 55' range=':= 50'/>
+                        <Setting name='MotherlodeFrequency' avg=':= 3 * _default_' range=':= _default_'/>
+                    </Veins>
+                </Cloud>
+                        <StandardGen name='CertusQuartz2'  inherits='PresetStandardGen' drawWireframe='true' wireframeColor='0x609BBEC2' drawBoundBox='false' boundBoxColor='0x609BBEC2'>
+                            <OreBlock block='appliedenergistics2:tile.OreQuartz' weight='0.95' />
+                            <OreBlock block='appliedenergistics2:tile.OreQuartzCharged' weight='0.05' />
+                            <Replaces block='minecraft:stone' weight='1.0' />
+                            <Biome name='.*'  />
+                            <Setting name='Size' avg=':= 5 ' range=':= _default_ ' type='normal' />
+                            <Setting name='Frequency' avg=':= 7.5 ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='Height' avg=':= 43 ' range=':= 26 ' type='normal' scaleTo='base' />
+                            <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </StandardGen>
+    </IfCondition>
+    <IfCondition condition=':= dimension.id = 13'>
+                <Cloud name='PitchblendeCloud' inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60212121' drawBoundBox='false' boundBoxColor='0x60212121'>
+                    <OreBlock block='Magneticraft:uranium_ore' weight='0.996' />
+                    <OreBlock block='Techguns:oreCluster2:11' weight='0.004' />
+                    <Biome name='.*'/>
+                    <Setting name='DistributionFrequency' avg=':= 1.4 * _default_ ' range=':= 1.2 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='CloudRadius' avg=':= 2.2 * _default_ ' range=':= 1.5 * _default_ ' type='normal' />
+                    <Setting name='CloudThickness' avg=':= 0.5 * _default_ ' range=':= 1.1 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='CloudHeight' avg=':= 35' range=':= 5' type='normal'/>
+                    <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='CloudSizeNoise' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='CloudInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='OreDensity' avg=':= 0.75 * _default_ ' range=':= 1.2 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='OreVolumeNoiseCutoff' avg=':= 0.5 * _default_ ' range=':= 0.5 * _default_ ' type='normal' />
+                    <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Veins name='PitchblendeHintVeins'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x60212121' drawBoundBox='false' boundBoxColor='0x60212121'>
+                        <OreBlock block='ReactorCraft:reactorcraft_block_ore:1' weight='1.0' />
+                        <Setting name='MotherlodeHeight' avg=':= 55' range=':= 50'/>
+                        <Setting name='MotherlodeFrequency' avg=':= 3 * _default_' range=':= _default_'/>
+                    </Veins>
+                </Cloud>
+                <Cloud name='TungstenCloud2' inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60212121' drawBoundBox='false' boundBoxColor='0x60212121'>
+                    <OreBlock block='ihl:oreGyubnera' weight='0.994' />
+                    <OreBlock block='Techguns:oreClusterCustom2' weight='0.006' />
+                    <Biome name='.*'  />
+                    <Setting name='DistributionFrequency' avg=':= 1.6 * _default_ ' range=':= 1.2 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='CloudRadius' avg=':= 1.9 * _default_ ' range=':= 1.9 * _default_ ' type='normal' />
+                    <Setting name='CloudThickness' avg=':= 1.2 * _default_ ' range=':= 1.2 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='CloudHeight' avg=':= 45' range=':= 5' type='normal'/>
+                    <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='CloudSizeNoise' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='CloudInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='OreDensity' avg=':= 1.0 * _default_ ' range=':= 1.2 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='OreVolumeNoiseCutoff' avg=':= 0.5 * _default_ ' range=':= 0.5 * _default_ ' type='normal' />
+                    <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Veins name='TungstenHintVeins2'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x60212121' drawBoundBox='false' boundBoxColor='0x60212121'>
+                        <OreBlock block='ihl:oreGyubnera' weight='1.0' />
+                        <Setting name='MotherlodeHeight' avg=':= 55' range=':= 50'/>
+                        <Setting name='MotherlodeFrequency' avg=':= 3 * _default_' range=':= _default_'/>
+                    </Veins>
+                </Cloud>
+                        <StandardGen name='CertusQuartz3'  inherits='PresetStandardGen' drawWireframe='true' wireframeColor='0x609BBEC2' drawBoundBox='false' boundBoxColor='0x609BBEC2'>
+                            <OreBlock block='appliedenergistics2:tile.OreQuartz' weight='0.95' />
+                            <OreBlock block='appliedenergistics2:tile.OreQuartzCharged' weight='0.05' />
+                            <Replaces block='minecraft:stone' weight='1.0' />
+                            <Biome name='.*'  />
+                            <Setting name='Size' avg=':= 5 ' range=':= _default_ ' type='normal' />
+                            <Setting name='Frequency' avg=':= 8.5 ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='Height' avg=':= 43 ' range=':= 26 ' type='normal' scaleTo='base' />
+                            <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </StandardGen>
+    </IfCondition>
+    <IfCondition condition=':= dimension.id = 14'>
+                        <Veins name='thm4AmberBearingStoneVeins'  inherits='PresetSparseVeins' drawWireframe='true' wireframeColor='0x60FE9D1B' drawBoundBox='false' boundBoxColor='0x60FE9D1B'>
+                            <OreBlock block='Thaumcraft:blockCustomOre:7' weight='1.0' />
+                            <Replaces block='minecraft:stone' weight='1.0' />
+                            <Biome name='.*'  />
+                            <Setting name='MotherlodeFrequency' avg=':= 1.225 * _default_ ' range=':= 1.225 * _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='MotherlodeSize' avg=':= 0 * _default_ ' range=':= 0 * _default_ ' type='normal' />
+                            <Setting name='MotherlodeHeight' avg=':= 50 ' range=':= 16 ' type='normal' scaleTo='base' />
+                            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchLength' avg=':= 1.107 * _default_ ' range=':= 1.107 * _default_ ' type='normal' />
+                            <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentLength' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentRadius' avg=':= 1.052 * _default_ ' range=':= 1.052 * _default_ ' type='normal' />
+                            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </Veins>
+                        <Veins name='thm4CinnabarVeins'  inherits='PresetSparseVeins' drawWireframe='true' wireframeColor='0x60831C20' drawBoundBox='false' boundBoxColor='0x60831C20'>
+                            <OreBlock block='Thaumcraft:blockCustomOre' weight='1.0' />
+                            <Replaces block='minecraft:stone' weight='1.0' />
+                            <Biome name='.*'  />
+                            <Setting name='MotherlodeFrequency' avg=':= 1.500 * _default_ ' range=':= 1.500 * _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='MotherlodeSize' avg=':= 0 * _default_ ' range=':= 0 * _default_ ' type='normal' />
+                            <Setting name='MotherlodeHeight' avg=':= 67 ' range=':= 61 ' type='uniform' scaleTo='base' />
+                            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchLength' avg=':= 1.225 * _default_ ' range=':= 1.225 * _default_ ' type='normal' />
+                            <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentLength' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentRadius' avg=':= 1.107 * _default_ ' range=':= 1.107 * _default_ ' type='normal' />
+                            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </Veins>
+                        <Veins name='thm4AirInfusedStoneVeins'  inherits='PresetSparseVeins' drawWireframe='true' wireframeColor='0x60FEFEAB' drawBoundBox='false' boundBoxColor='0x60FEFEAB'>
+                            <OreBlock block='Thaumcraft:blockCustomOre:1' weight='1.0' />
+                            <Replaces block='minecraft:stone' weight='1.0' />
+                            <Biome name='.*'  />
+                            <Setting name='MotherlodeFrequency' avg=':= 0.969 * _default_ ' range=':= 0.969 * _default_  ' type='normal' scaleTo='base' />
+                            <Setting name='MotherlodeSize' avg=':= 0 * _default_ ' range=':= 0 * _default_ ' type='normal' />
+                            <Setting name='MotherlodeHeight' avg=':= 67 ' range=':= 61 ' type='uniform' scaleTo='base' />
+                            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchLength' avg=':= 0.984 * _default_ ' range=':= 0.984 * _default_ ' type='normal' />
+                            <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentLength' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentRadius' avg=':= 0.992 * _default_ ' range=':= 0.992 * _default_ ' type='normal' />
+                            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </Veins>
+                        <Veins name='thm4FireInfusedStoneVeins'  inherits='PresetSparseVeins' drawWireframe='true' wireframeColor='0x60FC5100' drawBoundBox='false' boundBoxColor='0x60FC5100'>
+                            <OreBlock block='Thaumcraft:blockCustomOre:2' weight='1.0' />
+                            <Replaces block='minecraft:stone' weight='1.0' />
+                            <Biome name='.*'  />
+                            <Setting name='MotherlodeFrequency' avg=':= 0.969 * _default_ ' range=':= 0.969 * _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='MotherlodeSize' avg=':= 0 * _default_ ' range=':= 0 * _default_ ' type='normal' />
+                            <Setting name='MotherlodeHeight' avg=':= 67 ' range=':= 61 ' type='uniform' scaleTo='base' />
+                            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchLength' avg=':= 0.984 * _default_ ' range=':= 0.984 * _default_ ' type='normal' />
+                            <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentLength' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentRadius' avg=':= 0.992 * _default_ ' range=':= 0.992 * _default_ ' type='normal' />
+                            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </Veins>
+                        <Veins name='thm4WaterInfusedStoneVeins'  inherits='PresetSparseVeins' drawWireframe='true' wireframeColor='0x6000C0FA' drawBoundBox='false' boundBoxColor='0x6000C0FA'>
+                            <OreBlock block='Thaumcraft:blockCustomOre:3' weight='1.0' />
+                            <Replaces block='minecraft:stone' weight='1.0' />
+                            <Biome name='.*'  />
+                            <Setting name='MotherlodeFrequency' avg=':= 0.969 * _default_ ' range=':= 0.969 * _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='MotherlodeSize' avg=':= 0 * _default_ ' range=':= 0 * _default_ ' type='normal' />
+                            <Setting name='MotherlodeHeight' avg=':= 67 ' range=':= 61 ' type='uniform' scaleTo='base' />
+                            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchLength' avg=':= 0.984 * _default_ ' range=':= 0.984 * _default_ ' type='normal' />
+                            <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentLength' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentRadius' avg=':= 0.992 * _default_ ' range=':= 0.992 * _default_ ' type='normal' />
+                            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </Veins>
+                        <Veins name='thm4EarthInfusedStoneVeins'  inherits='PresetSparseVeins' drawWireframe='true' wireframeColor='0x6000D900' drawBoundBox='false' boundBoxColor='0x6000D900'>
+                            <OreBlock block='Thaumcraft:blockCustomOre:4' weight='1.0' />
+                            <Replaces block='minecraft:stone' weight='1.0' />
+                            <Biome name='.*'  />
+                            <Setting name='MotherlodeFrequency' avg=':= 0.969 * _default_ ' range=':= 0.969 * _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='MotherlodeSize' avg=':= 0 * _default_ ' range=':= 0 * _default_ ' type='normal' />
+                            <Setting name='MotherlodeHeight' avg=':= 67 ' range=':= 61 ' type='uniform' scaleTo='base' />
+                            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchLength' avg=':= 0.984 * _default_ ' range=':= 0.984 * _default_ ' type='normal' />
+                            <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentLength' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentRadius' avg=':= 0.992 * _default_ ' range=':= 0.992 * _default_ ' type='normal' />
+                            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </Veins>
+                        <Veins name='thm4OrderInfusedStoneVeins'  inherits='PresetSparseVeins' drawWireframe='true' wireframeColor='0x60EBEBF9' drawBoundBox='false' boundBoxColor='0x60EBEBF9'>
+                            <OreBlock block='Thaumcraft:blockCustomOre:5' weight='1.0' />
+                            <Replaces block='minecraft:stone' weight='1.0' />
+                            <Biome name='.*'  />
+                            <Setting name='MotherlodeFrequency' avg=':= 0.969 * _default_ ' range=':= 0.969 * _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='MotherlodeSize' avg=':= 0 * _default_ ' range=':= 0 * _default_ ' type='normal' />
+                            <Setting name='MotherlodeHeight' avg=':= 67 ' range=':= 61 ' type='uniform' scaleTo='base' />
+                            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchLength' avg=':= 0.984 * _default_ ' range=':= 0.984 * _default_ ' type='normal' />
+                            <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentLength' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentRadius' avg=':= 0.992 * _default_ ' range=':= 0.992 * _default_ ' type='normal' />
+                            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </Veins>
+                        <Veins name='thm4EntropyInfusedStoneVeins'  inherits='PresetSparseVeins' drawWireframe='true' wireframeColor='0x60260920' drawBoundBox='false' boundBoxColor='0x60260920'>
+                            <OreBlock block='Thaumcraft:blockCustomOre:6' weight='1.0' />
+                            <Replaces block='minecraft:stone' weight='1.0' />
+                            <Biome name='.*'  />
+                            <Setting name='MotherlodeFrequency' avg=':= 0.969 * _default_ ' range=':= 0.969 * _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='MotherlodeSize' avg=':= 0 * _default_ ' range=':= 0 * _default_ ' type='normal' />
+                            <Setting name='MotherlodeHeight' avg=':= 67 ' range=':= 61 ' type='uniform' scaleTo='base' />
+                            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='BranchLength' avg=':= 0.984 * _default_ ' range=':= 0.984 * _default_ ' type='normal' />
+                            <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentLength' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='SegmentRadius' avg=':= 0.992 * _default_ ' range=':= 0.992 * _default_ ' type='normal' />
+                            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </Veins>
+    </IfCondition>
+    <IfCondition condition=':= dimension.id = 17'>
+         <Substitute name='Methane' block='customitems:methaneice'>
+             <Replaces block='minecraft:water' weight='1.0' />
+             <Replaces block='minecraft:ice' weight='1.0' />
+         </Substitute>
+         <Substitute name='lavanuke' block='minecraft:stone'>
+             <Replaces block='minecraft:lava' weight='1.0' />
+         </Substitute>
+    </IfCondition>
+    <IfCondition condition=':= dimension.id = 18'>
+                <Veins name='dilithiumveins'  inherits='PresetPipeVeins' seed='0x197B' drawWireframe='true' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                    <OreBlock block='mo:dilithium_ore' weight='1.0' />
+                    <Replaces block='minecraft:stone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency' avg=':= 0.714 * _default_ ' range=':= 0.714 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize' avg=':= 0 * _default_ ' range=':= 0 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight' avg=':= 8 ' range=':= 8 ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='BranchLength' avg=':= 0.845 * _default_ ' range=':= 0.845 * _default_ ' type='normal' />
+                    <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='SegmentLength' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='SegmentRadius' avg=':= 0.919 * _default_ ' range=':= 0.919 * _default_ ' type='normal' />
+                    <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                </Veins>
+
+                <Veins name='dilithiumveinsPipe'  inherits='dilithiumveins' seed='0x197B' drawWireframe='true' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                    <OreBlock block='minecraft:lava' weight='1.0' />
+                    <Replaces block='minecraft:stone' weight='1.0' />
+                    <Replaces block='mo:dilithium_ore' weight='1.0' />
+                    <Setting name='MotherlodeSize' avg=':= 0 * _default_  * 0.5 ' range=':= 0 * _default_  * 0.5 ' type='normal' />
+                    <Setting name='SegmentRadius' avg=':= 0.919 * _default_  * 0.5 ' range=':= 0.919 * _default_  * 0.5 ' type='normal' />
+                    <Setting name='OreDensity' avg=':= 1.0 ' range=':= 0 ' type='normal' />
+                </Veins>
+    </IfCondition>
+    <IfCondition condition=':= dimension.id = 19'>
+                <Veins name='Tritanium1'  inherits='PresetLayeredVeins' drawWireframe='true' wireframeColor='0x60DDC2AF' drawBoundBox='false' boundBoxColor='0x60DDC2AF'>
+                    <OreBlock block='mo:tritanium_ore' weight='1.0' />
+                    <Replaces block='minecraft:stone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency' avg=':= 2.2 * _default_ ' range=':= 2.2 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize' avg=':= 1.2 * _default_ ' range=':= 1.2 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight' avg=':= 180 ' range=':= 32 ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='BranchFrequency' avg=':= 1.5 * _default_ ' range=':= 1.5 * _default_ ' type='normal' />
+                    <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='BranchLength' avg=':= 2 * _default_ ' range=':= 2 * _default_ ' type='normal' />
+                    <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='SegmentLength' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='SegmentRadius' avg=':= 1.223 * _default_ ' range=':= 1.223 * _default_ ' type='normal' />
+                    <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                </Veins>
+    </IfCondition>
+
+</ConfigSection>

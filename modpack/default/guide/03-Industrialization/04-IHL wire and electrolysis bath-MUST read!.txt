@@ -1,0 +1,8 @@
+§2§lIHL wire and the electrolysis bath
+
+Unlike electrolyzing water or water solutions, aluminium needs to be electrolyzed in a special electrolysis bath using molten cryolite as electrolyte. Cryolite can be found in granite layers and is not consumed in the process.
+The electrolysis bath can only be connected to IC2 grids via IHL cables. To uses the wire, sneak-rightclick the electrolysis bath then sneak-rightclick an IC2 power source (storage block or wires).
+§C§LWARNING: There is a unknown bug which could lead to server deadlock when using IE wires with IHL wires. If you really want to use IE wire to power it, the connection sequence should be IE->IC2->IC2->IHL instead of IE->IC2->IHL, as shown below
+{"image":"wire1.png"}
+{"image":"wire2.png"}
+

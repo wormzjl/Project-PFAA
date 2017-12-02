@@ -1,0 +1,7 @@
+<ConfigSection>
+    <IfCondition condition=':= dimension.id = -1'>
+            <Substitute name='Quartz' block='Techguns:oreCluster2'>
+                <Replaces block='minecraft:quartz_ore' weight='0.005' />
+            </Substitute>
+    </IfCondition>
+</ConfigSection>

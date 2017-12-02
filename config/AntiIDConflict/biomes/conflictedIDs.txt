@@ -1,0 +1,18 @@
+Total amount of conflicted biome ids: 15
+IDs in conflict:
+
+0 is asked by: Ocean (net.minecraft.world.biome.BiomeGenOcean), Ocean (com.bioxx.tfc.WorldGen.TFCBiome)
+1 is asked by: Plains (net.minecraft.world.biome.BiomeGenPlains), Plains (com.bioxx.tfc.WorldGen.TFCBiome)
+2 is asked by: Desert (net.minecraft.world.biome.BiomeGenDesert), Lake (com.bioxx.tfc.WorldGen.TFCBiome)
+3 is asked by: Extreme Hills (net.minecraft.world.biome.BiomeGenHills), High Hills (com.bioxx.tfc.WorldGen.TFCBiome)
+6 is asked by: Swampland (net.minecraft.world.biome.BiomeGenSwamp), Swamp (com.bioxx.tfc.WorldGen.TFCBiome)
+7 is asked by: River (net.minecraft.world.biome.BiomeGenRiver), River (com.bioxx.tfc.WorldGen.TFCBiome)
+8 is asked by: Hell (net.minecraft.world.biome.BiomeGenHell), Hell (com.bioxx.tfc.WorldGen.TFCBiome)
+16 is asked by: Beach (net.minecraft.world.biome.BiomeGenBeach), Beach (com.bioxx.tfc.WorldGen.TFCBiome)
+17 is asked by: DesertHills (net.minecraft.world.biome.BiomeGenDesert), Gravel Beach (com.bioxx.tfc.WorldGen.TFCBiome)
+20 is asked by: Extreme Hills Edge (net.minecraft.world.biome.BiomeGenHills), High Hills Edge (com.bioxx.tfc.WorldGen.TFCBiome)
+30 is asked by: Cold Taiga (net.minecraft.world.biome.BiomeGenTaiga), Rolling Hills (com.bioxx.tfc.WorldGen.TFCBiome)
+31 is asked by: Cold Taiga Hills (net.minecraft.world.biome.BiomeGenTaiga), Mountains (com.bioxx.tfc.WorldGen.TFCBiome)
+32 is asked by: Mega Taiga (net.minecraft.world.biome.BiomeGenTaiga), Mountains Edge (com.bioxx.tfc.WorldGen.TFCBiome)
+35 is asked by: Savanna (net.minecraft.world.biome.BiomeGenSavanna), High Plains (com.bioxx.tfc.WorldGen.TFCBiome)
+36 is asked by: Savanna Plateau (net.minecraft.world.biome.BiomeGenSavanna), Deep Ocean (com.bioxx.tfc.WorldGen.TFCBiome)

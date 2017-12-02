@@ -1,0 +1,27 @@
+§2§lPack Description
+
+§0Hello and welcome to the pack of project Per Fabrica Ad Astra ("Through crafting, to the stars"), created by team CappCraft. We are a group of players who seeks the limits of modded Minecraft.
+
+The pack was named after a mod created by noogenesis, which aims at improving the technical realism of modded Minecraft. The content of this pack was heavily inspired by the TNFC pack, and factorio mods such as bob’s and angel’s. 
+
+This pack aims at providing a complete, believable and smooth experience from stone age to interstellar travel, with heavy engineering content in mind. Below is a list of features:
+- Build (probably) the largest factory you have ever seen, with a large amount of multiblock machines. Resource processing becomes more and more complex during your progression, and is fun to make and watch.
+- Manage you power generation and consumption, electricity is not free. Burn coal to start your basic industry, then pass to oil, nuclear fission, and nuclear fusion. Renewable energy will help you get started but will not be your main power source.
+- Use transport belts to automate your production lines, or be more advanced and use factorization servos. Energizing matter (AE2) is for the late game. Use redstone, buildcraft gate and computers (OC/TIS-3D) to control your automations.
+- Build your train network to connect your main base with different automatic ore mines, or even different sectors in your base.
+- Learn some chemistry, or, chemical engineering while playing.
+- Progress together, collaborate and trade with other players for resources and materials.
+
+The gameplay can be identified with a few “ages”:
+* Stone age to Bronze age provided by vanilla TFC.
+* Steel age – Basic industry with Immersive Engineering and Industrialcraft 2, unmanned resource extraction and great increase in resource processing efficiency.
+* Petrochem age – Enhanced industry featuring chemistry and oil refining, powered by Magneticraft and IHL. Have you ever seen a real oil refinery?
+* Aluminium age – Start of advanced rocketry, making advanced components and extracting minor elements from minerals.
+* Titanium age – Basic space flight, moon landing, UUM and iridium production, experimental fusion devices.
+* Tungsten age – Top-tier-insanely-complex material production, interstellar travel, ultimate productivity enhancement.
+* Endgame – Mekanism self-sustainable fusion as the ultimate goal.
+
+An information package can be downloaded on:
+{"text":"§1https://drive.google.com/file/d/1hhNsS48VLVn8TAHbef5L3hR3Y4D8cr3f/view?usp=sharing", "click":{"type":"url", "data":"https://drive.google.com/file/d/1hhNsS48VLVn8TAHbef5L3hR3Y4D8cr3f/view?usp=sharing"}}
+
+This package contains flowcharts and oregen chart, check this if you have problem finding stuffs.

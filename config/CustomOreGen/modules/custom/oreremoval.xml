@@ -1,0 +1,29 @@
+<ConfigSection>
+            <Substitute name='vnlaOverworldBlockSubstitute3' block='minecraft:stone'>
+                <Description>
+                    Replace vanilla-generated ore clusters.
+                </Description>
+                <Replaces block='minecraft:coal_ore' weight='1.0' />
+                <Replaces block='minecraft:diamond_ore' weight='1.0' />
+                <Replaces block='minecraft:emerald_ore' weight='1.0' />
+                <Replaces block='minecraft:gold_ore' weight='1.0' />
+                <Replaces block='minecraft:iron_ore' weight='1.0' />
+                <Replaces block='minecraft:lapis_ore' weight='1.0' />
+                <Replaces block='minecraft:redstone_ore' weight='1.0' />
+
+                <IfCondition condition=':= ?blockExists("IC2:blockOreCopper")'> <Replaces block='IC2:blockOreCopper' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("IC2:blockOreTin")'> <Replaces block='IC2:blockOreTin' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("IC2:blockOreUran")'> <Replaces block='IC2:blockOreUran' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("IC2:blockOreLead")'> <Replaces block='IC2:blockOreLead' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("techreborn:techreborn.ore:0")'> <Replaces block='techreborn:techreborn.ore:0' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("techreborn:techreborn.ore:4")'> <Replaces block='techreborn:techreborn.ore:4' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("techreborn:techreborn.ore:12")'> <Replaces block='techreborn:techreborn.ore:12' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("techreborn:techreborn.ore:13")'> <Replaces block='techreborn:techreborn.ore:13' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("techreborn:techreborn.ore:14")'> <Replaces block='techreborn:techreborn.ore:14' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("techreborn:techreborn.ore:15")'> <Replaces block='techreborn:techreborn.ore:15' weight='1.0' /> </IfCondition>
+                
+                <IfCondition condition=':= ?blockExists("Forestry:resources:0")'> <Replaces block='Forestry:resources:0' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("Forestry:resources:1")'> <Replaces block='Forestry:resources:1' weight='1.0' /> </IfCondition>
+                <IfCondition condition=':= ?blockExists("Forestry:resources:2")'> <Replaces block='Forestry:resources:2' weight='1.0' /> </IfCondition>
+            </Substitute>
+</ConfigSection>

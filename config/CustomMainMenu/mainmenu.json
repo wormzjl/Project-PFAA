@@ -1,0 +1,84 @@
+{
+    "images":
+    {
+    },
+
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "texture" : "mainmenu:button.png",
+            "posX" : 25,
+            "posY" : 15,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "left_center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "texture" : "mainmenu:button.png",
+            "posX" : 25,
+            "posY" : 39,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "left_center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+        "options":
+        {
+            "text" : "menu.options",
+            "texture" : "mainmenu:button.png",
+            "posX" : 25,
+            "posY" : 63,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "left_center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+        "quit":
+        {
+            "text" : "menu.quit",
+            "texture" : "mainmenu:button.png",
+            "posX" : 25,
+            "posY" : 87,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "left_center",
+            "action" :
+            {
+                "type" : "quit"
+            }
+        }
+    },
+
+    "texts":
+    {
+    },
+
+    "other":
+    {
+      "background":
+        {
+            "image" : "mainmenu:background/title.jpg",
+            "mode" : "stretch"
+        }
+    }
+}

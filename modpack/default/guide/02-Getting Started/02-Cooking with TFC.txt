@@ -1,0 +1,16 @@
+§2§lCooking with TFC
+
+Cooking with TFC mod aims at providing a more immersive experience during food preparation as well as adding some fun.
+
+The detailed information of this mod can be found at:
+{"text":"§1https://github.com/StrayWolfe/Cooking-with-TFC/wiki", "click":{"type":"url", "data":"https://github.com/StrayWolfe/Cooking-with-TFC/wiki"}}
+
+TL;DR:
+- Making bread consists a lot morst steps and baking bread requires a clay oven.
+- Making sandwich need to be done manually on the food preparation table, with a knife in hotbar.
+- Many more food can be made with the cooking pot.
+- Config forcing food diversity has been disabled to make life easier.
+
+{"image":"cooking.png"}
+
+To store your food, you can use the cellar from tfc cellar's mod. After entering industrial age, the fridge and deep freezer from TFC engineer's mod becomes available.

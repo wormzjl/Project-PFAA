@@ -1,0 +1,42 @@
+§2§lParticle accelerator - the basics
+
+To make UUM production more interesting, we have created this particle accelerator mod specifically for this pack.
+This mod was inspired by the atomic science mod in 1.4.7, but was written in a much performance-friendly way.
+
+The accelerator needs to be built best with a round shape, so the first thing you want to make is a accelerator building instructor.
+This block doesn't do anthing alone, but if you place certain block on it, it will show a circle with specific radius. 
+Gold block=10, Iron block=5, cobblestone=2, oak plank=1. Blocks can be stacked as shown below:
+{"image":"building.png"}
+
+Cover the line with accelerator hull block like below, it should form a circle and cover the line completely:
+{"image":"acc1.png"}
+{"image":"acc2.png"}
+
+Then, place a layer of accelerator tunnel block over the hull block:
+{"image":"acc3.png"}
+
+Now, cover every side of the tunnel block with hull block, you should get something like this:
+{"image":"acc4.png"}
+
+Replace any 2 hull blocks with an accelerator energy port and fluid port:
+{"image":"acc5.png"}
+{"image":"acc6.png"}
+
+And a hull block with the accelerator core:
+{"image":"acc7.png"}
+
+Rightclick to open the GUI, it will start to scan the structure, this will take some time so be patient:
+{"image":"acc8.png"}
+
+When scanning is finished, the GUI will look like this:
+{"image":"acc9.png"}
+
+Power it up and start producing UUM, it can be pumped out from the fluid port:
+{"image":"acc10.png"}
+{"image":"acc11.png"}
+
+I'd recommend starting with a accelerator with a radius of 7-10 blocks. If you want, the accelerator can be built with any shape you like, but it will work at a lower efficency.
+
+The accelerator does not have a fixed power usage and will use all provided energy to work, the bigger the current, the faster it will go. If the completion percentage doesn't move, try to provide it with a higher current. The energy useage per UUM depends on the size of the accelerator. Generally, the bigger the circle, the better the efficiency. The exact mecanism is explained in following chapters.
+
+An array of MFSUs will be necessary to provide the current in the begining. Design your power system wisely.

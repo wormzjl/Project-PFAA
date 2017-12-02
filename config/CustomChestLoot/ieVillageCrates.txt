@@ -1,0 +1,2 @@
+count=3-9
+contents=ImmersiveEngineering:material;0;2-7;20,ImmersiveEngineering:material;11;1-2;8,ImmersiveEngineering:material;12;1-1;5,ImmersiveEngineering:metal;0;2-5;16,ImmersiveEngineering:metal;1;1-4;10,ImmersiveEngineering:metal;2;1-4;10,ImmersiveEngineering:metal;7;1-4;8,ImmersiveEngineering:blueprint;0;1-1;5,ImmersiveEngineering:blueprint;1;1-1;2,ImmersiveEngineering:blueprint;2;1-1;1,ImmersiveEngineering:shader;0;1-1;5

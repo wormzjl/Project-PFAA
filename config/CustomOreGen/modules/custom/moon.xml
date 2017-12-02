@@ -1,0 +1,59 @@
+<ConfigSection>
+    <IfCondition condition=':= dimension.id = 9'>
+        <Substitute name='moonnerf' block='minecraft:stone'>
+            <Replaces block='minecraft:flowing_water' weight='1.0' />
+            <Replaces block='minecraft:water' weight='1.0' />
+            <Replaces block='minecraft:flowing_lava' weight='1.0' />
+            <Replaces block='minecraft:lava' weight='1.0' />
+        </Substitute>
+
+        <Substitute name='moonnerf2' block='0'>
+            <Replaces block='Thaumcraft:blockAiry' weight='1.0' />
+            <Replaces block='Forestry:beehives:1' weight='1.0' />
+            <Replaces block='Forestry:beehives:2' weight='1.0' />
+            <Replaces block='Forestry:beehives:3' weight='1.0' />
+            <Replaces block='Forestry:beehives:4' weight='1.0' />
+            <Replaces block='Forestry:beehives:6' weight='1.0' />
+            <Replaces block='Forestry:beehives:7' weight='1.0' />
+            <Replaces block='minecraft:brown_mushroom' weight='1.0' />
+            <Replaces block='minecraft:red_mushroom' weight='1.0' />
+        </Substitute>
+
+        <ConfigSection>
+                <Cloud name='RutileCloud' inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60212121' drawBoundBox='false' boundBoxColor='0x60212121'>
+                    <OreBlock block='libVulpes:libVulpesore0:8' weight='0.994' />
+                    <OreBlock block='Techguns:oreClusterCustom:15' weight='0.006' />
+                    <Biome name='.*'  />
+                    <Setting name='DistributionFrequency' avg=':= 1.5 * _default_ ' range=':= 1.5 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='CloudRadius' avg=':= 1.9 * _default_ ' range=':= 1.9 * _default_ ' type='normal' />
+                    <Setting name='CloudThickness' avg=':= 1.2 * _default_ ' range=':= 1.2 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='CloudHeight' avg=':= 45' range=':= 5' type='normal'/>
+                    <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='CloudSizeNoise' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='CloudInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Setting name='OreDensity' avg=':= 0.8 * _default_ ' range=':= 1.2 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='OreVolumeNoiseCutoff' avg=':= 0.5 * _default_ ' range=':= 0.5 * _default_ ' type='normal' />
+                    <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                    <Veins name='RutileHintVeins'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x60212121' drawBoundBox='false' boundBoxColor='0x60212121'>
+                        <OreBlock block='libVulpes:libVulpesore0:8' weight='1.0' />
+                        <Setting name='MotherlodeHeight' avg=':= 55' range=':= 50'/>
+                        <Setting name='MotherlodeFrequency' avg=':= 3 * _default_' range=':= _default_'/>
+                    </Veins>
+                </Cloud>
+        </ConfigSection>
+
+                <ConfigSection>
+                        <StandardGen name='CertusQuartzMoon'  inherits='PresetStandardGen' drawWireframe='true' wireframeColor='0x609BBEC2' drawBoundBox='false' boundBoxColor='0x609BBEC2'>
+                            <OreBlock block='appliedenergistics2:tile.OreQuartz' weight='0.95' />
+                            <OreBlock block='appliedenergistics2:tile.OreQuartzCharged' weight='0.05' />
+                            <Replaces block='minecraft:stone' weight='1.0' />
+                            <Biome name='.*'  />
+                            <Setting name='Size' avg=':= 5 ' range=':= _default_ ' type='normal' />
+                            <Setting name='Frequency' avg=':= 4 ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='Height' avg=':= 43 ' range=':= 26 ' type='normal' scaleTo='base' />
+                            <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+                        </StandardGen>
+                </ConfigSection>
+
+    </IfCondition>
+</ConfigSection>

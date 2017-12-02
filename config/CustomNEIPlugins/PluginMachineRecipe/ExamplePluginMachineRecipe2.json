@@ -1,0 +1,64 @@
+{
+	"plugin_type": "plugin_machine_recipe",
+	"plugin_enabled": "false",
+	"plugin_recipe_per_page": "1",
+	"plugin_unlocalized_title_name": "AchangCraft.neiplguin.minerTier1.title.name",
+	"plugin_background_texture": "nei:textures/gui/recipebg.png",
+	"plugin_gui_texture": "AchangCraft:textures/gui/TierGUI.png",
+	"plugin_gui_class": "custom_stuff2.AchangCraft.minerTier1GUI",
+	"this_is_a_comment_and_you_can_delete_it_safely": "You can use the gui class from custom_stuff2 mod, for which you should write \"custom_stuff2.modid.gui_name\" above.",
+	"plugin_recipe_identifier": "AchangCraft_MinerTier1",
+	"plugin_transfer_rect":[
+		{
+			"posX": "74",
+			"posY": "18",
+			"width": "24",
+			"height": "17"
+		}
+	],
+	"plugin_progress_bar":[
+		{	
+			"posX": "74",
+			"posY": "18",
+			"textureX": "176",
+			"textureY": "14",
+			"width": "24",
+			"height": "17",
+			"ticks": "48",
+			"direction": "0"
+		}
+	],
+	"plugin_gui_offset": [
+		{
+			"offsetX": "5",
+			"offsetY": "16"
+		}
+	],
+	"plugin_recipes":[
+		{
+			"inputs":[ 
+				{"item": "minecraft:coal", "stacksize": "1", "oredict": "false", "posX": "51", "posY": "19"},
+				{"item": "AchangCraft:oreIron", "stacksize": "1", "oredict": "false", "posX": "78", "posY": "45"}
+			],
+			"outputs":[
+				{"item": "Magneticraft:item.chunks", "stacksize": "1", "oredict_search": "false", "posX": "111", "posY": "19"}
+			],
+			"strings":[ 
+				{"string": "AchangCraft.neiplguin.displayString1", "posX": "86", "posY": "36"}
+			]
+		},
+		{
+			"inputs":[ 
+				{"item": "minecraft:coal", "stacksize": "1", "oredict": "false", "posX": "51", "posY": "19"},
+				{"item": "AchangCraft:oreGold", "stacksize": "1", "oredict": "false", "posX": "78", "posY": "45"}
+			],
+			"outputs":[
+				{"item": "Magneticraft:item.chunks:1", "stacksize": "1", "oredict_search": "false", "posX": "111", "posY": "19"}
+			],
+			"strings":[ 
+				{"string": "AchangCraft.neiplguin.displayString2_,78", "posX": "86", "posY": "36"}
+			]
+		}
+	]
+}
+

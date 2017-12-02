@@ -1,0 +1,572 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="false">
+	<Recipe timeRequired="200" power="512">
+		<input>
+			<itemStack>ihl:item.ihlSimpleItem 8 89</itemStack>
+			<fluidStack>sulfuricacid 1000</fluidStack>
+        </input>
+		<output>
+			<itemStack>customitems:potassiumpersulfate 8 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>advancedRocketry:wafer 1 0</itemStack>
+			<oreDict>dustCobalt 1</oreDict>
+			<oreDict>platePlatinum 1</oreDict>
+			<fluidStack>sulfuricacid 1000</fluidStack>
+        </input>
+		<output>
+			<itemStack>techreborn:part 4 7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>advancedRocketry:wafer 1 0</itemStack>
+			<itemStack>IC2:itemCable 3 2</itemStack>
+			<itemStack>customitems:siliconnitride 2 0</itemStack>
+			<fluidStack>sulfuricacid 1000</fluidStack>
+        </input>
+		<output>
+			<itemStack>customitems:cpu 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power="128">
+		<input>
+			<itemStack>customitems:polycarbonateplastic 1 0</itemStack>
+			<oreDict>plateCopper 1</oreDict>
+			<oreDict>plateGold 1</oreDict>
+			<fluidStack>ferricchloride 1000</fluidStack>
+        </input>
+		<output>
+			<itemStack>techreborn:part 1 3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="20" power="32">
+		<input>
+			<fluidStack>fluidmethane 100</fluidStack>
+        </input>
+		<output>
+			<fluidStack>methane 1500</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="20" power="32">
+		<input>
+			<fluidStack>fluidhydrogen 100</fluidStack>
+        </input>
+		<output>
+			<fluidStack>hydrogen 1500</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="20">
+		<input>
+			<itemStack>advancedRocketry:item.carbonScrubberCartridge 1 172800</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:item.carbonScrubberCartridge</itemStack>
+			<itemStack>minecraft:coal 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="160" power="128">
+		<input>
+			<itemStack>IC2:blockAlloyGlass 1 0</itemStack>
+			<itemStack>techreborn:dust 1 13</itemStack>
+			<fluidStack>trichlorosilane 4000</fluidStack>
+        </input>
+		<output>
+			<itemStack>advancedRocketry:satellitePowerSource 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power="128">
+		<input>
+			<itemStack>techreborn:plates 2 1</itemStack>
+			<itemStack>IC2:itemCable 1 10</itemStack>
+			<oreDict>dustRedstone 2</oreDict>
+        </input>
+		<output>
+			<itemStack>IC2:itemBatREDischarged 2 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power="128">
+		<input>
+			<itemStack>techreborn:plates 2 1</itemStack>
+			<itemStack>IC2:itemCable 2 1</itemStack>
+			<fluidStack>sulfuricacid 1000</fluidStack>
+        </input>
+		<output>
+			<itemStack>IC2:itemAdvBat 2 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power="128">
+		<input>
+			<itemStack>advancedRocketry:wafer 1 0</itemStack>
+			<itemStack>IC2:itemPartCircuit 4 0</itemStack>
+        </input>
+		<output>
+			<itemStack>techreborn:part 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power="128">
+		<input>
+			<itemStack>PneumaticCraft:plastic 1 15</itemStack>
+			<oreDict>plateGold 1</oreDict>
+        </input>
+		<output>
+			<itemStack>techreborn:part 1 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="128">
+		<input>
+			<itemStack>PneumaticCraft:plastic 1 15</itemStack>
+			<oreDict>plateElectrum 1</oreDict>
+        </input>
+		<output>
+			<itemStack>techreborn:part 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="64">
+		<input>
+			<fluidStack>sulfuricacid 1000</fluidStack>
+			<itemStack>customitems:nativecopper_pd 1 0</itemStack>
+        </input>
+		<output>
+			<fluidStack>slurrynativecopper 1000</fluidStack>
+			<itemStack>customitems:tinypileofantimonyoxide 4 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="64">
+		<input>
+			<fluidStack>sodiumcyanide 1000</fluidStack>
+			<itemStack>customitems:nativegold_pd 1 0</itemStack>
+        </input>
+		<output>
+			<fluidStack>slurrynativegold 1000</fluidStack>
+			<itemStack>terrafirmacraft:item.MetalNugget 1 13</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="400" power="64">
+		<input>
+			<fluidStack>aquaregia 1000</fluidStack>
+			<itemStack>customitems:nativeplatinum_pd 1 0</itemStack>
+        </input>
+		<output>
+			<fluidStack>slurrynativeplatinum 1000</fluidStack>
+			<itemStack>customitems:smallpileoftitaniumdioxide 2 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="64">
+		<input>
+			<fluidStack>sodiumcyanide 1000</fluidStack>
+			<itemStack>customitems:nativesilver_pd 1 0</itemStack>
+        </input>
+		<output>
+			<fluidStack>slurrynativesilver 1000</fluidStack>
+			<itemStack>customitems:tinypileofantimonyoxide 2 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="64">
+		<input>
+			<fluidStack>sulfuricacid 1000</fluidStack>
+			<itemStack>customitems:cassiterite_pd 1 0</itemStack>
+        </input>
+		<output>
+			<fluidStack>slurrycassiterite 1000</fluidStack>
+			<itemStack>ihl:item.ihlSimpleItem 4 180</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="64">
+		<input>
+			<fluidStack>sulfuricacid 1000</fluidStack>
+			<itemStack>customitems:galena_pd 1 0</itemStack>
+        </input>
+		<output>
+			<fluidStack>slurrygalena 1000</fluidStack>
+			<itemStack>techreborn:smallDust 2 37</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="64">
+		<input>
+			<fluidStack>sulfuricacid 1000</fluidStack>
+			<itemStack>customitems:garnierite_pd 1 0</itemStack>
+        </input>
+		<output>
+			<fluidStack>slurrygarnierite 1000</fluidStack>
+			<itemStack>techreborn:smallDust 2 20</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="64">
+		<input>
+			<fluidStack>sulfuricacid 1000</fluidStack>
+			<itemStack>customitems:malachite_pd 1 0</itemStack>
+        </input>
+		<output>
+			<fluidStack>slurrymalachite 1000</fluidStack>
+			<itemStack>techreborn:smallDust 2 20</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="64">
+		<input>
+			<fluidStack>sulfuricacid 1000</fluidStack>
+			<itemStack>customitems:magnetite_pd 1 0</itemStack>
+        </input>
+		<output>
+			<fluidStack>slurrymagnetite 1000</fluidStack>
+			<itemStack>techreborn:smallDust 1 16</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="64">
+		<input>
+			<fluidStack>sulfuricacid 1000</fluidStack>
+			<itemStack>customitems:sphalerite_pd 1 0</itemStack>
+        </input>
+		<output>
+			<fluidStack>slurrysphalerite 1000</fluidStack>
+			<itemStack>techreborn:smallDust 2 13</itemStack>
+			<itemStack>ihl:item.ihlSimpleItem 3 180</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="64">
+		<input>
+			<fluidStack>sulfuricacid 1000</fluidStack>
+			<itemStack>customitems:tetrahedrite_pd 1 0</itemStack>
+        </input>
+		<output>
+			<fluidStack>slurrytetrahedrite 1000</fluidStack>
+			<itemStack>techreborn:smallDust 2 13</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>sulfuricacid 1000</fluidStack>
+			<itemStack>customitems:pitchblende_pd 1 0</itemStack>
+        </input>
+		<output>
+			<fluidStack>slurrypitchblende 1000</fluidStack>
+			<itemStack>IC2:itemUran235small 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="128">
+		<input>
+			<fluidStack>slurrypitchblende 1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>sulfuricwastewater 1000</fluidStack>
+			<itemStack>customitems:yellowcake 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="600" power="512">
+		<input>
+			<fluidStack>chlorine 1000</fluidStack>
+			<itemStack>customitems:titaniumdioxide 1 0</itemStack>
+			<itemStack>ImmersiveEngineering:metal 1 17</itemStack>
+        </input>
+		<output>
+			<itemStack>ImmersiveEngineering:material 1 13</itemStack>
+			<fluidStack>titaniumchloride 1000</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="600" power="512">
+		<input>
+			<fluidStack>titaniumchloride 1000</fluidStack>
+			<itemStack>ihl:item.ihlSimpleItem 1 157</itemStack>
+        </input>
+		<output>
+			<itemStack>customitems:titaniumsponge 1 0</itemStack>
+			<itemStack>ImmersiveEngineering:material 1 13</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power="512">
+		<input>
+			<fluidStack>chlorine 1000</fluidStack>
+			<oreDict>dustTungsten 1</oreDict>
+        </input>
+		<output>
+			<itemStack>customitems:tungstenhexachloride 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power="1024">
+		<input>
+			<fluidStack>hydrogen 1000</fluidStack>
+			<fluidStack>methane 1000</fluidStack>
+			<itemStack>customitems:tungstenhexachloride 1 0</itemStack>
+        </input>
+		<output>
+			<itemStack>customitems:tungstencarbide 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>chlorine 200</fluidStack>
+			<itemStack>ihl:item.ihlSimpleItem 1 175</itemStack>
+        </input>
+		<output>
+			<fluidStack>sodiumhypochlorite 200</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power="64">
+		<input>
+			<fluidStack>ammonia 200</fluidStack>
+			<fluidStack>sodiumhypochlorite 200</fluidStack>
+        </input>
+		<output>
+			<fluidStack>chloramine 200</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power="64">
+		<input>
+			<fluidStack>ammonia 200</fluidStack>
+			<fluidStack>chloramine 200</fluidStack>
+        </input>
+		<output>
+			<fluidStack>hydrazine 200</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power="64">
+		<input>
+			<fluidStack>dimethylamine 200</fluidStack>
+			<fluidStack>chloramine 200</fluidStack>
+        </input>
+		<output>
+			<fluidStack>dimethylhydrazine 200</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power="64">
+		<input>
+			<fluidStack>dimethylhydrazine 200</fluidStack>
+			<fluidStack>hydrazine 200</fluidStack>
+        </input>
+		<output>
+			<fluidStack>rocketfuel 200</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>sulfuricacid 1000</fluidStack>
+			<itemStack>ImmersiveEngineering:material 16 13</itemStack>
+        </input>
+		<output>
+			<fluidStack>slagsolution 1000</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>slagsolution 1000</fluidStack>
+			<itemStack>ihl:item.ihlSimpleItem 2 175</itemStack>
+        </input>
+		<output>
+			<fluidStack>purifiedslagsolution 1000</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>purifiedslagsolution 1000</fluidStack>
+			<itemStack>techreborn:smallDust 1 40</itemStack>
+        </input>
+		<output>
+			<itemStack>customitems:seed_iron 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>purifiedslagsolution 1000</fluidStack>
+			<itemStack>techreborn:smallDust 1 33</itemStack>
+        </input>
+		<output>
+			<itemStack>customitems:seed_gold 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>purifiedslagsolution 1000</fluidStack>
+			<itemStack>techreborn:smallDust 1 21</itemStack>
+        </input>
+		<output>
+			<itemStack>customitems:seed_copper 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>purifiedslagsolution 1000</fluidStack>
+			<itemStack>techreborn:smallDust 1 80</itemStack>
+        </input>
+		<output>
+			<itemStack>customitems:seed_tin 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>purifiedslagsolution 1000</fluidStack>
+			<itemStack>techreborn:smallDust 1 71</itemStack>
+        </input>
+		<output>
+			<itemStack>customitems:seed_silver 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>purifiedslagsolution 1000</fluidStack>
+			<itemStack>techreborn:smallDust 1 44</itemStack>
+        </input>
+		<output>
+			<itemStack>customitems:seed_lead 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>purifiedslagsolution 1000</fluidStack>
+			<itemStack>techreborn:smallDust 1 55</itemStack>
+        </input>
+		<output>
+			<itemStack>customitems:seed_nickel 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>purifiedslagsolution 1000</fluidStack>
+			<itemStack>techreborn:smallDust 1 5</itemStack>
+        </input>
+		<output>
+			<itemStack>customitems:seed_antimony 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>purifiedslagsolution 1000</fluidStack>
+			<itemStack>techreborn:smallDust 1 49</itemStack>
+        </input>
+		<output>
+			<itemStack>customitems:seed_manganese 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>purifiedslagsolution 1000</fluidStack>
+			<itemStack>techreborn:smallDust 1 37</itemStack>
+        </input>
+		<output>
+			<itemStack>customitems:seed_indium 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>purifiedslagsolution 1000</fluidStack>
+			<itemStack>techreborn:smallDust 1 13</itemStack>
+        </input>
+		<output>
+			<itemStack>customitems:seed_cadmium 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>purifiedslagsolution 1000</fluidStack>
+			<itemStack>techreborn:smallDust 1 20</itemStack>
+        </input>
+		<output>
+			<itemStack>customitems:seed_cobalt 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>purifiedslagsolution 1000</fluidStack>
+			<itemStack>techreborn:smallDust 1 16</itemStack>
+        </input>
+		<output>
+			<itemStack>customitems:seed_chrome 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>purifiedslagsolution 1000</fluidStack>
+			<oreDict>dustQuartz 1</oreDict>
+        </input>
+		<output>
+			<itemStack>customitems:seed_quartz 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>sulfuricwastewater 2000</fluidStack>
+        </input>
+		<output>
+			<itemStack>terrafirmacraft:item.Powder 1 3</itemStack>
+			<fluidStack>slagsolution 100</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="20" power="32">
+		<input>
+			<fluidStack>freshwater 1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>water 1000</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="512">
+		<input>
+			<fluidStack>water 1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>ic2distilledwater 1000</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="64">
+		<input>
+			<fluidStack>nitrogen 2000</fluidStack>
+			<itemStack>techreborn:dust 1 69</itemStack>
+        </input>
+		<output>
+			<itemStack>customitems:siliconnitride 1 0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="64">
+		<input>
+			<fluidStack>hydrogenchloride 1000</fluidStack>
+			<oreDict>dustIron 1</oreDict>
+        </input>
+		<output>
+			<fluidStack>ferricchloride 1000</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="64">
+		<input>
+			<fluidStack>trichlorosilane 1000</fluidStack>
+        </input>
+		<output>
+			<itemStack>techreborn:dust 1 69</itemStack>
+			<fluidStack>chlorine 250</fluidStack>
+			<fluidStack>hydrogenchloride 250</fluidStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="1000" power="1024">
+		<input>
+			<fluidStack>hydrogen 1000</fluidStack>
+			<fluidStack>methanenatural 1000</fluidStack>
+			<itemStack>customitems:tungstenhexachloride 1 0</itemStack>
+        </input>
+		<output>
+			<itemStack>customitems:tungstencarbide 1 0</itemStack>
+		</output>
+	</Recipe>
+
+</Recipes>
