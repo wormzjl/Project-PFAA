@@ -111,34 +111,6 @@ recipes.addShaped(<WR-CBE|Core:retherPearl>,
     [<minecraft:glowstone_dust>, <customitems:berylliumingot>, <minecraft:glowstone_dust>],
     [<minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:redstone>]]);
 
-
-//TC misc
-mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemGolemPlacer:*>);
-
-recipes.removeShaped(<Thaumcraft:blockWoodenDevice:6>, [[<Thaumcraft:blockMagicalLog>]]);
-recipes.addShapeless(<terrafirmacraft:item.SinglePlank:17> * 8, [<Thaumcraft:blockMagicalLog>, <ore:itemSaw>]);
-
-recipes.removeShaped(<Thaumcraft:blockWoodenDevice:7>, [[<Thaumcraft:blockMagicalLog:1>]]);
-recipes.addShapeless(<terrafirmacraft:item.SinglePlank:18> * 8, [<Thaumcraft:blockMagicalLog:1>, <ore:itemSaw>]);
-
-recipes.addShapeless(<terrathaumcraft:blockMetalDeviceTTC>, [<terrathaumcraft:crucible>]);
-recipes.addShapeless(<Thaumcraft:blockTable:15>,[<Thaumcraft:blockTable>,<Thaumcraft:WandCasting>]);
-
-mods.thaumcraft.Arcane.addShapeless("ASPECTS", <minecraft:gold_ingot>, "ordo 1", [<ore:ingotGold>,<ore:nuggetGold>]);
-mods.thaumcraft.Arcane.addShapeless("ASPECTS", <minecraft:iron_ingot>, "ordo 1", [<ore:ingotIron>,<ore:nuggetIron>]);
-furnace.addRecipe(<Thaumcraft:ItemResource:3>, <ihl:item.ihlSimpleItem:109>);
-recipes.addShapeless(<Thaumcraft:BlockJarFilledItem>,[<Thaumcraft:BlockJarFilledItem>]);
-recipes.addShapeless(<Thaumcraft:ItemResource:2>,[<terrathaumcraft:item.thaumiumingot>]);
-
-mods.thaumcraft.Research.orphanResearch("COREHARVEST");
-mods.thaumcraft.Research.removeResearch("COREHARVEST");
-
-mods.thaumcraft.Research.orphanResearch("COREFISHING");
-mods.thaumcraft.Research.removeResearch("COREFISHING");
-
-mods.thaumcraft.Research.orphanResearch("CORELUMBER");
-mods.thaumcraft.Research.removeResearch("CORELUMBER");
-
 //OC
 recipes.remove(<OpenComputers:item:62>);
 recipes.remove(<OpenComputers:item:83>);

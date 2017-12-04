@@ -17,7 +17,7 @@
     "back": false,
     "home": false,
     "name_admin": "admin",
-    "spawn": false,
+    "spawn": true,
     "tplast": false,
     "warp": false
   },
@@ -67,7 +67,7 @@
     ],
     "forced_chunk_security": "-",
     "forced_explosions": "-",
-    "max_claims": 25,
+    "max_claims": 50,
     "max_homes": 1,
     "max_loaded_chunks": 50,
     "show_rank": true

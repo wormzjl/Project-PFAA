@@ -84,67 +84,67 @@ mods.immersiveengineering.Crusher.removeRecipe(<minecraft:blaze_powder>);
 
 
 //IE crusher
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore> * 5, <terrafirmacraft:item.Ore>, 3000, <Thaumcraft:ItemShard:1>, 0.006);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore> * 7, <terrafirmacraft:item.Ore:35>, 3000, <Thaumcraft:ItemShard:1>, 0.01);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore> * 3, <terrafirmacraft:item.Ore:49>, 3000, <Thaumcraft:ItemShard:1>, 0.003);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore> * 5, <terrafirmacraft:item.Ore>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore> * 7, <terrafirmacraft:item.Ore:35>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore> * 3, <terrafirmacraft:item.Ore:49>, 3000);
 
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:1> * 5, <terrafirmacraft:item.Ore:1>, 3000, <Thaumcraft:ItemShard>, 0.006);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:1> * 7, <terrafirmacraft:item.Ore:36>, 3000, <Thaumcraft:ItemShard>, 0.01);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:1> * 3, <terrafirmacraft:item.Ore:50>, 3000, <Thaumcraft:ItemShard>, 0.003);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:1> * 5, <terrafirmacraft:item.Ore:1>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:1> * 7, <terrafirmacraft:item.Ore:36>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:1> * 3, <terrafirmacraft:item.Ore:50>, 3000);
 
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:2> * 5, <terrafirmacraft:item.Ore:2>, 3000, <Thaumcraft:ItemShard>, 0.006);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:2> * 7, <terrafirmacraft:item.Ore:37>, 3000, <Thaumcraft:ItemShard>, 0.01);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:2> * 3, <terrafirmacraft:item.Ore:51>, 3000, <Thaumcraft:ItemShard>, 0.003);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:2> * 5, <terrafirmacraft:item.Ore:2>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:2> * 7, <terrafirmacraft:item.Ore:37>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:2> * 3, <terrafirmacraft:item.Ore:51>, 3000);
 
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:3> * 5, <terrafirmacraft:item.Ore:3>, 3000, <Thaumcraft:ItemShard:1>, 0.006);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:3> * 7, <terrafirmacraft:item.Ore:38>, 3000, <Thaumcraft:ItemShard:1>, 0.01);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:3> * 3, <terrafirmacraft:item.Ore:52>, 3000, <Thaumcraft:ItemShard:1>, 0.003);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:3> * 5, <terrafirmacraft:item.Ore:3>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:3> * 7, <terrafirmacraft:item.Ore:38>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:3> * 3, <terrafirmacraft:item.Ore:52>, 3000);
 
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:4> * 5, <terrafirmacraft:item.Ore:4>, 3000, <Thaumcraft:ItemShard:4>, 0.006);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:4> * 7, <terrafirmacraft:item.Ore:39>, 3000, <Thaumcraft:ItemShard:4>, 0.01);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:4> * 3, <terrafirmacraft:item.Ore:53>, 3000, <Thaumcraft:ItemShard:4>, 0.003);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:4> * 5, <terrafirmacraft:item.Ore:4>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:4> * 7, <terrafirmacraft:item.Ore:39>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:4> * 3, <terrafirmacraft:item.Ore:53>, 3000);
 
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:5> * 5, <terrafirmacraft:item.Ore:5>, 3000, <Thaumcraft:ItemShard:4>, 0.006);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:5> * 7, <terrafirmacraft:item.Ore:40>, 3000, <Thaumcraft:ItemShard:4>, 0.01);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:5> * 3, <terrafirmacraft:item.Ore:54>, 3000, <Thaumcraft:ItemShard:4>, 0.003);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:5> * 5, <terrafirmacraft:item.Ore:5>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:5> * 7, <terrafirmacraft:item.Ore:40>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:5> * 3, <terrafirmacraft:item.Ore:54>, 3000);
 
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:6> * 5, <terrafirmacraft:item.Ore:6>, 3000, <Thaumcraft:ItemShard:5>, 0.006);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:6> * 7, <terrafirmacraft:item.Ore:41>, 3000, <Thaumcraft:ItemShard:5>, 0.01);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:6> * 3, <terrafirmacraft:item.Ore:55>, 3000, <Thaumcraft:ItemShard:5>, 0.003);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:6> * 5, <terrafirmacraft:item.Ore:6>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:6> * 7, <terrafirmacraft:item.Ore:41>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:6> * 3, <terrafirmacraft:item.Ore:55>, 3000);
 
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:7> * 5, <terrafirmacraft:item.Ore:7>, 3000, <Thaumcraft:ItemShard:2>, 0.006);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:7> * 7, <terrafirmacraft:item.Ore:42>, 3000, <Thaumcraft:ItemShard:2>, 0.01);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:7> * 3, <terrafirmacraft:item.Ore:56>, 3000, <Thaumcraft:ItemShard:2>, 0.003);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:7> * 5, <terrafirmacraft:item.Ore:7>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:7> * 7, <terrafirmacraft:item.Ore:42>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:7> * 3, <terrafirmacraft:item.Ore:56>, 3000);
 
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:8> * 5, <terrafirmacraft:item.Ore:8>, 3000, <Thaumcraft:ItemShard:3>, 0.006);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:8> * 7, <terrafirmacraft:item.Ore:43>, 3000, <Thaumcraft:ItemShard:3>, 0.01);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:8> * 3, <terrafirmacraft:item.Ore:57>, 3000, <Thaumcraft:ItemShard:3>, 0.003);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:8> * 5, <terrafirmacraft:item.Ore:8>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:8> * 7, <terrafirmacraft:item.Ore:43>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:8> * 3, <terrafirmacraft:item.Ore:57>, 3000);
 
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:9> * 5, <terrafirmacraft:item.Ore:9>, 3000, <Thaumcraft:ItemShard:2>, 0.006);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:9> * 7, <terrafirmacraft:item.Ore:44>, 3000, <Thaumcraft:ItemShard:2>, 0.01);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:9> * 3, <terrafirmacraft:item.Ore:58>, 3000, <Thaumcraft:ItemShard:2>, 0.003);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:9> * 5, <terrafirmacraft:item.Ore:9>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:9> * 7, <terrafirmacraft:item.Ore:44>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:9> * 3, <terrafirmacraft:item.Ore:58>, 3000);
 
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:10> * 5, <terrafirmacraft:item.Ore:10>, 3000, <Thaumcraft:ItemShard:4>, 0.006);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:10> * 7, <terrafirmacraft:item.Ore:45>, 3000, <Thaumcraft:ItemShard:4>, 0.01);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:10> * 3, <terrafirmacraft:item.Ore:59>, 3000, <Thaumcraft:ItemShard:4>, 0.003);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:10> * 5, <terrafirmacraft:item.Ore:10>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:10> * 7, <terrafirmacraft:item.Ore:45>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:10> * 3, <terrafirmacraft:item.Ore:59>, 3000);
 
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:11> * 5, <terrafirmacraft:item.Ore:11>, 3000, <Thaumcraft:ItemShard:5>, 0.006);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:11> * 7, <terrafirmacraft:item.Ore:46>, 3000, <Thaumcraft:ItemShard:5>, 0.01);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:11> * 3, <terrafirmacraft:item.Ore:60>, 3000, <Thaumcraft:ItemShard:5>, 0.003);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:11> * 5, <terrafirmacraft:item.Ore:11>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:11> * 7, <terrafirmacraft:item.Ore:46>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:11> * 3, <terrafirmacraft:item.Ore:60>, 3000);
 
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:12> * 5, <terrafirmacraft:item.Ore:12>, 3000, <Thaumcraft:ItemShard:3>, 0.006);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:12> * 7, <terrafirmacraft:item.Ore:47>, 3000, <Thaumcraft:ItemShard:3>, 0.01);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:12> * 3, <terrafirmacraft:item.Ore:61>, 3000, <Thaumcraft:ItemShard:3>, 0.003);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:12> * 5, <terrafirmacraft:item.Ore:12>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:12> * 7, <terrafirmacraft:item.Ore:47>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:12> * 3, <terrafirmacraft:item.Ore:61>, 3000);
 
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:13> * 5, <terrafirmacraft:item.Ore:13>, 3000, <Thaumcraft:ItemResource:6>, 0.006);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:13> * 7, <terrafirmacraft:item.Ore:48>, 3000, <Thaumcraft:ItemResource:6>, 0.01);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:13> * 3, <terrafirmacraft:item.Ore:62>, 3000, <Thaumcraft:ItemResource:6>, 0.003);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:13> * 5, <terrafirmacraft:item.Ore:13>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:13> * 7, <terrafirmacraft:item.Ore:48>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:13> * 3, <terrafirmacraft:item.Ore:62>, 3000);
 
-mods.immersiveengineering.Crusher.addRecipe(<tfctech:item.Small Ore> * 5, <tfctech:item.Ore>, 3000, <Thaumcraft:ItemShard>, 0.006);
-mods.immersiveengineering.Crusher.addRecipe(<tfctech:item.Small Ore> * 7, <tfctech:item.Ore:1>, 3000, <Thaumcraft:ItemShard>, 0.01);
-mods.immersiveengineering.Crusher.addRecipe(<tfctech:item.Small Ore> * 3, <tfctech:item.Ore:2>, 3000, <Thaumcraft:ItemShard>, 0.003);
+mods.immersiveengineering.Crusher.addRecipe(<tfctech:item.Small Ore> * 5, <tfctech:item.Ore>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<tfctech:item.Small Ore> * 7, <tfctech:item.Ore:1>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<tfctech:item.Small Ore> * 3, <tfctech:item.Ore:2>, 3000);
 
-mods.immersiveengineering.Crusher.addRecipe(<customitems:pitchblendenugget> * 5, <terrafirmacraft:item.Ore:26>, 3000, <Thaumcraft:ItemShard>, 0.003);
+mods.immersiveengineering.Crusher.addRecipe(<customitems:pitchblendenugget> * 5, <terrafirmacraft:item.Ore:26>, 3000);
 
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder> * 12, <ore:oreBorax>, 3000, <customitems:boraxdust>, 1);
 
@@ -358,24 +358,24 @@ mods.techreborn.grinder.addRecipe(<customitems:itemwashedcrushedwolframiteore> *
 
 //MgC processing
 //Step 1, 1.5x
-mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore>, <customitems:chunk_nativecopper>, <customitems:chunk_nativecopper>, 0.5, <Thaumcraft:ItemShard:1>, 0.05);
-mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:1>, <customitems:chunk_nativegold>, <customitems:chunk_nativegold>, 0.5, <Thaumcraft:ItemShard>, 0.05);
-mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:2>, <customitems:chunk_nativeplatinum>, <customitems:chunk_nativeplatinum>, 0.5, <Thaumcraft:ItemShard>, 0.05);
-mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:3>, <customitems:chunk_hematite>, <customitems:chunk_hematite>, 0.5, <Thaumcraft:ItemShard:1>, 0.05);
-mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:4>, <customitems:chunk_nativesilver>, <customitems:chunk_nativesilver>, 0.5, <Thaumcraft:ItemShard:4>, 0.05);
-mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:5>, <customitems:chunk_cassiterite>, <customitems:chunk_cassiterite>, 0.5, <Thaumcraft:ItemShard:4>, 0.05);
-mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:6>, <customitems:chunk_galena>, <customitems:chunk_galena>, 0.5, <Thaumcraft:ItemShard:5>, 0.05);
-mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:7>, <customitems:chunk_bismuthinite>, <customitems:chunk_bismuthinite>, 0.5, <Thaumcraft:ItemShard:2>, 0.05);
-mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:8>, <customitems:chunk_garnierite>, <customitems:chunk_garnierite>, 0.5, <Thaumcraft:ItemShard:3>, 0.05);
-mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:9>, <customitems:chunk_malachite>, <customitems:chunk_malachite>, 0.5, <Thaumcraft:ItemShard:2>, 0.05);
-mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:10>, <customitems:chunk_magnetite>, <customitems:chunk_magnetite>, 0.5, <Thaumcraft:ItemShard:4>, 0.05);
-mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:11>, <customitems:chunk_limonite>, <customitems:chunk_limonite>, 0.5, <Thaumcraft:ItemShard:5>, 0.05);
-mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:12>, <customitems:chunk_sphalerite>, <customitems:chunk_sphalerite>, 0.5, <Thaumcraft:ItemShard:3>, 0.05);
-mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:13>, <customitems:chunk_tetrahedrite>, <customitems:chunk_tetrahedrite>, 0.5, <Thaumcraft:ItemShard:5>, 0.05);
-mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:26>, <customitems:chunk_pitchblende>, <customitems:chunk_pitchblende>, 0.5, <Thaumcraft:ItemShard:1>, 0.05);
-mods.magneticraft.Crusher.addRecipe(<tfctech:item.Ore>, <customitems:chunk_bauxite>, <customitems:chunk_bauxite>, 0.5, <Thaumcraft:ItemShard>, 0.05);
-mods.magneticraft.Crusher.addRecipe(<libVulpes:libVulpesore0:8>, <customitems:chunk_rutile>, <customitems:chunk_rutile>, 0.5, <Thaumcraft:ItemShard:3>, 0.05);
-mods.magneticraft.Crusher.addRecipe(<ihl:oreGyubnera>, <customitems:chunk_wolframite>, <customitems:chunk_wolframite>, 0.5, <Thaumcraft:ItemShard:2>, 0.05);
+mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore>, <customitems:chunk_nativecopper>, <customitems:chunk_nativecopper>, 0.25, <customitems:chunk_nativecopper>, 0.25);
+mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:1>, <customitems:chunk_nativegold>, <customitems:chunk_nativegold>, 0.25, <customitems:chunk_nativegold>, 0.25);
+mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:2>, <customitems:chunk_nativeplatinum>, <customitems:chunk_nativeplatinum>, 0.25, <customitems:chunk_nativeplatinum>, 0.25);
+mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:3>, <customitems:chunk_hematite>, <customitems:chunk_hematite>, 0.25, <customitems:chunk_hematite>, 0.25);
+mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:4>, <customitems:chunk_nativesilver>, <customitems:chunk_nativesilver>, 0.25, <customitems:chunk_nativesilver>, 0.25);
+mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:5>, <customitems:chunk_cassiterite>, <customitems:chunk_cassiterite>, 0.25, <customitems:chunk_cassiterite>, 0.25);
+mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:6>, <customitems:chunk_galena>, <customitems:chunk_galena>, 0.25, <customitems:chunk_galena>, 0.25);
+mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:7>, <customitems:chunk_bismuthinite>, <customitems:chunk_bismuthinite>, 0.25, <customitems:chunk_bismuthinite>, 0.25);
+mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:8>, <customitems:chunk_garnierite>, <customitems:chunk_garnierite>, 0.25, <customitems:chunk_garnierite>, 0.25);
+mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:9>, <customitems:chunk_malachite>, <customitems:chunk_malachite>, 0.25, <customitems:chunk_malachite>, 0.25);
+mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:10>, <customitems:chunk_magnetite>, <customitems:chunk_magnetite>, 0.25, <customitems:chunk_magnetite>, 0.25);
+mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:11>, <customitems:chunk_limonite>, <customitems:chunk_limonite>, 0.25, <customitems:chunk_limonite>, 0.25);
+mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:12>, <customitems:chunk_sphalerite>, <customitems:chunk_sphalerite>, 0.25, <customitems:chunk_sphalerite>, 0.25);
+mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:13>, <customitems:chunk_tetrahedrite>, <customitems:chunk_tetrahedrite>, 0.25, <customitems:chunk_tetrahedrite>, 0.25);
+mods.magneticraft.Crusher.addRecipe(<terrafirmacraft:item.Ore:26>, <customitems:chunk_pitchblende>, <customitems:chunk_pitchblende>, 0.25, <customitems:chunk_pitchblende>, 0.25);
+mods.magneticraft.Crusher.addRecipe(<tfctech:item.Ore>, <customitems:chunk_bauxite>, <customitems:chunk_bauxite>, 0.25, <customitems:chunk_bauxite>, 0.25);
+mods.magneticraft.Crusher.addRecipe(<libVulpes:libVulpesore0:8>, <customitems:chunk_rutile>, <customitems:chunk_rutile>, 0.25, <customitems:chunk_rutile>, 0.25);
+mods.magneticraft.Crusher.addRecipe(<ihl:oreGyubnera>, <customitems:chunk_wolframite>, <customitems:chunk_wolframite>, 0.25, <customitems:chunk_wolframite>, 0.25);
 
 //Step 2, 1.25x
 mods.magneticraft.Grinder.addRecipe(<customitems:chunk_nativecopper>, <customitems:rubble_nativecopper>, <customitems:rubble_nativecopper>, 0.25, <techreborn:smallDust:71>, 0.5);

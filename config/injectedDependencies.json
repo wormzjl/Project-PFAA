@@ -20,14 +20,6 @@
       },
       {
         "type": "before",
-        "target": "Baubles"
-      },
-      {
-        "type": "before",
-        "target": "Thaumcraft"
-      },
-      {
-        "type": "before",
         "target": "Railcraft"
       },
       {
@@ -253,6 +245,10 @@
       {
         "type": "before",
         "target": "enhancedportals"
+      },
+      {
+        "type": "before",
+        "target": "Baubles"
       },
       {
         "type": "before",
@@ -504,10 +500,6 @@
       },
       {
         "type": "before",
-        "target": "tcinventoryscan"
-      },
-      {
-        "type": "before",
         "target": "Techguns"
       },
       {
@@ -517,14 +509,6 @@
       {
         "type": "before",
         "target": "TerraFirmaCraftNEIplugin"
-      },
-      {
-        "type": "before",
-        "target": "ttfcapi"
-      },
-      {
-        "type": "before",
-        "target": "terrathaumcraft"
       },
       {
         "type": "before",
@@ -540,15 +524,7 @@
       },
       {
         "type": "before",
-        "target": "thaumcraftneiplugin"
-      },
-      {
-        "type": "before",
         "target": "tis3d"
-      },
-      {
-        "type": "before",
-        "target": "ttfcmat"
       },
       {
         "type": "before",

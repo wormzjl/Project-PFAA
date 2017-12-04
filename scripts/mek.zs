@@ -165,9 +165,9 @@ recipes.addShaped(<Mekanism:PartTransmitter:19>*3,
   [<customitems:polyurathaneplastic>, <customitems:polyurathaneplastic>, <customitems:polyurathaneplastic>]]);
 
 recipes.addShaped(<Mekanism:PartTransmitter:20>*3,
- [[<ttfcmat:item.cobaltingot>, <ttfcmat:item.cobaltingot>, <ttfcmat:item.cobaltingot>],
+ [[<ore:dustCobalt>, <ore:dustCobalt>, <ore:dustCobalt>],
   [<Mekanism:PartTransmitter:19>, <Mekanism:PartTransmitter:19>, <Mekanism:PartTransmitter:19>],
-  [<ttfcmat:item.cobaltingot>, <ttfcmat:item.cobaltingot>, <ttfcmat:item.cobaltingot>]]);
+  [<ore:dustCobalt>, <ore:dustCobalt>, <ore:dustCobalt>]]);
 
 recipes.addShaped(<Mekanism:PartTransmitter:21>*3,
  [[<ore:plateTungsten>, <ore:plateTungsten>, <ore:plateTungsten>],

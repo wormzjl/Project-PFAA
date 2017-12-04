@@ -536,8 +536,6 @@ terrafirmacraft:WoodSupportV:13, White Elm Support Beam
 terrafirmacraft:WoodSupportV:14, Willow Support Beam
 terrafirmacraft:WoodSupportV:15, Kapok Support Beam
 terrafirmacraft:WoodSupportV2:0, Acacia Support Beam
-terrafirmacraft:WoodSupportV2:1, Greatwood Support Beam
-terrafirmacraft:WoodSupportV2:2, Silverwood Support Beam
 terrafirmacraft:Sulfur, Sulfur
 terrafirmacraft:log:0, Oak Log
 terrafirmacraft:log:1, Aspen Log
@@ -556,8 +554,6 @@ terrafirmacraft:log:13, White Elm Log
 terrafirmacraft:log:14, Willow Log
 terrafirmacraft:log:15, Kapok Log
 terrafirmacraft:log2:0, Acacia Log
-terrafirmacraft:log2:1, tile.log2.greatwood.name
-terrafirmacraft:log2:2, tile.log2.silverwood.name
 terrafirmacraft:sapling:0, Oak Sapling
 terrafirmacraft:sapling:1, Aspen Sapling
 terrafirmacraft:sapling:2, Birch Sapling
@@ -575,8 +571,6 @@ terrafirmacraft:sapling:13, White Elm Sapling
 terrafirmacraft:sapling:14, Willow Sapling
 terrafirmacraft:sapling:15, Kapok Sapling
 terrafirmacraft:sapling2:0, Acacia Sapling
-terrafirmacraft:sapling2:1, tile.sapling2.greatwood.name
-terrafirmacraft:sapling2:2, tile.sapling2.silverwood.name
 terrafirmacraft:planks:0, Oak Planks
 terrafirmacraft:planks:1, Aspen Planks
 terrafirmacraft:planks:2, Birch Planks
@@ -594,8 +588,6 @@ terrafirmacraft:planks:13, White Elm Planks
 terrafirmacraft:planks:14, Willow Planks
 terrafirmacraft:planks:15, Kapok Planks
 terrafirmacraft:planks2:0, Acacia Planks
-terrafirmacraft:planks2:1, Greatwood Planks
-terrafirmacraft:planks2:2, Silverwood Planks
 terrafirmacraft:Firepit, Firepit
 terrafirmacraft:Bellows:0, Bellows
 terrafirmacraft:Anvil:1, Copper Anvil
@@ -638,8 +630,6 @@ terrafirmacraft:WoodVert:13, White Elm Log
 terrafirmacraft:WoodVert:14, Willow Log
 terrafirmacraft:WoodVert:15, Kapok Log
 terrafirmacraft:WoodVert2:0, Acacia Log
-terrafirmacraft:WoodVert2:1, Greatwood Log
-terrafirmacraft:WoodVert2:2, Silverwood Log
 terrafirmacraft:WoodHoriz:0, Oak Log
 terrafirmacraft:WoodHoriz:1, Aspen Log
 terrafirmacraft:WoodHoriz:2, Birch Log
@@ -657,8 +647,6 @@ terrafirmacraft:WoodHoriz2:5, White Elm Log
 terrafirmacraft:WoodHoriz2:6, Willow Log
 terrafirmacraft:WoodHoriz2:7, Kapok Log
 terrafirmacraft:WoodHoriz3:0, Acacia Log
-terrafirmacraft:WoodHoriz3:1, tile.WoodHoriz3.greatwood.name
-terrafirmacraft:WoodHoriz3:2, tile.WoodHoriz3.silverwood.name
 terrafirmacraft:WoodHoriz4, tile.WoodHoriz4.name
 terrafirmacraft:ToolRack:0, Oak Tool Rack
 terrafirmacraft:ToolRack:1, Aspen Tool Rack
@@ -677,8 +665,6 @@ terrafirmacraft:ToolRack:13, White Elm Tool Rack
 terrafirmacraft:ToolRack:14, Willow Tool Rack
 terrafirmacraft:ToolRack:15, Kapok Tool Rack
 terrafirmacraft:ToolRack:16, Acacia Tool Rack
-terrafirmacraft:ToolRack:17, Greatwood Tool Rack
-terrafirmacraft:ToolRack:18, Silverwood Tool Rack
 terrafirmacraft:SpawnMeter:0, Protection Meter
 terrafirmacraft:FoodPrep, Food Prep
 terrafirmacraft:Quern:0, Quern Base
@@ -1083,8 +1069,6 @@ terrafirmacraft:DoorWhiteElm, White Elm Door
 terrafirmacraft:DoorWillow, Willow Door
 terrafirmacraft:DoorKapok, Kapok Door
 terrafirmacraft:DoorAcacia, Acacia Door
-terrafirmacraft:Doorgreatwood, Greatwood Door
-terrafirmacraft:Doorsilverwood, Silverwood Door
 terrafirmacraft:IngotPile, Ingot Pile
 terrafirmacraft:Barrel:0, Oak Barrel
 terrafirmacraft:Barrel:1, Aspen Barrel
@@ -1103,8 +1087,6 @@ terrafirmacraft:Barrel:13, White Elm Barrel
 terrafirmacraft:Barrel:14, Willow Barrel
 terrafirmacraft:Barrel:15, Kapok Barrel
 terrafirmacraft:Barrel:16, Acacia Barrel
-terrafirmacraft:Barrel:17, Greatwood Barrel
-terrafirmacraft:Barrel:18, Silverwood Barrel
 terrafirmacraft:Loom:0, Oak Loom
 terrafirmacraft:Loom:1, Aspen Loom
 terrafirmacraft:Loom:2, Birch Loom
@@ -1122,8 +1104,6 @@ terrafirmacraft:Loom:13, White Elm Loom
 terrafirmacraft:Loom:14, Willow Loom
 terrafirmacraft:Loom:15, Kapok Loom
 terrafirmacraft:Loom:16, Acacia Loom
-terrafirmacraft:Loom:17, Greatwood Loom
-terrafirmacraft:Loom:18, Silverwood Loom
 terrafirmacraft:Moss, Moss
 terrafirmacraft:Flora:0, Goldenrod
 terrafirmacraft:ClayPottery, Pottery
@@ -1147,8 +1127,6 @@ terrafirmacraft:Fence:13, White Elm Fence
 terrafirmacraft:Fence:14, Willow Fence
 terrafirmacraft:Fence:15, Kapok Fence
 terrafirmacraft:Fence2:0, Acacia Fence
-terrafirmacraft:Fence2:1, Greatwood Fence
-terrafirmacraft:Fence2:2, Silverwood Fence
 terrafirmacraft:FenceGate:0, Oak Fence Gate
 terrafirmacraft:FenceGate:1, Aspen Fence Gate
 terrafirmacraft:FenceGate:2, Birch Fence Gate
@@ -1166,8 +1144,6 @@ terrafirmacraft:FenceGate:13, White Elm Fence Gate
 terrafirmacraft:FenceGate:14, Willow Fence Gate
 terrafirmacraft:FenceGate:15, Kapok Fence Gate
 terrafirmacraft:FenceGate2:0, Acacia Fence Gate
-terrafirmacraft:FenceGate2:1, Greatwood Fence Gate
-terrafirmacraft:FenceGate2:2, Silverwood Fence Gate
 terrafirmacraft:StrawHideBed, Straw & Hide Bed
 terrafirmacraft:ArmourStand:0, Oak Armor Stand
 terrafirmacraft:ArmourStand:1, Aspen Armor Stand
@@ -1186,8 +1162,6 @@ terrafirmacraft:ArmourStand:13, White Elm Armor Stand
 terrafirmacraft:ArmourStand:14, Willow Armor Stand
 terrafirmacraft:ArmourStand:15, Kapok Armor Stand
 terrafirmacraft:ArmourStand2:0, Acacia Armor Stand
-terrafirmacraft:ArmourStand2:1, Greatwood Armour Stand
-terrafirmacraft:ArmourStand2:2, Silverwood Armour Stand
 terrafirmacraft:BerryBush:0, Wintergreen Bush
 terrafirmacraft:BerryBush:1, Blueberry Bush
 terrafirmacraft:BerryBush:2, Raspberry Bush
@@ -1238,8 +1212,6 @@ terrafirmacraft:Chest TFC:13, White Elm Chest
 terrafirmacraft:Chest TFC:14, Willow Chest
 terrafirmacraft:Chest TFC:15, Kapok Chest
 terrafirmacraft:Chest TFC:16, Acacia Chest
-terrafirmacraft:Chest TFC:17, Greatwood Chest
-terrafirmacraft:Chest TFC:18, Silverwood Chest
 terrafirmacraft:Workbench:0, Workbench
 terrafirmacraft:Cactus:0, Cactus
 terrafirmacraft:Reeds, Reeds
@@ -1313,167 +1285,6 @@ BuildCraft|Core:engineBlock:2, Combustion Engine
 BuildCraft|Core:engineBlock:3, Creative Engine
 BuildCraft|Core:markerBlock, Land Mark
 BuildCraft|Core:pathMarkerBlock, Path Mark
-Thaumcraft:blockFluxGoo:0, Flux Goo
-Thaumcraft:blockFluxGas:0, Flux Gas
-Thaumcraft:blockFluidPure, Purifying Fluid
-Thaumcraft:blockFluidDeath, Liquid Death
-Thaumcraft:blockCustomOre:0, Cinnabar Ore
-Thaumcraft:blockCustomOre:1, Air Infused Stone
-Thaumcraft:blockCustomOre:2, Fire Infused Stone
-Thaumcraft:blockCustomOre:3, Water Infused Stone
-Thaumcraft:blockCustomOre:4, Earth Infused Stone
-Thaumcraft:blockCustomOre:5, Order Infused Stone
-Thaumcraft:blockCustomOre:6, Entropy Infused Stone
-Thaumcraft:blockCustomOre:7, Amber Bearing Stone
-Thaumcraft:blockMagicalLog:0, Greatwood Log
-Thaumcraft:blockMagicalLog:1, Silverwood Log
-Thaumcraft:blockMagicalLeaves:0, Greatwood Leaves
-Thaumcraft:blockMagicalLeaves:1, Silverwood Leaves
-Thaumcraft:blockCustomPlant:0, Greatwood Sapling
-Thaumcraft:blockCustomPlant:1, Silverwood Sapling
-Thaumcraft:blockCustomPlant:2, Shimmerleaf
-Thaumcraft:blockCustomPlant:3, Cinderpearl
-Thaumcraft:blockCustomPlant:4, Ethereal Bloom
-Thaumcraft:blockCustomPlant:5, Vishroom
-Thaumcraft:blockTaint:0, Crusted Taint
-Thaumcraft:blockTaint:1, Tainted Soil
-Thaumcraft:blockTaint:2, Block of Flesh
-Thaumcraft:blockTaintFibres:0, Fibrous Taint
-Thaumcraft:blockTaintFibres:1, Tainted Grass
-Thaumcraft:blockTaintFibres:2, Tainted Plant
-Thaumcraft:blockTaintFibres:3, Spore Stalk
-Thaumcraft:blockCosmeticOpaque:0, Amber Block
-Thaumcraft:blockCosmeticOpaque:1, Amber Bricks
-Thaumcraft:blockCosmeticOpaque:2, Warded Glass
-Thaumcraft:blockCosmeticSolid:0, Obsidian Totem
-Thaumcraft:blockCosmeticSolid:1, Obsidian Tile
-Thaumcraft:blockCosmeticSolid:2, Paving Stone of Travel
-Thaumcraft:blockCosmeticSolid:3, Paving Stone of Warding
-Thaumcraft:blockCosmeticSolid:4, Thaumium Block
-Thaumcraft:blockCosmeticSolid:5, Tallow Block
-Thaumcraft:blockCosmeticSolid:6, Arcane Stone Block
-Thaumcraft:blockCosmeticSolid:7, Arcane Stone Bricks
-Thaumcraft:blockCosmeticSolid:8, Charged Obsidian Totem
-Thaumcraft:blockCosmeticSolid:9, Golem Fetter
-Thaumcraft:blockCosmeticSolid:11, Ancient Stone
-Thaumcraft:blockCosmeticSolid:12, Ancient Rock
-Thaumcraft:blockCosmeticSolid:14, Crusted Stone
-Thaumcraft:blockCosmeticSolid:15, Ancient Stone Pedestal
-Thaumcraft:blockCrystal:0, Air Crystal Cluster
-Thaumcraft:blockCrystal:1, Fire Crystal Cluster
-Thaumcraft:blockCrystal:2, Water Crystal Cluster
-Thaumcraft:blockCrystal:3, Earth Crystal Cluster
-Thaumcraft:blockCrystal:4, Order Crystal Cluster
-Thaumcraft:blockCrystal:5, Entropy Crystal Cluster
-Thaumcraft:blockCrystal:6, Mixed Crystal Cluster
-Thaumcraft:blockTube:0, Essentia Tube
-Thaumcraft:blockTube:1, Essentia Valve
-Thaumcraft:blockTube:2, Alchemical Centrifuge
-Thaumcraft:blockTube:3, Filtered Essentia Tube
-Thaumcraft:blockTube:4, Essentia Buffer
-Thaumcraft:blockTube:5, Restricted Essentia Tube
-Thaumcraft:blockTube:6, Directional Essentia Tube
-Thaumcraft:blockTube:7, Essentia Crystallizer
-Thaumcraft:blockMetalDevice:0, Crucible
-Thaumcraft:blockMetalDevice:1, Arcane Alembic
-Thaumcraft:blockMetalDevice:5, Item Grate
-Thaumcraft:blockMetalDevice:7, Arcane Lamp
-Thaumcraft:blockMetalDevice:8, Lamp of Growth
-Thaumcraft:blockMetalDevice:13, Lamp of Fertility
-Thaumcraft:blockMetalDevice:9, Alchemical Construct
-Thaumcraft:blockMetalDevice:3, Advanced Alchemical Construct
-Thaumcraft:blockMetalDevice:12, Mnemonic Matrix
-Thaumcraft:blockMetalDevice:14, Vis Relay
-Thaumcraft:blockMetalDevice:2, Vis Charge Relay
-Thaumcraft:blockWoodenDevice:0, Arcane Bellows
-Thaumcraft:blockWoodenDevice:1, Arcane Ear
-Thaumcraft:blockWoodenDevice:2, Arcane Pressure Plate
-Thaumcraft:blockWoodenDevice:4, Arcane Bore Base
-Thaumcraft:blockWoodenDevice:5, Arcane Bore
-Thaumcraft:blockWoodenDevice:6, Greatwood Planks
-Thaumcraft:blockWoodenDevice:7, Silverwood Planks
-Thaumcraft:blockWoodenDevice:8, Crimson Cult Banner
-Thaumcraft:blockWoodenDevice:8, White Banner
-Thaumcraft:blockWoodenDevice:8, Orange Banner
-Thaumcraft:blockWoodenDevice:8, Magenta Banner
-Thaumcraft:blockWoodenDevice:8, Light Blue Banner
-Thaumcraft:blockWoodenDevice:8, Yellow Banner
-Thaumcraft:blockWoodenDevice:8, Lime Banner
-Thaumcraft:blockWoodenDevice:8, Pink Banner
-Thaumcraft:blockWoodenDevice:8, Gray Banner
-Thaumcraft:blockWoodenDevice:8, Light Gray Banner
-Thaumcraft:blockWoodenDevice:8, Cyan Banner
-Thaumcraft:blockWoodenDevice:8, Purple Banner
-Thaumcraft:blockWoodenDevice:8, Blue Banner
-Thaumcraft:blockWoodenDevice:8, Brown Banner
-Thaumcraft:blockWoodenDevice:8, Green Banner
-Thaumcraft:blockWoodenDevice:8, Red Banner
-Thaumcraft:blockWoodenDevice:8, Black Banner
-Thaumcraft:blockStoneDevice:0, Alchemical Furnace
-Thaumcraft:blockStoneDevice:1, Arcane Pedestal
-Thaumcraft:blockStoneDevice:2, Runic Matrix
-Thaumcraft:blockStoneDevice:5, Wand Recharge Pedestal
-Thaumcraft:blockStoneDevice:8, Compound Recharge Focus
-Thaumcraft:blockStoneDevice:9, Node Stabilizer
-Thaumcraft:blockStoneDevice:10, Advanced Node Stabilizer
-Thaumcraft:blockStoneDevice:11, Node Transducer
-Thaumcraft:blockStoneDevice:12, Arcane Spa
-Thaumcraft:blockStoneDevice:13, Focal Manipulator
-Thaumcraft:blockStoneDevice:14, Flux Scrubber
-Thaumcraft:blockMirror:0, Magic Mirror
-Thaumcraft:blockMirror:6, Essentia Mirror
-Thaumcraft:blockTable:0, Table
-Thaumcraft:blockTable:14, Deconstruction Table
-Thaumcraft:blockTable:15, Arcane Worktable
-Thaumcraft:blockChestHungry, Hungry Chest
-Thaumcraft:blockArcaneDoor, Arcane Door
-Thaumcraft:blockLifter, Arcane Levitator
-Thaumcraft:blockMagicBox, tile.blockMagicBox.name
-Thaumcraft:blockAlchemyFurnace, Advanced Alchemical Furnace
-Thaumcraft:blockJar:0, Warded Jar
-Thaumcraft:blockJar:1, Brain in a Jar
-Thaumcraft:blockJar:3, Void Jar
-Thaumcraft:blockCandle:0, White Tallow Candle
-Thaumcraft:blockCandle:1, Orange Tallow Candle
-Thaumcraft:blockCandle:2, Magenta Tallow Candle
-Thaumcraft:blockCandle:3, Light Blue Tallow Candle
-Thaumcraft:blockCandle:4, Yellow Tallow Candle
-Thaumcraft:blockCandle:5, Lime Tallow Candle
-Thaumcraft:blockCandle:6, Pink Tallow Candle
-Thaumcraft:blockCandle:7, Gray Tallow Candle
-Thaumcraft:blockCandle:8, Light Gray Tallow Candle
-Thaumcraft:blockCandle:9, Cyan Tallow Candle
-Thaumcraft:blockCandle:10, Purple Tallow Candle
-Thaumcraft:blockCandle:11, Blue Tallow Candle
-Thaumcraft:blockCandle:12, Brown Tallow Candle
-Thaumcraft:blockCandle:13, Green Tallow Candle
-Thaumcraft:blockCandle:14, Red Tallow Candle
-Thaumcraft:blockCandle:15, Black Tallow Candle
-Thaumcraft:blockEldritch:4, Glowing Crusted Stone
-Thaumcraft:blockAiry:0, Aura Node
-Thaumcraft:blockManaPod, tile.blockManaPod.name
-Thaumcraft:blockArcaneFurnace, Infernal Furnace
-Thaumcraft:blockWarded, tile.blockWarded.name
-Thaumcraft:blockHole, Empty Space
-Thaumcraft:blockPortalEldritch, Eldritch Portal
-Thaumcraft:blockEssentiaReservoir:0, Essentia Reservoir
-Thaumcraft:blockEldritchNothing, tile.blockPortalNothing.name
-Thaumcraft:blockStairsArcaneStone, Arcane Stone Stairs
-Thaumcraft:blockStairsGreatwood, Greatwood Stairs
-Thaumcraft:blockStairsSilverwood, Silverwood Stairs
-Thaumcraft:blockStairsEldritch, Ancient Stone Stairs
-Thaumcraft:blockCosmeticSlabWood:0, Greatwood Slab
-Thaumcraft:blockCosmeticSlabWood:1, Silverwood Slab
-Thaumcraft:blockCosmeticSlabStone:0, Arcane Stone Slab
-Thaumcraft:blockCosmeticSlabStone:1, Ancient Stone Slab
-Thaumcraft:blockCosmeticDoubleSlabWood, tile.blockCosmeticDoubleSlabWood.name
-Thaumcraft:blockCosmeticDoubleSlabStone, tile.blockCosmeticDoubleSlabStone.name
-Thaumcraft:blockLootUrn:0, Old Urn
-Thaumcraft:blockLootUrn:1, Old Urn
-Thaumcraft:blockLootUrn:2, Old Urn
-Thaumcraft:blockLootCrate:0, Abandoned Crate
-Thaumcraft:blockLootCrate:1, Abandoned Crate
-Thaumcraft:blockLootCrate:2, Abandoned Crate
 Railcraft:fluid.creosote, Creosote
 Railcraft:fluid.steam, Steam
 Railcraft:cube:0, Block of Coal Coke
@@ -3863,18 +3674,6 @@ chisel:antiBlock:12, Anti Block
 chisel:antiBlock:13, Anti Block
 chisel:antiBlock:14, Anti Block
 chisel:antiBlock:15, Anti Block
-chisel:arcane:0, Arcane Stone Block
-chisel:arcane:1, Arcane Stone Block
-chisel:arcane:2, Arcane Stone Block
-chisel:arcane:3, Arcane Stone Block
-chisel:arcane:4, Arcane Stone Block
-chisel:arcane:5, Arcane Stone Block
-chisel:arcane:6, Arcane Stone Block
-chisel:arcane:7, Arcane Stone Block
-chisel:arcane:8, Arcane Stone Block
-chisel:arcane:9, Arcane Stone Block
-chisel:arcane:10, Arcane Stone Block
-chisel:arcane:11, Arcane Stone Block
 chisel:autoChisel, Auto Chisel
 chisel:beacon:0, Beacon
 chisel:beacon:1, Beacon
@@ -4929,8 +4728,6 @@ chisel:stonebricksmooth:12, Stone Bricks
 chisel:stonebricksmooth:13, Stone Bricks
 chisel:stonebricksmooth:14, Stone Bricks
 chisel:stonebricksmooth:15, Stone Bricks
-chisel:tallow:0, Block of Tallow
-chisel:tallow:1, Block of Tallow
 chisel:technical:0, Technical Block
 chisel:technical:1, Technical Block
 chisel:technical:2, Technical Block
@@ -4999,12 +4796,6 @@ chisel:tinblock:2, Block of Tin
 chisel:tinblock:3, Block of Tin
 chisel:tinblock:4, Block of Tin
 chisel:tinblock:5, Block of Tin
-chisel:thaumium:0, Thaumium Block
-chisel:thaumium:1, Thaumium Block
-chisel:thaumium:2, Thaumium Block
-chisel:thaumium:3, Thaumium Block
-chisel:thaumium:4, Thaumium Block
-chisel:thaumium:5, Thaumium Block
 chisel:torch1, Torch
 chisel:torch2, Torch
 chisel:torch3, Torch
@@ -5271,8 +5062,6 @@ cookingwithtfc:PrepTableN:13, White Elm Food Table
 cookingwithtfc:PrepTableN:14, Willow Food Table
 cookingwithtfc:PrepTableN:15, Kapok Food Table
 cookingwithtfc:PrepTable2N:0, Acacia Food Table
-cookingwithtfc:PrepTable2N:1, tile.PrepTableBlock.greatwood.name
-cookingwithtfc:PrepTable2N:2, tile.PrepTableBlock.silverwood.name
 cookingwithtfc:PrepTableS:0, Oak Food Table
 cookingwithtfc:PrepTableS:1, Aspen Food Table
 cookingwithtfc:PrepTableS:2, Birch Food Table
@@ -5290,8 +5079,6 @@ cookingwithtfc:PrepTableS:13, White Elm Food Table
 cookingwithtfc:PrepTableS:14, Willow Food Table
 cookingwithtfc:PrepTableS:15, Kapok Food Table
 cookingwithtfc:PrepTable2S:0, Acacia Food Table
-cookingwithtfc:PrepTable2S:1, tile.PrepTableBlock.greatwood.name
-cookingwithtfc:PrepTable2S:2, tile.PrepTableBlock.silverwood.name
 cookingwithtfc:PrepTableE:0, Oak Food Table
 cookingwithtfc:PrepTableE:1, Aspen Food Table
 cookingwithtfc:PrepTableE:2, Birch Food Table
@@ -5309,8 +5096,6 @@ cookingwithtfc:PrepTableE:13, White Elm Food Table
 cookingwithtfc:PrepTableE:14, Willow Food Table
 cookingwithtfc:PrepTableE:15, Kapok Food Table
 cookingwithtfc:PrepTable2E:0, Acacia Food Table
-cookingwithtfc:PrepTable2E:1, tile.PrepTableBlock.greatwood.name
-cookingwithtfc:PrepTable2E:2, tile.PrepTableBlock.silverwood.name
 cookingwithtfc:PrepTableW:0, Oak Food Table
 cookingwithtfc:PrepTableW:1, Aspen Food Table
 cookingwithtfc:PrepTableW:2, Birch Food Table
@@ -5328,8 +5113,6 @@ cookingwithtfc:PrepTableW:13, White Elm Food Table
 cookingwithtfc:PrepTableW:14, Willow Food Table
 cookingwithtfc:PrepTableW:15, Kapok Food Table
 cookingwithtfc:PrepTable2W:0, Acacia Food Table
-cookingwithtfc:PrepTable2W:1, tile.PrepTableBlock.greatwood.name
-cookingwithtfc:PrepTable2W:2, tile.PrepTableBlock.silverwood.name
 customitems:methaneice, tile.methaneice.name
 customitems:acetone, tile.acetone.name
 customitems:acetoneoilmix, tile.acetoneoilmix.name
@@ -6722,81 +6505,6 @@ Techguns:machineMultiBlock:2, Reaction Chamber Glass
 Techguns:machineMultiBlock:3, Fabricator Housing
 Techguns:machineMultiBlock:4, Fabricator Controller
 Techguns:machineMultiBlock:5, Fabricator Glass
-ttfcapi:fakeigexcobble:0, Rhyolite Cobblestone
-ttfcapi:fakeigexcobble:1, Basalt Cobblestone
-ttfcapi:fakeigexcobble:2, Andesite Cobblestone
-ttfcapi:fakeigexcobble:3, Dacite Cobblestone
-ttfcapi:fakeigincobble:0, Granite Cobblestone
-ttfcapi:fakeigincobble:1, Diorite Cobblestone
-ttfcapi:fakeigincobble:2, Gabbro Cobblestone
-ttfcapi:fakemmcobble:0, Quartzite Cobblestone
-ttfcapi:fakemmcobble:1, Slate Cobblestone
-ttfcapi:fakemmcobble:2, Phyllite Cobblestone
-ttfcapi:fakemmcobble:3, Schist Cobblestone
-ttfcapi:fakemmcobble:4, Gneiss Cobblestone
-ttfcapi:fakemmcobble:5, Marble Cobblestone
-ttfcapi:fakesedcobble:0, Shale Cobblestone
-ttfcapi:fakesedcobble:1, Claystone Cobblestone
-ttfcapi:fakesedcobble:2, Rock Salt Cobblestone
-ttfcapi:fakesedcobble:3, Limestone Cobblestone
-ttfcapi:fakesedcobble:4, Conglomerate Cobblestone
-ttfcapi:fakesedcobble:5, Dolomite Cobblestone
-ttfcapi:fakesedcobble:6, Chert Cobblestone
-ttfcapi:fakesedcobble:7, Chalk Cobblestone
-ttfcapi:mossigexcobble:0, Mossy Rhyolite Cobblestone
-ttfcapi:mossigexcobble:1, Mossy Basalt Cobblestone
-ttfcapi:mossigexcobble:2, Mossy Andesite Cobblestone
-ttfcapi:mossigexcobble:3, Mossy Dacite Cobblestone
-ttfcapi:mossigincobble:0, Mossy Granite Cobblestone
-ttfcapi:mossigincobble:1, Mossy Diorite Cobblestone
-ttfcapi:mossigincobble:2, Mossy Gabbro Cobblestone
-ttfcapi:mossmmcobble:0, Mossy Quartzite Cobblestone
-ttfcapi:mossmmcobble:1, Mossy Slate Cobblestone
-ttfcapi:mossmmcobble:2, Mossy Phyllite Cobblestone
-ttfcapi:mossmmcobble:3, Mossy Schist Cobblestone
-ttfcapi:mossmmcobble:4, Mossy Gneiss Cobblestone
-ttfcapi:mossmmcobble:5, Mossy Marble Cobblestone
-ttfcapi:mosssedcobble:0, Mossy Shale Cobblestone
-ttfcapi:mosssedcobble:1, Mossy Claystone Cobblestone
-ttfcapi:mosssedcobble:2, Mossy Rock Salt Cobblestone
-ttfcapi:mosssedcobble:3, Mossy Limestone Cobblestone
-ttfcapi:mosssedcobble:4, Mossy Conglomerate Cobblestone
-ttfcapi:mosssedcobble:5, Mossy Dolomite Cobblestone
-ttfcapi:mosssedcobble:6, Mossy Chert Cobblestone
-ttfcapi:mosssedcobble:7, Mossy Chalk Cobblestone
-terrathaumcraft:blockMetalDeviceTTC:0, Crucible
-terrathaumcraft:blockMetalDeviceTTC:1, Arcane Alembic
-terrathaumcraft:blockMetalDeviceTTC:5, Item Grate
-terrathaumcraft:blockMetalDeviceTTC:7, Arcane Lamp
-terrathaumcraft:blockMetalDeviceTTC:8, Lamp of Growth
-terrathaumcraft:blockMetalDeviceTTC:13, Lamp of Fertility
-terrathaumcraft:blockMetalDeviceTTC:9, Alchemical Construct
-terrathaumcraft:blockMetalDeviceTTC:3, Advanced Alchemical Construct
-terrathaumcraft:blockMetalDeviceTTC:12, Mnemonic Matrix
-terrathaumcraft:blockMetalDeviceTTC:14, Vis Relay
-terrathaumcraft:blockMetalDeviceTTC:2, Vis Charge Relay
-terrathaumcraft:crucible, Crucible
-terrathaumcraft:magicore:0, Air Infused Stone
-terrathaumcraft:magicore:1, Fire Infused Stone
-terrathaumcraft:magicore:2, Water Infused Stone
-terrathaumcraft:magicore:3, Earth Infused Stone
-terrathaumcraft:magicore:4, Order Infused Stone
-terrathaumcraft:magicore:5, Entropy Infused Stone
-terrathaumcraft:magicore:6, Cinnabar Ore
-terrathaumcraft:magicore:7, Amber Bearing Stone
-terrathaumcraft:magicore:8, Quartz
-terrathaumcraft:magictrunk:0, Greatwood Log
-terrathaumcraft:magictrunk:1, Silverwood Log
-terrathaumcraft:magiclog:0, Greatwood Log
-terrathaumcraft:magiclog:1, Silverwood Log
-terrathaumcraft:magicsapling:0, Greatwood Sapling
-terrathaumcraft:magicsapling:1, Silverwood Sapling
-terrathaumcraft:tile.hellsand, Soul Sand
-terrathaumcraft:tile.soulfarmland, Tilled Soul Sand
-terrathaumcraft:tile.worlditem, tile.worlditem.name
-terrathaumcraft:tile.cropsTTC, tile.cropsTTC.name
-terrathaumcraft:Doortile.Door Greatwood, tile.Door Greatwood.name
-terrathaumcraft:Doortile.Door Silverwood, tile.Door Silverwood.name
 tfcengineer:tile.ElectricForge, Electric Forge
 tfcengineer:tile.InductionForge, Induction Forge
 tfcengineer:tile.Fridge, Fridge
@@ -7132,8 +6840,6 @@ terrafirmacraft:item.Log:13, White Elm Log
 terrafirmacraft:item.Log:14, Willow Log
 terrafirmacraft:item.Log:15, Kapok Log
 terrafirmacraft:item.Log:16, Acacia Log
-terrafirmacraft:item.Log:17, Greatwood Log
-terrafirmacraft:item.Log:18, Silverwood Log
 terrafirmacraft:item.IgIn Stone Javelin, Stone Javelin
 terrafirmacraft:item.Sed Stone Javelin, Stone Javelin
 terrafirmacraft:item.IgEx Stone Javelin, Stone Javelin
@@ -7404,8 +7110,6 @@ terrafirmacraft:item.SinglePlank:13, White Elm Lumber
 terrafirmacraft:item.SinglePlank:14, Willow Lumber
 terrafirmacraft:item.SinglePlank:15, Kapok Lumber
 terrafirmacraft:item.SinglePlank:16, Acacia Lumber
-terrafirmacraft:item.SinglePlank:17, Greatwood Lumber
-terrafirmacraft:item.SinglePlank:18, Silverwood Lumber
 terrafirmacraft:item.Red Steel Bucket Empty, Red Steel Bucket (Empty)
 terrafirmacraft:item.Red Steel Bucket Water, Red Steel Bucket (Fresh Water)
 terrafirmacraft:item.Red Steel Bucket Salt Water, Red Steel Bucket (Salt Water)
@@ -7825,343 +7529,6 @@ BuildCraft|Core:ironGearItem, Iron Gear
 BuildCraft|Core:goldGearItem, Gold Gear
 BuildCraft|Core:diamondGearItem, Diamond Gear
 BuildCraft|Core:paintbrush, Paintbrush
-Baubles:Ring:0, Miner's Ring
-Thaumcraft:WandCasting:0, Iron Capped Wooden Wand
-Thaumcraft:WandCasting:9, Gold Banded Greatwood Wand
-Thaumcraft:WandCasting:54, Thaumium Bossed Silverwood Wand
-Thaumcraft:WandCasting:128, Thaumium Bossed Silverwood Scepter
-Thaumcraft:WandCap:0, Iron Cap
-Thaumcraft:WandCap:1, Gold Cap
-Thaumcraft:WandCap:2, Charged Thaumium Cap
-Thaumcraft:WandCap:6, Inert Thaumium Cap
-Thaumcraft:WandCap:7, Charged Void metal Cap
-Thaumcraft:WandCap:8, Inert Void metal Cap
-Thaumcraft:WandRod:0, Greatwood Rod
-Thaumcraft:WandRod:1, Obsidian Rod
-Thaumcraft:WandRod:2, Silverwood Rod
-Thaumcraft:WandRod:3, Icy Rod
-Thaumcraft:WandRod:4, Quartz Rod
-Thaumcraft:WandRod:5, Reed Rod
-Thaumcraft:WandRod:6, Blazing Rod
-Thaumcraft:WandRod:7, Bone Rod
-Thaumcraft:WandRod:50, Greatwood Staff Core
-Thaumcraft:WandRod:51, Obsidian Staff Core
-Thaumcraft:WandRod:52, Silverwood Staff Core
-Thaumcraft:WandRod:53, Icy Staff Core
-Thaumcraft:WandRod:54, Quartz Staff Core
-Thaumcraft:WandRod:55, Reed Staff Core
-Thaumcraft:WandRod:56, Blazing Staff Core
-Thaumcraft:WandRod:57, Bone Staff Core
-Thaumcraft:WandRod:100, Staff Core of the Primal
-Thaumcraft:FocusPouch, Focus Pouch
-Thaumcraft:FocusFire, Wand Focus: Fire
-Thaumcraft:FocusShock, Wand Focus: Shock
-Thaumcraft:FocusHellbat, Wand Focus: Nine Hells
-Thaumcraft:FocusFrost, Wand Focus: Frost
-Thaumcraft:FocusTrade, Wand Focus: Equal Trade 
-Thaumcraft:FocusExcavation, Wand Focus: Excavation
-Thaumcraft:FocusPortableHole, Wand Focus: Portable Hole
-Thaumcraft:FocusPech, Wand Focus: Pech's Curse
-Thaumcraft:FocusWarding, Wand Focus: Warding
-Thaumcraft:FocusPrimal, Wand Focus: Primal
-Thaumcraft:ItemEssence:0, Glass Phial
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemEssence:1, Phial of Essentia
-Thaumcraft:ItemManaBean:0, Mana Bean
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemWispEssence:0, Ethereal Essence
-Thaumcraft:ItemResource:0, Alumentum
-Thaumcraft:ItemResource:1, Nitor
-Thaumcraft:ItemResource:2, Thaumium Ingot
-Thaumcraft:ItemResource:3, Quicksilver
-Thaumcraft:ItemResource:4, Magic Tallow
-Thaumcraft:ItemResource:6, Amber
-Thaumcraft:ItemResource:7, Enchanted Fabric
-Thaumcraft:ItemResource:8, Vis Filter
-Thaumcraft:ItemResource:9, Knowledge Fragment
-Thaumcraft:ItemResource:10, Mirrored Glass
-Thaumcraft:ItemResource:11, Tainted Goo
-Thaumcraft:ItemResource:12, Taint Tendril
-Thaumcraft:ItemResource:13, Jar Label
-Thaumcraft:ItemResource:14, Salis Mundus
-Thaumcraft:ItemResource:15, Primal Charm
-Thaumcraft:ItemResource:16, Void metal Ingot
-Thaumcraft:ItemResource:17, Void Seed
-Thaumcraft:ItemResource:18, Gold Coin
-Thaumcraft:ItemShard:0, Air Shard
-Thaumcraft:ItemShard:1, Fire Shard
-Thaumcraft:ItemShard:2, Water Shard
-Thaumcraft:ItemShard:3, Earth Shard
-Thaumcraft:ItemShard:4, Order Shard
-Thaumcraft:ItemShard:5, Entropy Shard
-Thaumcraft:ItemShard:6, Balanced Shard
-Thaumcraft:ItemResearchNotes:0, Research Notes
-Thaumcraft:ItemInkwell, Scribing Tools
-Thaumcraft:ItemThaumonomicon:0, Thaumonomicon
-Thaumcraft:ItemThaumonomicon:42, Thaumonomicon
-Thaumcraft:ItemThaumometer, Thaumometer
-Thaumcraft:ItemGoggles, Goggles of Revealing
-Thaumcraft:ItemHelmetThaumium, Thaumium Helm
-Thaumcraft:ItemChestplateThaumium, Thaumium Chestplate
-Thaumcraft:ItemLeggingsThaumium, Thaumium Leggings
-Thaumcraft:ItemBootsThaumium, Thaumium Boots
-Thaumcraft:ItemShovelThaumium, Thaumium Shovel
-Thaumcraft:ItemPickThaumium, Thaumium Pickaxe
-Thaumcraft:ItemAxeThaumium, Thaumium Axe
-Thaumcraft:ItemSwordThaumium, Thaumium Sword
-Thaumcraft:ItemHoeThaumium, Thaumium Hoe
-Thaumcraft:ItemArcaneDoor, Arcane Door
-Thaumcraft:ItemNugget:0, Iron Nugget
-Thaumcraft:ItemNugget:5, Quicksilver Drop
-Thaumcraft:ItemNugget:21, Native Cinnabar Cluster
-Thaumcraft:ItemNugget:6, Thaumium Nugget
-Thaumcraft:ItemNugget:7, Void metal Nugget
-Thaumcraft:ItemNugget:16, Native Iron Cluster
-Thaumcraft:ItemNugget:31, Native Gold Cluster
-Thaumcraft:BootsTraveller, Boots of the Traveler
-Thaumcraft:ItemNuggetChicken, Chicken Nugget
-Thaumcraft:ItemNuggetBeef, Beef Nugget
-Thaumcraft:ItemNuggetPork, Pork Nugget
-Thaumcraft:ItemNuggetFish, Fish Nugget
-Thaumcraft:TripleMeatTreat, Triple Meat Treat
-Thaumcraft:ItemSwordElemental, Sword of the Zephyr
-Thaumcraft:ItemShovelElemental, Shovel of the Earthmover
-Thaumcraft:ItemPickaxeElemental, Pickaxe of the Core
-Thaumcraft:ItemAxeElemental, Axe of the Stream
-Thaumcraft:ItemHoeElemental, Hoe of Growth
-Thaumcraft:ItemChestplateRobe, Thaumaturge's Robe
-Thaumcraft:ItemLeggingsRobe, Thaumaturge's Leggings
-Thaumcraft:ItemBootsRobe, Thaumaturge's Boots
-Thaumcraft:ArcaneDoorKey:0, Iron Arcane Key
-Thaumcraft:ArcaneDoorKey:1, Gold Arcane Key
-Thaumcraft:HandMirror, Magic Hand Mirror
-Thaumcraft:HoverHarness, Thaumostatic Harness
-Thaumcraft:BlockJarFilledItem, Jar of Essentia
-Thaumcraft:BlockJarNodeItem, Node in a Jar
-Thaumcraft:TrunkSpawner:0, Traveling Trunk
-Thaumcraft:ItemGolemPlacer:0, Straw Golem
-Thaumcraft:ItemGolemPlacer:1, Wood Golem
-Thaumcraft:ItemGolemPlacer:2, Tallow Golem
-Thaumcraft:ItemGolemPlacer:3, Clay Golem
-Thaumcraft:ItemGolemPlacer:4, Flesh Golem
-Thaumcraft:ItemGolemPlacer:5, Stone Golem
-Thaumcraft:ItemGolemPlacer:6, Iron Golem
-Thaumcraft:ItemGolemPlacer:7, Thaumium Golem
-Thaumcraft:ItemGolemCore:100, Golem Animation Core
-Thaumcraft:ItemGolemCore:0, Golem Animation Core
-Thaumcraft:ItemGolemCore:1, Golem Animation Core
-Thaumcraft:ItemGolemCore:2, Golem Animation Core
-Thaumcraft:ItemGolemCore:3, Golem Animation Core
-Thaumcraft:ItemGolemCore:4, Golem Animation Core
-Thaumcraft:ItemGolemCore:5, Golem Animation Core
-Thaumcraft:ItemGolemCore:6, Golem Animation Core
-Thaumcraft:ItemGolemCore:7, Golem Animation Core
-Thaumcraft:ItemGolemCore:8, Golem Animation Core
-Thaumcraft:ItemGolemCore:9, Golem Animation Core
-Thaumcraft:ItemGolemCore:10, Golem Animation Core
-Thaumcraft:ItemGolemCore:11, Golem Animation Core
-Thaumcraft:ItemGolemUpgrade:0, Golem Upgrade: Air
-Thaumcraft:ItemGolemUpgrade:1, Golem Upgrade: Earth
-Thaumcraft:ItemGolemUpgrade:2, Golem Upgrade: Fire
-Thaumcraft:ItemGolemUpgrade:3, Golem Upgrade: Water
-Thaumcraft:ItemGolemUpgrade:4, Golem Upgrade: Order
-Thaumcraft:ItemGolemUpgrade:5, Golem Upgrade: Entropy
-Thaumcraft:GolemBell, Golemancer's Bell
-Thaumcraft:ItemGolemDecoration:0, Accessory: Top Hat
-Thaumcraft:ItemGolemDecoration:1, Accessory: Spectacles
-Thaumcraft:ItemGolemDecoration:2, Accessory: Bowtie
-Thaumcraft:ItemGolemDecoration:3, Accessory: Fez
-Thaumcraft:ItemGolemDecoration:4, Accessory: Dart Launcher
-Thaumcraft:ItemGolemDecoration:5, Accessory: Visor
-Thaumcraft:ItemGolemDecoration:6, Accessory: Iron Plating
-Thaumcraft:ItemGolemDecoration:7, Accessory: Mace Arm
-Thaumcraft:ItemBowBone, Bow of Bone
-Thaumcraft:PrimalArrow:0, Air Arrow
-Thaumcraft:PrimalArrow:1, Fire Arrow
-Thaumcraft:PrimalArrow:2, Water Arrow
-Thaumcraft:PrimalArrow:3, Earth Arrow
-Thaumcraft:PrimalArrow:4, Order Arrow
-Thaumcraft:PrimalArrow:5, Entropy Arrow
-Thaumcraft:ItemResonator, Essentia Resonator
-Thaumcraft:ItemBaubleBlanks:0, Mundane Amulet
-Thaumcraft:ItemBaubleBlanks:1, Mundane Ring
-Thaumcraft:ItemBaubleBlanks:2, Mundane Belt
-Thaumcraft:ItemAmuletRunic:0, Amulet of Runic Shielding
-Thaumcraft:ItemAmuletRunic:1, Amulet of Emergency Shielding
-Thaumcraft:ItemRingRunic:0, Ring of Protection
-Thaumcraft:ItemRingRunic:1, Ring of Runic Shielding
-Thaumcraft:ItemRingRunic:2, Charged Ring of Shielding
-Thaumcraft:ItemRingRunic:3, Revitalizing Ring of Shielding
-Thaumcraft:ItemGirdleRunic:0, Girdle of Runic Shielding
-Thaumcraft:ItemGirdleRunic:1, Kinetic Girdle of Shielding
-Thaumcraft:ItemAmuletVis:0, Vis Stone
-Thaumcraft:ItemAmuletVis:1, Amulet of Vis Storage
-Thaumcraft:ItemGirdleHover:0, Thaumostatic Girdle
-Thaumcraft:ItemSpawnerEgg:0, Spawn Angry Zombie
-Thaumcraft:ItemSpawnerEgg:1, Spawn Furious Zombie
-Thaumcraft:ItemSpawnerEgg:2, Spawn Wisp
-Thaumcraft:ItemSpawnerEgg:3, Spawn Firebat
-Thaumcraft:ItemSpawnerEgg:4, Spawn Pech Forager
-Thaumcraft:ItemSpawnerEgg:5, Spawn Mind Spider
-Thaumcraft:ItemSpawnerEgg:6, Spawn Eldritch Guardian
-Thaumcraft:ItemSpawnerEgg:7, Spawn %s the %s
-Thaumcraft:ItemSpawnerEgg:8, Spawn Crimson Knight
-Thaumcraft:ItemSpawnerEgg:9, Spawn Crimson Cleric
-Thaumcraft:ItemSpawnerEgg:10, Spawn Praetor %s the %s
-Thaumcraft:ItemSpawnerEgg:11, Spawn Crimson Portal
-Thaumcraft:ItemSpawnerEgg:12, Spawn %s Eldritch Construct
-Thaumcraft:ItemSpawnerEgg:13, Spawn Eldritch Crab
-Thaumcraft:ItemSpawnerEgg:14, Spawn Shambling Husk
-Thaumcraft:ItemSpawnerEgg:15, Spawn Thaumic Slime
-Thaumcraft:ItemSpawnerEgg:16, Spawn Tainted Crawler
-Thaumcraft:ItemSpawnerEgg:17, Spawn Taintacle
-Thaumcraft:ItemSpawnerEgg:18, Spawn Taint Tendril
-Thaumcraft:ItemSpawnerEgg:19, Spawn Taint Spore
-Thaumcraft:ItemSpawnerEgg:20, Spawn Taint Spore Swarmer
-Thaumcraft:ItemSpawnerEgg:21, Spawn Taint Swarm
-Thaumcraft:ItemSpawnerEgg:22, Spawn Tainted Chicken
-Thaumcraft:ItemSpawnerEgg:23, Spawn Tainted Cow
-Thaumcraft:ItemSpawnerEgg:24, Spawn Tainted Creeper
-Thaumcraft:ItemSpawnerEgg:25, Spawn Tainted Pig
-Thaumcraft:ItemSpawnerEgg:26, Spawn Tainted Sheep
-Thaumcraft:ItemSpawnerEgg:27, Spawn Tainted Villager
-Thaumcraft:ItemSpawnerEgg:28, Spawn Giant Taintacle
-Thaumcraft:ItemZombieBrain, Zombie Brain
-Thaumcraft:ItemBathSalts, Purifying Bath Salts
-Thaumcraft:ItemCrystalEssence:0, Crystallized Essence
-Thaumcraft:ItemBucketDeath, Bucket of Liquid Death
-Thaumcraft:ItemBucketPure, Bucket of Purifying Fluid
-Thaumcraft:ItemHelmetFortress, Thaumium Fortress Helm
-Thaumcraft:ItemChestplateFortress, Thaumium Fortress Cuirass
-Thaumcraft:ItemLeggingsFortress, Thaumium Fortress Thigh Guards
-Thaumcraft:ItemEldritchObject:0, Eldritch Eye
-Thaumcraft:ItemEldritchObject:1, Crimson Rites
-Thaumcraft:ItemEldritchObject:2, Runed Tablet
-Thaumcraft:ItemEldritchObject:3, Primordial Pearl
-Thaumcraft:ItemEldritchObject:4, Eldritch Obelisk Placer
-Thaumcraft:ItemHelmetVoid, Void Helm
-Thaumcraft:ItemChestplateVoid, Void Chestplate
-Thaumcraft:ItemLeggingsVoid, Void Leggings
-Thaumcraft:ItemBootsVoid, Void Boots
-Thaumcraft:ItemShovelVoid, Void Shovel
-Thaumcraft:ItemPickVoid, Void Pickaxe
-Thaumcraft:ItemAxeVoid, Void Axe
-Thaumcraft:ItemSwordVoid, Void Sword
-Thaumcraft:ItemHoeVoid, Void Hoe
-Thaumcraft:ItemHelmetVoidFortress, Void Thaumaturge Hood
-Thaumcraft:ItemChestplateVoidFortress, Void Thaumaturge Robe
-Thaumcraft:ItemLeggingsVoidFortress, Void Thaumaturge Leggings
-Thaumcraft:ItemSanitySoap, Sanitizing Soap
-Thaumcraft:ItemSanityChecker, Sanity Checker
-Thaumcraft:ItemBottleTaint, Bottled Taint
-Thaumcraft:ItemHelmetCultistRobe, Crimson Cult Hood
-Thaumcraft:ItemChestplateCultistRobe, Crimson Cult Robe
-Thaumcraft:ItemLeggingsCultistRobe, Crimson Cult Leggings
-Thaumcraft:ItemBootsCultist, Crimson Cult Boots
-Thaumcraft:ItemHelmetCultistPlate, Crimson Cult Helm
-Thaumcraft:ItemChestplateCultistPlate, Crimson Cult Chestplate
-Thaumcraft:ItemLeggingsCultistPlate, Crimson Cult Greaves
-Thaumcraft:ItemHelmetCultistLeaderPlate, Crimson Praetor Helm
-Thaumcraft:ItemChestplateCultistLeaderPlate, Crimson Praetor Chestplate
-Thaumcraft:ItemLeggingsCultistLeaderPlate, Crimson Praetor Greaves
-Thaumcraft:ItemSwordCrimson, Crimson Blade
-Thaumcraft:ItemLootBag:0, Common Treasure
-Thaumcraft:ItemLootBag:1, Uncommon Treasure
-Thaumcraft:ItemLootBag:2, Rare Treasure
-Thaumcraft:ItemCompassStone:0, Sinister Lodestone
-Thaumcraft:ItemPrimalCrusher, Primal Crusher
 Railcraft:fluid.creosote.bucket, Creosote Bucket
 Railcraft:fluid.creosote.bottle, Creosote Bottle
 Railcraft:fluid.creosote.can, Creosote Can
@@ -8242,8 +7609,6 @@ Railcraft:upgrade.lapotron, item.railcraft.upgrade.lapotron.name
 Railcraft:cart.energy.batbox:0, Batbox Cart
 Railcraft:cart.energy.mfe:0, MFE Cart
 Railcraft:cart.energy.cesu:0, CESU Cart
-Railcraft:tool.crowbar.magic, Thaumium Crowbar
-Railcraft:tool.crowbar.void, Void metal Crowbar
 Railcraft:cart.anchor:0, Anchor Cart
 Railcraft:cart.anchor.personal:0, Personal Anchor Cart
 Railcraft:cart.anchor.admin:0, Admin Anchor Cart
@@ -10346,8 +9711,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - White Elm Planks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Willow Planks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Kapok Planks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Acacia Planks
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Greatwood Planks
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Silverwood Planks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Oak Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Aspen Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Birch Log
@@ -10365,8 +9728,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - White Elm Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Willow Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Kapok Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Acacia Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Greatwood Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Silverwood Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Oak Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Aspen Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Birch Log
@@ -10384,17 +9745,11 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - White Elm Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Willow Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Kapok Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Acacia Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.WoodHoriz3.greatwood.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.WoodHoriz3.silverwood.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.WoodHoriz4.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.WoodHoriz4.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.WoodHoriz4.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Fire Brick Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Bookshelf
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Workbench
 appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.buildToolBlock.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Greatwood Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Silverwood Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Coal Coke
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Copper
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Tin
@@ -10770,18 +10125,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Anti Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Anti Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Anti Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Anti Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Arcane Stone Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Arcane Stone Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Arcane Stone Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Arcane Stone Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Arcane Stone Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Arcane Stone Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Arcane Stone Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Arcane Stone Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Arcane Stone Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Arcane Stone Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Arcane Stone Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Arcane Stone Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Bookshelf
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Bookshelf
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Bookshelf
@@ -11490,8 +10833,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Stone Bricks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Stone Bricks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Stone Bricks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Stone Bricks
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Tallow
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Tallow
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Technical Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Technical Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Technical Block
@@ -11560,12 +10901,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Tin
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Tin
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Tin
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Tin
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Thaumium Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Thaumium Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Thaumium Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Thaumium Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Thaumium Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Thaumium Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tyrian
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tyrian
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tyrian
@@ -12248,51 +11583,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Metal Panel (Connected)
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Metal Panel (Connected)
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Metal Panel (Connected)
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Hardened Sand
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rhyolite Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Basalt Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Andesite Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Dacite Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Granite Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Diorite Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gabbro Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Quartzite Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Slate Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Phyllite Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Schist Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Marble Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Shale Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Claystone Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rock Salt Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Conglomerate Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Dolomite Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Chert Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Chalk Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Rhyolite Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Basalt Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Andesite Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Dacite Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Granite Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Diorite Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Gabbro Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Quartzite Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Slate Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Phyllite Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Schist Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Gneiss Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Marble Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Shale Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Claystone Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Rock Salt Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Limestone Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Conglomerate Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Dolomite Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Chert Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Chalk Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Greatwood Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Silverwood Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Soul Sand
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Melon
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Bellows Driver
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Water Filter
@@ -14293,6 +13583,7 @@ enhancedportals:upgrade:7, Energy Transportation Upgrade
 enhancedportals:blank_portal_module, Blank Portal Module
 enhancedportals:blank_upgrade, Blank Upgrade
 enhancedportals:manual, ENHANCED PORTALS: wormhole tunneling
+Baubles:Ring:0, Miner's Ring
 ExtraUtilities:mini-soul:0, Soul fragment
 ExtraUtilities:mini-soul:3, Soul fragment
 ExtraUtilities:paintbrush:0, Paintbrush
@@ -14302,51 +13593,51 @@ ExtraUtilities:shears, Precision Shears
 ExtraUtilities:creativebuilderswand, Super Builder's Wand
 ExtraUtilities:sonar_goggles, Sonar Goggles
 ExtraUtilities:scanner, Portable Scanner
-factorization:servo/sprocket, Dark Iron Sprocket
-factorization:utiligoo:0, Goo
-factorization:fan, Pressurizer
-factorization:sculptTool:0, Sculpting Tool
-factorization:logic_matrix, Blank Logic Matrix
-factorization:barrelCart:0, Barrel Cart
-factorization:barrelCart:0, Barrel Cart: Creative Bedrock Barrel
-factorization:diamond_cutting_head, Diamond Cutting Head
-factorization:diamond_shard, Diamond Block Shard
-factorization:servo/servo_motor, Servo Motor
-factorization:logic_matrix_controller, Logic Matrix: Controller
-factorization:sludge, Sludge
-factorization:servo/decorator, item.factorization:servo/decorator.name
-factorization:corkscrew, Corkscrew
-factorization:servo/commenter, Commenter
-factorization:servo/servo, Servo
-factorization:lead_ingot, Lead Ingot
-factorization:servo/instruction_plate, Instruction Plate
-factorization:insulated_coil, Insulated Coil
-factorization:acid:0, Sulfuric Acid
-factorization:acid:1, Aqua Regia
-factorization:socket/scissors, Enormous Scissors
-factorization:tool/charge_meter, Charge Meter
-factorization:motor, Motor
-factorization:mansandwich:0, Manwich
-factorization:mansandwich:1, Spicy Manwich
-factorization:potencyBottle, Bottle of Potency
-factorization:ceramics/glaze_bucket, Glaze Bucket
-factorization:docbook, The Factorization Manual
-factorization:tool/matrix_programmer, Logic Matrix Programmer
-factorization:tool/pocket_crafting_table, Pocket Crafting Table
-factorization:mirror, Mirror
-factorization:dark_iron_ingot, Dark Iron Ingot
-factorization:daybarrel, item.factorization:daybarrel.name
-factorization:entheas, Entheas
 factorization:charge_battery, Battery Block
+factorization:sculptTool:0, Sculpting Tool
+factorization:tool/charge_meter, Charge Meter
+factorization:servo/commenter, Commenter
+factorization:logic_matrix, Blank Logic Matrix
 factorization:servo/component, item.factorization:servo/component.name
-factorization:silver_ingot, Silver Ingot
-factorization:socket/:34, Robotic Arm
-factorization:socket/:35, Item Shifter
-factorization:brokenArtifact, item.factorization:brokenArtifact.name
-factorization:logic_matrix_identifier, Logic Matrix: Identifier
+factorization:utiligoo:0, Goo
 factorization:spawnPoster, Poster
 factorization:nether_powder, Netherrack Powder
+factorization:sludge, Sludge
+factorization:logic_matrix_controller, Logic Matrix: Controller
+factorization:servo/instruction_plate, Instruction Plate
+factorization:mirror, Mirror
+factorization:servo/sprocket, Dark Iron Sprocket
+factorization:docbook, The Factorization Manual
+factorization:tool/pocket_crafting_table, Pocket Crafting Table
+factorization:insulated_coil, Insulated Coil
+factorization:entheas, Entheas
+factorization:motor, Motor
+factorization:diamond_cutting_head, Diamond Cutting Head
+factorization:logic_matrix_identifier, Logic Matrix: Identifier
+factorization:servo/servo_motor, Servo Motor
+factorization:servo/servo, Servo
+factorization:silver_ingot, Silver Ingot
+factorization:mansandwich:0, Manwich
+factorization:mansandwich:1, Spicy Manwich
+factorization:lead_ingot, Lead Ingot
 factorization:sap, Sap
+factorization:corkscrew, Corkscrew
+factorization:servo/decorator, item.factorization:servo/decorator.name
+factorization:acid:0, Sulfuric Acid
+factorization:acid:1, Aqua Regia
+factorization:tool/matrix_programmer, Logic Matrix Programmer
+factorization:brokenArtifact, item.factorization:brokenArtifact.name
+factorization:dark_iron_ingot, Dark Iron Ingot
+factorization:diamond_shard, Diamond Block Shard
+factorization:potencyBottle, Bottle of Potency
+factorization:fan, Pressurizer
+factorization:socket/scissors, Enormous Scissors
+factorization:ceramics/glaze_bucket, Glaze Bucket
+factorization:daybarrel, item.factorization:daybarrel.name
+factorization:barrelCart:0, Barrel Cart
+factorization:barrelCart:0, Barrel Cart: Creative Bedrock Barrel
+factorization:socket/:34, Robotic Arm
+factorization:socket/:35, Item Shifter
 foundry:foundryComponent:0, Stone Gear
 foundry:foundryComponent:1, Heating Coil
 foundry:foundryComponent:2, Refractory Clay
@@ -14468,15 +13759,6 @@ foundry:foundryRoundPoison, Poison Round
 foundry:foundryShell, Standard Shell
 foundry:foundryRoundAP, Armor Piercing Round
 foundry:foundryShellAP, Armor Piercing Shell
-foundry:foundryContainer:0, Refractory Fluid Container
-foundry:foundryContainer:0, Refractory Fluid Container
-foundry:foundryContainer:0, Refractory Fluid Container
-foundry:foundryContainer:0, Refractory Fluid Container
-foundry:foundryContainer:0, Refractory Fluid Container
-foundry:foundryContainer:0, Refractory Fluid Container
-foundry:foundryContainer:0, Refractory Fluid Container
-foundry:foundryContainer:0, Refractory Fluid Container
-foundry:foundryContainer:0, Refractory Fluid Container
 foundry:foundryContainer:0, Refractory Fluid Container
 foundry:foundryContainer:0, Refractory Fluid Container
 foundry:foundryContainer:0, Refractory Fluid Container
@@ -15499,7 +14781,6 @@ PneumaticCraft:machineUpgrade:6, Item Search Upgrade
 PneumaticCraft:machineUpgrade:7, Coordinate Tracker Upgrade
 PneumaticCraft:machineUpgrade:8, Range Upgrade
 PneumaticCraft:machineUpgrade:9, Security Upgrade
-PneumaticCraft:machineUpgrade:10, Thaumcraft Upgrade
 PneumaticCraft:ingotIronCompressed, Compressed Iron Ingot
 PneumaticCraft:pressureGauge, Pressure Gauge
 PneumaticCraft:stoneBase, Stone Base
@@ -15981,115 +15262,6 @@ Techguns:spawnEggStormtrooper, item.spawn_egg_stormtrooper.name
 Techguns:spawnEggSuperMutantBasic, item.spawn_egg_supermutantbasic.name
 Techguns:spawnEggSuperMutantHeavy, item.spawn_egg_supermutantheavy.name
 Techguns:spawnEggSuperMutantElite, item.spawn_egg_supermutantelite.name
-ttfcapi:silktouchore, item.null.name
-ttfcapi:tapiquiver, item.tapiquiver.name
-terrathaumcraft:item.thaumiumunfinishedgreaves:0, Thaumium Unfinished Greaves
-terrathaumcraft:item.thaumiumgreaves, item.thaumiumgreaves.name
-terrathaumcraft:item.thaumiumunfinishedchest:0, Thaumium Unfinished Chestplate
-terrathaumcraft:item.thaumiumchest, item.thaumiumchest.name
-terrathaumcraft:item.thaumiumunfinishedboots:0, Thaumium Unfinished Boots
-terrathaumcraft:item.thaumiumboots, item.thaumiumboots.name
-terrathaumcraft:item.thaumiumunfinishedhelm:0, Thaumium Unfinished Helm
-terrathaumcraft:item.thaumiumhelm, item.thaumiumhelm.name
-terrathaumcraft:item.thaumiumunshaped, item.thaumiumunshaped.name
-terrathaumcraft:item.thaumiumingot, item.thaumiumingot.name
-terrathaumcraft:item.thaumiumdoubleingot, item.thaumiumdoubleingot.name
-terrathaumcraft:item.thaumiumaxe, item.thaumiumaxe.name
-terrathaumcraft:item.elementalaxe, item.elementalaxe.name
-terrathaumcraft:HoverHarness, Thaumostatic Harness
-terrathaumcraft:ItemHelmetCultistRobe, Crimson Cult Hood
-terrathaumcraft:ItemChestplateCultistRobe, Crimson Cult Robe
-terrathaumcraft:ItemLeggingsCultistRobe, Crimson Cult Leggings
-terrathaumcraft:ItemHelmetVoidFortress, Void Thaumaturge Hood
-terrathaumcraft:ItemChestplateVoidFortress, Void Thaumaturge Robe
-terrathaumcraft:ItemLeggingsVoidFortress, Void Thaumaturge Leggings
-terrathaumcraft:ItemHelmetCultistLeaderPlate, Crimson Praetor Helm
-terrathaumcraft:ItemChestplateCultistLeaderPlate, Crimson Praetor Chestplate
-terrathaumcraft:ItemLeggingsCultistLeaderPlate, Crimson Praetor Greaves
-terrathaumcraft:ItemHelmetCultistPlate, Crimson Cult Helm
-terrathaumcraft:ItemChestplateCultistPlate, Crimson Cult Chestplate
-terrathaumcraft:ItemLeggingsCultistPlate, Crimson Cult Greaves
-terrathaumcraft:item.thaumiumshovel, item.thaumiumshovel.name
-terrathaumcraft:item.thaumiumpickaxe, item.thaumiumpickaxe.name
-terrathaumcraft:item.thaumiumhoe, item.thaumiumhoe.name
-terrathaumcraft:item.thaumiumscythe, item.thaumiumscythe.name
-terrathaumcraft:item.thaumiumchisel, item.thaumiumchisel.name
-terrathaumcraft:item.thaumiummace, item.thaumiummace.name
-terrathaumcraft:item.thaumiumjavelin, item.thaumiumjavelin.name
-terrathaumcraft:item.thaumiumpropick, item.thaumiumpropick.name
-terrathaumcraft:item.thaumiumhammer, item.thaumiumhammer.name
-terrathaumcraft:item.thaumiumknife, item.thaumiumknife.name
-terrathaumcraft:item.thaumiumsaw, item.thaumiumsaw.name
-terrathaumcraft:item.thaumiumtoolhead:0, Thaumium Axe Head
-terrathaumcraft:item.thaumiumtoolhead:1, Thaumium Chisel Head
-terrathaumcraft:item.thaumiumtoolhead:2, Thaumium Hammer Head
-terrathaumcraft:item.thaumiumtoolhead:3, Thaumium Hoe Head
-terrathaumcraft:item.thaumiumtoolhead:4, Thaumium Javelin Head
-terrathaumcraft:item.thaumiumtoolhead:5, Thaumium Knife Blade
-terrathaumcraft:item.thaumiumtoolhead:6, Thaumium Mace Head
-terrathaumcraft:item.thaumiumtoolhead:7, Thaumium Pickaxe Head
-terrathaumcraft:item.thaumiumtoolhead:8, Thaumium Prospector Pick Head
-terrathaumcraft:item.thaumiumtoolhead:9, Thaumium Saw Blade
-terrathaumcraft:item.thaumiumtoolhead:10, Thaumium Scythe Blade
-terrathaumcraft:item.thaumiumtoolhead:11, Thaumium Shovel Head
-terrathaumcraft:item.thaumiumtoolhead:12, Thaumium Sword Blade
-terrathaumcraft:item.thaumiumsword, item.thaumiumsword.name
-terrathaumcraft:item.thaumiumsheet, item.thaumiumsheet.name
-terrathaumcraft:item.ItemHelmetFortress, Thaumium Fortress Helm
-terrathaumcraft:item.ItemChestplateFortress, Thaumium Fortress Cuirass
-terrathaumcraft:item.ItemLeggingsFortress, Thaumium Fortress Thigh Guards
-terrathaumcraft:item.thaumiumdoublesheet, item.thaumiumdoublesheet.name
-terrathaumcraft:item.roughshard:0, Small Rough Air Shard
-terrathaumcraft:item.roughshard:1, Small Rough Fire Shard
-terrathaumcraft:item.roughshard:2, Small Rough Water Shard
-terrathaumcraft:item.roughshard:3, Small Rough Earth Shard
-terrathaumcraft:item.roughshard:4, Small Rough Order Shard
-terrathaumcraft:item.roughshard:5, Small Rough Entropy Shard
-terrathaumcraft:item.roughshard:6, Poor Rough Air Shard
-terrathaumcraft:item.roughshard:7, Poor Rough Fire Shard
-terrathaumcraft:item.roughshard:8, Poor Rough Water Shard
-terrathaumcraft:item.roughshard:9, Poor Rough Earth Shard
-terrathaumcraft:item.roughshard:10, Poor Rough Order Shard
-terrathaumcraft:item.roughshard:11, Poor Rough Entropy Shard
-terrathaumcraft:item.roughshard:12, Rough Air Shard
-terrathaumcraft:item.roughshard:13, Rough Fire Shard
-terrathaumcraft:item.roughshard:14, Rough Water Shard
-terrathaumcraft:item.roughshard:15, Rough Earth Shard
-terrathaumcraft:item.roughshard:16, Rough Order Shard
-terrathaumcraft:item.roughshard:17, Rough Entropy Shard
-terrathaumcraft:item.roughshard:18, Rich Rough Air Shard
-terrathaumcraft:item.roughshard:19, Rich Rough Fire Shard
-terrathaumcraft:item.roughshard:20, Rich Rough Water Shard
-terrathaumcraft:item.roughshard:21, Rich Rough Earth Shard
-terrathaumcraft:item.roughshard:22, Rich Rough Order Shard
-terrathaumcraft:item.roughshard:23, Rich Rough Entropy Shard
-terrathaumcraft:item.sharddust:0, Air Infused Dust
-terrathaumcraft:item.sharddust:1, Fire Infused Dust
-terrathaumcraft:item.sharddust:2, Water Infused Dust
-terrathaumcraft:item.sharddust:3, Earth Infused Dust
-terrathaumcraft:item.sharddust:4, Order Infused Dust
-terrathaumcraft:item.sharddust:5, Entropy Infused Dust
-terrathaumcraft:item.debugstick, item.debugstick.name
-terrathaumcraft:item.transmutedore:0, item.terrathaumcraft:Native Coppertransmutedore.name
-terrathaumcraft:item.transmutedore:1, item.terrathaumcraft:Native Goldtransmutedore.name
-terrathaumcraft:item.transmutedore:2, item.terrathaumcraft:Native Platinumtransmutedore.name
-terrathaumcraft:item.transmutedore:3, item.terrathaumcraft:Hematitetransmutedore.name
-terrathaumcraft:item.transmutedore:4, item.terrathaumcraft:Native Silvertransmutedore.name
-terrathaumcraft:item.transmutedore:5, item.terrathaumcraft:Cassiteritetransmutedore.name
-terrathaumcraft:item.transmutedore:6, item.terrathaumcraft:Galenatransmutedore.name
-terrathaumcraft:item.transmutedore:7, item.terrathaumcraft:Bismuthinitetransmutedore.name
-terrathaumcraft:item.transmutedore:8, item.terrathaumcraft:Garnieritetransmutedore.name
-terrathaumcraft:item.transmutedore:9, item.terrathaumcraft:Malachitetransmutedore.name
-terrathaumcraft:item.transmutedore:10, item.terrathaumcraft:Magnetitetransmutedore.name
-terrathaumcraft:item.transmutedore:11, item.terrathaumcraft:Limonitetransmutedore.name
-terrathaumcraft:item.transmutedore:12, item.terrathaumcraft:Sphaleritetransmutedore.name
-terrathaumcraft:item.transmutedore:13, item.terrathaumcraft:Tetrahedritetransmutedore.name
-terrathaumcraft:item.Greatwood Door, Greatwood Door
-terrathaumcraft:item.Silverwood Door, Silverwood Door
-terrathaumcraft:item.lavaseed:0, Scoria Powder
-terrathaumcraft:item.lavaseed:1, Lava Seed
-terrathaumcraft:item.rottenmeat, item.rottenmeat.name
-terrathaumcraft:item.netherwartseeds, Nether Wart Seeds
 tfcengineer:item.Lunchbox, Lunchbox
 tfcengineer:item.InsulationCloth, Insulation Cloth
 tfcrailcraft:woodenCreosoteBucket, Wooden Bucket (Creosote)

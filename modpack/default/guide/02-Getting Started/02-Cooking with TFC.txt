@@ -11,6 +11,15 @@ TL;DR:
 - Many more food can be made with the cooking pot.
 - Config forcing food diversity has been disabled to make life easier.
 
+Extracts:
+"A knife can no longer be used on a surface to make it a Food Prep Surface. Instead, make a Food Prep Table and place it in the world to make salads and sandwiches. Existing Food Surfaces are destroyed when they are accesses, dropping all of their contents onto the ground."
+
+"Salads and sandwiches are now made on Food Prep Tables. The salads and sandwiches can be made from any edible food and have dynamic recipes that change based on the contents. For example, a Rye Roast Beef Sandwich is made from rye bread, cooked beef and any other ingredient you would want to add."
+
+"Raw meats boiled in fresh water in a cooking pot can become boiled meats. Salted meats are made by mixing a raw meat and 0.04 oz. of either rock or sea salt per 1 oz. of meat on a Food Prep Table."
+
+"Grains are now refined by right-clicking the whole grain on a hard surface to place it. Next, repeatedly left-click the grain to separate it into refined grain and straw. The refined grain is then processed in the quern to flour. The flour is made into dough in a Mixing Bowl with water."
+
 {"image":"cooking.png"}
 
 To store your food, you can use the cellar from tfc cellar's mod. After entering industrial age, the fridge and deep freezer from TFC engineer's mod becomes available.

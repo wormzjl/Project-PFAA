@@ -145,7 +145,6 @@ recipes.remove(<tfctech:item.Tin Nugget>);
 recipes.remove(<tfctech:item.Zinc Nugget>);
 recipes.remove(<tfctech:item.Red Alloy Nugget>);
 
-//recipes.remove(<Thaumcraft:ItemNugget:*>);
 recipes.remove(<Railcraft:nugget:*>);
 recipes.remove(<libVulpes:libVulpesproductnugget:*>);
 

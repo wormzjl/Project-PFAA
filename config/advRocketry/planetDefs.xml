@@ -58,7 +58,7 @@
             <orbitalTheta>0</orbitalTheta>
             <rotationalPeriod>40000</rotationalPeriod>
             <hasRings>false</hasRings>
-            <biomeIds>193</biomeIds>
+            <biomeIds>92,130,149</biomeIds>
             <isKnown>false</isKnown>
         </planet>
         <planet name="Alpha Centauri B III" DIMID="15" customIcon="GasGiantBlue">
