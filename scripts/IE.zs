@@ -268,17 +268,17 @@ recipes.addShaped(<customitems:mold_wire>,
 
 //mold use
 //Pipe frame
-mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Zinc Pipe Frame>, <ore:ingotDoubleZinc>, <customitems:mold_pipe>, 2500);
-mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Lead Pipe Frame>, <ore:ingotDoubleLead>, <customitems:mold_pipe>, 2500);
-mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Blue Steel Pipe Frame>, <ore:ingotDoubleBlueSteel>, <customitems:mold_pipe>, 2500);
-mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Red Steel Pipe Frame>, <ore:ingotDoubleRedSteel>, <customitems:mold_pipe>, 2500);
-mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Electrum Pipe Frame>, <ore:ingotDoubleElectrum>, <customitems:mold_pipe>, 2500);
-mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Wrought Iron Pipe Frame>, <ore:ingotDoubleIron>, <customitems:mold_pipe>, 2500);
-mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Black Steel Pipe Frame>, <ore:ingotDoubleBlackSteel>, <customitems:mold_pipe>, 2500);
-mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Sterling Silver Pipe Frame>, <ore:ingotDoubleSterlingSilver>, <customitems:mold_pipe>, 2500);
-mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Silver Pipe Frame>, <ore:ingotDoubleSilver>, <customitems:mold_pipe>, 2500);
-mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Bronze Pipe Frame>, <ore:ingotDoubleBronze>, <customitems:mold_pipe>, 2500);
-mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Copper Pipe Frame>, <ore:ingotDoubleCopper>, <customitems:mold_pipe>, 2500);
+mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Zinc Pipe Frame>, <terrafirmacraft:item.Zinc Double Ingot>, <customitems:mold_pipe>, 2500);
+mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Lead Pipe Frame>, <terrafirmacraft:item.Lead Double Ingot>, <customitems:mold_pipe>, 2500);
+mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Blue Steel Pipe Frame>, <terrafirmacraft:item.Blue Steel Double Ingot>, <customitems:mold_pipe>, 2500);
+mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Red Steel Pipe Frame>, <terrafirmacraft:item.Red Steel Double Ingot>, <customitems:mold_pipe>, 2500);
+mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Electrum Pipe Frame>, <tfctech:item.Electrum Double Ingot>, <customitems:mold_pipe>, 2500);
+mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Wrought Iron Pipe Frame>, <terrafirmacraft:item.Wrought Iron Double Ingot>, <customitems:mold_pipe>, 2500);
+mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Black Steel Pipe Frame>, <terrafirmacraft:item.Black Steel Double Ingot>, <customitems:mold_pipe>, 2500);
+mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Sterling Silver Pipe Frame>, <terrafirmacraft:item.Sterling Silver Double Ingot>, <customitems:mold_pipe>, 2500);
+mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Silver Pipe Frame>, <terrafirmacraft:item.Silver Double Ingot>, <customitems:mold_pipe>, 2500);
+mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Bronze Pipe Frame>, <terrafirmacraft:item.Bronze Double Ingot>, <customitems:mold_pipe>, 2500);
+mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Copper Pipe Frame>, <terrafirmacraft:item.Copper Double Ingot>, <customitems:mold_pipe>, 2500);
 
 //Wire
 mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Unfinished Copper Wire>, <tfctech:item.Copper Stripe>, <customitems:mold_wire>, 500);
@@ -375,6 +375,8 @@ mods.immersiveengineering.Excavator.removeMineral("Coal");
 mods.immersiveengineering.Excavator.removeMineral("Lead");
 mods.immersiveengineering.Excavator.removeMineral("Silver");
 mods.immersiveengineering.Excavator.removeMineral("Quartzite");
+mods.immersiveengineering.Excavator.addMineral("dirt", 25, 0.3, ["blockDirt", "stone"], [20, 80]);
+
 
 //Biofuel
 mods.immersiveengineering.Refinery.removeRecipe(<liquid:biodiesel>);

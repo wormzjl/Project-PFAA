@@ -1,11 +1,11 @@
-§2§lUsing IHL machines
+﻿§2§lUsing IHL machines
 
-Crafting IHL is not simple, using them is not simple either. This chapter provides some "howtos" to make your life easier.
+Crafting and using IHL machines is not simple. This chapter provides some "how-to’s" to make your life easier.
 §C§LNote: All IHL machines are direction-sensitive, which means input/output can only be performed on specific sides!
 
 §3§lCryogenic distiller
-This device allows the distillation of air, it also serves in product separation in several chemical processes.
-It has 1 input side and 2 output sides. When distillating air, the input side must not be blocked.
+This device allows for the distillation of air, it also serves in product separation in several chemical processes.
+It has 1 input side and 2 output sides. When distilling air, the input side must not be blocked.
 {"image":"cryo1.png"}
 
 In other words, if you want the cryo distiller to work on something other than air distillation, you can simply block the input side with a pipe or something else, this will prevent messing up your fluid network when the device is idle.
@@ -13,23 +13,23 @@ In other words, if you want the cryo distiller to work on something other than a
 
 §3§lAutomatic separator
 When working with IHL devices such as the cryo distiller, chemical reactor, and the fluidized bed reactor, sometimes you will get more than 1 fluid as output and the separation could be difficult. The automatic separator can solve this problem easily.
-It uses the density as a indicator, the lighter fluid can be extracted from the top, and the heavier fluid can be extracted from below. Below is a system that separate nitrogen and oxygen from the output of the distiller with the set point density at 1.3. For other fluids, you can experiment with different values to make it work.
+It uses the density as an indicator, the lighter fluid can be extracted from the top, and the heavier fluid can be extracted from below. Below is a system that separates nitrogen and oxygen from the output of the distiller with the set point density at 1.3. For other fluids, you can experiment with different values to make it work.
 {"image":"cryo2.png"}
 
-§C§LNote: The high pressure pump from Pressured Pipes mod is essential when building fluid automations, as your can add a filter to prevent messing up your pipelines. In the example above, the pump above is set to only accept nitrogen and the one below only accept oxygen.
+§C§LNote: The high-pressure pump from Pressured Pipes mod is essential when building fluid automations, as you can add a filter to prevent messing up your pipelines. In the example above, the pump above is set to only accept nitrogen and the one below to only accept oxygen.
 
 
 §3§lWire mill
 The wire mill is used to make IHL wires, as well as glass fibers. It needs water and a lubricant (oleic acid, seed oil, mineral oil) to work.
-The wire need to be recovered using a coiler. Below is a image describing the making of fiberglass.
+The wire need to be recovered using a coiler. Below is an image describing the making of fiberglass.
 {"image":"wiremill1.png"}
 
 The setup becomes a bit more complicated when making IHL wires, as it needs to be insulated (uninsulated ones loses power when touching ground).
-First, you will need a specific die for your cable in the iron workbench. You can rightclick on the die to craft to set it's transverse section.
-The bigger it is, the lower the resistance, and higher the resource consumption. For this pack, I'd recommed setting it to the maximum value (135).
+First, you will need a specific die for your cable in the iron workbench. You can right click on the die to craft to set its transverse section.
+The bigger it is, the lower the resistance, and higher the resource consumption. For this pack, I'd recommend setting it to the maximum value (135).
 {"image":"die.png"}
 
-Then, you need to add a extruder and a vulcanization extruding mold to the setup as shown below. All parts need to be powered.
+Then, you need to add an extruder and a vulcanization extruding mold to the setup as shown below. All parts need to be powered.
 {"image":"wiremill2.png"}
 
-Put some rubber and sulfur dust into the extruder, the crafted die and some copper ingot in the wiremill, then you will get your IHL cable.
+Put some rubber and sulfur dust into the extruder, the crafted die, and some copper ingot in the wire mill, then you will get your IHL cable.

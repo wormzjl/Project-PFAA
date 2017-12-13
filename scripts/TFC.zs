@@ -1,3 +1,7 @@
+//tucker bag
+recipes.remove(<tfcudarymod:item.Tucker Bag>);
+recipes.remove(<tfcudarymod:item.Tucker Bag v2>);
+
 //Molds
 furnace.remove(<terrafirmacraft:item.Mold:1>);
 furnace.remove(<terrafirmacraft:item.Axe Mold:1>);

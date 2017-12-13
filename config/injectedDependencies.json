@@ -188,6 +188,14 @@
       },
       {
         "type": "before",
+        "target": "bookshelf"
+      },
+      {
+        "type": "before",
+        "target": "betterboat"
+      },
+      {
+        "type": "before",
         "target": "BiblioWoodsTFC"
       },
       {

@@ -1,14 +1,16 @@
-§2§lBugs and performace
+﻿§2§lBugs and performance
 
-There has been a couple of bugs that are currently unfixable.
+There have been a couple of bugs that are currently unfixable.
 - When using Techguns explosive charges, do not open the gui in mid-air. Put it down, wait a couple of seconds before opening the GUI.
 - Do not press F3 in places other than the overworld.
 - IHL wires needs to be used properly to prevent a deadlock (see corresponding section).
-- Sometimes railcraft locomotives with anchor cart will get stuck in their journey, if that happens, try to use booster tracks instead.
-- For unknown reasons, pressing U on custom mold for IE metal press will cause a crash
+- Sometimes railcraft locomotives with anchor cart will get stuck on their journey. If that happens, try to use booster tracks instead.
 
-Also, during test run period, it has been discovered that a fluid network with either IE or pressured pipe with multiple fluids sharing the same pipeline will cause serious performace issues, especially when the network gets big. ALWAYS USE DEDICATED PIPE FOR EACH OF YOUR FLUIDS.
+ALWAYS USE DEDICATED PIPE FOR EACH OF YOUR FLUIDS.
+During the test run period it was discovered that a fluid network with either IE or pressured pipe with multiple fluids sharing 
+the same pipeline will cause serious performance issues, especially when the network gets big. 
 
-Also, TFC anvils eats a lot of ticktime even when sitting idle, you might want to put it inside a chest when not using.
+Also, TFC anvil eats a lot of tick time even when sitting idle, you might want to put it inside a chest when not using.
 
-Towards the endgame, the amount of machines present in your base might cause a large FPS drop. If you don't have a good rig, I'd recommend planning your base horizontally instead of vertically, and set a lower view distance.
+The number of machines present in your base might cause a large FPS drop towards the endgame. If you don't have a good rig,
+I'd recommend planning your base horizontally instead of vertically and setting a lower view distance.
