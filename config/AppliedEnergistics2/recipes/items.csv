@@ -13643,51 +13643,51 @@ ExtraUtilities:shears, Precision Shears
 ExtraUtilities:creativebuilderswand, Super Builder's Wand
 ExtraUtilities:sonar_goggles, Sonar Goggles
 ExtraUtilities:scanner, Portable Scanner
-factorization:charge_battery, Battery Block
-factorization:sludge, Sludge
-factorization:servo/servo_motor, Servo Motor
-factorization:servo/commenter, Commenter
-factorization:mirror, Mirror
-factorization:sculptTool:0, Sculpting Tool
-factorization:logic_matrix, Blank Logic Matrix
-factorization:spawnPoster, Poster
-factorization:potencyBottle, Bottle of Potency
-factorization:corkscrew, Corkscrew
-factorization:docbook, The Factorization Manual
-factorization:entheas, Entheas
-factorization:tool/pocket_crafting_table, Pocket Crafting Table
-factorization:servo/servo, Servo
-factorization:fan, Pressurizer
 factorization:lead_ingot, Lead Ingot
+factorization:corkscrew, Corkscrew
+factorization:potencyBottle, Bottle of Potency
 factorization:servo/sprocket, Dark Iron Sprocket
-factorization:servo/instruction_plate, Instruction Plate
-factorization:socket/:34, Robotic Arm
-factorization:socket/:35, Item Shifter
 factorization:ceramics/glaze_bucket, Glaze Bucket
-factorization:diamond_shard, Diamond Block Shard
-factorization:daybarrel, item.factorization:daybarrel.name
-factorization:servo/component, item.factorization:servo/component.name
-factorization:insulated_coil, Insulated Coil
-factorization:logic_matrix_controller, Logic Matrix: Controller
-factorization:socket/scissors, Enormous Scissors
 factorization:logic_matrix_identifier, Logic Matrix: Identifier
-factorization:mansandwich:0, Manwich
-factorization:mansandwich:1, Spicy Manwich
-factorization:tool/charge_meter, Charge Meter
-factorization:tool/matrix_programmer, Logic Matrix Programmer
-factorization:nether_powder, Netherrack Powder
-factorization:servo/decorator, item.factorization:servo/decorator.name
-factorization:utiligoo:0, Goo
-factorization:sap, Sap
 factorization:silver_ingot, Silver Ingot
-factorization:diamond_cutting_head, Diamond Cutting Head
-factorization:brokenArtifact, item.factorization:brokenArtifact.name
+factorization:logic_matrix, Blank Logic Matrix
+factorization:diamond_shard, Diamond Block Shard
+factorization:servo/servo_motor, Servo Motor
+factorization:servo/servo, Servo
+factorization:socket/scissors, Enormous Scissors
+factorization:entheas, Entheas
 factorization:barrelCart:0, Barrel Cart
 factorization:barrelCart:0, Barrel Cart: Creative Bedrock Barrel
+factorization:sap, Sap
+factorization:sculptTool:0, Sculpting Tool
+factorization:dark_iron_ingot, Dark Iron Ingot
+factorization:tool/charge_meter, Charge Meter
+factorization:servo/decorator, item.factorization:servo/decorator.name
+factorization:daybarrel, item.factorization:daybarrel.name
+factorization:charge_battery, Battery Block
+factorization:mirror, Mirror
+factorization:mansandwich:0, Manwich
+factorization:mansandwich:1, Spicy Manwich
+factorization:insulated_coil, Insulated Coil
+factorization:tool/pocket_crafting_table, Pocket Crafting Table
 factorization:acid:0, Sulfuric Acid
 factorization:acid:1, Aqua Regia
+factorization:utiligoo:0, Goo
+factorization:servo/instruction_plate, Instruction Plate
+factorization:tool/matrix_programmer, Logic Matrix Programmer
+factorization:logic_matrix_controller, Logic Matrix: Controller
+factorization:servo/commenter, Commenter
+factorization:docbook, The Factorization Manual
 factorization:motor, Motor
-factorization:dark_iron_ingot, Dark Iron Ingot
+factorization:spawnPoster, Poster
+factorization:servo/component, item.factorization:servo/component.name
+factorization:diamond_cutting_head, Diamond Cutting Head
+factorization:brokenArtifact, item.factorization:brokenArtifact.name
+factorization:nether_powder, Netherrack Powder
+factorization:socket/:34, Robotic Arm
+factorization:socket/:35, Item Shifter
+factorization:sludge, Sludge
+factorization:fan, Pressurizer
 foundry:foundryComponent:0, Stone Gear
 foundry:foundryComponent:1, Heating Coil
 foundry:foundryComponent:2, Refractory Clay

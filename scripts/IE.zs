@@ -266,6 +266,12 @@ recipes.addShaped(<customitems:mold_wire>,
   [<ore:plateSteel>, <tfctech:item.Steel Wire>, <ore:plateSteel>],
   [null, <ore:plateSteel>, null]]);
 
+recipes.addShaped(<customitems:mold_wire>,
+ [[null, <ore:plateSteel>, null],
+  [<ore:plateSteel>, <tfctech:item.Electrum Wire>, <ore:plateSteel>],
+  [null, <ore:plateSteel>, null]]);
+
+
 //mold use
 //Pipe frame
 mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Zinc Pipe Frame>, <terrafirmacraft:item.Zinc Double Ingot>, <customitems:mold_pipe>, 2500);

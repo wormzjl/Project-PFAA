@@ -59,6 +59,12 @@ recipes.addShaped(<ExtraUtilities:endMarker>,
   [<ExtraUtilities:decorativeBlock1:1>],
   [<ExtraUtilities:decorativeBlock1:1>]]);
 
+recipes.remove(<ExtraUtilities:golden_lasso>);
+recipes.addShaped(<ExtraUtilities:golden_lasso>,
+ [[<ore:nuggetGold>, <minecraft:string>, <ore:nuggetGold>],
+  [<minecraft:string>, <minecraft:ender_pearl>, <minecraft:string>],
+  [<ore:nuggetGold>, <minecraft:string>, <ore:nuggetGold>]]);
+
 
 //Gravisuite
 recipes.remove(<GraviSuite:vajra:*>);

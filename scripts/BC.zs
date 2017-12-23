@@ -49,6 +49,8 @@ recipes.remove(<tfctech:item.buildcraftPipe.pipepowerredsteel>);
 recipes.remove(<tfctech:item.buildcraftPipe.pipepowerwroughtiron>);
 recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsstripes:*>);
 
+recipes.addShapeless(<BuildCraft|Transport:pipePlug>*4, [<BuildCraft|Transport:item.buildcraftPipe.pipestructurecobblestone>]);
+
 recipes.addShaped(<BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond> * 4,
    [[<ore:itemRubber>, <minecraft:glass_pane>, <minecraft:redstone>],
     [<minecraft:glass_pane>, <tfctech:item.Blue Steel Pipe Frame>, <minecraft:glass_pane>],

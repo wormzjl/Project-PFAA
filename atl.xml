@@ -1,6 +1,6 @@
 <version>
     <pack>
-        <version>1.0.4</version>
+        <version>1.0.6</version>
         <minecraft>1.7.10</minecraft>
         <memory>3072</memory>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -27,6 +27,11 @@
         <library url="packs/PerFabricaadAstra/files/commons-lang3-3.3.2.jar" download="server" file="commons-lang3-3.3.2.jar" md5="3128bf75a2549ebe38663401191bacab" server="org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar" />
     </libraries>
 
+    <colours>
+        <colour name="green" code="2EFE2E" />
+        <colour name="gold" code="FFC703" />
+    </colours>
+
     <mods>
         <mod name="Minecraft Forge" version="10.13.4.1614" url="packs/PerFabricaadAstra/files/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar" file="forge-1.7.10-10.13.4.1614-1.7.10-universal.jar" md5="add0fba161c4652a96efb4264ec2d9ec" download="server" type="forge" website="http://www.minecraftforge.net/forum/" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=Z5MLLA62HSUM2" authors="Eloraam,FlowerChild,Hawkye,MALfunction84,Scokeev9,SpaceToad,LexManos,cpw" description="Minecraft Forge is a modding API used by a lot of mods." client="yes" optional="no" server="yes" serveroptional="no" />
 
@@ -38,7 +43,7 @@
 
         <mod name="Leather Water Sac" version="3.9.B79" url="packs/PerFabricaadAstra/files/mods/[1.7.10]LeatherWaterSac-3.9.B79.jar" file="[1.7.10]LeatherWaterSac-3.9.B79.jar" md5="8645a34939c0564d31b607516010800e" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/3460-tfc-07923-leather-water-sac-for-tfc/" authors="Emris_Morath" description="It&apos;s a water sac made out of leather for TerraFirmaCraft" client="yes" optional="no" server="yes" serveroptional="no" />
 
-        <mod name="TerraFirmaCraft" version="0.79.29" url="packs/PerFabricaadAstra/files/mods/[1.7.10]TerraFirmaCraft-0.79.31-PFAA.jar" file="[1.7.10]TerraFirmaCraft-0.79.31-PFAA.jar" md5="992a451a31cf17a01d0d5a99e1bd795f" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" />
+        <mod name="TerraFirmaCraft" version="0.79.29" url="packs/PerFabricaadAstra/files/mods/[1.7.10]TerraFirmaCraft-0.79.32-PFAA.jar" file="[1.7.10]TerraFirmaCraft-0.79.32-PFAA.jar" md5="dfbe081d1475662f1454883bb76240d5" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" />
 
         <mod name="TerraFirmaPumpkins" version="2.1" url="packs/PerFabricaadAstra/files/mods/[1.7.10]TerraFirmaPumpkins-2.1.jar" file="[1.7.10]TerraFirmaPumpkins-2.1.jar" md5="35cf88ca6535136c925b08e01e3dc466" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/9584-tfc-07929-pefferns-addons-new-crops-and-also-wells-and-pewter/" authors="Peffern" description="This mod adds growable pumpkin and melon plants to TerraFirmaCraft." client="yes" optional="no" server="yes" serveroptional="no" />
 
@@ -122,7 +127,7 @@
 
         <mod name="Forestry for Minecraft" version="4.2.12.0" url="packs/PerFabricaadAstra/files/mods/forestry_1.7.10-4.2.12.0.tnfc.235881b.jar" file="forestry_1.7.10-4.2.12.0.tnfc.235881b.jar" md5="1ddb53ee3a3f9fd5611c7913b59d9a85" download="server" type="mods" website="http://forestry.sengir.net/" authors="SirSengir" description="Trees, bees and more. TNFC Branch." client="yes" optional="no" server="yes" serveroptional="no" />
 
-        <mod name="Foundry" version="1.2.2.0-PFAA" url="packs/PerFabricaadAstra/files/mods/Foundry-1.7.10-1.2.2.0-PFAA.jar" file="Foundry-1.7.10-1.2.2.0-PFAA.jar" md5="2d475c3ed6fdc7ae1040e0fd79ff362e" download="server" type="mods" website="https://github.com/EXTER7/Foundry" authors="EXTER" description="Liquid Metals" client="yes" optional="no" server="yes" serveroptional="no" />
+        <mod name="Foundry" version="1.2.2.1-PFAA" url="packs/PerFabricaadAstra/files/mods/Foundry-1.7.10-1.2.2.1-PFAA.jar" file="Foundry-1.7.10-1.2.2.1-PFAA.jar" md5="d2effd5465bce7d0e6864bc3d7a69bbb" download="server" type="mods" website="https://github.com/EXTER7/Foundry" authors="EXTER" description="Liquid Metals" client="yes" optional="no" server="yes" serveroptional="no" />
 
         <mod name="FTBLib" version="1.7.10-1.0.18.2" url="packs/PerFabricaadAstra/files/mods/FTBLib-1.7.10-1.0.18.3.jar" file="FTBLib-1.7.10-1.0.18.3.jar" md5="1753db050335f5725d1ea9e09b8f102b" download="server" type="mods" website="http://minecraft.curseforge.com/projects/ftblib" donation="https://www.paypal.com/cgi-bin/webscr?return=https://minecraft.curseforge.com/projects/ftblib?gameCategorySlug=mc-mods&amp;projectID=237167&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=latvianmodder%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=https://minecraft.curseforge.com/projects/ftblib?gameCategorySlug=mc-mods&amp;projectID=237167&amp;lc=US&amp;item_name=FTBLib+(from+curseforge.com)&amp;cmd=_donations&amp;rm=1&amp;no_shipping=1&amp;currency_code=USD" authors="LatvianModder,Jared" description="FTBLib" client="yes" optional="no" server="yes" serveroptional="no" />
 
@@ -284,9 +289,17 @@
 
         <mod name="resources" version="1.0.1" url="packs/PerFabricaadAstra/files/extracts/resources_1.0.1.zip" file="resources_1.0.1.zip" md5="fddf8306cd0d62a877656b3da89dc146" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Resources for custom items and main menu" client="yes" optional="no" server="no" serveroptional="no" />
 
-        <mod name="scripts" version="1.0.4" url="packs/PerFabricaadAstra/files/extracts/scripts_1.0.4.zip" file="scripts_1.0.4.zip" md5="b88561ddda25cf2a864941067cb9f4bc" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="MT scripts" client="yes" optional="no" server="yes" serveroptional="no" />
+        <mod name="scripts" version="1.0.6" url="packs/PerFabricaadAstra/files/extracts/scripts_1.0.6.zip" file="scripts_1.0.6.zip" md5="f7183d5d9bb870d1f505ea12b6d2c008" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="MT scripts" client="yes" optional="no" server="yes" serveroptional="no" />
 
         <!-- Optional mods -->
+        <mod name="Standard TFC biome size" version="1.0.5" url="packs/PerFabricaadAstra/files/extracts/standard_biome.zip" file="standard_biome.zip" md5="8b5d484eaeb4777b8d1f988b38e0bb56" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Config for standard stone biome size" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" group="biome" colour="green" />
+
+        <mod name="Smaller TFC biome size" version="1.0.5" url="packs/PerFabricaadAstra/files/extracts/smaller_biome.zip" file="smaller_biome.zip" md5="4de25c98aae5f59e53a8fa6ec3e27319" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Config for smaller stone biome size, decreasing the exploration difficulty for TFC. Will not break terrain on existing worlds." client="yes" optional="yes" server="yes" serveroptional="yes" recommended="no" group="biome" colour="green" />
+
+        <mod name="Standard ore rate" version="1.0.5" url="packs/PerFabricaadAstra/files/extracts/standard_ores.zip" file="standard_ores.zip" md5="c5f9f98cebf821516341881eeb59ddb6" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Config for standard ore generation rate" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" group="oregen" colour="gold" />
+        
+        <mod name="Extra ore rate" version="1.0.5" url="packs/PerFabricaadAstra/files/extracts/Extra_ores.zip" file="Extra_ores.zip" md5="2f3d0e3f76f05dd3535e51c256b8a032" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Config for higher ore generation rate" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="no" group="oregen" colour="gold" />
+
         <mod name="Key binding configs" version="1.0.3" url="packs/PerFabricaadAstra/files/extracts/options.zip" file="options.zip" md5="0506f2b3241452b28ae6ac70db4ccced" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Default key binds, ignore this if you want to make your own" client="yes" optional="yes" server="no" serveroptional="no" recommended="no" />
 
         <mod name="Shinkeiseikan Collection" version="rv26.2" url="packs/PerFabricaadAstra/files/mods/ShinColle-1.7.10.rv26.2.jar" file="ShinColle-1.7.10.rv26.2.jar" md5="19b76eb4350dc8519c3a6d3b1c62c7bf" download="server" type="mods" website="https://www.youtube.com/user/lulan222/" donation="https://www.paypal.com/cgi-bin/webscr?return=https://minecraft.curseforge.com/projects/shincolle?gameCategorySlug=mc-mods&amp;projectID=228395&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=lulanee%40hotmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=https://minecraft.curseforge.com/projects/shincolle?gameCategorySlug=mc-mods&amp;projectID=228395&amp;lc=US&amp;item_name=ShinColle+(from+curseforge.com)&amp;cmd=_donations&amp;rm=1&amp;no_shipping=1&amp;currency_code=USD" authors="PinkaLulan" description="Collect cute SeiKan mobs! forum: http://forum.gamer.com.tw/C.php?bsn=18673&amp;snA=124090&amp;tnum=1 github: https://github.com/PinkaLulan/ShinColle Sound Source: Amitaro&apos;s Sound Material Workshop http://www14.big.or.jp/~amiami/happy/index.html" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="no" />

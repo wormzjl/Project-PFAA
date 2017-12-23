@@ -10,25 +10,25 @@ recipes.addShapeless(<StorageDrawers:personalKey>, [<StorageDrawers:upgradeLock>
 recipes.remove(<StorageDrawers:fullCustom1>);
 recipes.addShaped(<StorageDrawers:fullCustom1>,
    [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
-    [<ore:plateSteel>, <IC2:itemToolForgeHammer>, <ore:plateSteel>],
+    [<ore:plateSteel>, <IC2:itemToolForgeHammer:*>, <ore:plateSteel>],
     [<ore:plateSteel>, <minecraft:chest>, <ore:plateSteel>]]);
 
 recipes.remove(<StorageDrawers:fullCustom2>);
 recipes.addShaped(<StorageDrawers:fullCustom2>,
    [[<ore:plateSteel>, <minecraft:chest>, <ore:plateSteel>],
-    [<ore:plateSteel>, <IC2:itemToolForgeHammer>, <ore:plateSteel>],
+    [<ore:plateSteel>, <IC2:itemToolForgeHammer:*>, <ore:plateSteel>],
     [<ore:plateSteel>, <minecraft:chest>, <ore:plateSteel>]]);
 
 recipes.remove(<StorageDrawers:fullCustom4>);
 recipes.addShaped(<StorageDrawers:fullCustom4>,
    [[<minecraft:chest>, <ore:plateSteel>, <minecraft:chest>],
-    [<ore:plateSteel>, <IC2:itemToolForgeHammer>, <ore:plateSteel>],
+    [<ore:plateSteel>, <IC2:itemToolForgeHammer:*>, <ore:plateSteel>],
     [<minecraft:chest>, <ore:plateSteel>, <minecraft:chest>]]);
 
 recipes.remove(<StorageDrawers:halfCustom2>);
 recipes.addShaped(<StorageDrawers:halfCustom2>,
    [[<ore:stickSteel>, <minecraft:chest>, <ore:stickSteel>],
-    [<ore:stickSteel>, <IC2:itemToolForgeHammer>, <ore:stickSteel>],
+    [<ore:stickSteel>, <IC2:itemToolForgeHammer:*>, <ore:stickSteel>],
     [<ore:stickSteel>, <minecraft:chest>, <ore:stickSteel>]]);
 
 recipes.remove(<StorageDrawers:halfCustom4>);
@@ -78,7 +78,7 @@ recipes.remove(<StorageDrawers:controllerSlave>);
 recipes.addShaped(<StorageDrawers:controllerSlave>,
    [[<minecraft:hopper>, <minecraft:hopper>, <minecraft:hopper>],
     [<minecraft:comparator>, <ore:blockAluminum>, <minecraft:comparator>],
-    [<ore:plateAluminum>, <IC2:itemToolForgeHammer>, <ore:plateAluminum>]]);
+    [<ore:plateAluminum>, <IC2:itemToolForgeHammer:*>, <ore:plateAluminum>]]);
 
 recipes.remove(<StorageDrawers:compDrawers>);
 recipes.addShaped(<StorageDrawers:compDrawers>,
@@ -95,31 +95,31 @@ recipes.addShaped(<StorageDrawers:upgradeTemplate>,
 
 recipes.remove(<StorageDrawers:upgrade:2>);
 recipes.addShaped(<StorageDrawers:upgrade:2>,
-   [[<ore:plateSteel>, <IC2:itemToolForgeHammer>, <ore:plateSteel>],
+   [[<ore:plateSteel>, <IC2:itemToolForgeHammer:*>, <ore:plateSteel>],
     [<ore:plateSteel>, <ore:plateAnyBronze>, <ore:plateSteel>],
     [<ore:plateSteel>, <StorageDrawers:upgradeTemplate>, <ore:plateSteel>]]);
 
 recipes.remove(<StorageDrawers:upgrade:3>);
 recipes.addShaped(<StorageDrawers:upgrade:3>,
-   [[<ore:plateSteel>, <IC2:itemToolForgeHammer>, <ore:plateSteel>],
+   [[<ore:plateSteel>, <IC2:itemToolForgeHammer:*>, <ore:plateSteel>],
     [<ore:plateSteel>, <ore:plateIron>, <ore:plateSteel>],
     [<ore:plateSteel>, <StorageDrawers:upgradeTemplate>, <ore:plateSteel>]]);
 
 recipes.remove(<StorageDrawers:upgrade:4>);
 recipes.addShaped(<StorageDrawers:upgrade:4>,
-   [[<ore:plateSteel>, <IC2:itemToolForgeHammer>, <ore:plateSteel>],
+   [[<ore:plateSteel>, <IC2:itemToolForgeHammer:*>, <ore:plateSteel>],
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
     [<ore:plateSteel>, <StorageDrawers:upgradeTemplate>, <ore:plateSteel>]]);
 
 recipes.remove(<StorageDrawers:upgrade:5>);
 recipes.addShaped(<StorageDrawers:upgrade:5>,
-   [[<ore:plateSteel>, <IC2:itemToolForgeHammer>, <ore:plateSteel>],
+   [[<ore:plateSteel>, <IC2:itemToolForgeHammer:*>, <ore:plateSteel>],
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
     [<ore:plateSteel>, <StorageDrawers:upgradeTemplate>, <ore:plateSteel>]]);
 
 recipes.remove(<StorageDrawers:upgrade:6>);
 recipes.addShaped(<StorageDrawers:upgrade:6>,
-   [[<ore:plateSteel>, <IC2:itemToolForgeHammer>, <ore:plateSteel>],
+   [[<ore:plateSteel>, <IC2:itemToolForgeHammer:*>, <ore:plateSteel>],
     [<ore:plateSteel>, <ore:plateBlueSteel>, <ore:plateSteel>],
     [<ore:plateSteel>, <StorageDrawers:upgradeTemplate>, <ore:plateSteel>]]);
 

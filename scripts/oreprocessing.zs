@@ -180,8 +180,8 @@ recipes.addShapeless(<customitems:itemcrushednativesilverore>, [<customitems:nat
 recipes.addShapeless(<customitems:itemcrushedcassiteriteore>, [<customitems:cassiteritecrush_sm>, <customitems:cassiteritecrush_sm>, <customitems:cassiteritecrush_sm>, <customitems:cassiteritecrush_sm>]);
 recipes.addShapeless(<customitems:itemcrushedgalenaore>, [<customitems:galenacrush_sm>, <customitems:galenacrush_sm>, <customitems:galenacrush_sm>, <customitems:galenacrush_sm>]);
 recipes.addShapeless(<customitems:itemcrushedbismuthiniteore>, [<customitems:bismuthinitecrush_sm>, <customitems:bismuthinitecrush_sm>, <customitems:bismuthinitecrush_sm>, <customitems:bismuthinitecrush_sm>]);
-recipes.addShapeless(<customitems:itemcrushedmalachiteore>, [<customitems:garnieritecrush_sm>, <customitems:garnieritecrush_sm>, <customitems:garnieritecrush_sm>, <customitems:garnieritecrush_sm>]);
-recipes.addShapeless(<customitems:itemcrushedgarnieriteore>, [<customitems:malachitecrush_sm>, <customitems:malachitecrush_sm>, <customitems:malachitecrush_sm>, <customitems:malachitecrush_sm>]);
+recipes.addShapeless(<customitems:itemcrushedmalachiteore>, [<customitems:malachitecrush_sm>, <customitems:malachitecrush_sm>, <customitems:malachitecrush_sm>, <customitems:malachitecrush_sm>]);
+recipes.addShapeless(<customitems:itemcrushedgarnieriteore>, [<customitems:garnieritecrush_sm>, <customitems:garnieritecrush_sm>, <customitems:garnieritecrush_sm>, <customitems:garnieritecrush_sm>]);
 recipes.addShapeless(<customitems:itemcrushedmagnetiteore>, [<customitems:magnetitecrush_sm>, <customitems:magnetitecrush_sm>, <customitems:magnetitecrush_sm>, <customitems:magnetitecrush_sm>]);
 recipes.addShapeless(<customitems:itemcrushedlimoniteore>, [<customitems:limonitecrush_sm>, <customitems:limonitecrush_sm>, <customitems:limonitecrush_sm>, <customitems:limonitecrush_sm>]);
 recipes.addShapeless(<customitems:itemcrushedsphaleriteore>, [<customitems:sphaleritecrush_sm>, <customitems:sphaleritecrush_sm>, <customitems:sphaleritecrush_sm>, <customitems:sphaleritecrush_sm>]);
