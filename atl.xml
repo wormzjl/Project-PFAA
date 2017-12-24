@@ -1,6 +1,6 @@
 <version>
     <pack>
-        <version>1.0.6</version>
+        <version>1.0.7</version>
         <minecraft>1.7.10</minecraft>
         <memory>3072</memory>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -43,7 +43,7 @@
 
         <mod name="Leather Water Sac" version="3.9.B79" url="packs/PerFabricaadAstra/files/mods/[1.7.10]LeatherWaterSac-3.9.B79.jar" file="[1.7.10]LeatherWaterSac-3.9.B79.jar" md5="8645a34939c0564d31b607516010800e" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/3460-tfc-07923-leather-water-sac-for-tfc/" authors="Emris_Morath" description="It&apos;s a water sac made out of leather for TerraFirmaCraft" client="yes" optional="no" server="yes" serveroptional="no" />
 
-        <mod name="TerraFirmaCraft" version="0.79.29" url="packs/PerFabricaadAstra/files/mods/[1.7.10]TerraFirmaCraft-0.79.32-PFAA.jar" file="[1.7.10]TerraFirmaCraft-0.79.32-PFAA.jar" md5="dfbe081d1475662f1454883bb76240d5" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" />
+        <mod name="TerraFirmaCraft" version="0.79.33-PFAA" url="packs/PerFabricaadAstra/files/mods/[1.7.10]TerraFirmaCraft-0.79.33-PFAA.jar" file="[1.7.10]TerraFirmaCraft-0.79.33-PFAA.jar" md5="651eb5ce1433fcbe0379e976d377c139" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" />
 
         <mod name="TerraFirmaPumpkins" version="2.1" url="packs/PerFabricaadAstra/files/mods/[1.7.10]TerraFirmaPumpkins-2.1.jar" file="[1.7.10]TerraFirmaPumpkins-2.1.jar" md5="35cf88ca6535136c925b08e01e3dc466" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/9584-tfc-07929-pefferns-addons-new-crops-and-also-wells-and-pewter/" authors="Peffern" description="This mod adds growable pumpkin and melon plants to TerraFirmaCraft." client="yes" optional="no" server="yes" serveroptional="no" />
 
@@ -207,7 +207,7 @@
 
         <mod name="OpenMods" version="0.9.1" url="packs/PerFabricaadAstra/files/mods/OpenModsLib-1.7.10-0.9.1.jar" file="OpenModsLib-1.7.10-0.9.1.jar" md5="80ab054e554baef8edec979f7b900301" download="server" type="mods" website="http://openmods.info/" authors="Mikee,NeverCast,boq,Lyqyd" description="Boring stuff for all that silly Open* mods" client="yes" optional="no" server="yes" serveroptional="no" />
 
-        <mod name="PFAA tweaks" version="1.0" url="packs/PerFabricaadAstra/files/mods/PFAA-tweaks-1.0.jar" file="PFAA-tweaks-1.0.jar" md5="8299cd1c80015340f6c12c74faf90945" download="server" type="mods" website="https://github.com/wormzjl/PFAA-Tweaks" authors="wormzjl,SNIPER722" description="Tweaking mod for project PFAA" client="yes" optional="no" server="yes" serveroptional="no" />
+        <mod name="PFAA tweaks" version="1.1" url="packs/PerFabricaadAstra/files/mods/PFAA-tweaks-1.1.jar" file="PFAA-tweaks-1.1.jar" md5="f7dff0674396258ab339b60d2daa833c" download="server" type="mods" website="https://github.com/wormzjl/PFAA-Tweaks" authors="wormzjl,SNIPER722" description="Tweaking mod for project PFAA" client="yes" optional="no" server="yes" serveroptional="no" />
 
         <mod name="PneumaticCraft" version="1.12.7-PFAA" url="packs/PerFabricaadAstra/files/mods/PneumaticCraft-1.7.10-1.12.7-PFAA.jar" file="PneumaticCraft-1.7.10-1.12.7-PFAA.jar" md5="0288e3ca6c973c1ebe8968804e1d3667" download="server" type="mods" website="http://www.minemaarten.com" authors="MineMaarten" description="A technical mod all about pneumatics!" client="yes" optional="no" server="yes" serveroptional="no" />
 
@@ -323,8 +323,6 @@
         <mod name="UnicodeFontFixer" version="1.1.4-mc1.7.10" url="packs/PerFabricaadAstra/files/mods/UnicodeFontFixer-1.1.4-mc1.7.10.jar" file="UnicodeFontFixer-1.1.4-mc1.7.10.jar" md5="06a364b6f96acf1ddfda0bae8041d2f8" download="server" type="mods" website="http://www.mmyzd.com" authors="oldjunyi" description="A mod fixes broken text caused by small Unicode font." client="yes" optional="yes" server="no" serveroptional="no" recommended="no" />
 
         <mod name="WorldEdit" version="6.1.1;no_git_id" url="packs/PerFabricaadAstra/files/mods/worldedit-forge-mc1.7.10-6.1.1-dist.jar" file="worldedit-forge-mc1.7.10-6.1.1-dist.jar" md5="2009d49df40267da5bba19e09e29463a" download="server" type="mods" website="http://wiki.sk89q.com/wiki/WorldEdit" authors="sk89q,wizjany,TomyLobo" description="WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single player and multiplayer." client="yes" optional="yes" server="yes" serveroptional="yes" recommended="no" />
-
-        <mod name="Chunk-Pregenerator" version="1.5.1" url="packs/PerFabricaadAstra/files/mods/Chunk Pregenerator V1.7.10-1.5.1.jar" file="Chunk Pregenerator V1.7.10-1.5.1.jar" md5="4f0ced4b1c7d8245a5bac29225cf13d6" download="server" type="mods" website="http://www.curseforge.com/projects/chunkpregenerator/" donation="https://www.paypal.com/cgi-bin/webscr?return=https://minecraft.curseforge.com/projects/chunkpregenerator?gameCategorySlug=mc-mods&amp;projectID=267193&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=moritzstehr%40gmx.net&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=https://minecraft.curseforge.com/projects/chunkpregenerator?gameCategorySlug=mc-mods&amp;projectID=267193&amp;lc=US&amp;item_name=Chunk-Pregenerator+(from+curseforge.com)&amp;cmd=_donations&amp;rm=1&amp;no_shipping=1&amp;currency_code=USD" authors="Speiger" description="Pre Generate your worlds Efficiently" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="no" />
 
     </mods>
 </version>

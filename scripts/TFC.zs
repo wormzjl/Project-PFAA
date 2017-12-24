@@ -20,7 +20,7 @@ furnace.remove(<terrafirmacraft:item.Javelin Mold:1>);
 
 recipes.addShaped(<terrafirmacraft:EarlyBloomery>,
    [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
-    [<ore:plateSteel>, <ore:itemHammer>, <ore:plateSteel>],
+    [<ore:plateSteel>, <IC2:itemToolForgeHammer:*>, <ore:plateSteel>],
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
 recipes.remove(<tfcengineer:tile.DeepFreezer>);
@@ -181,6 +181,14 @@ tetrahedritepoor.add(<terrafirmacraft:item.Ore:62>);
 
 val pitchblende = <ore:orePitchblendeTFC>;
 pitchblende.add(<terrafirmacraft:item.Ore:26>);
+
+val limestone = <ore:limestone>;
+limestone.add(<terrafirmacraft:StoneSed:3>);
+limestone.add(<terrafirmacraft:StoneSedSmooth:3>);
+
+val marble= <ore:marble>;
+marble.add(<terrafirmacraft:StoneMM:5>);
+marble.add(<terrafirmacraft:StoneMMSmooth:5>);
 
 //
 mods.Terrafirmacraft.Quern.removeRecipe(<minecraft:redstone> * 8, <terrafirmacraft:item.Ore:28>);
