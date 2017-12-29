@@ -221,8 +221,8 @@ mods.ic2.OreWasher.addRecipe([<customitems:itemwashedcrushednativesilverore>, <c
 mods.ic2.OreWasher.addRecipe([<customitems:itemwashedcrushedcassiteriteore>, <customitems:cassiterite_smw>, <IC2:itemDust:9>], <customitems:itemcrushedcassiteriteore>, 1000); 
 mods.ic2.OreWasher.addRecipe([<customitems:itemwashedcrushedgalenaore>, <customitems:galena_smw>, <IC2:itemDust:9>], <customitems:itemcrushedgalenaore>, 1000); 
 mods.ic2.OreWasher.addRecipe([<customitems:itemwashedcrushedbismuthiniteore>, <customitems:bismuthinite_smw>, <IC2:itemDust:9>], <customitems:itemcrushedbismuthiniteore>, 1000); 
-mods.ic2.OreWasher.addRecipe([<customitems:itemwashedcrushedgarnieriteore>, <customitems:garnierite_smw>, <IC2:itemDust:9>], <customitems:itemcrushedmalachiteore>, 1000); 
-mods.ic2.OreWasher.addRecipe([<customitems:itemwashedcrushedmalachiteore>, <customitems:malachite_smw>, <IC2:itemDust:9>], <customitems:itemcrushedgarnieriteore>, 1000); 
+mods.ic2.OreWasher.addRecipe([<customitems:itemwashedcrushedgarnieriteore>, <customitems:garnierite_smw>, <IC2:itemDust:9>], <customitems:itemcrushedgarnieriteore>, 1000); 
+mods.ic2.OreWasher.addRecipe([<customitems:itemwashedcrushedmalachiteore>, <customitems:malachite_smw>, <IC2:itemDust:9>], <customitems:itemcrushedmalachiteore>, 1000); 
 mods.ic2.OreWasher.addRecipe([<customitems:itemwashedcrushedmagnetiteore>, <customitems:magnetite_smw>, <IC2:itemDust:9>], <customitems:itemcrushedmagnetiteore>, 1000); 
 mods.ic2.OreWasher.addRecipe([<customitems:itemwashedcrushedlimoniteore>, <customitems:limonite_smw>, <IC2:itemDust:9>], <customitems:itemcrushedlimoniteore>, 1000); 
 mods.ic2.OreWasher.addRecipe([<customitems:itemwashedcrushedsphaleriteore>, <customitems:sphalerite_smw>, <IC2:itemDust:9>], <customitems:itemcrushedsphaleriteore>, 1000); 
@@ -261,8 +261,8 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Silver In
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Tin Ingot>, <customitems:itemcrushedcassiteriteore>, 400);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Lead Ingot>, <customitems:itemcrushedgalenaore>, 600);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Bismuth Ingot>, <customitems:itemcrushedbismuthiniteore>, 600);
-mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Nickel Ingot>, <customitems:itemcrushedmalachiteore>, 500);
-mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <customitems:itemcrushedgarnieriteore>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <customitems:itemcrushedmalachiteore>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Nickel Ingot>, <customitems:itemcrushedgarnieriteore>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <customitems:itemcrushedmagnetiteore>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <customitems:itemcrushedlimoniteore>, 450);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Zinc Ingot>, <customitems:itemcrushedsphaleriteore>, 600);

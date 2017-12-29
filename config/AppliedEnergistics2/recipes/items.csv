@@ -574,8 +574,6 @@ terrafirmacraft:sapling:12, White Cedar Sapling
 terrafirmacraft:sapling:13, White Elm Sapling
 terrafirmacraft:sapling:14, Willow Sapling
 terrafirmacraft:sapling:15, Kapok Sapling
-terrafirmacraft:sapling:16, Lightwood Sapling
-terrafirmacraft:sapling:17, Lightwood Sapling
 terrafirmacraft:sapling2:0, Acacia Sapling
 terrafirmacraft:sapling2:1, tile.sapling2.temp1.name
 terrafirmacraft:sapling2:2, tile.sapling2.temp2.name
@@ -13643,51 +13641,51 @@ ExtraUtilities:shears, Precision Shears
 ExtraUtilities:creativebuilderswand, Super Builder's Wand
 ExtraUtilities:sonar_goggles, Sonar Goggles
 ExtraUtilities:scanner, Portable Scanner
+factorization:sculptTool:0, Sculpting Tool
+factorization:tool/matrix_programmer, Logic Matrix Programmer
 factorization:lead_ingot, Lead Ingot
-factorization:corkscrew, Corkscrew
-factorization:potencyBottle, Bottle of Potency
-factorization:servo/sprocket, Dark Iron Sprocket
-factorization:ceramics/glaze_bucket, Glaze Bucket
-factorization:logic_matrix_identifier, Logic Matrix: Identifier
-factorization:silver_ingot, Silver Ingot
-factorization:logic_matrix, Blank Logic Matrix
-factorization:diamond_shard, Diamond Block Shard
-factorization:servo/servo_motor, Servo Motor
-factorization:servo/servo, Servo
-factorization:socket/scissors, Enormous Scissors
 factorization:entheas, Entheas
 factorization:barrelCart:0, Barrel Cart
 factorization:barrelCart:0, Barrel Cart: Creative Bedrock Barrel
-factorization:sap, Sap
-factorization:sculptTool:0, Sculpting Tool
-factorization:dark_iron_ingot, Dark Iron Ingot
-factorization:tool/charge_meter, Charge Meter
-factorization:servo/decorator, item.factorization:servo/decorator.name
-factorization:daybarrel, item.factorization:daybarrel.name
+factorization:potencyBottle, Bottle of Potency
 factorization:charge_battery, Battery Block
-factorization:mirror, Mirror
-factorization:mansandwich:0, Manwich
-factorization:mansandwich:1, Spicy Manwich
-factorization:insulated_coil, Insulated Coil
-factorization:tool/pocket_crafting_table, Pocket Crafting Table
-factorization:acid:0, Sulfuric Acid
-factorization:acid:1, Aqua Regia
-factorization:utiligoo:0, Goo
-factorization:servo/instruction_plate, Instruction Plate
-factorization:tool/matrix_programmer, Logic Matrix Programmer
-factorization:logic_matrix_controller, Logic Matrix: Controller
-factorization:servo/commenter, Commenter
-factorization:docbook, The Factorization Manual
-factorization:motor, Motor
+factorization:brokenArtifact, item.factorization:brokenArtifact.name
+factorization:silver_ingot, Silver Ingot
+factorization:daybarrel, item.factorization:daybarrel.name
+factorization:sap, Sap
+factorization:servo/decorator, item.factorization:servo/decorator.name
+factorization:ceramics/glaze_bucket, Glaze Bucket
 factorization:spawnPoster, Poster
 factorization:servo/component, item.factorization:servo/component.name
+factorization:diamond_shard, Diamond Block Shard
+factorization:socket/scissors, Enormous Scissors
+factorization:tool/charge_meter, Charge Meter
+factorization:sludge, Sludge
+factorization:mansandwich:0, Manwich
+factorization:mansandwich:1, Spicy Manwich
+factorization:servo/servo, Servo
+factorization:servo/instruction_plate, Instruction Plate
+factorization:fan, Pressurizer
+factorization:logic_matrix, Blank Logic Matrix
 factorization:diamond_cutting_head, Diamond Cutting Head
-factorization:brokenArtifact, item.factorization:brokenArtifact.name
-factorization:nether_powder, Netherrack Powder
+factorization:servo/sprocket, Dark Iron Sprocket
 factorization:socket/:34, Robotic Arm
 factorization:socket/:35, Item Shifter
-factorization:sludge, Sludge
-factorization:fan, Pressurizer
+factorization:corkscrew, Corkscrew
+factorization:mirror, Mirror
+factorization:docbook, The Factorization Manual
+factorization:logic_matrix_identifier, Logic Matrix: Identifier
+factorization:motor, Motor
+factorization:nether_powder, Netherrack Powder
+factorization:logic_matrix_controller, Logic Matrix: Controller
+factorization:tool/pocket_crafting_table, Pocket Crafting Table
+factorization:insulated_coil, Insulated Coil
+factorization:servo/commenter, Commenter
+factorization:dark_iron_ingot, Dark Iron Ingot
+factorization:utiligoo:0, Goo
+factorization:servo/servo_motor, Servo Motor
+factorization:acid:0, Sulfuric Acid
+factorization:acid:1, Aqua Regia
 foundry:foundryComponent:0, Stone Gear
 foundry:foundryComponent:1, Heating Coil
 foundry:foundryComponent:2, Refractory Clay

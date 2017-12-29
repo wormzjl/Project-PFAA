@@ -348,6 +348,10 @@
       },
       {
         "type": "before",
+        "target": "IGWMod"
+      },
+      {
+        "type": "before",
         "target": "ihl"
       },
       {

@@ -1,6 +1,6 @@
 <version>
     <pack>
-        <version>1.0.7</version>
+        <version>1.0.8</version>
         <minecraft>1.7.10</minecraft>
         <memory>3072</memory>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -43,7 +43,7 @@
 
         <mod name="Leather Water Sac" version="3.9.B79" url="packs/PerFabricaadAstra/files/mods/[1.7.10]LeatherWaterSac-3.9.B79.jar" file="[1.7.10]LeatherWaterSac-3.9.B79.jar" md5="8645a34939c0564d31b607516010800e" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/3460-tfc-07923-leather-water-sac-for-tfc/" authors="Emris_Morath" description="It&apos;s a water sac made out of leather for TerraFirmaCraft" client="yes" optional="no" server="yes" serveroptional="no" />
 
-        <mod name="TerraFirmaCraft" version="0.79.33-PFAA" url="packs/PerFabricaadAstra/files/mods/[1.7.10]TerraFirmaCraft-0.79.33-PFAA.jar" file="[1.7.10]TerraFirmaCraft-0.79.33-PFAA.jar" md5="651eb5ce1433fcbe0379e976d377c139" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" />
+        <mod name="TerraFirmaCraft" version="0.79.34-PFAA" url="packs/PerFabricaadAstra/files/mods/[1.7.10]TerraFirmaCraft-0.79.34-PFAA.jar" file="[1.7.10]TerraFirmaCraft-0.79.34-PFAA.jar" md5="ece617c7bfb3a0c1a241fc44ceab5392" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" />
 
         <mod name="TerraFirmaPumpkins" version="2.1" url="packs/PerFabricaadAstra/files/mods/[1.7.10]TerraFirmaPumpkins-2.1.jar" file="[1.7.10]TerraFirmaPumpkins-2.1.jar" md5="35cf88ca6535136c925b08e01e3dc466" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/9584-tfc-07929-pefferns-addons-new-crops-and-also-wells-and-pewter/" authors="Peffern" description="This mod adds growable pumpkin and melon plants to TerraFirmaCraft." client="yes" optional="no" server="yes" serveroptional="no" />
 
@@ -237,7 +237,7 @@
 
         <mod name="Techguns" version="1.2" url="packs/PerFabricaadAstra/files/mods/Techguns.beta.1.2_alphatest4.1.jar" file="Techguns.beta.1.2_alphatest4.1.jar" md5="fe928745a8aebf66115264fc34539403" download="server" type="mods" website="http://www.curseforge.com/projects/techguns/" authors="pWn3d_1337, Th3_St4lk3r" description="Techguns" client="yes" optional="no" server="yes" serveroptional="no" />
 
-        <mod name="TechReborn" version="0.7.20.1" url="packs/PerFabricaadAstra/files/mods/Techreborn-PFAA-0.7.20.1-universal.jar" file="Techreborn-PFAA-0.7.20.1-universal.jar" md5="7ccccf0fbe506030f0b77ffe562660b3" download="server" type="mods" website="https://github.com/TechReborn/TechReborn" authors="modmuss50,Gigabit101,tntrololol,joflashstudios" description="TechReborn, The Gregtech revival you dream about on a cool mid summer&apos;s eve." client="yes" optional="no" server="yes" serveroptional="no" />
+        <mod name="TechReborn" version="0.7.20.2" url="packs/PerFabricaadAstra/files/mods/Techreborn-PFAA-0.7.20.2-universal.jar" file="Techreborn-PFAA-0.7.20.2-universal.jar" md5="37feb48f6c53ee7ee9200ab9f229c891" download="server" type="mods" website="https://github.com/TechReborn/TechReborn" authors="modmuss50,Gigabit101,tntrololol,joflashstudios" description="TechReborn, The Gregtech revival you dream about on a cool mid summer&apos;s eve." client="yes" optional="no" server="yes" serveroptional="no" />
 
         <mod name="TerraFirmaCraftNEIplugin" version="1.5.3.25" url="packs/PerFabricaadAstra/files/mods/TerraFirmaCraftNEIplugin-1.7.10-1.5.3.25.jar" file="TerraFirmaCraftNEIplugin-1.7.10-1.5.3.25.jar" md5="2ce2186a8ab0726d2c3a2d6b85248c73" download="server" type="mods" website="https://github.com/dries007/TerraFirmaCraftNEIplugin" authors="Dries007" description="TerraFirmaCraft + NEI = &lt;3" client="yes" optional="no" server="no" serveroptional="no" />
 
@@ -299,6 +299,8 @@
         <mod name="Standard ore rate" version="1.0.5" url="packs/PerFabricaadAstra/files/extracts/standard_ores.zip" file="standard_ores.zip" md5="c5f9f98cebf821516341881eeb59ddb6" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Config for standard ore generation rate" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" group="oregen" colour="gold" />
         
         <mod name="Extra ore rate" version="1.0.5" url="packs/PerFabricaadAstra/files/extracts/Extra_ores.zip" file="Extra_ores.zip" md5="2f3d0e3f76f05dd3535e51c256b8a032" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Config for higher ore generation rate" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="no" group="oregen" colour="gold" />
+
+        <mod name="In-Game wiki Mod" version="1.1.12-34" url="packs/PerFabricaadAstra/files/mods/IGW-Mod-1.7.10-1.1.12-34-universal.jar" file="IGW-Mod-1.7.10-1.1.12-34-universal.jar" md5="48cb8aa894d046bbbada670e124cbfaf" download="server" type="mods" website="http://www.minemaarten.com" donation="https://www.paypal.com/cgi-bin/webscr?return=https://minecraft.curseforge.com/projects/in-game-wiki-mod?gameCategorySlug=mc-mods&amp;projectID=223815&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=loopycoaster_8%40hotmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=https://minecraft.curseforge.com/projects/in-game-wiki-mod?gameCategorySlug=mc-mods&amp;projectID=223815&amp;lc=US&amp;item_name=In-Game+Wiki+Mod+(from+curseforge.com)&amp;cmd=_donations&amp;rm=1&amp;no_shipping=1&amp;currency_code=USD" authors="MineMaarten" description="Mod that allows for mods to add in-game documentation."  client="yes" optional="yes" server="no" serveroptional="no" recommended="no" />
 
         <mod name="Key binding configs" version="1.0.3" url="packs/PerFabricaadAstra/files/extracts/options.zip" file="options.zip" md5="0506f2b3241452b28ae6ac70db4ccced" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Default key binds, ignore this if you want to make your own" client="yes" optional="yes" server="no" serveroptional="no" recommended="no" />
 
