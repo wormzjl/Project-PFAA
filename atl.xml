@@ -1,6 +1,6 @@
 <version>
     <pack>
-        <version>1.0.8</version>
+        <version>1.0.8b</version>
         <minecraft>1.7.10</minecraft>
         <memory>3072</memory>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -30,6 +30,7 @@
     <colours>
         <colour name="green" code="2EFE2E" />
         <colour name="gold" code="FFC703" />
+        <colour name="blue" code="0099FF" />
     </colours>
 
     <mods>
@@ -263,8 +264,6 @@
 
         <mod name="Zetta Industries" version="1.1-117" url="packs/PerFabricaadAstra/files/mods/zettaindustries-1.1-117.jar" file="zettaindustries-1.1-117.jar" md5="a3ac24a341806128387ea1562f6e5d90" download="server" type="mods" website="http://www.zi.bymarcin.com" authors="marcin212" description="Zetta Industries" client="yes" optional="no" server="yes" serveroptional="no" />
 
-        <mod name="JourneyMap fairplay" version="5.1.4p2" url="https://minecraft.curseforge.com/projects/journeymap/files/2367916/download" file="journeymap-1.7.10-5.1.4p2-fairplay.jar" md5="88487f8a2858602bc7d1ab296ea488d5" download="direct" type="mods" website="http://journeymap.info" donation="http://minecraft.curseforge.com/linkout?remoteUrl=http%253a%252f%252fwww.patreon.com%252ftechbrew" authors="techbrew,mysticdrew" description="JourneyMap FairPlay Edition: Real-time map in-game or in a web browser as you explore." client="yes" optional="no" server="yes" serveroptional="no" />
-
         <!-- Dependencies -->
         <mod name="bspkrsCore" version="6.16" url="packs/PerFabricaadAstra/files/mods/1.7.10/[1.7.10]bspkrsCore-universal-6.16.jar" file="[1.7.10]bspkrsCore-universal-6.16.jar" md5="e77344bda12bd0b91e01dfbb00a653f0" download="server" type="dependency" website="http://www.minecraftforum.net/topic/1114612-/" donation="https://www.paypal.com/cgi-bin/webscr?return=https://minecraft.curseforge.com/projects/bspkrscore?gameCategorySlug=mc-mods&amp;projectID=59218&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=briefcase.speakers%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=https://minecraft.curseforge.com/projects/bspkrscore?gameCategorySlug=mc-mods&amp;projectID=59218&amp;lc=US&amp;item_name=bspkrsCore+(from+curseforge.com)&amp;cmd=_donations&amp;rm=1&amp;no_shipping=1&amp;currency_code=USD" authors="DaftPVF,bspkrs" description="Shared classes used in the mods maintained by bspkrs." client="yes" optional="no" server="yes" serveroptional="no" />
 
@@ -289,7 +288,7 @@
 
         <mod name="resources" version="1.0.1" url="packs/PerFabricaadAstra/files/extracts/resources_1.0.1.zip" file="resources_1.0.1.zip" md5="fddf8306cd0d62a877656b3da89dc146" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Resources for custom items and main menu" client="yes" optional="no" server="no" serveroptional="no" />
 
-        <mod name="scripts" version="1.0.6" url="packs/PerFabricaadAstra/files/extracts/scripts_1.0.6.zip" file="scripts_1.0.6.zip" md5="f7183d5d9bb870d1f505ea12b6d2c008" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="MT scripts" client="yes" optional="no" server="yes" serveroptional="no" />
+        <mod name="scripts" version="1.0.8b" url="packs/PerFabricaadAstra/files/extracts/scripts_1.0.8b.zip" file="scripts_1.0.8b.zip" md5="93d98ac11a7ed5ec2b03178a0babbec4" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="MT scripts" client="yes" optional="no" server="yes" serveroptional="no" />
 
         <!-- Optional mods -->
         <mod name="Standard TFC biome size" version="1.0.5" url="packs/PerFabricaadAstra/files/extracts/standard_biome.zip" file="standard_biome.zip" md5="8b5d484eaeb4777b8d1f988b38e0bb56" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Config for standard stone biome size" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" group="biome" colour="green" />
@@ -300,7 +299,11 @@
         
         <mod name="Extra ore rate" version="1.0.5" url="packs/PerFabricaadAstra/files/extracts/Extra_ores.zip" file="Extra_ores.zip" md5="2f3d0e3f76f05dd3535e51c256b8a032" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Config for higher ore generation rate" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="no" group="oregen" colour="gold" />
 
-        <mod name="In-Game wiki Mod" version="1.1.12-34" url="packs/PerFabricaadAstra/files/mods/IGW-Mod-1.7.10-1.1.12-34-universal.jar" file="IGW-Mod-1.7.10-1.1.12-34-universal.jar" md5="48cb8aa894d046bbbada670e124cbfaf" download="server" type="mods" website="http://www.minemaarten.com" donation="https://www.paypal.com/cgi-bin/webscr?return=https://minecraft.curseforge.com/projects/in-game-wiki-mod?gameCategorySlug=mc-mods&amp;projectID=223815&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=loopycoaster_8%40hotmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=https://minecraft.curseforge.com/projects/in-game-wiki-mod?gameCategorySlug=mc-mods&amp;projectID=223815&amp;lc=US&amp;item_name=In-Game+Wiki+Mod+(from+curseforge.com)&amp;cmd=_donations&amp;rm=1&amp;no_shipping=1&amp;currency_code=USD" authors="MineMaarten" description="Mod that allows for mods to add in-game documentation."  client="yes" optional="yes" server="no" serveroptional="no" recommended="no" />
+        <mod name="JourneyMap fairplay" version="5.1.4p2" url="https://minecraft.curseforge.com/projects/journeymap/files/2367916/download" file="journeymap-1.7.10-5.1.4p2-fairplay.jar" md5="88487f8a2858602bc7d1ab296ea488d5" download="direct" type="mods" website="http://journeymap.info" donation="http://minecraft.curseforge.com/linkout?remoteUrl=http%253a%252f%252fwww.patreon.com%252ftechbrew" authors="techbrew,mysticdrew" description="JourneyMap FairPlay Edition: Real-time map in-game or in a web browser as you explore." client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" group="minimap" colour="blue" />
+
+        <mod name="JourneyMap Unlimited" version="5.1.4p2" url="https://minecraft.curseforge.com/projects/journeymap/files/2367915/download" file="journeymap-1.7.10-5.1.4p2-unlimited.jar" md5="0c3daa19789a67da328437a8635c2cf3" download="direct" type="mods" website="http://journeymap.info" donation="http://minecraft.curseforge.com/linkout?remoteUrl=http%253a%252f%252fwww.patreon.com%252ftechbrew" authors="techbrew,mysticdrew" description="JourneyMap FairPlay Edition: Real-time map in-game or in a web browser as you explore." client="yes" optional="yes" server="yes" serveroptional="yes" recommended="no" group="minimap" colour="blue" />
+
+        <mod name="In-Game wiki Mod" version="1.1.12-34" url="packs/PerFabricaadAstra/files/mods/IGW-Mod-1.7.10-1.1.12-34-universal.jar" file="IGW-Mod-1.7.10-1.1.12-34-universal.jar" md5="48cb8aa894d046bbbada670e124cbfaf" download="server" type="mods" website="http://www.minemaarten.com" donation="https://www.paypal.com/cgi-bin/webscr?return=https://minecraft.curseforge.com/projects/in-game-wiki-mod?gameCategorySlug=mc-mods&amp;projectID=223815&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=loopycoaster_8%40hotmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=https://minecraft.curseforge.com/projects/in-game-wiki-mod?gameCategorySlug=mc-mods&amp;projectID=223815&amp;lc=US&amp;item_name=In-Game+Wiki+Mod+(from+curseforge.com)&amp;cmd=_donations&amp;rm=1&amp;no_shipping=1&amp;currency_code=USD" authors="MineMaarten" description="Mod that allows for mods to add in-game documentation."  client="yes" optional="yes" server="no" serveroptional="no" recommended="yes" />
 
         <mod name="Key binding configs" version="1.0.3" url="packs/PerFabricaadAstra/files/extracts/options.zip" file="options.zip" md5="0506f2b3241452b28ae6ac70db4ccced" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Default key binds, ignore this if you want to make your own" client="yes" optional="yes" server="no" serveroptional="no" recommended="no" />
 

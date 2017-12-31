@@ -38,3 +38,5 @@ furnace.addRecipe(<customitems:motor_mold_hard>, <customitems:motor_mold>);
 mods.foundry.Casting.addRecipe(<ihl:item.ihlSimpleItem:77>, <liquid:molten.steel> * 288, <customitems:mold_pipeline_hard>);
 mods.foundry.Casting.addRecipe(<ihl:item.ihlSimpleItem:75>, <liquid:molten.steel> * 432, <customitems:pressure_mold_hard>);
 mods.foundry.Casting.addRecipe(<ihl:item.ihlSimpleItem:62>, <liquid:molten.steel> * 288, <customitems:motor_mold_hard>);
+
+mods.foundry.Casting.addRecipe(<ihl:item.ihlSimpleItem:190>, <liquid:molten.potassium> * 144, <foundry:foundryMold>);

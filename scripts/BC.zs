@@ -252,6 +252,12 @@ recipes.addShaped(<BuildCraft|Core:engineBlock:2>,
     [null, <ore:blockGlass>, null],
     [<ore:gearSteel>, <minecraft:piston>, <ore:gearSteel>]]);
 
+recipes.remove(<BuildCraft|Silicon:laserTableBlock>);
+recipes.addShaped(<BuildCraft|Silicon:laserTableBlock>,
+   [[<ore:plateDoubleBlackSteel>, <ore:gemExquisite>, <ore:plateDoubleBlackSteel>],
+    [<ore:plateDoubleBlackSteel>, <minecraft:redstone>, <ore:plateDoubleBlackSteel>],
+    [<ore:plateDoubleBlackSteel>, <ore:gearBlueSteel>, <ore:plateDoubleBlackSteel>]]);
+
 //Chip
 mods.buildcraft.AssemblyTable.addRecipe(<BuildCraft|Silicon:redstoneChipset:4>*3, 400000, [<customitems:berylliumingot>, <minecraft:redstone>]);
 

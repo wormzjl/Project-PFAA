@@ -651,7 +651,6 @@ mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone> * 5, <terrafirm
 
 mods.immersiveengineering.Crusher.removeRecipe(<ihl:item.ihlSimpleItem:132>);
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:1>*6, <terrafirmacraft:item.Ore:16>, 4000, <ihl:item.ihlSimpleItem:118>, 0.5);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder>*12, <terrafirmacraft:item.Ore:32>, 8000);
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Fertilizer>*8, <terrafirmacraft:item.Ore:31>, 4000, <techreborn:dust:58>, 0.5);
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:9>*8, <ore:oreSalt>, 6000);
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:2>*8, <ore:oreGraphite>, 6000);
@@ -674,6 +673,7 @@ mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:9>*4, <
 
 mods.techreborn.blastFurnace.addRecipe(<ihl:item.ihlSimpleItem:157>, <ImmersiveEngineering:material:13>, <ihl:item.ihlSimpleItem:161>, <ImmersiveEngineering:metal:17>, 2300, 128, 2000);
 
+mods.immersiveengineering.Crusher.removeRecipe(<ihl:item.ihlSimpleItem:12>);
 mods.immersiveengineering.Crusher.addRecipe(<ihl:item.ihlSimpleItem:143>*4, <terrafirmacraft:item.Ore:17>, 4000);
 mods.ic2.Macerator.addRecipe(<ihl:item.ihlSimpleItem:143> * 4, <terrafirmacraft:item.Ore:17>);
 
@@ -689,4 +689,8 @@ mods.ic2.ThermalCentrifuge.addRecipe([<customitems:beryl_pd>, <techreborn:smallD
 recipes.addShapeless(<customitems:itemwashedcrushedberylore>, [<customitems:beryl_smw>, <customitems:beryl_smw>, <customitems:beryl_smw>, <customitems:beryl_smw>]);
 mods.techreborn.blastFurnace.addRecipe(<customitems:berylliumingot>, <ImmersiveEngineering:material:13>, <customitems:berylliumchloride>, <ihl:item.ihlSimpleItem:157>, 2000, 128, 2000);
 
+//dyes
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:8>, <terrafirmacraft:item.Small Ore:9>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:5>, <terrafirmacraft:item.Small Ore:3>, 3000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:7>, <terrafirmacraft:item.Small Ore:11>, 3000);
 
