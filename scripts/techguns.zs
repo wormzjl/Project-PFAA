@@ -162,7 +162,7 @@ mods.techguns.OreCluster.addOreCluster2(11,<terrafirmacraft:item.Ore:30>,1,0.39,
 mods.techguns.OreCluster.addOreCluster2(12,<terrafirmacraft:item.Ore:31>,1,0.64,0.49,0.37,1,2.0,1.5);
 mods.techguns.OreCluster.addOreCluster2(13,<terrafirmacraft:item.Ore:32>,1,0.39,0.39,0.39,1,1.0,1.0);
 mods.techguns.OreCluster.addOreCluster2(14,<terrafirmacraft:item.Ore:33>,1,0.61,0.8,0.21,1,10.0,0.2);
-mods.techguns.OreCluster.addOreCluster2(15,<liquid:naturalgas>*1000,1,0.9,0.9,0.9,3,2.0,0.5);
+mods.techguns.OreCluster.addOreCluster2(15,<liquid:naturalgas>*1000,1,0.9,0.9,0.9,3,0.8,0.75);
 
 
 //Original nerf

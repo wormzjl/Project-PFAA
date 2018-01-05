@@ -5,6 +5,7 @@ recipes.remove(<libVulpes:tile.coalGenerator>);
 recipes.remove(<advancedRocketry:utilBlock>);
 recipes.remove(<advancedRocketry:satellitePowerSource>);
 recipes.remove(<advancedRocketry:oreScanner>);
+recipes.remove(<advancedRocketry:tile.solarGenerator>);
 
 mods.techreborn.blastFurnace.addRecipe(<advancedRocketry:advancedRocketryproductingot>*2, null, <techreborn:ingot:27>, <tfctech:item.Aluminum Ingot>, 1000, 128, 2300);
 mods.techreborn.blastFurnace.addRecipe(<advancedRocketry:advancedRocketryproductingot:1>*2, null, <techreborn:ingot:27>, <techreborn:ingot:14>, 1000, 128, 3200);
