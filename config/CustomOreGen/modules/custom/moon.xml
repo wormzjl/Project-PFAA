@@ -49,7 +49,7 @@
                             <Replaces block='minecraft:stone' weight='1.0' />
                             <Biome name='.*'  />
                             <Setting name='Size' avg=':= 5 ' range=':= _default_ ' type='normal' />
-                            <Setting name='Frequency' avg=':= 4 ' range=':= _default_ ' type='normal' scaleTo='base' />
+                            <Setting name='Frequency' avg=':= 8 ' range=':= _default_ ' type='normal' scaleTo='base' />
                             <Setting name='Height' avg=':= 43 ' range=':= 26 ' type='normal' scaleTo='base' />
                             <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
                         </StandardGen>

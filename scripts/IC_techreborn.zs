@@ -47,6 +47,8 @@ mods.ic2.Extractor.addRecipe(<ihl:item.ihlSimpleItem:7>*2, <IC2:itemHarz>);
 mods.techreborn.centrifuge.removeRecipe(<IC2:itemDust>);
 mods.techreborn.centrifuge.removeRecipe(<techreborn:dust:46>);
 mods.techreborn.centrifuge.removeInputRecipe(<minecraft:glowstone_dust>);
+mods.techreborn.centrifuge.removeInputRecipe(<minecraft:dirt>);
+mods.techreborn.centrifuge.removeInputRecipe(<minecraft:grass>);
 
 mods.techreborn.industrialElectrolyzer.removeInputRecipe(<techreborn:dust:57>);
 mods.techreborn.industrialElectrolyzer.removeInputRecipe(<techreborn:dust:62>);
@@ -266,6 +268,12 @@ recipes.addShaped(<IC2:itemToolMiningLaser>,
    [[<IC2:itemBatLamaCrystal:*>,<techreborn:part:25>,<libVulpes:libVulpesproductcrystal>],
     [<IC2:itemPartIridium>,<IC2:itemPartIridium>,<GraviSuiteReloaded:ItemMiscQuantumCircuit>],
     [null,<IC2:itemTurningBlanks:274978>.withTag({state: {l0: 4, l1: 3, l2: 2, l3: 2, l4: 2}}),<IC2:itemPartIridium>]]);
+
+recipes.remove(<IC2:itemRecipePart:8>);
+recipes.addShaped(<IC2:itemRecipePart:8>,
+   [[<ore:plateIron>, <ore:ingotIron>, <ore:plateIron>],
+    [<ore:plateIron>, <ore:ingotIron>, <ore:plateIron>],
+    [<ore:plateIron>, <ore:ingotIron>, <ore:plateIron>]]);
 
 
 

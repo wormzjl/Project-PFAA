@@ -90,6 +90,7 @@ mods.immersiveengineering.BottlingMachine.addRecipe(<ImmersiveEngineering:treate
 
 mods.immersiveengineering.BottlingMachine.addRecipe(<minecraft:blaze_rod>, <ore:stickSteel>, <liquid:lava> * 1000);
 
+mods.immersiveengineering.Crusher.removeRecipe(<ImmersiveEngineering:metal:19>);
 
 //Graphite
 furnace.remove(<ImmersiveEngineering:metal:20>);

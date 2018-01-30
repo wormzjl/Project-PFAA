@@ -99,7 +99,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Copper Gear>, <terr
 mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Gold Gear>, <terrafirmacraft:item.Gold Ingot> * 4, <ImmersiveEngineering:mold:1>, 2000);
 mods.immersiveengineering.MetalPress.addRecipe(<tfctech:item.Tin Gear>, <terrafirmacraft:item.Tin Ingot> * 4, <ImmersiveEngineering:mold:1>, 2000);
 
-mods.Terrafirmacraft.Anvil.addPlanRecipe("gears", 8, 8, 27);
+mods.Terrafirmacraft.Anvil.addPlanRecipe("gears", 8, 8, 20);
 game.setLocalization("en_US", "gui.plans.gears", "Gears");
 
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfctech:item.Bismuth Bronze Rackwheel>, <terrafirmacraft:item.Bismuth Bronze Double Sheet>, "gears", 3);
@@ -113,7 +113,7 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfctech:item.Wrought Iron Rackwheel>,
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfctech:item.Steel Rackwheel>, <terrafirmacraft:item.Steel Double Sheet>, "gears", 3);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfctech:item.Tin Rackwheel>, <terrafirmacraft:item.Tin Double Sheet>, "gears", 3);
 
-mods.Terrafirmacraft.Anvil.addPlanRecipe("sleeve", 2, 2, 27);
+mods.Terrafirmacraft.Anvil.addPlanRecipe("sleeve", 2, 2, 20);
 game.setLocalization("en_US", "gui.plans.sleeve", "Sleeve");
 
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfctech:item.Brass Sleeve>, <terrafirmacraft:item.Brass Ingot>, "sleeve", 3);

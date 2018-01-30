@@ -20,6 +20,10 @@
       },
       {
         "type": "before",
+        "target": "IC2"
+      },
+      {
+        "type": "before",
         "target": "Railcraft"
       },
       {
@@ -105,10 +109,6 @@
       {
         "type": "before",
         "target": "BuildCraft|Transport"
-      },
-      {
-        "type": "before",
-        "target": "IC2"
       },
       {
         "type": "before",

@@ -49,6 +49,8 @@ recipes.remove(<Mekanism:Flamethrower>);
 recipes.remove(<Mekanism:GasUpgrade>);
 recipes.remove(<Mekanism:EnergyUpgrade>);
 
+mods.nei.NEI.hide(<Mekanism:MachineBlock2:11>);
+
 mods.mekanism.Separator.removeRecipe(<liquid:water>, <gas:hydrogen>, <gas:oxygen>);
 mods.mekanism.Separator.removeRecipe(<liquid:brine>, <gas:sodium>, <gas:chlorine>);
 

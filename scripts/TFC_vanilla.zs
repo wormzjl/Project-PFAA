@@ -48,6 +48,8 @@ recipes.addShapeless(<terrafirmacraft:item.stick>, [<minecraft:stick>]);
 recipes.addShapeless(<minecraft:reeds>, [<terrafirmacraft:item.Reeds>]);
 recipes.addShapeless(<terrafirmacraft:item.Reeds>, [<minecraft:reeds>]);
 
+recipes.addShapeless(<terrafirmacraft:Torch>, [<minecraft:torch>]);
+recipes.addShapeless(<minecraft:torch>, [<terrafirmacraft:Torch>]);
 
 recipes.addShapeless(<minecraft:diamond>, [<terrafirmacraft:item.Diamond:1>, <terrafirmacraft:item.Diamond:1>]);
 recipes.addShapeless(<minecraft:diamond>, [<terrafirmacraft:item.Diamond>, <terrafirmacraft:item.Diamond>, <terrafirmacraft:item.Diamond>]);
@@ -76,6 +78,10 @@ recipes.addShaped(<minecraft:dispenser>, [[<ore:stoneCobble>, <ore:stoneCobble>,
 recipes.remove(<terrafirmacraft:item.Log>);
 recipes.remove(<minecraft:glowstone_dust>);
 
+recipes.remove(<minecraft:log:12>);
+recipes.remove(<minecraft:log:13>);
+recipes.remove(<minecraft:log:14>);
+recipes.remove(<minecraft:log:15>);
 
 
 
