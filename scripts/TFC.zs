@@ -193,3 +193,17 @@ marble.add(<terrafirmacraft:StoneMMSmooth:5>);
 //
 mods.Terrafirmacraft.Quern.removeRecipe(<minecraft:redstone> * 8, <terrafirmacraft:item.Ore:28>);
 mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 4, <terrafirmacraft:item.Ore:28>);
+
+// Update Vulcanization Agents to be more realistic as well as not completely dependent on Chalk
+// Add recipes for Zinc Dust in the Quern
+mods.Terrafirmacraft.Quern.addRecipe(<techreborn:smallDust:87>*2, <terrafirmacraft:item.Zinc Ingot>);    // 2x Small Zinc Dust from Zinc Ingot
+mods.Terrafirmacraft.Quern.addRecipe(<techreborn:smallDust:87>, <terrafirmacraft:item.Small Ore:8>*5);   // Small Zinc Dust from 5x Small Garnierite
+mods.Terrafirmacraft.Quern.addRecipe(<techreborn:smallDust:87>, <terrafirmacraft:item.Ore:57>*3);        // Small Zinc Dust from 3x Poor Garnierite
+mods.Terrafirmacraft.Quern.addRecipe(<techreborn:smallDust:87>, <terrafirmacraft:item.Ore:8>*2);         // Small Zinc Dust from 2x Normal Garnierite
+mods.Terrafirmacraft.Quern.addRecipe(<techreborn:smallDust:87>, <terrafirmacraft:item.Ore:43>);          // Small Zinc Dust from Rich Garnierite
+
+// Add more accurate recipe for Vulcanizing Agents using Zinc Dust
+recipes.remove(<tfctech:item.Vulcanizing Agents>);
+recipes.addShapeless(<tfctech:item.Vulcanizing Agents>*4, [<ore:dustSulfur>, <ore:dustSulfur>, <ore:dustGraphite>, <ore:dustKaolinite>, <ore:dustZinc>]);
+recipes.addShapeless(<tfctech:item.Vulcanizing Agents>*4, [<ore:dustSulfur>, <ore:dustSulfur>, <ore:dustChalk>, <ore:dustKaolinite>, <ore:dustZinc>]);
+
