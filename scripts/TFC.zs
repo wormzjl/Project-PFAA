@@ -197,10 +197,10 @@ mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 4, <terrafirmacraft:
 // Update Vulcanization Agents to be more realistic as well as not completely dependent on Chalk
 // Add recipes for Zinc Dust in the Quern
 mods.Terrafirmacraft.Quern.addRecipe(<techreborn:smallDust:87>*2, <terrafirmacraft:item.Zinc Ingot>);    // 2x Small Zinc Dust from Zinc Ingot
-mods.Terrafirmacraft.Quern.addRecipe(<techreborn:smallDust:87>, <terrafirmacraft:item.Small Ore:8>*5);   // Small Zinc Dust from 5x Small Garnierite
-mods.Terrafirmacraft.Quern.addRecipe(<techreborn:smallDust:87>, <terrafirmacraft:item.Ore:57>*3);        // Small Zinc Dust from 3x Poor Garnierite
-mods.Terrafirmacraft.Quern.addRecipe(<techreborn:smallDust:87>, <terrafirmacraft:item.Ore:8>*2);         // Small Zinc Dust from 2x Normal Garnierite
-mods.Terrafirmacraft.Quern.addRecipe(<techreborn:smallDust:87>, <terrafirmacraft:item.Ore:43>);          // Small Zinc Dust from Rich Garnierite
+mods.Terrafirmacraft.Quern.addRecipe(<techreborn:smallDust:87>, <terrafirmacraft:item.Small Ore:12>*5);   // Small Zinc Dust from 5x Small Sphalerite
+mods.Terrafirmacraft.Quern.addRecipe(<techreborn:smallDust:87>, <terrafirmacraft:item.Ore:61>*3);        // Small Zinc Dust from 3x Poor Sphalerite
+mods.Terrafirmacraft.Quern.addRecipe(<techreborn:smallDust:87>, <terrafirmacraft:item.Ore:12>*2);         // Small Zinc Dust from 2x Normal Sphalerite
+mods.Terrafirmacraft.Quern.addRecipe(<techreborn:smallDust:87>, <terrafirmacraft:item.Ore:47>);          // Small Zinc Dust from Rich Sphalerite
 
 // Add more accurate recipe for Vulcanizing Agents using Zinc Dust
 recipes.remove(<tfctech:item.Vulcanizing Agents>);
