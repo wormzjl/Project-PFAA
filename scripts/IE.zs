@@ -387,3 +387,7 @@ mods.immersiveengineering.Excavator.addMineral("dirt", 25, 0.3, ["blockDirt", "s
 
 //Biofuel
 mods.immersiveengineering.Refinery.removeRecipe(<liquid:biodiesel>);
+
+//Change Coal Oven Output to TFC Charcoal
+mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
+mods.immersiveengineering.CokeOven.addRecipe(<terrafirmacraft:item.coal:1>, 250, <ore:logWood>, 900);
