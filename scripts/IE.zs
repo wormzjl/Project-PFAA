@@ -96,7 +96,7 @@ mods.immersiveengineering.Crusher.removeRecipe(<ImmersiveEngineering:metal:19>);
 furnace.remove(<ImmersiveEngineering:metal:20>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<ImmersiveEngineering:metal:20>);
 //mods.immersiveengineering.Squeezer.removeItemRecipe(<ImmersiveEngineering:metal:19>);
-mods.techreborn.blastFurnace.addRecipe(<ImmersiveEngineering:metal:20>, null, <ImmersiveEngineering:metal:17> * 4, null, 200, 128, 2000);
+mods.techreborn.blastFurnace.addRecipe(<ImmersiveEngineering:metal:20>, null, <ImmersiveEngineering:metal:17> * 4, <terrafirmacraft:item.Powder>, 200, 128, 2000);
 
 //recipes
 //recipes.remove(<ImmersiveEngineering:woodenDevice:3>);
@@ -105,6 +105,9 @@ recipes.remove(<ImmersiveEngineering:metalMultiblock:3>);
 
 recipes.remove(<ImmersiveEngineering:revolver>);
 recipes.remove(<ImmersiveEngineering:railgun>);
+
+recipes.remove(<ImmersiveEngineering:metalDevice2:7>);
+recipes.remove(<ImmersiveEngineering:woodenDevice:6>);
 
 
 recipes.remove(<ImmersiveEngineering:metalDevice:13>);
@@ -195,6 +198,13 @@ recipes.addShaped(<ImmersiveEngineering:woodenDevice:2>,
  [[null, <ImmersiveEngineering:material:2>, null],
   [<ImmersiveEngineering:material:2>, <ore:plateBlackSteel>, <ImmersiveEngineering:material:2>],
   [null, <ImmersiveEngineering:material:2>, null]]);
+
+recipes.remove(<ImmersiveEngineering:metalDevice:13>);
+recipes.addShaped(<ImmersiveEngineering:metalDevice:13>,
+ [[<ore:ingotSteel>, <minecraft:redstone>, <ore:ingotSteel>],
+  [<ore:plankTreatedWood>, <ImmersiveEngineering:material:12>, <ore:plankTreatedWood>],
+  [<ore:ingotSteel>, <minecraft:redstone>, <ore:ingotSteel>]]);
+
 
 mods.ic2.Compressor.addRecipe(<ImmersiveEngineering:metal:20>, <terrafirmacraft:item.Powder:2> * 4);
 mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:graphiteElectrode>, <ImmersiveEngineering:metal:20> * 4, <ImmersiveEngineering:mold:2>, 500);

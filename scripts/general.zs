@@ -7,7 +7,7 @@ furnace.remove(<Techguns:TechgunsAmmo:95>);
 recipes.remove(<minecraft:dragon_egg>);
 recipes.remove(<BuildCraft|Builders:machineBlock>);
 recipes.remove(<OpenBlocks:tank>);
-recipes.remove(<appliedenergistics2:item.ToolNetworkTool>);
+//recipes.remove(<appliedenergistics2:item.ToolNetworkTool>);
 recipes.remove(<Railcraft:slab:43>);
 
 recipes.remove(<PneumaticCraft:thermopneumaticProcessingPlant>);
@@ -102,12 +102,6 @@ recipes.remove(<GraviSuiteReloaded:ItemArmorAdvancedNanoChestplate:*>);
 recipes.remove(<GraviSuiteReloaded:ItemArmorAdvancedJetpack:*>);
 
 //misc
-recipes.remove(<smbgrapplinghook:sbmGrapplingHook>);
-recipes.addShaped(<smbgrapplinghook:sbmGrapplingHook>,
-   [[null, <terrafirmacraft:item.Black Steel Javelin Head>, null],
-    [<terrafirmacraft:item.Black Steel Sheet>, <terrafirmacraft:item.Rope>, <terrafirmacraft:item.Black Steel Sheet>],
-    [<terrafirmacraft:item.Black Steel Sheet>, <minecraft:redstone>, <terrafirmacraft:item.Black Steel Sheet>]]);
-
 recipes.remove(<OpenBlocks:hangglider>);
 recipes.addShaped(<OpenBlocks:hangglider>, [[<OpenBlocks:generic>, <advancedRocketry:advancedRocketryproductrod:1>, <OpenBlocks:generic>]]);
 
@@ -121,6 +115,12 @@ recipes.addShaped(<WR-CBE|Core:retherPearl>,
    [[<minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:redstone>],
     [<minecraft:glowstone_dust>, <customitems:berylliumingot>, <minecraft:glowstone_dust>],
     [<minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:redstone>]]);
+
+recipes.remove(<zettaindustries:rfmeterblock>);
+recipes.addShaped(<zettaindustries:rfmeterblock>,
+   [[<ore:ingotIron>, <minecraft:comparator>, <ore:ingotIron>],
+    [<ore:ingotIron>, <minecraft:redstone_block>, <ore:ingotIron>],
+    [<ore:ingotIron>, <minecraft:comparator>, <ore:ingotIron>]]);
 
 //OC
 recipes.remove(<OpenComputers:item:62>);
@@ -295,6 +295,12 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:9>,
     [<appliedenergistics2:item.ItemMultiMaterial:12>, <customitems:berylliumingot>, <appliedenergistics2:item.ItemMultiMaterial:12>],
     [<appliedenergistics2:item.ItemMultiMaterial:8>, <appliedenergistics2:item.ItemMultiMaterial:12>, <appliedenergistics2:item.ItemMultiMaterial:8>]]);
 
+recipes.remove(<appliedenergistics2:tile.BlockQuartzTorch>);
+recipes.addShapeless(<appliedenergistics2:tile.BlockQuartzTorch>, [<appliedenergistics2:item.ItemMultiMaterial:1>, <ore:ingotIron>]);
+
+recipes.remove(<appliedenergistics2:tile.BlockLightDetector>);
+recipes.addShapeless(<appliedenergistics2:tile.BlockLightDetector>, [<ore:gemQuartz>, <ore:ingotIron>]);
+
 recipes.addShaped(<GregsLighting:floodlight>, 
    [[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>],
     [<ore:ingotIron>, <GregsLighting:glowingIngot>, <ore:ingotIron>],
@@ -328,5 +334,61 @@ recipes.addShapeless(<tfctech:item.Gold Gear>, [<ore:gearGold>]);
 recipes.addShapeless(<tfctech:item.Steel Gear>, [<ore:gearSteel>]);
 recipes.addShapeless(<tfctech:item.Tin Gear>, [<ore:gearTin>]);
 
+//Malisis
+recipes.remove(<malisisdoors:vanishing_block:1>);
+recipes.addShaped(<malisisdoors:vanishing_block:1>,
+   [[<minecraft:redstone>, <ore:ingotIron>, <minecraft:redstone>],
+    [<ore:ingotIron>, <minecraft:ender_pearl>, <ore:ingotIron>],
+    [<minecraft:redstone>, <ore:ingotIron>, <minecraft:redstone>]]);
 
+recipes.remove(<malisisdoors:vanishing_block:2>);
+recipes.addShaped(<malisisdoors:vanishing_block:2>,
+   [[<minecraft:redstone>, <ore:ingotGold>, <minecraft:redstone>],
+    [<ore:ingotGold>, <minecraft:ender_pearl>, <ore:ingotGold>],
+    [<minecraft:redstone>, <ore:ingotGold>, <minecraft:redstone>]]);
+
+recipes.remove(<malisisdoors:block_mixer>);
+recipes.addShaped(<malisisdoors:block_mixer>,
+   [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+    [<minecraft:piston>, null, <minecraft:piston>],
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+
+recipes.remove(<malisisdoors:door_factory>);
+recipes.addShaped(<malisisdoors:door_factory>,
+   [[<ore:ingotIron>, <minecraft:iron_door>, <ore:ingotIron>],
+    [<minecraft:redstone>, null, <minecraft:redstone>],
+    [<ore:ingotIron>, <minecraft:piston>, <ore:ingotIron>]]);
+
+recipes.remove(<malisisdoors:rustyHatch>);
+recipes.addShaped(<malisisdoors:rustyHatch>,
+   [[<ore:ingotIron>, null],
+    [<ore:ingotIron>, <malisisdoors:item.rustyHandle>],
+    [<ore:ingotIron>, null]]);
+
+recipes.remove(<malisisdoors:item.rustyHandle>);
+recipes.addShaped(<malisisdoors:item.rustyHandle>,
+   [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+    [null, <ore:ingotIron>, null]]);
+
+recipes.remove(<malisisdoors:rustyLadder>);
+recipes.addShaped(<malisisdoors:rustyLadder>,
+   [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+
+recipes.remove(<malisisdoors:item.iron_sliding_door>);
+recipes.addShaped(<malisisdoors:item.iron_sliding_door>,
+   [[<ore:ingotIron>, <ore:blockGlass>],
+    [<ore:ingotIron>, <ore:blockGlass>],
+    [<ore:ingotIron>, <ore:blockGlass>]]);
+
+recipes.remove(<malisisdoors:item.laboratory_door>);
+recipes.addShaped(<malisisdoors:item.laboratory_door>,
+   [[<ore:ingotGold>, <ore:ingotGold>],
+    [<ore:ingotIron>, <ore:ingotIron>],
+    [<ore:ingotIron>, <ore:ingotIron>]]);
+
+recipes.remove(<malisisdoors:item.factory_door>);
+recipes.addShaped(<malisisdoors:item.factory_door>,
+   [[<ore:ingotGold>, <ore:ingotGold>],
+    [<ore:ingotIron>, <ore:ingotIron>],
+    [<ore:ingotGold>, <ore:ingotGold>]]);
 

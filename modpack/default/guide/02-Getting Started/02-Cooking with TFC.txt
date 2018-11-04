@@ -1,6 +1,6 @@
 ﻿§2§lCooking with TFC
 
-Cooking with TFC mod aims at providing a more immersive experience during food preparation as well as adding some fun.
+Cooking with TFC is an optional mod aims at providing a more immersive experience during food preparation as well as adding some fun.
 
 The detailed information of this mod can be found at:
 {"text":"§1https://github.com/StrayWolfe/Cooking-with-TFC/wiki", "click":{"type":"url", "data":"https://github.com/StrayWolfe/Cooking-with-TFC/wiki"}}

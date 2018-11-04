@@ -1,4 +1,4 @@
-§2§lGuide to fluid automation
+§2§lTechreborn multiblock machines
 
 Techreborn tries to replicate the old gregtech 2. Due to the lack of information of the old age, the usage of multiblock machines is presented here.
 All TR multiblock machines are formed by standard/reinforced/advanced machine casings and a controller block.

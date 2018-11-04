@@ -22,7 +22,7 @@ recipes.addShaped(<pressure:Interface>,
   [<ore:plateSteel>, <minecraft:ender_pearl>, <ore:plateSteel>],
   [<minecraft:glass_pane>, <ore:plateSteel>, <minecraft:redstone>]]);
 
-recipes.addShaped(<pressure:Interface>,
+recipes.addShaped(<pressure:Interface>*2,
  [[<minecraft:redstone>, <ore:plateSteel>, <minecraft:glass_pane>],
   [<ore:plateSteel>, <customitems:berylliumingot>, <ore:plateSteel>],
   [<minecraft:glass_pane>, <ore:plateSteel>, <minecraft:redstone>]]);
@@ -141,6 +141,12 @@ recipes.addShaped(<pressure:TankGasInput>,
     [<ore:plateSteel>, null, <ore:plateSteel>],
     [<pressure:TankWall>, <ore:plateSteel>, <pressure:TankWall>]]);
 
+recipes.remove(<pressure:Router>);
+recipes.addShaped(<pressure:Router>,
+   [[<ore:ingotSteel>, <pressure:Interface>, <ore:ingotSteel>],
+    [<pressure:Interface>, <minecraft:redstone>, <pressure:Interface>],
+    [<ore:ingotSteel>, <pressure:Interface>, <ore:ingotSteel>]]);
+
 //AG
 recipes.remove(<advgenerators:IronFrame>);
 mods.railcraft.Rolling.addShaped(<advgenerators:IronFrame>*2,
@@ -236,3 +242,9 @@ recipes.addShaped(<advgenerators:SyngasController>,
  [[<advgenerators:IronFrame>, <advgenerators:PressureValve>, <advgenerators:IronFrame>],
   [<advgenerators:IronTubing>, <techreborn:part:4>, <advgenerators:IronTubing>],
   [<advgenerators:IronFrame>, <advgenerators:IronWiring>, <advgenerators:IronFrame>]]);
+
+recipes.remove(<pressure:PipeSensor>);
+recipes.addShaped(<pressure:PipeSensor>,
+ [[null, <ore:ingotIron>, null],
+  [<pressure:Interface>, <minecraft:redstone_torch>, <pressure:Interface>],
+  [null, <ore:ingotIron>, null]]);

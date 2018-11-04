@@ -224,10 +224,6 @@ recipes.addShaped(<techreborn:grinder>,
   [<IC2:itemPartCircuitAdv>, <IC2:blockMachine:12>, <IC2:itemPartCircuitAdv>]]);
 
 recipes.remove(<techreborn:techreborn.quantumTank>);
-recipes.addShaped(<techreborn:techreborn.quantumTank>,
- [[<GraviSuiteReloaded:ItemMiscQuantumCircuit>, <techreborn:plates:20>, <GraviSuiteReloaded:ItemMiscQuantumCircuit>],
-  [<techreborn:plates:20>, <techreborn:techreborn.quantumChest>, <techreborn:plates:20>],
-  [<GraviSuiteReloaded:ItemMiscQuantumCircuit>, <techreborn:plates:20>, <GraviSuiteReloaded:ItemMiscQuantumCircuit>]]);
 
 recipes.remove(<IC2:itemTurningBlanks:*>);
 recipes.addShaped(<IC2:itemTurningBlanks:349525>.withTag({state: {l0: 5, l1: 5, l2: 5, l3: 5, l4: 5}}),
@@ -275,7 +271,11 @@ recipes.addShaped(<IC2:itemRecipePart:8>,
     [<ore:plateIron>, <ore:ingotIron>, <ore:plateIron>],
     [<ore:plateIron>, <ore:ingotIron>, <ore:plateIron>]]);
 
-
+recipes.remove(<IC2:itemRTGPellet>);
+recipes.addShaped(<IC2:itemRTGPellet>,
+   [[<IC2:itemDensePlates:4>, <IC2:itemPlutonium>, <IC2:itemDensePlates:4>],
+    [<IC2:itemDensePlates:4>, <IC2:itemPlutonium>, <IC2:itemDensePlates:4>],
+    [<IC2:itemDensePlates:4>, <IC2:itemPlutonium>, <IC2:itemDensePlates:4>]]);
 
 //Adv alloy
 recipes.addShaped(<IC2:itemIngot:4> * 3, 

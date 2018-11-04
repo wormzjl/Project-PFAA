@@ -33,6 +33,8 @@ recipes.addShaped(<powersuits:item.powerArmorLeggings>,
     [<advancedRocketry:advancedRocketryproductplate:1>, null, <advancedRocketry:advancedRocketryproductplate:1>]]);
 
 //recipes.remove();
+recipes.removeShapeless(<minecraft:diamond>*5, [<powersuits:powerArmorComponent:10>]);
+recipes.removeShapeless(<minecraft:iron_ingot>*5, [<powersuits:powerArmorComponent:9>]);
 
 recipes.remove(<powersuits:powerArmorComponent>);
 mods.buildcraft.AssemblyTable.addRecipe(<powersuits:powerArmorComponent>*8, 250000, [<IC2:itemCable:9>*3]);

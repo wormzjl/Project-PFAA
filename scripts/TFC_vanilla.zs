@@ -51,6 +51,10 @@ recipes.addShapeless(<terrafirmacraft:item.Reeds>, [<minecraft:reeds>]);
 recipes.addShapeless(<terrafirmacraft:Torch>, [<minecraft:torch>]);
 recipes.addShapeless(<minecraft:torch>, [<terrafirmacraft:Torch>]);
 
+recipes.addShapeless(<minecraft:dye:15>, [<terrafirmacraft:item.dyePowder:15>]);
+recipes.addShapeless(<terrafirmacraft:item.dyePowder:15>, [<minecraft:dye:15>]);
+
+
 recipes.addShapeless(<minecraft:diamond>, [<terrafirmacraft:item.Diamond:1>, <terrafirmacraft:item.Diamond:1>]);
 recipes.addShapeless(<minecraft:diamond>, [<terrafirmacraft:item.Diamond>, <terrafirmacraft:item.Diamond>, <terrafirmacraft:item.Diamond>]);
 
@@ -66,6 +70,7 @@ recipes.addShapeless(<minecraft:glass_bottle>, [<terrafirmacraft:item.Glass Bott
 recipes.addShapeless(<terrafirmacraft:item.Glass Bottle>, [<minecraft:glass_bottle>]);
 
 recipes.addShapeless(<minecraft:clay_ball>, [<terrafirmacraft:item.Clay>]);
+recipes.addShapeless(<terrafirmacraft:item.Clay>, [<minecraft:clay_ball>]);
 recipes.remove(<minecraft:clay>);
 recipes.addShaped(<minecraft:clay>, [[<ore:lumpClay>, <ore:lumpClay>], [<ore:lumpClay>, <ore:lumpClay>]]);
 

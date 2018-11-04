@@ -208,14 +208,6 @@
       },
       {
         "type": "before",
-        "target": "CJBAPI"
-      },
-      {
-        "type": "before",
-        "target": "CJB|XRay"
-      },
-      {
-        "type": "before",
         "target": "cookingwithtfc"
       },
       {
@@ -464,6 +456,10 @@
       },
       {
         "type": "before",
+        "target": "mod_pndc"
+      },
+      {
+        "type": "before",
         "target": "PneumaticCraft"
       },
       {
@@ -513,6 +509,10 @@
       {
         "type": "before",
         "target": "Techguns"
+      },
+      {
+        "type": "before",
+        "target": "TFCPlayerInvFix"
       },
       {
         "type": "before",
