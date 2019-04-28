@@ -2843,6 +2843,7 @@ OpenComputers:waypoint:0, Waypoint
 OpenComputers:endstone:0, End Stone
 OpenComputers:netSplitter:0, Net Splitter
 OpenComputers:transposer:0, Transposer
+OpenComputers:carpetedCapacitor:0, Carpeted Capacitor
 tfctech:Ore4:0, Bauxite
 tfctech:Latex, Latex
 tfctech:LatexExtractor, Rubber Tapping
@@ -8880,6 +8881,7 @@ OpenComputers:item:31, Circuit Board
 OpenComputers:item:70, Component Bus (Tier 1)
 OpenComputers:item:71, Component Bus (Tier 2)
 OpenComputers:item:72, Component Bus (Tier 3)
+OpenComputers:item:114, Component Bus (Creative)
 OpenComputers:item:28, Control Unit (CU)
 OpenComputers:item:17, Cutting Wire
 OpenComputers:item:104, Data Card (Tier 1)
@@ -8967,7 +8969,8 @@ OpenComputers:item:76, Tank Upgrade
 OpenComputers:item:77, Tank Controller Upgrade
 OpenComputers:item:67, Tractor Beam Upgrade
 OpenComputers:item:110, Trading Upgrade
-OpenComputers:item:13, Wireless Network Card
+OpenComputers:item:113, Wireless Network Card (Tier 1)
+OpenComputers:item:13, Wireless Network Card (Tier 2)
 OpenComputers:item:84, Crecopter
 OpenComputers:item:0, Microcontroller
 OpenComputers:item:0, Creatix
@@ -13647,51 +13650,51 @@ ExtraUtilities:shears, Precision Shears
 ExtraUtilities:creativebuilderswand, Super Builder's Wand
 ExtraUtilities:sonar_goggles, Sonar Goggles
 ExtraUtilities:scanner, Portable Scanner
-factorization:servo/commenter, Commenter
-factorization:daybarrel, item.factorization:daybarrel.name
+factorization:logic_matrix_identifier, Logic Matrix: Identifier
+factorization:servo/decorator, item.factorization:servo/decorator.name
 factorization:logic_matrix, Blank Logic Matrix
-factorization:brokenArtifact, item.factorization:brokenArtifact.name
+factorization:socket/scissors, Enormous Scissors
+factorization:logic_matrix_controller, Logic Matrix: Controller
+factorization:spawnPoster, Poster
+factorization:mirror, Mirror
+factorization:charge_battery, Battery Block
+factorization:utiligoo:0, Goo
+factorization:servo/servo_motor, Servo Motor
+factorization:diamond_shard, Diamond Block Shard
+factorization:lead_ingot, Lead Ingot
+factorization:motor, Motor
 factorization:mansandwich:0, Manwich
 factorization:mansandwich:1, Spicy Manwich
-factorization:servo/servo_motor, Servo Motor
-factorization:fan, Pressurizer
-factorization:insulated_coil, Insulated Coil
-factorization:socket/scissors, Enormous Scissors
-factorization:logic_matrix_identifier, Logic Matrix: Identifier
-factorization:servo/instruction_plate, Instruction Plate
-factorization:logic_matrix_controller, Logic Matrix: Controller
-factorization:tool/charge_meter, Charge Meter
-factorization:sap, Sap
-factorization:corkscrew, Corkscrew
-factorization:servo/component, item.factorization:servo/component.name
-factorization:sludge, Sludge
-factorization:charge_battery, Battery Block
-factorization:entheas, Entheas
 factorization:diamond_cutting_head, Diamond Cutting Head
-factorization:tool/pocket_crafting_table, Pocket Crafting Table
-factorization:docbook, The Factorization Manual
-factorization:tool/matrix_programmer, Logic Matrix Programmer
-factorization:servo/sprocket, Dark Iron Sprocket
-factorization:servo/servo, Servo
 factorization:ceramics/glaze_bucket, Glaze Bucket
-factorization:sculptTool:0, Sculpting Tool
 factorization:potencyBottle, Bottle of Potency
+factorization:sap, Sap
+factorization:tool/matrix_programmer, Logic Matrix Programmer
+factorization:nether_powder, Netherrack Powder
 factorization:socket/:34, Robotic Arm
 factorization:socket/:35, Item Shifter
+factorization:fan, Pressurizer
 factorization:dark_iron_ingot, Dark Iron Ingot
+factorization:tool/pocket_crafting_table, Pocket Crafting Table
+factorization:brokenArtifact, item.factorization:brokenArtifact.name
+factorization:servo/commenter, Commenter
+factorization:tool/charge_meter, Charge Meter
+factorization:corkscrew, Corkscrew
+factorization:servo/instruction_plate, Instruction Plate
+factorization:silver_ingot, Silver Ingot
+factorization:insulated_coil, Insulated Coil
+factorization:entheas, Entheas
 factorization:barrelCart:0, Barrel Cart
 factorization:barrelCart:0, Barrel Cart: Creative Bedrock Barrel
-factorization:lead_ingot, Lead Ingot
+factorization:daybarrel, item.factorization:daybarrel.name
+factorization:servo/sprocket, Dark Iron Sprocket
+factorization:servo/servo, Servo
+factorization:docbook, The Factorization Manual
+factorization:sculptTool:0, Sculpting Tool
+factorization:servo/component, item.factorization:servo/component.name
 factorization:acid:0, Sulfuric Acid
 factorization:acid:1, Aqua Regia
-factorization:mirror, Mirror
-factorization:motor, Motor
-factorization:utiligoo:0, Goo
-factorization:spawnPoster, Poster
-factorization:diamond_shard, Diamond Block Shard
-factorization:silver_ingot, Silver Ingot
-factorization:nether_powder, Netherrack Powder
-factorization:servo/decorator, item.factorization:servo/decorator.name
+factorization:sludge, Sludge
 foundry:foundryComponent:0, Stone Gear
 foundry:foundryComponent:1, Heating Coil
 foundry:foundryComponent:2, Refractory Clay

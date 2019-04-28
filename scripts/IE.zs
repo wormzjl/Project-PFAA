@@ -109,6 +109,7 @@ recipes.remove(<ImmersiveEngineering:railgun>);
 recipes.remove(<ImmersiveEngineering:metalDevice2:7>);
 recipes.remove(<ImmersiveEngineering:woodenDevice:6>);
 
+recipes.remove(<ImmersiveEngineering:toolbox>);
 
 recipes.remove(<ImmersiveEngineering:metalDevice:13>);
 recipes.addShaped(<ImmersiveEngineering:metalDevice:13> * 4,

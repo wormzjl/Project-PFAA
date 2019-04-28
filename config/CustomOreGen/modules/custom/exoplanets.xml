@@ -47,7 +47,7 @@
                     <Setting name='OreVolumeNoiseCutoff' avg=':= 0.5 * _default_ ' range=':= 0.5 * _default_ ' type='normal' />
                     <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
                     <Veins name='PitchblendeHintVeins'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x60212121' drawBoundBox='false' boundBoxColor='0x60212121'>
-                        <OreBlock block='ReactorCraft:reactorcraft_block_ore:1' weight='1.0' />
+                        <OreBlock block='IC2:blockOreUran' weight='1.0' />
                         <Setting name='MotherlodeHeight' avg=':= 55' range=':= 50'/>
                         <Setting name='MotherlodeFrequency' avg=':= 3 * _default_' range=':= _default_'/>
                     </Veins>

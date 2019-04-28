@@ -73,6 +73,9 @@
             <Substitute name='Pitchblende' block='Techguns:oreClusterCustom2:7'>
                 <Replaces block='terrafirmacraft:Ore2:10' weight='0.006' />
             </Substitute>
+            <Substitute name='Uranium' block='Techguns:oreClusterCustom2:7'>
+                <Replaces block='IC2:blockOreUran' weight='0.006' />
+            </Substitute>
             <Substitute name='Cinnabar' block='Techguns:oreClusterCustom2:8'>
                 <Replaces block='terrafirmacraft:Ore2:11' weight='0.008' />
             </Substitute>
@@ -101,7 +104,7 @@
                 <Replaces block='BuildCraft|Core:eternalSpring:1' weight='1.0' />
             </Substitute>
             <Substitute name='TGGas' block='Techguns:oreClusterCustom2:15'>
-                <Replaces block='Techguns:oreCluster3:4' weight='0.5' />
+                <Replaces block='Techguns:oreCluster2:3' weight='0.5' />
             </Substitute>
             <Substitute name='WTF' block='minecraft:air'>
                 <Replaces block='minecraft:chest' weight='1.0' />

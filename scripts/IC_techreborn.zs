@@ -56,6 +56,10 @@ mods.techreborn.industrialElectrolyzer.removeInputRecipe(<techreborn:dust:65>);
 mods.techreborn.industrialElectrolyzer.removeInputRecipe(<techreborn:dust:67>);
 mods.techreborn.industrialElectrolyzer.removeInputRecipe(<techreborn:dust:87>);
 
+mods.techreborn.industrialElectrolyzer.addRecipe(<techreborn:dust:2>, null, null, null, null, <customitems:alumina>*2, 512, 128);
+mods.techreborn.industrialElectrolyzer.addRecipe(<ihl:item.ihlSimpleItem:157>, null, null, null, null, <customitems:magnesiumchloride>*2, 512, 128);
+mods.techreborn.industrialElectrolyzer.addRecipe(<ihl:item.ihlSimpleItem:172>, null, null, null, null, <ihl:item.ihlSimpleItem:171>*2, 512, 128);
+
 mods.techreborn.industrialElectrolyzer.addRecipe(<customitems:alumina>*2, <techreborn:dust:16>, null, null, <techreborn:dust:65>*6, null, 700, 128);
 
 mods.techreborn.implosionCompressor.addRecipe(<IC2:itemDust2:1>, <techreborn:dust:23> * 4, <terrafirmacraft:item.Powder:2> * 16, <IC2:blockITNT> * 4, 20, 64);

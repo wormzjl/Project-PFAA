@@ -3,6 +3,10 @@ furnace.remove(<ImmersiveEngineering:metal:1>);
 furnace.remove(<libVulpes:libVulpesproductingot:6>);
 furnace.remove(<libVulpes:libVulpesproductingot:7>);
 furnace.remove(<Techguns:TechgunsAmmo:95>);
+furnace.setFuel(<terrafirmacraft:item.Powder:3>, 400);
+furnace.setFuel(<IC2:itemDust:13>, 400);
+furnace.setFuel(<Railcraft:dust:1>, 400);
+furnace.setFuel(<techreborn:dust:75>, 400);
 
 recipes.remove(<minecraft:dragon_egg>);
 recipes.remove(<BuildCraft|Builders:machineBlock>);

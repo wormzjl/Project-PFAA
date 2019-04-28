@@ -548,7 +548,7 @@ mods.foundry.Melting.removeRecipe(<libVulpes:libVulpesproductdust:6>);
 mods.foundry.Melting.removeRecipe(<foundry:stairsSteel>);
 mods.foundry.Melting.removeRecipe(<foundry:slab2:3>);
 
-mods.foundry.Melting.removeRecipe(<ImmersiveEngineering:metal:7>);
+//mods.foundry.Melting.removeRecipe(<ImmersiveEngineering:metal:7>);
 //mods.foundry.Melting.removeRecipe(<foundry:foundryComponent:*>);
 //mods.foundry.Melting.removeRecipe(<advgenerators:TurbineRotorSteel>);
 
@@ -608,7 +608,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:metal:6>*2,
 
 
 //Aluminium process
-mods.foundry.Melting.removeRecipe(<terrafirmacraft:item.Ore:28>);
+//mods.foundry.Melting.removeRecipe(<terrafirmacraft:item.Ore:28>);
 mods.foundry.Melting.addRecipe(<liquid:moltencryolite> * 100, <terrafirmacraft:item.Ore:28>, 1500, 50);
 mods.immersiveengineering.ArcFurnace.addRecipe(<customitems:alumina>, <customitems:bauxite_pd>, <ImmersiveEngineering:material:13>, 200, 256,[<ihl:item.ihlSimpleItem:175>]);
 val bauxite = <ore:dustBauxite>;

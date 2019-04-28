@@ -1,6 +1,6 @@
 <version>
     <pack>
-        <version>1.2.0</version>
+        <version>1.2.4</version>
         <minecraft>1.7.10</minecraft>
         <memory>3072</memory>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -198,8 +198,8 @@
 
         <mod name="OpenBlocks" version="1.5.1" url="packs/PerFabricaadAstra/files/mods/OpenBlocks-1.7.10-1.5.1.jar" file="OpenBlocks-1.7.10-1.5.1.jar" md5="87633834e62298706da02daafd8fcf22" download="server" type="mods" website="http://www.openperipheral.info" authors="Mikee,NeverCast,boq,Lyqyd" description="All the things you never thought you will ever need" client="yes" optional="no" server="yes" serveroptional="no" />
 
-        <mod name="OpenComputers" version="1.6.2.12" url="packs/PerFabricaadAstra/files/mods/OpenComputers-MC1.7.10-1.6.2.12-universal.jar" file="OpenComputers-MC1.7.10-1.6.2.12-universal.jar" md5="b7bfcc875c49c7377e1372dccb455cfe" download="server" type="mods" website="http://oc.cil.li/" authors="Florian &apos;Sangar&apos; Nuecke,Johannes &apos;Lord Joda&apos; Lohrer,Everyone who contributed to the mod on Github - thank you!" description="This mod adds modular computers and robots that can be programmed in Lua." client="yes" optional="no" server="yes" serveroptional="no" />
-
+        <mod name="OpenComputers" version="1.7.4.1265" url="packs/PerFabricaadAstra/files/mods/OpenComputers-MC1.7.10-1.7.4.1265-universal.jar" file="OpenComputers-MC1.7.10-1.7.4.1265-universal.jar" md5="6112cc151d1fa484075a9c28475cfd0c" download="server" type="mods" website="https://oc.cil.li/" authors="Florian &apos;Sangar&apos; Nuecke,Johannes &apos;Lord Joda&apos; Lohrer,Everyone who contributed to the mod on Github - thank you!" description="This mod adds modular computers and robots that can be programmed in Lua." client="yes" optional="no" server="yes" serveroptional="no" />
+        
         <mod name="OpenMods" version="0.9.1" url="packs/PerFabricaadAstra/files/mods/OpenModsLib-1.7.10-0.9.1.jar" file="OpenModsLib-1.7.10-0.9.1.jar" md5="80ab054e554baef8edec979f7b900301" download="server" type="mods" website="http://openmods.info/" authors="Mikee,NeverCast,boq,Lyqyd" description="Boring stuff for all that silly Open* mods" client="yes" optional="no" server="yes" serveroptional="no" />
 
         <mod name="PFAA tweaks" version="1.2" url="packs/PerFabricaadAstra/files/mods/PFAA-tweaks-1.2.jar" file="PFAA-tweaks-1.2.jar" md5="c82b599e329f477968c70070799477c2" download="server" type="mods" website="https://github.com/wormzjl/PFAA-Tweaks" authors="wormzjl,SNIPER722" description="Tweaking mod for project PFAA" client="yes" optional="no" server="yes" serveroptional="no" />
@@ -284,7 +284,7 @@
 
         <mod name="resources" version="1.0.1" url="packs/PerFabricaadAstra/files/extracts/resources_1.0.1.zip" file="resources_1.0.1.zip" md5="fddf8306cd0d62a877656b3da89dc146" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Resources for custom items and main menu" client="yes" optional="no" server="no" serveroptional="no" />
 
-        <mod name="scripts" version="1.2.0" url="packs/PerFabricaadAstra/files/extracts/scripts_1.2.0.zip" file="scripts_1.2.0.zip" md5="035bb3ba4bc156d96e454c0d41ecad9e" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="MT scripts" client="yes" optional="no" server="yes" serveroptional="no" />
+        <mod name="scripts" version="1.2.4" url="packs/PerFabricaadAstra/files/extracts/scripts_1.2.4.zip" file="scripts_1.2.4.zip" md5="5003b03d078b7c83fac2e83b3d011b1a" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="MT scripts" client="yes" optional="no" server="yes" serveroptional="no" />
 
         <!-- Optional mods -->
         <mod name="Standard TFC biome size" version="1.0.5" url="packs/PerFabricaadAstra/files/extracts/standard_biome.zip" file="standard_biome.zip" md5="8b5d484eaeb4777b8d1f988b38e0bb56" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Config for standard stone biome size" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="no" group="biome" colour="green" />

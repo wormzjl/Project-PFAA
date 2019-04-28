@@ -105,10 +105,10 @@ recipes.addShaped(<Mekanism:GasTank>.withTag({security: 0, tier: 3}),
 
 
 recipes.remove(<Mekanism:BasicBlock:8>);
-recipes.addShaped(<Mekanism:BasicBlock:8>,
- [[<ore:plateOsmium>, <techreborn:ingot:7>, <ore:plateOsmium>],
-  [<customitems:polyurathaneplastic>, <techreborn:machinecasing:2>, <customitems:polyurathaneplastic>],
-  [<ore:plateOsmium>, <techreborn:ingot:7>, <ore:plateOsmium>]]);
+recipes.addShaped(<Mekanism:BasicBlock:8>*2,
+ [[<customitems:polyurathaneplastic>, <techreborn:ingot:7>, <customitems:polyurathaneplastic>],
+  [<ore:plateOsmium>, <techreborn:machinecasing:2>, <ore:plateOsmium>],
+  [<customitems:polyurathaneplastic>, <techreborn:ingot:7>, <customitems:polyurathaneplastic>]]);
 
 recipes.remove(<Mekanism:BasicBlock2>);
 recipes.addShaped(<Mekanism:BasicBlock2>,
@@ -202,7 +202,7 @@ recipes.addShaped(<MekanismGenerators:Generator:5>,
   [<advancedRocketry:advancedRocketryproductplate:1>, <techreborn:part:4>, <advancedRocketry:advancedRocketryproductplate:1>]]);
 
 recipes.remove(<Mekanism:MachineBlock2:13>);
-recipes.addShaped(<Mekanism:MachineBlock2:13>,
+recipes.addShaped(<Mekanism:MachineBlock2:13>*2,
  [[<techreborn:part:13>, <techreborn:part:13>, <IC2:itemPartIridium>],
   [<Magneticraft:block_carbide>, <Mekanism:EnergyCube>.withTag({tier: "Ultimate"}), <BuildCraft|Silicon:laserBlock>],
   [<techreborn:part:13>, <techreborn:part:13>, <IC2:itemPartIridium>]]);
@@ -220,7 +220,7 @@ recipes.addShaped(<MekanismGenerators:Reactor>,
   [<MekanismGenerators:Reactor:1>, <Mekanism:BasicBlock:8>, <MekanismGenerators:Reactor:1>]]);
 
 recipes.remove(<MekanismGenerators:Reactor:1>);
-recipes.addShaped(<MekanismGenerators:Reactor:1>,
+recipes.addShaped(<MekanismGenerators:Reactor:1>*2,
  [[<GraviSuiteReloaded:ItemMiscQuantumCircuit>, <Mekanism:BasicBlock:8>, <techreborn:part:13>],
   [<Mekanism:BasicBlock:8>, <techreborn:supercondensator>, <Mekanism:BasicBlock:8>],
   [<Magneticraft:block_carbide>, <Mekanism:BasicBlock:8>, <Magneticraft:block_carbide>]]);
