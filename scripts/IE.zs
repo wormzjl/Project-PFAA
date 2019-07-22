@@ -98,6 +98,7 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<ImmersiveEngineering:metal:20
 //mods.immersiveengineering.Squeezer.removeItemRecipe(<ImmersiveEngineering:metal:19>);
 mods.techreborn.blastFurnace.addRecipe(<ImmersiveEngineering:metal:20>, null, <ImmersiveEngineering:metal:17> * 4, <terrafirmacraft:item.Powder>, 200, 128, 2000);
 
+
 //recipes
 //recipes.remove(<ImmersiveEngineering:woodenDevice:3>);
 recipes.remove(<ImmersiveEngineering:metalDevice:10>);

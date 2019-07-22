@@ -1,0 +1,40 @@
+{
+  "Print All Registered Entities": false,
+  "Monster Max": 70,
+  "Creature Max": 10,
+  "Ambient Max": 15,
+  "Water Creature Max": 5,
+  "Remove All Mobs From All Biomes": false,
+  "Remove All Mobs From Biomes": [],
+  "Remove Mobs From All Biomes": [],
+  "Spawns": [],
+  "Blacklist All Entities": false,
+  "Blacklist All Types": false,
+  "Dimension Blacklist": {
+  	                        "13": {
+                                "Entities": [
+                                        "Creeper",
+                                        "Zombie",
+                                        "Skeleton",
+                                        "Bat",
+                                        "Enderman",
+                                        "Witch",
+                                        "Spider"
+                                ]
+                        },
+                        "17": {
+                                "Entities": [
+                                        "Creeper",
+                                        "Zombie",
+                                        "Skeleton",
+                                        "Bat",
+                                        "Enderman",
+                                        "Witch",
+                                        "Spider"
+                                ]
+                        }
+  },
+  "All Dimension Blacklist": [],
+  "Dimension Whitelist": {
+  }
+}

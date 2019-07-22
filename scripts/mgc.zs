@@ -14,6 +14,8 @@ recipes.remove(<Magneticraft:block_breaker>);
 recipes.remove(<Magneticraft:solarpanel>);
 recipes.remove(<Magneticraft:ShelvingUnit>);
 recipes.remove(<Magneticraft:rf_alternator>);
+recipes.remove(<Magneticraft:item.jack_hammer>);
+recipes.remove(<Magneticraft:item.chainsaw>);
 
 recipes.remove(<Magneticraft:chasis>);
 mods.immersiveengineering.BottlingMachine.addRecipe(<Magneticraft:chasis>*8, <IC2:blockMachine>, <liquid:liquidnickel> * 500);

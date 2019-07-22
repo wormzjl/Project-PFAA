@@ -77,7 +77,7 @@
     {
       "background":
         {
-            "image" : "mainmenu:background/title.jpg",
+            "image" : "mainmenu:background/title.png",
             "mode" : "stretch"
         }
     }

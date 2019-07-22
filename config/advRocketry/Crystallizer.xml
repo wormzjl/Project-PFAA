@@ -150,4 +150,12 @@
 			<itemStack>minecraft:quartz 3 0</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="200" power="256">
+		<input>
+			<itemStack>customitems:seed_certus 1 0</itemStack>
+        </input>
+		<output>
+			<itemStack>appliedenergistics2:item.ItemMultiMaterial 2 0</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

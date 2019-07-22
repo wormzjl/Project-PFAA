@@ -8,7 +8,7 @@ recipes.remove(<Railcraft:anvil>);
 //recipe fixes
 recipes.remove(<Railcraft:machine.alpha:15>);
 recipes.addShaped(<Railcraft:machine.alpha:15> * 12,
- [[<ore:gearSteel>, <terrafirmacraft:Hopper>, <ore:gearSteel>],
+ [[<ore:gearSteel>, <minecraft:hopper>, <ore:gearSteel>],
   [<minecraft:flint>, <minecraft:flint>, <minecraft:flint>],
   [<ore:plateSteel>, <minecraft:piston>, <ore:plateSteel>]]);
 

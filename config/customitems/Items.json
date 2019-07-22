@@ -1223,6 +1223,36 @@
             "registerOrder": 204,
             "textureName": "cpu",
             "name": "cpu"
+        },
+		{
+            "maxStackSize": 32,
+            "registerOrder": 205,
+            "textureName": "seed_certus",
+            "name": "seed_certus"
+        },
+		{
+			"maxStackSize": 64,
+            "registerOrder": 206,
+            "textureName": "foodpaste",
+            "name": "foodpaste"
+		},
+		{
+			"maxStackSize": 1,
+            "registerOrder": 207,
+            "textureName": "foodblender",
+            "name": "foodblender"
+		},
+        {
+            "maxStackSize": 64,
+            "registerOrder": 208,
+            "textureName": "mold_turbocompressor",
+            "name": "mold_turbocompressor"
+        },
+        {
+            "maxStackSize": 64,
+            "registerOrder": 209,
+            "textureName": "mold_turbocompressor_hard",
+            "name": "mold_turbocompressor_hard"
         }
     ]
 }

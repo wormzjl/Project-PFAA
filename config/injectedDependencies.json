@@ -40,6 +40,10 @@
       },
       {
         "type": "before",
+        "target": "MerchantsTFC"
+      },
+      {
+        "type": "before",
         "target": "StatusEffectHUD"
       },
       {
@@ -172,6 +176,14 @@
       },
       {
         "type": "before",
+        "target": "BNBGamingLib"
+      },
+      {
+        "type": "before",
+        "target": "AdvancedSpawnControl"
+      },
+      {
+        "type": "before",
         "target": "antiqueatlas"
       },
       {
@@ -208,10 +220,6 @@
       },
       {
         "type": "before",
-        "target": "cookingwithtfc"
-      },
-      {
-        "type": "before",
         "target": "creativecore"
       },
       {
@@ -229,14 +237,6 @@
       {
         "type": "before",
         "target": "CustomOreGen"
-      },
-      {
-        "type": "before",
-        "target": "PTRModelLib"
-      },
-      {
-        "type": "before",
-        "target": "props"
       },
       {
         "type": "before",
@@ -280,6 +280,10 @@
       },
       {
         "type": "before",
+        "target": "farseek"
+      },
+      {
+        "type": "before",
         "target": "fognerf"
       },
       {
@@ -293,10 +297,6 @@
       {
         "type": "before",
         "target": "FTBL"
-      },
-      {
-        "type": "before",
-        "target": "ftbtrophies"
       },
       {
         "type": "before",
@@ -440,6 +440,10 @@
       },
       {
         "type": "before",
+        "target": "Netherless"
+      },
+      {
+        "type": "before",
         "target": "nmsot"
       },
       {
@@ -453,10 +457,6 @@
       {
         "type": "before",
         "target": "pfaatweaks"
-      },
-      {
-        "type": "before",
-        "target": "mod_pndc"
       },
       {
         "type": "before",
@@ -484,15 +484,15 @@
       },
       {
         "type": "before",
-        "target": "smbgrapplinghook"
-      },
-      {
-        "type": "before",
         "target": "Shatter"
       },
       {
         "type": "before",
-        "target": "shincolle"
+        "target": "cuchaz.cuchazinteractive"
+      },
+      {
+        "type": "before",
+        "target": "cuchaz.ships"
       },
       {
         "type": "before",
@@ -505,6 +505,10 @@
       {
         "type": "before",
         "target": "StorageDrawers"
+      },
+      {
+        "type": "before",
+        "target": "streams"
       },
       {
         "type": "before",
@@ -540,23 +544,15 @@
       },
       {
         "type": "before",
+        "target": "TooMuchTime"
+      },
+      {
+        "type": "before",
         "target": "Uncomplication"
       },
       {
         "type": "before",
-        "target": "UnicodeFontFixer"
-      },
-      {
-        "type": "before",
-        "target": "universalcoins"
-      },
-      {
-        "type": "before",
         "target": "wailaplugins"
-      },
-      {
-        "type": "before",
-        "target": "worldedit"
       },
       {
         "type": "before",
