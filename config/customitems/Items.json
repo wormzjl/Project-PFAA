@@ -1253,6 +1253,12 @@
             "registerOrder": 209,
             "textureName": "mold_turbocompressor_hard",
             "name": "mold_turbocompressor_hard"
+        },
+		{
+            "maxStackSize": 16,
+            "registerOrder": 210,
+            "textureName": "foodpasteslab",
+            "name": "foodpasteslab"
         }
     ]
 }

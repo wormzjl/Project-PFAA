@@ -1,3 +1,19 @@
+//IHL Bronze Casting fix
+mods.foundry.Melting.removeRecipe(<IC2:itemIngot:2>);
+mods.foundry.Melting.removeRecipe(<IC2:blockMetal:2>);
+mods.foundry.Melting.removeRecipe(<techreborn:nuggets:3>);
+mods.foundry.Melting.removeRecipe(<IC2:itemDust>);
+mods.foundry.Melting.removeRecipe(<foundry:slab1:4>);
+mods.foundry.Melting.removeRecipe(<foundry:stairsBronze>);
+mods.foundry.Melting.addRecipe(<liquid:molten.bronze>*144, <ore:dustBronze>, 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:molten.bronze>*144, <ore:ingotBronze>, 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:molten.bronze>*1296, <ore:blockBronze>, 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:molten.bronze>*16, <ore:nuggetBronze>, 1400, 100);
+mods.foundry.Casting.addRecipe(<terrafirmacraft:item.Bronze Ingot>, <liquid:molten.bronze> * 144, <foundry:foundryMold>);
+mods.foundry.Casting.addRecipe(<IC2:blockMetal:2>, <liquid:molten.bronze> * 1296, <foundry:foundryMold>);
+
+mods.pneumaticcraft.Pressure.removeRecipe([<PneumaticCraft:plastic:*>]);
+
 //Player Sensor
 recipes.remove(<malisisdoors:player_sensor>);
 recipes.addShaped(<malisisdoors:player_sensor>, 
@@ -7,25 +23,25 @@ recipes.addShaped(<malisisdoors:player_sensor>,
 
 //IC2 armor and tool cost adjusting
 recipes.remove(<IC2:itemArmorNanoHelmet:*>);
-recipes.addShaped(<IC2:itemArmorNanoHelmet:26>, 
+recipes.addShaped(<IC2:itemArmorNanoHelmet>, 
   [[<IC2:itemPartCarbonPlate>, <IC2:itemBatCrystal:*>, <IC2:itemPartCarbonPlate>], 
   [<PneumaticCraft:plastic:0>, <IC2:itemNightvisionGoggles:*>, <PneumaticCraft:plastic:0>],
   [null, null, null]]);
 
 recipes.remove(<IC2:itemArmorNanoChestplate:*>);
-recipes.addShaped(<IC2:itemArmorNanoChestplate:26>, 
+recipes.addShaped(<IC2:itemArmorNanoChestplate>, 
   [[<IC2:itemPartCarbonPlate>, null, <IC2:itemPartCarbonPlate>], 
   [<PneumaticCraft:plastic:0>, <IC2:itemBatCrystal:*>, <PneumaticCraft:plastic:0>],
   [<IC2:itemPartCarbonPlate>, <PneumaticCraft:plastic:0>, <IC2:itemPartCarbonPlate>]]);
 
 recipes.remove(<IC2:itemArmorNanoLegs:*>);
-recipes.addShaped(<IC2:itemArmorNanoLegs:26>, 
+recipes.addShaped(<IC2:itemArmorNanoLegs>, 
   [[<IC2:itemPartCarbonPlate>, <IC2:itemBatCrystal:*>, <IC2:itemPartCarbonPlate>], 
   [<PneumaticCraft:plastic:0>, null, <PneumaticCraft:plastic:0>],
   [<IC2:itemPartCarbonPlate>, null, <IC2:itemPartCarbonPlate>]]);
   
 recipes.remove(<IC2:itemArmorNanoBoots:*>);
-recipes.addShaped(<IC2:itemArmorNanoBoots:26>, 
+recipes.addShaped(<IC2:itemArmorNanoBoots>, 
   [[null, null, null], 
   [<PneumaticCraft:plastic:0>, null, <PneumaticCraft:plastic:0>],
   [<IC2:itemPartCarbonPlate>, <IC2:itemBatCrystal:*>, <IC2:itemPartCarbonPlate>]]);
@@ -37,19 +53,19 @@ recipes.addShaped(<IC2:blockMachine2>,
   [<techreborn:part:4>, <minecraft:diamond>, <techreborn:part:4>]]);
   
 recipes.remove(<GraviSuite:advNanoChestPlate:*>);
-recipes.addShaped(<GraviSuite:advNanoChestPlate:26>, 
+recipes.addShaped(<GraviSuite:advNanoChestPlate>, 
   [[<IC2:itemPartCarbonPlate>, <GraviSuite:advJetpack:*>, <IC2:itemPartCarbonPlate>], 
   [<IC2:itemPartCarbonPlate>, <IC2:itemArmorNanoChestplate:*>, <IC2:itemPartCarbonPlate>],
   [<IC2:itemCable:9>, <techreborn:part:4>, <IC2:itemCable:9>]]);
   
 recipes.remove(<GraviSuite:advJetpack:*>);
-recipes.addShaped(<GraviSuite:advJetpack:26>, 
+recipes.addShaped(<GraviSuite:advJetpack>, 
   [[<IC2:itemPartCarbonPlate>, <IC2:itemArmorJetpackElectric:*>, <IC2:itemPartCarbonPlate>], 
   [<GraviSuite:itemSimpleItem:6>, <GraviSuite:advLappack:*>, <GraviSuite:itemSimpleItem:6>],
   [<IC2:itemCable:9>, <techreborn:part:4>, <IC2:itemCable:9>]]);
   
  recipes.remove(<IC2:itemNanoSaber:*>);
- recipes.addShaped(<IC2:itemNanoSaber:26>, 
+ recipes.addShaped(<IC2:itemNanoSaber>, 
   [[<minecraft:glowstone_dust>, <IC2:itemPartCarbonPlate>, null], 
   [<minecraft:glowstone_dust>, <IC2:itemPartCarbonPlate>, null],
   [<PneumaticCraft:plastic:0>, <IC2:itemBatCrystal:*>, null]]);
@@ -102,8 +118,7 @@ recipes.addShapeless(<customitems:foodpaste>, [<customitems:foodblender>.reuse()
 recipes.addShapeless(<customitems:foodpaste>, [<customitems:foodblender>.reuse(), <terrafirmacraft:item.Plum>.onlyWithTag({foodWeight: 160})]);
 recipes.addShapeless(<customitems:foodpaste>, [<customitems:foodblender>.reuse(), <terrafirmacraft:item.Olive>.onlyWithTag({foodWeight: 160})]);
 
-recipes.addShaped(<terrafirmacraft:item.Sandwich>.withTag({foodWeight: 160, tasteSalty: 30, tasteSweet: 30, tasteSour:30, tasteUmami:30, mealSkill:100000, decayRate: 0, decayTimer:0, foodDecay: -100000, display: {Name: "Slab of Foodpaste", Lore: ["Nutritious but bland"]}}),
-   [[<customitems:foodpaste>, <customitems:foodpaste>]]);
+mods.ic2.Compressor.addRecipe(<customitems:foodpasteslab>, <customitems:foodpaste>*2);
 	
 recipes.addShaped(<customitems:foodblender>, 
   [[<ore:plateAluminum>, <techreborn:part:4>, <ore:plateAluminum>], 
@@ -179,3 +194,10 @@ recipes.remove(<cuchaz.ships:blockShip:6>);
 
 mods.ic2.Compressor.addRecipe(<terrafirmacraft:item.WoolCloth>, <terrafirmacraft:item.Wool>);
 mods.ic2.Compressor.addRecipe(<terrafirmacraft:item.BurlapCloth>, <terrafirmacraft:item.Jute Fibre>*10);
+
+recipes.addShaped(<ihl:electricMotorLVLEDC>, 
+  [[null, <PneumaticCraft:plastic:15>, null], 
+  [<ore:plateAluminum>, <IC2:itemRecipePart:1>, <ore:plateAluminum>],
+  [null, <PneumaticCraft:plastic:15>, null]]);
+  
+recipes.addShapeless(<antiqueatlas:emptyAntiqueAtlas> * 1, [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:feather>, <terrafirmacraft:item.Ink>]);

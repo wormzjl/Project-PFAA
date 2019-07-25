@@ -4,22 +4,22 @@
     "backups_to_keep": 12,
     "compression_level": 1,
     "display_file_size": true,
-    "enabled": false,
+    "enabled": true,
     "folder": "./backups/",
     "need_online_players": true,
     "use_separate_thread": true
   },
   "chunkloading": {
-    "enabled": false,
+    "enabled": true,
     "max_player_offline_hours": -1.0
   },
   "commands": {
-    "back": false,
-    "home": false,
+    "back": true,
+    "home": true,
     "name_admin": "admin",
     "spawn": true,
-    "tplast": false,
-    "warp": false
+    "tplast": true,
+    "warp": true
   },
   "general": {
     "blocked_entities": [],
@@ -32,11 +32,9 @@
   },
   "login": {
     "motd": [
-      "Welcome to the server!"
+      "Welcome to Per Fabrica Ad Astra!"
     ],
-    "starting_items": [
-      "HardcoreQuesting:quest_book 1 0"
-    ]
+    "starting_items": []
   },
   "permissions_admin": {
     "allow_creative_interact_secure": true,
@@ -67,7 +65,7 @@
     ],
     "forced_chunk_security": "-",
     "forced_explosions": "-",
-    "max_claims": 50,
+    "max_claims": 100,
     "max_homes": 1,
     "max_loaded_chunks": 50,
     "show_rank": true

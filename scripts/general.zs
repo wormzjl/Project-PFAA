@@ -3,12 +3,6 @@ furnace.remove(<ImmersiveEngineering:metal:1>);
 furnace.remove(<libVulpes:libVulpesproductingot:6>);
 furnace.remove(<libVulpes:libVulpesproductingot:7>);
 furnace.remove(<Techguns:TechgunsAmmo:95>);
-furnace.setFuel(<terrafirmacraft:item.Powder:3>, 200);
-furnace.setFuel(<IC2:itemDust:13>, 200);
-furnace.setFuel(<Railcraft:dust:1>, 200);
-furnace.setFuel(<techreborn:dust:75>, 200);
-furnace.setFuel(<Mekanism:OtherDust:3>, 200);
-furnace.setFuel(<Magneticraft:item.dustSulfur>, 200);
 
 recipes.remove(<minecraft:dragon_egg>);
 recipes.remove(<BuildCraft|Builders:machineBlock>);
@@ -41,6 +35,14 @@ recipes.addShaped(<ExtraUtilities:builderswand>,
 [[null, <minecraft:ender_pearl>, <ore:gemExquisite>],
  [null, <ore:ingotFzDarkIron>, <minecraft:ender_pearl>],
  [<ore:ingotFzDarkIron>, null, null]]);
+
+//Player Sensor
+
+recipes.remove(<malisisdoors:player_sensor>);
+recipes.addShaped(<malisisdoors:player_sensor>, 
+[[<terrafirmacraft:item.Wrought Iron Ingot>, <minecraft:redstone>, <terrafirmacraft:item.Wrought Iron Ingot>],
+ [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
+ [null, null, null]]);
 
 recipes.addShaped(<minecraft:golden_pickaxe>,[[<minecraft:gold_ingot>,<minecraft:gold_ingot>,<minecraft:gold_ingot>],[null,<ore:stickWood>,null],[null,<ore:stickWood>,null]]);
 
