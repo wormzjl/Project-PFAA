@@ -30,13 +30,17 @@ mods.immersiveengineering.MetalPress.addRecipe(<ihl:item.ihlSimpleItem:156>, <Im
 recipes.addShapeless(<customitems:mold_pipeline>, [<ihl:item.ihlSimpleItem:77>.reuse(), <foundry:foundryComponent:4>]);
 recipes.addShapeless(<customitems:pressure_mold>, [<ihl:item.ihlSimpleItem:75>.reuse(), <foundry:foundryComponent:4>]);
 recipes.addShapeless(<customitems:motor_mold>, [<ihl:item.ihlSimpleItem:62>.reuse(), <foundry:foundryComponent:4>]);
+recipes.addShapeless(<customitems:mold_turbocompressor>, [<ihl:item.ihlSimpleItem:96>.reuse(), <foundry:foundryComponent:4>]);
 
 furnace.addRecipe(<customitems:mold_pipeline_hard>, <customitems:mold_pipeline>);
 furnace.addRecipe(<customitems:pressure_mold_hard>, <customitems:pressure_mold>);
 furnace.addRecipe(<customitems:motor_mold_hard>, <customitems:motor_mold>);
+furnace.addRecipe(<customitems:mold_turbocompressor_hard>, <customitems:mold_turbocompressor>);
 
 mods.foundry.Casting.addRecipe(<ihl:item.ihlSimpleItem:77>, <liquid:molten.steel> * 288, <customitems:mold_pipeline_hard>);
 mods.foundry.Casting.addRecipe(<ihl:item.ihlSimpleItem:75>, <liquid:molten.steel> * 432, <customitems:pressure_mold_hard>);
 mods.foundry.Casting.addRecipe(<ihl:item.ihlSimpleItem:62>, <liquid:molten.steel> * 288, <customitems:motor_mold_hard>);
+mods.foundry.Casting.addRecipe(<ihl:item.ihlSimpleItem:96>, <liquid:molten.bronze> * 576, <customitems:mold_turbocompressor_hard>);
+mods.foundry.Casting.addRecipe(<ihl:item.ihlSimpleItem:96>, <liquid:liquidbronze> * 576, <customitems:mold_turbocompressor_hard>);
 
 mods.foundry.Casting.addRecipe(<ihl:item.ihlSimpleItem:190>, <liquid:molten.potassium> * 144, <foundry:foundryMold>);

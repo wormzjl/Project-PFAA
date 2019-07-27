@@ -504,6 +504,15 @@
 			<itemStack>customitems:seed_quartz 1 0</itemStack>
 		</output>
 	</Recipe>
+		<Recipe timeRequired="200" power="64">
+		<input>
+			<fluidStack>purifiedslagsolution 1000</fluidStack>
+			<itemStack>appliedenergistics2:item.ItemMultiMaterial 1 2</itemStack>
+        </input>
+		<output>
+			<itemStack>customitems:seed_certus 1 0</itemStack>
+		</output>
+	</Recipe>
 	<Recipe timeRequired="200" power="64">
 		<input>
 			<fluidStack>sulfuricwastewater 2000</fluidStack>
@@ -566,6 +575,15 @@
         </input>
 		<output>
 			<itemStack>customitems:tungstencarbide 1 0</itemStack>
+		</output>
+	</Recipe>
+	
+		<Recipe timeRequired="100" power="64">
+		<input>
+			<itemStack>minecraft:cobblestone 64 0</itemStack>
+        </input>
+		<output>
+			<fluidStack>lava 1000</fluidStack>
 		</output>
 	</Recipe>
 

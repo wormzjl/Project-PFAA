@@ -206,4 +206,3 @@ mods.Terrafirmacraft.Quern.addRecipe(<techreborn:smallDust:87>, <terrafirmacraft
 recipes.remove(<tfctech:item.Vulcanizing Agents>);
 recipes.addShapeless(<tfctech:item.Vulcanizing Agents>*4, [<ore:dustSulfur>, <ore:dustSulfur>, <ore:dustGraphite>, <ore:dustKaolinite>, <ore:dustZinc>]);
 recipes.addShapeless(<tfctech:item.Vulcanizing Agents>*4, [<ore:dustSulfur>, <ore:dustSulfur>, <ore:dustChalk>, <ore:dustKaolinite>, <ore:dustZinc>]);
-

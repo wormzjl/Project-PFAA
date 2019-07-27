@@ -34,6 +34,31 @@ recipes.remove(<techreborn:part:38>);
 recipes.remove(<techreborn:part:37>);
 recipes.remove(<techreborn:part:36>);
 
+//Bandit Armor
+recipes.remove(<Techguns:t1_scout_helmet>);
+recipes.addShaped(<Techguns:t1_scout_helmet>,
+   [[<ore:ingotIron>, <Techguns:TechgunsAmmo:39>, <ore:ingotIron>],
+    [<Techguns:TechgunsAmmo:39>, null, <Techguns:TechgunsAmmo:39>],
+    [null, null, null]]);
+
+recipes.remove(<Techguns:t1_scout_chestplate>);
+recipes.addShaped(<Techguns:t1_scout_chestplate>,
+   [[<Techguns:TechgunsAmmo:39>, null, <Techguns:TechgunsAmmo:39>],
+    [<ore:ingotIron>, <Techguns:TechgunsAmmo:39>, <ore:ingotIron>],
+    [<Techguns:TechgunsAmmo:39>, <Techguns:TechgunsAmmo:39>, <Techguns:TechgunsAmmo:39>]]);
+
+recipes.remove(<Techguns:t1_scout_leggings>);
+recipes.addShaped(<Techguns:t1_scout_leggings>,
+   [[<ore:ingotIron>, <Techguns:TechgunsAmmo:39>, <ore:ingotIron>],
+    [<Techguns:TechgunsAmmo:39>, null, <Techguns:TechgunsAmmo:39>],
+    [<Techguns:TechgunsAmmo:39>, null, <Techguns:TechgunsAmmo:39>]]);
+
+recipes.remove(<Techguns:t1_scout_boots>);
+recipes.addShaped(<Techguns:t1_scout_boots>,
+   [[<ore:ingotIron>, null, <ore:ingotIron>],
+    [<Techguns:TechgunsAmmo:39>, null, <Techguns:TechgunsAmmo:39>],
+    [null, null, null]]);
+
 recipes.remove(<ihl:item.advanced_handpump:26>);
 
 
@@ -389,19 +414,11 @@ mods.ic2.MetalFormer.addCuttingRecipe(<tfctech:item.Steel Stripe> * 2, <ore:plat
 
 //Drills
 recipes.remove(<GraviSuiteReloaded:ItemToolBigMiningDrill:*>);
-recipes.addShaped(<GraviSuiteReloaded:ItemToolBigMiningDrill:27>, 
-  [[<PneumaticCraft:plastic:15>, <IC2:itemAdvBat:*>, <PneumaticCraft:plastic:15>], 
-  [<IC2:itemToolDrill:*>, <IC2:blockElectric:4>, <IC2:itemToolDrill:*>],
-  [<PneumaticCraft:plastic:15>, <IC2:itemAdvBat:*>, <PneumaticCraft:plastic:15>]]);
-
 recipes.remove(<GraviSuiteReloaded:ItemToolBigDiamondDrill:*>);
-recipes.addShaped(<GraviSuiteReloaded:ItemToolBigDiamondDrill:27>, 
-  [[<customitems:polycarbonateplastic>, <techreborn:lithiumBattery:*>, <customitems:polycarbonateplastic>], 
-  [<IC2:itemToolDDrill:*>, <IC2:blockElectric:4>, <IC2:itemToolDDrill:*>],
-  [<customitems:polycarbonateplastic>, <techreborn:lithiumBattery:*>, <customitems:polycarbonateplastic>]]);
-
 recipes.remove(<GraviSuiteReloaded:ItemToolBigIridiumDrill:*>);
-recipes.addShaped(<GraviSuiteReloaded:ItemToolBigIridiumDrill:26>.withTag({ench: [{lvl: 3 as short, id: 35 as short}]}), 
-  [[<customitems:polyurathaneplastic>, <techreborn:lapotronicOrb>, <customitems:polyurathaneplastic>], 
-  [<IC2:itemToolIridiumDrill:*>, <IC2:blockElectric:6>, <IC2:itemToolIridiumDrill:*>],
-  [<customitems:polyurathaneplastic>, <techreborn:lapotronicOrb>, <customitems:polyurathaneplastic>]]);
+recipes.remove(<IC2:itemToolIridiumDrill:*>);
+recipes.remove(<GraviSuite:advDDrill:*>);
+recipes.addShaped(<GraviSuite:advDDrill:26>, 
+  [[<PneumaticCraft:plastic:15>, <PneumaticCraft:plastic:15>, <PneumaticCraft:plastic:15>], 
+  [<IC2:upgradeModule>, <IC2:itemToolDDrill:*>, <IC2:upgradeModule>],
+  [<ore:circuitAdvanced>, <IC2:upgradeModule>, <ore:circuitAdvanced>]]);

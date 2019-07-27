@@ -341,6 +341,7 @@ item.seed_cadmium.name=Cadmium crystal seed
 item.seed_cobalt.name=Cobalt crystal seed
 item.seed_chrome.name=Chrome crystal seed
 item.seed_quartz.name=Quartz crystal seed
+item.seed_certus.name=Certus crystal seed
 
 item.magnesiumchloride.name=Magnesium chloride
 item.magnesiumhydroxide.name=Magnesium hydroxide
@@ -392,5 +393,12 @@ item.pressure_mold.name=Soft high pressure vessel mold
 item.pressure_mold_hard.name=High pressure vessel mold
 item.motor_mold.name=Soft DC engine parts mold
 item.motor_mold_hard.name=DC engine parts mold
+item.mold_turbocompressor.name=Soft Turbo compressor parts mold
+item.mold_turbocompressor_hard.name=Turbo compressor parts mold
 
 item.cpu.name=CPU
+
+item.foodpaste.name=Foodpaste
+item.foodblender.name=Food Blender
+item.foodpasteslab.name=Inedible Foodpaste Slab
+

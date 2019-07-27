@@ -98,6 +98,13 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<ImmersiveEngineering:metal:20
 //mods.immersiveengineering.Squeezer.removeItemRecipe(<ImmersiveEngineering:metal:19>);
 mods.techreborn.blastFurnace.addRecipe(<ImmersiveEngineering:metal:20>, null, <ImmersiveEngineering:metal:17> * 4, <terrafirmacraft:item.Powder>, 200, 128, 2000);
 
+
+//coke oven
+//OutputStack, FuelOutput, InputStack, Time in Ticks
+mods.immersiveengineering.CokeOven.removeRecipe(<ImmersiveEngineering:material:6>);
+mods.immersiveengineering.CokeOven.addRecipe(<ImmersiveEngineering:material:6>, 500, <minecraft:coal>, 1200);
+
+
 //recipes
 //recipes.remove(<ImmersiveEngineering:woodenDevice:3>);
 recipes.remove(<ImmersiveEngineering:metalDevice:10>);

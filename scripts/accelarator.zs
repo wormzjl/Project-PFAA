@@ -1,6 +1,6 @@
 recipes.addShapeless(<acceleratormod:tile.AccBuildGuide>, [<OpenBlocks:guide>]);
 
-recipes.addShaped(<acceleratormod:tile.AccMachineBlock>,
+recipes.addShaped(<acceleratormod:tile.AccMachineBlock>*2,
    [[<customitems:polycarbonateplastic>, <IC2:itemPartCircuitAdv>, <customitems:polycarbonateplastic>],
     [<customitems:polycarbonateplastic>, <techreborn:techreborn.machineFrame>, <customitems:polycarbonateplastic>],
     [<customitems:polycarbonateplastic>, <IC2:itemPartCircuitAdv>, <customitems:polycarbonateplastic>]]);
