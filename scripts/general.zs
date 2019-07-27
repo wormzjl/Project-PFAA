@@ -110,13 +110,13 @@ recipes.remove(<GraviSuiteReloaded:ItemArmorAdvancedJetpack:*>);
 
 //misc
 recipes.remove(<OpenBlocks:hangglider>);
-recipes.addShaped(<OpenBlocks:hangglider>, [[<OpenBlocks:generic>, <ImmersiveEngineering:material:16>, <OpenBlocks:generic>]]);
+recipes.addShaped(<OpenBlocks:hangglider>, [[<OpenBlocks:generic>, <advancedRocketry:advancedRocketryproductrod:1>, <OpenBlocks:generic>]]);
 
 recipes.remove(<OpenBlocks:generic>);
 recipes.addShaped(<OpenBlocks:generic>,
-   [[<PneumaticCraft:plastic:15>, <ImmersiveEngineering:material:16>, null],
-    [<PneumaticCraft:plastic:15>, <PneumaticCraft:plastic:15>, <ImmersiveEngineering:material:16>],
-    [<PneumaticCraft:plastic:15>, <PneumaticCraft:plastic:15>, <PneumaticCraft:plastic:15>]]);
+   [[<customitems:polyurathaneplastic>, <ore:stickTitanium>, null],
+    [<customitems:polyurathaneplastic>, <customitems:polyurathaneplastic>, <ore:stickTitanium>],
+    [<customitems:polyurathaneplastic>, <customitems:polyurathaneplastic>, <customitems:polyurathaneplastic>]]);
 
 recipes.addShaped(<WR-CBE|Core:retherPearl>,
    [[<minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:redstone>],

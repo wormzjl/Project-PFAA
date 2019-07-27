@@ -28,7 +28,7 @@
 			<itemStack>advancedRocketry:wafer 4</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="80" power ="10">
+	<Recipe timeRequired="40" power ="64">
 		<input>
 			<itemStack>minecraft:log</itemStack>
 		</input>
@@ -36,7 +36,7 @@
 			<itemStack>minecraft:planks 6</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="80" power ="10">
+	<Recipe timeRequired="40" power ="64">
 		<input>
 			<itemStack>minecraft:log 1 1</itemStack>
 		</input>
@@ -44,7 +44,7 @@
 			<itemStack>minecraft:planks 6 1</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="80" power ="10">
+	<Recipe timeRequired="40" power ="64">
 		<input>
 			<itemStack>minecraft:log 1 2</itemStack>
 		</input>
@@ -52,7 +52,7 @@
 			<itemStack>minecraft:planks 6 2</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="80" power ="10">
+	<Recipe timeRequired="40" power ="64">
 		<input>
 			<itemStack>minecraft:log 1 3</itemStack>
 		</input>
@@ -60,7 +60,7 @@
 			<itemStack>minecraft:planks 6 3</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="80" power ="10">
+	<Recipe timeRequired="40" power ="64">
 		<input>
 			<itemStack>minecraft:log2</itemStack>
 		</input>
@@ -68,7 +68,7 @@
 			<itemStack>minecraft:planks 6 4</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="4" power="20">
+	<Recipe timeRequired="40" power="64">
 		<input>
 			<itemStack>terrafirmacraft:item.Log 1 0</itemStack>
         </input>
@@ -76,7 +76,7 @@
 			<itemStack>terrafirmacraft:item.SinglePlank 8 0</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="4" power="20">
+	<Recipe timeRequired="40" power="64">
 		<input>
 			<itemStack>terrafirmacraft:item.Log 1 1</itemStack>
         </input>
@@ -84,7 +84,7 @@
 			<itemStack>terrafirmacraft:item.SinglePlank 8 1</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="4" power="20">
+	<Recipe timeRequired="40" power="64">
 		<input>
 			<itemStack>terrafirmacraft:item.Log 1 2</itemStack>
         </input>
@@ -92,7 +92,7 @@
 			<itemStack>terrafirmacraft:item.SinglePlank 8 2</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="4" power="20">
+	<Recipe timeRequired="40" power="64">
 		<input>
 			<itemStack>terrafirmacraft:item.Log 1 3</itemStack>
         </input>
@@ -100,7 +100,7 @@
 			<itemStack>terrafirmacraft:item.SinglePlank 8 3</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="4" power="20">
+	<Recipe timeRequired="40" power="64">
 		<input>
 			<itemStack>terrafirmacraft:item.Log 1 4</itemStack>
         </input>
@@ -108,7 +108,7 @@
 			<itemStack>terrafirmacraft:item.SinglePlank 8 4</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="4" power="20">
+	<Recipe timeRequired="40" power="64">
 		<input>
 			<itemStack>terrafirmacraft:item.Log 1 5</itemStack>
         </input>
@@ -116,7 +116,7 @@
 			<itemStack>terrafirmacraft:item.SinglePlank 8 5</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="4" power="20">
+	<Recipe timeRequired="40" power="64">
 		<input>
 			<itemStack>terrafirmacraft:item.Log 1 6</itemStack>
         </input>
@@ -124,7 +124,7 @@
 			<itemStack>terrafirmacraft:item.SinglePlank 8 6</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="4" power="20">
+	<Recipe timeRequired="40" power="64">
 		<input>
 			<itemStack>terrafirmacraft:item.Log 1 7</itemStack>
         </input>
@@ -132,7 +132,7 @@
 			<itemStack>terrafirmacraft:item.SinglePlank 8 7</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="4" power="20">
+	<Recipe timeRequired="40" power="64">
 		<input>
 			<itemStack>terrafirmacraft:item.Log 1 8</itemStack>
         </input>
@@ -140,7 +140,7 @@
 			<itemStack>terrafirmacraft:item.SinglePlank 8 8</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="4" power="20">
+	<Recipe timeRequired="40" power="64">
 		<input>
 			<itemStack>terrafirmacraft:item.Log 1 9</itemStack>
         </input>
@@ -148,7 +148,7 @@
 			<itemStack>terrafirmacraft:item.SinglePlank 8 9</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="4" power="20">
+	<Recipe timeRequired="40" power="64">
 		<input>
 			<itemStack>terrafirmacraft:item.Log 1 10</itemStack>
         </input>
@@ -156,7 +156,7 @@
 			<itemStack>terrafirmacraft:item.SinglePlank 8 10</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="4" power="20">
+	<Recipe timeRequired="40" power="64">
 		<input>
 			<itemStack>terrafirmacraft:item.Log 1 11</itemStack>
         </input>
@@ -164,7 +164,7 @@
 			<itemStack>terrafirmacraft:item.SinglePlank 8 11</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="4" power="20">
+	<Recipe timeRequired="40" power="64">
 		<input>
 			<itemStack>terrafirmacraft:item.Log 1 12</itemStack>
         </input>
@@ -172,7 +172,7 @@
 			<itemStack>terrafirmacraft:item.SinglePlank 8 12</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="4" power="20">
+	<Recipe timeRequired="40" power="64">
 		<input>
 			<itemStack>terrafirmacraft:item.Log 1 13</itemStack>
         </input>
@@ -180,7 +180,7 @@
 			<itemStack>terrafirmacraft:item.SinglePlank 8 13</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="4" power="20">
+	<Recipe timeRequired="40" power="64">
 		<input>
 			<itemStack>terrafirmacraft:item.Log 1 14</itemStack>
         </input>
@@ -188,7 +188,7 @@
 			<itemStack>terrafirmacraft:item.SinglePlank 8 14</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="4" power="20">
+	<Recipe timeRequired="40" power="64">
 		<input>
 			<itemStack>terrafirmacraft:item.Log 1 15</itemStack>
         </input>
@@ -196,7 +196,7 @@
 			<itemStack>terrafirmacraft:item.SinglePlank 8 15</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="4" power="20">
+	<Recipe timeRequired="40" power="64">
 		<input>
 			<itemStack>terrafirmacraft:item.Log 1 16</itemStack>
         </input>

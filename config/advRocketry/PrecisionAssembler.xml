@@ -31,7 +31,7 @@
 		</output>
 	</Recipe>
 
-	<Recipe timeRequired="100" power="128">
+	<Recipe timeRequired="100" power="256">
 		<input>
 			<oreDict>plateSteel 4</oreDict>
 			<itemStack>minecraft:iron_bars 4 0</itemStack>
@@ -42,7 +42,7 @@
 		</output>
 	</Recipe>
 
-	<Recipe timeRequired="100" power="128">
+	<Recipe timeRequired="100" power="256">
 		<input>
 			<oreDict>plateTin 3</oreDict>
 			<itemStack>IC2:itemPartCircuit 1 0</itemStack>
@@ -53,7 +53,7 @@
 		</output>
 	</Recipe>
 
-	<Recipe timeRequired="500" power="128">
+	<Recipe timeRequired="500" power="256">
 		<input>
 			<oreDict>plateTin 1</oreDict>
 			<itemStack>IC2:itemPartCircuitAdv 1 0</itemStack>
@@ -64,7 +64,7 @@
 		</output>
 	</Recipe>
 
-	<Recipe timeRequired="500" power="128">
+	<Recipe timeRequired="500" power="256">
 		<input>
 			<itemStack>advancedRocketry:lens 2 0</itemStack>
 			<itemStack>ihl:item.ihlSimpleItem 1 66</itemStack>
@@ -75,7 +75,7 @@
 		</output>
 	</Recipe>
 
-	<Recipe timeRequired="500" power="128">
+	<Recipe timeRequired="500" power="256">
 		<input>
 			<itemStack>minecraft:diamond 1 0</itemStack>
 			<itemStack>techreborn:part 1 4</itemStack>
@@ -85,7 +85,7 @@
 		</output>
 	</Recipe>
 
-	<Recipe timeRequired="500" power="128">
+	<Recipe timeRequired="500" power="256">
 		<input>
 			<itemStack>minecraft:diamond 1 0</itemStack>
 			<itemStack>techreborn:part 1 5</itemStack>
@@ -106,7 +106,7 @@
 		</output>
 	</Recipe>
 
-	<Recipe timeRequired="500" power="128">
+	<Recipe timeRequired="500" power="256">
 		<input>
 			<itemStack>techreborn:part 1 4</itemStack>
 			<itemStack>advancedRocketry:wafer 2 0</itemStack>
@@ -118,7 +118,7 @@
 		</output>
 	</Recipe>
 
-	<Recipe timeRequired="140" power="128">
+	<Recipe timeRequired="140" power="256">
 		<input>
 			<itemStack>IC2:itemPartCircuitAdv 1 0</itemStack>
 			<itemStack>techreborn:part 2 7</itemStack>
@@ -128,7 +128,7 @@
 		</output>
 	</Recipe>
 
-	<Recipe timeRequired="120" power="128">
+	<Recipe timeRequired="120" power="256">
 		<input>
 			<itemStack>IC2:itemCable 8 1</itemStack>
 			<oreDict>stickSteel 1</oreDict>
@@ -137,7 +137,7 @@
 			<itemStack>IC2:itemRecipePart 2 0</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="120" power="128">
+	<Recipe timeRequired="120" power="256">
 		<input>
 			<itemStack>IC2:itemRecipePart 2 0</itemStack>
 			<itemStack>IC2:itemCasing 2 5</itemStack>
@@ -147,7 +147,7 @@
 			<itemStack>IC2:itemRecipePart 2 1</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="120" power="128">
+	<Recipe timeRequired="120" power="256">
 		<input>
 			<itemStack>customitems:polyurathaneplastic 2 0</itemStack>
 			<oreDict>plateCopper 1</oreDict>
@@ -187,7 +187,7 @@
 			<itemStack>techreborn:part 1 4</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="150" power="128">
+	<Recipe timeRequired="150" power="256">
 		<input>
 			<itemStack>techreborn:part 1 2</itemStack>
 			<itemStack>techreborn:part 1 0</itemStack>
@@ -196,7 +196,7 @@
 			<itemStack>IC2:itemPartCircuitAdv 2 0</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="100" power="128">
+	<Recipe timeRequired="100" power="256">
 		<input>
 			<itemStack>techreborn:part 1 1</itemStack>
 			<itemStack>IC2:itemCable 6 0</itemStack>

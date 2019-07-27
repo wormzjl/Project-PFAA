@@ -121,6 +121,31 @@ recipes.addShaped(<Techguns:basicMachine:9>,
   [<IC2:itemRecipePart>, <IC2:itemPartCircuit>, <IC2:itemRecipePart>],
   [<ore:plateSteel>, <minecraft:redstone>, <ore:plateSteel>]]);
 
+//Bandit Armor
+recipes.remove(<Techguns:t1_scout_helmet>);
+recipes.addShaped(<Techguns:t1_scout_helmet>,
+   [[<ore:ingotIron>, <Techguns:TechgunsAmmo:39>, <ore:ingotIron>],
+    [<Techguns:TechgunsAmmo:39>, null, <Techguns:TechgunsAmmo:39>],
+    [null, null, null]]);
+
+recipes.remove(<Techguns:t1_scout_chestplate>);
+recipes.addShaped(<Techguns:t1_scout_chestplate>,
+   [[<Techguns:TechgunsAmmo:39>, null, <Techguns:TechgunsAmmo:39>],
+    [<ore:ingotIron>, <Techguns:TechgunsAmmo:39>, <ore:ingotIron>],
+    [<Techguns:TechgunsAmmo:39>, <Techguns:TechgunsAmmo:39>, <Techguns:TechgunsAmmo:39>]]);
+
+recipes.remove(<Techguns:t1_scout_leggings>);
+recipes.addShaped(<Techguns:t1_scout_leggings>,
+   [[<ore:ingotIron>, <Techguns:TechgunsAmmo:39>, <ore:ingotIron>],
+    [<Techguns:TechgunsAmmo:39>, null, <Techguns:TechgunsAmmo:39>],
+    [<Techguns:TechgunsAmmo:39>, null, <Techguns:TechgunsAmmo:39>]]);
+
+recipes.remove(<Techguns:t1_scout_boots>);
+recipes.addShaped(<Techguns:t1_scout_boots>,
+   [[<ore:ingotIron>, null, <ore:ingotIron>],
+    [<Techguns:TechgunsAmmo:39>, null, <Techguns:TechgunsAmmo:39>],
+    [null, null, null]]);
+
 //Drill renaming
 <Techguns:TechgunsAmmo:76>.displayName = "Small Ore Drill Head (Titanium)";
 <Techguns:TechgunsAmmo:77>.displayName = "Small Ore Drill Head (Tungsten Carbide)";
@@ -164,5 +189,3 @@ mods.techguns.OreCluster.addOreCluster2(13,<terrafirmacraft:item.Ore:32>,1,0.39,
 mods.techguns.OreCluster.addOreCluster2(14,<terrafirmacraft:item.Ore:33>,1,0.61,0.8,0.21,1,10.0,0.2);
 mods.techguns.OreCluster.addOreCluster2(15,<liquid:naturalgas>*1000,1,0.9,0.9,0.9,3,0.8,0.75);
 
-
-//Original nerf
