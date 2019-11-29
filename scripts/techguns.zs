@@ -124,7 +124,7 @@ recipes.addShaped(<Techguns:basicMachine:9>,
 //Bandit Armor
 recipes.remove(<Techguns:t1_scout_helmet>);
 recipes.addShaped(<Techguns:t1_scout_helmet>,
-   [[<ore:ingotIron>, <Techguns:TechgunsAmmo:39>, <ore:ingotIron>],
+   [[<ore:ingotIron>, <ore:ingotCopper>, <ore:ingotIron>],
     [<Techguns:TechgunsAmmo:39>, null, <Techguns:TechgunsAmmo:39>],
     [null, null, null]]);
 
@@ -132,17 +132,17 @@ recipes.remove(<Techguns:t1_scout_chestplate>);
 recipes.addShaped(<Techguns:t1_scout_chestplate>,
    [[<Techguns:TechgunsAmmo:39>, null, <Techguns:TechgunsAmmo:39>],
     [<ore:ingotIron>, <Techguns:TechgunsAmmo:39>, <ore:ingotIron>],
-    [<Techguns:TechgunsAmmo:39>, <Techguns:TechgunsAmmo:39>, <Techguns:TechgunsAmmo:39>]]);
+    [<Techguns:TechgunsAmmo:39>, <ore:ingotCopper>, <Techguns:TechgunsAmmo:39>]]);
 
 recipes.remove(<Techguns:t1_scout_leggings>);
 recipes.addShaped(<Techguns:t1_scout_leggings>,
-   [[<ore:ingotIron>, <Techguns:TechgunsAmmo:39>, <ore:ingotIron>],
+   [[<ore:ingotIron>, <ore:ingotCopper>, <ore:ingotIron>],
     [<Techguns:TechgunsAmmo:39>, null, <Techguns:TechgunsAmmo:39>],
     [<Techguns:TechgunsAmmo:39>, null, <Techguns:TechgunsAmmo:39>]]);
 
 recipes.remove(<Techguns:t1_scout_boots>);
 recipes.addShaped(<Techguns:t1_scout_boots>,
-   [[<ore:ingotIron>, null, <ore:ingotIron>],
+   [[<ore:ingotIron>, null, <ore:ingotCopper>],
     [<Techguns:TechgunsAmmo:39>, null, <Techguns:TechgunsAmmo:39>],
     [null, null, null]]);
 

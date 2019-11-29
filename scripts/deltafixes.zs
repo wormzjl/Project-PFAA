@@ -135,7 +135,8 @@ recipes.addShaped(<minecraft:anvil>,
   [null, <ore:ingotAluminum>, null],
   [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]]);
 
-recipes.addShapeless(<ImmersiveEngineering:graphiteElectrode>.withTag({Unbreakable: 1}), [<ImmersiveEngineering:graphiteElectrode:*>, <ore:stickTitaniumIridium>]);
+//Infinite graphite rod
+recipes.addShapeless(<ImmersiveEngineering:graphiteElectrode>.withTag({ench:[{lvl:10 as short, id: 34 as short}], Unbreakable: 1, Unbreaking: 10, display: {Name: "Titanium-Iridium Graphite Electrode"}}), [<ImmersiveEngineering:graphiteElectrode:*>, <ore:stickTitaniumIridium>]);
 
 mods.ic2.Compressor.addRecipe(<terrafirmacraft:item.WoolCloth>, <terrafirmacraft:item.Wool>);
 mods.ic2.Compressor.addRecipe(<terrafirmacraft:item.BurlapCloth>, <terrafirmacraft:item.Jute Fibre>*10);
@@ -146,3 +147,10 @@ recipes.addShaped(<ihl:electricMotorLVLEDC>,
   [null, <PneumaticCraft:plastic:15>, null]]);
   
 recipes.addShapeless(<antiqueatlas:emptyAntiqueAtlas> * 1, [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:feather>, <terrafirmacraft:item.Ink>]);
+
+recipes.addShaped(<minecraft:soul_sand>*4, 
+   [[<ore:blockDirt>, <ore:dyeWhite>, <ore:blockDirt>],
+    [<ore:dyeWhite>, <ore:blockDirt>, <ore:dyeWhite>],
+    [<ore:blockDirt>, <ore:dyeWhite>, <ore:blockDirt>]]);
+	
+recipes.addShapeless(<minecraft:netherrack>, [<Railcraft:brick.bloodstained>]);

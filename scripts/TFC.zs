@@ -127,6 +127,10 @@ mods.immersiveengineering.Crusher.removeRecipe(<ihl:item.ihlSimpleItem:13>);
 mods.ic2.Macerator.addRecipe(<ihl:item.ihlSimpleItem:13>, <terrafirmacraft:item.LooseRock:6>);
 mods.immersiveengineering.Crusher.addRecipe(<ihl:item.ihlSimpleItem:13>, <terrafirmacraft:item.LooseRock:6>, 1000);
 
+//Marble to calcite
+mods.ic2.Macerator.addRecipe(<ihl:item.ihlSimpleItem:13>, <terrafirmacraft:item.LooseRock:20>);
+mods.immersiveengineering.Crusher.addRecipe(<ihl:item.ihlSimpleItem:13>, <terrafirmacraft:item.LooseRock:20>, 1000);
+
 //Oredict registration
 val tinpoor = <ore:orePoorTin>;
 tinpoor.remove(<Railcraft:ore:10>);
