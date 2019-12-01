@@ -1,6 +1,6 @@
 <version>
     <pack>
-        <version>1.3.0</version>
+        <version>1.3.1</version>
         <minecraft>1.7.10</minecraft>
         <memory>3072</memory>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -120,7 +120,7 @@
 
         <mod name="Factorization" version="0.8.100" url="packs/PerFabricaadAstra/files/mods/Factorization-1.7.10-0.8.100.jar" file="Factorization-1.7.10-0.8.100.jar" md5="1e36cf85793123bd2ed9ca50e0adf435" download="server" type="mods" website="http://minecraftforum.net/topic/1351802-" authors="neptunepink" description="Auto-crafting, ore processing, barrels, and other tools" client="yes" optional="no" server="yes" serveroptional="no" />
 
-        <mod name="FastCraft" version="1.25" url="packs/PerFabricaadAstra/files/mods/fastcraft-1.25.jar" file="fastcraft-1.25.jar" md5="1253dfe58b85393a04b005d28ba83369" download="server" type="mods" website="http://forum.industrial-craft.net/index.php?page=Thread&amp;threadID=10820" authors="Player" description="FastCraft optimizes MineCraft in various ways, visit the homepage for further details and support." client="yes" optional="no" server="yes" serveroptional="no" />
+        <mod name="FastCraft" version="1.25" url="packs/PerFabricaadAstra/files/mods/fastcraft-1.25.jar" file="fastcraft-1.25.jar" md5="44c7c6828ac38026f443804827955345" download="server" type="mods" website="http://forum.industrial-craft.net/index.php?page=Thread&amp;threadID=10820" authors="Player" description="FastCraft optimizes MineCraft in various ways, visit the homepage for further details and support." client="yes" optional="no" server="yes" serveroptional="no" />
 
         <mod name="Forestry for Minecraft" version="4.2.12.0" url="packs/PerFabricaadAstra/files/mods/forestry_1.7.10-4.2.12.0.tnfc.235881b.jar" file="forestry_1.7.10-4.2.12.0.tnfc.235881b.jar" md5="1ddb53ee3a3f9fd5611c7913b59d9a85" download="server" type="mods" website="http://forestry.sengir.net/" authors="SirSengir" description="Trees, bees and more. TNFC Branch." client="yes" optional="no" server="yes" serveroptional="no" />
 
@@ -290,7 +290,7 @@
 
         <mod name="resources" version="1.3.0" url="packs/PerFabricaadAstra/files/extracts/resources_1.3.0.zip" file="resources_1.3.0.zip" md5="d3b3e2109fd785ce8ebbd11eaa63fdbd" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Resources for custom items and main menu" client="yes" optional="no" server="no" serveroptional="no" />
 
-        <mod name="scripts" version="1.3.0" url="packs/PerFabricaadAstra/files/extracts/scripts_1.3.0.zip" file="scripts_1.3.0.zip" md5="250f1e9470ba1206c60cdb9146024fbc" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="MT scripts" client="yes" optional="no" server="yes" serveroptional="no" />
+        <mod name="scripts" version="1.3.1" url="packs/PerFabricaadAstra/files/extracts/scripts_1.3.1.zip" file="scripts_1.3.1.zip" md5="aad81ff1cf1f827331c5995aee7f3ac6" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="MT scripts" client="yes" optional="no" server="yes" serveroptional="no" />
 
         <!-- Optional mods -->
         <mod name="Standard TFC biome size" version="1.0.5" url="packs/PerFabricaadAstra/files/extracts/standard_biome.zip" file="standard_biome.zip" md5="8b5d484eaeb4777b8d1f988b38e0bb56" download="server" type="extract" extractto="root" website="https://github.com/wormzjl/Project-PFAA" description="Config for standard stone biome size" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="no" group="biome" colour="green" />
