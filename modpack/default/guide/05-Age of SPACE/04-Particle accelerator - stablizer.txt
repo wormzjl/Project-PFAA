@@ -1,27 +1,27 @@
-§2§lParticle accelerator - stablizer
+§2§lParticle accelerator - stabilizer
 
-To make uum even cheaper, you will probably want to increase the size of your accelerator ring. The fail rate, shown in the GUI, increase significanty with the radius. When it reaches certain value, the machine might just can't reach 100% of completion.
-To deal this problem, you will need to add some stablizers to your accelerator.
+To make UUM even cheaper, you will probably want to increase the size of your accelerator ring. The fail rate, shown in the GUI, increases significanty with the radius. When it reaches a certain value, the machine just can't reach 100% completion.
+To deal with this problem, you will need to add some stabilizers to your accelerator.
 
-For this purpose, you will need 3 accelerator advanced tunnel, 1 accelerator coolant port and some accelerator advanced hull.
+For this purpose, you will need 3 accelerator advanced tunnels, 1 accelerator coolant port and some accelerator advanced hulls.
 
-First, choose 3 block on your ring, it is recommended to build it on somewhere show on the picture below since it will save you some hull blocks.
+First, choose 3 blocks on your ring. It is recommended to build it on a curved section as shown on the picture below since it will save you some hull blocks.
 {"image":"acc12.png"}
 
-Break them, and replace original tunnel block with advanced tunnel block.
+Break them and replace the original tunnel blocks with advanced tunnel blocks.
 {"image":"acc13.png"}
 
-Replace all hull block with the advanced ones.
+Replace all hull blocks with the advanced ones.
 {"image":"acc14.png"}
 
-Now you need add another layer of advanced hull block above or below the original hull block, yellow glass represents the place you need to add your new block. Don't forget the layer below.
+Now you need to add another layer of advanced hull blocks above or below the original hull blocks. Yellow glass represents the place you need to add your new blocks. Don't forget the layer below.
 {"image":"acc15.png"}
 
 When completed, it should look like something like this:
 {"image":"acc16.png"}
 
-Replace one top hull block with a coolant port.You need to feed it with ic2 coolant.
+Replace one top hull block with a coolant port. You need to feed it with IC2 coolant.
 {"image":"acc17.png"}
 
-Now, break and replace the core block, after checking the structure, you are ready to go.
-Each stablizer uses 1mb of coolant each tick, which means 1200mb per minute. You will need a steady supply of boric acid to allow it to work efficiently. And it will consume coolant even sitting idle.
+Now, break and replace the core block. After checking the structure, you are ready to go.
+Each stabilizer uses 1mB of coolant each tick, which means 1200mB per minute. You will need a steady supply of boric acid or lapis to allow it to work efficiently. It will also consume coolant even while sitting idle.

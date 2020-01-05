@@ -1,17 +1,17 @@
 §2§lAdvanced circuits
 
-By the time you made some machines from advanced rocketry mod, it's time to start up the production of highly-pure silicon.
-This is required to fabricate advanced circuits from Techreborn, also to increase productivity.
+By the time you made some machines from the Advanced Rocketry mod, it's time to start up the production of highly-pure silicon.
+This is required to fabricate advanced circuits from TechReborn, and to increase productivity.
 The process itself is rather complex:
 
-1: extract silicon dioxide from quartz, clay or quartizite sand.
-2: Reduct SiO2 to technical silicon inside a IHL fluidized bed reactor.
-3: Make Silicon tetrachloride then trichlorosilane from technical silicon, or silicon carbide (more efficient to begin with).
+1: Extract silicon dioxide from quartz, clay or quartzite sand.
+2: Reduce SiO2 to technical silicon inside an IHL fluidized bed reactor.
+3: Make Silicon tetrachloride then trichlorosilane from technical silicon or carborundum (more efficient to begin with).
 4: Decompose trichlorosilane to obtain a high-purity silicon dust.
-5: Smelt the dust in a techreborn blast furnace, then crystalize it to get monocrystalline silicon.
+5: Smelt the dust in a TechReborn blast furnace, then crystallize it to get monocrystalline silicon.
 6: Cut it into wafers, it's now ready for circuits.
 
-Afterwards, you can craft some advanced machine casing to upgrade your Techreborn blast furnace so it can smelt SiO2 directly into technical silicon, which will save a lot of raw material. Step 4 can also be done in an AR reactor, which is easier to deal with. You can also make some solar satellites afterwards for some renewable power.
+Afterwards, you can craft some advanced machine casings to upgrade your TechReborn blast furnace so it can smelt SiO2 directly into technical silicon, which will save a lot of raw material. Step 4 can also be done in an AR reactor, which is easier to deal with. You can also make some solar satellites afterwards for some renewable power.
 
-One of the most important device in this age is the techreborn grinder, it can increase the yield of your ores and simplify your production chain, also some high-tier ores can only be processed in this machine.
+One of the most important devices in this age is the TechReborn grinder: It can increase the yield of your ores and simplify your production chain. Also, some high-tier ores can only be processed in this machine.
 

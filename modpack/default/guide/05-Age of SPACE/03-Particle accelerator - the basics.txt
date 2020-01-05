@@ -1,21 +1,21 @@
 §2§lParticle accelerator - the basics
 
 To make UUM production more interesting, we have created this particle accelerator mod specifically for this pack.
-This mod was inspired by the atomic science mod in 1.4.7, but was written in a much performance-friendly way.
+This mod was inspired by the atomic science mod in 1.4.7, but was written in a much more performance-friendly way.
 
-The accelerator needs to be built best with a round shape, so the first thing you want to make is a accelerator building instructor.
-This block doesn't do anthing alone, but if you place certain block on it, it will show a circle with specific radius. 
-Gold block=10, Iron block=5, cobblestone=2, oak plank=1. Blocks can be stacked as shown below:
+The accelerator needs to be built best with a round shape, so the first thing you want to make is an accelerator building instructor.
+This block doesn't do anything alone, but if you place certain blocks on it, it will show a circle with a specific radius. 
+Gold Block=10, Iron Block=5, Cobblestone=2, Oak Plank=1. Blocks can be stacked as shown below:
 {"image":"building.png"}
 
-Cover the line with accelerator hull block like below, it should form a circle and cover the line completely:
+Cover the line with accelerator hull blocks like below, it should form a circle and cover the line completely:
 {"image":"acc1.png"}
 {"image":"acc2.png"}
 
-Then, place a layer of accelerator tunnel block over the hull block:
+Then, place a layer of accelerator tunnel blocks over the hull blocks:
 {"image":"acc3.png"}
 
-Now, cover every side of the tunnel block with hull block, you should get something like this:
+Now, cover every side of the tunnel blocks with hull blocks, you should get something like this:
 {"image":"acc4.png"}
 
 Replace any 2 hull blocks with an accelerator energy port and fluid port:
@@ -25,18 +25,18 @@ Replace any 2 hull blocks with an accelerator energy port and fluid port:
 And a hull block with the accelerator core:
 {"image":"acc7.png"}
 
-Rightclick to open the GUI, it will start to scan the structure, this will take some time so be patient:
+Right-click to open the GUI and it will start to scan the structure. This will take some time so be patient:
 {"image":"acc8.png"}
 
 When scanning is finished, the GUI will look like this:
 {"image":"acc9.png"}
 
-Power it up and start producing UUM, it can be pumped out from the fluid port:
+Power it up and start producing UUM, which can be pumped out from the fluid port:
 {"image":"acc10.png"}
 {"image":"acc11.png"}
 
-I'd recommend starting with a accelerator with a radius of 7-10 blocks. If you want, the accelerator can be built with any shape you like, but it will work at a lower efficency.
+I'd recommend starting with an accelerator with a radius of 7-10 blocks. If you want, the accelerator can be built with any shape you like, but it will work at a lower efficency.
 
-The accelerator does not have a fixed power usage and will use all provided energy to work, the bigger the current, the faster it will go. If the completion percentage doesn't move, try to provide it with a higher current. The energy useage per UUM depends on the size of the accelerator. Generally, the bigger the circle, the better the efficiency. The exact mecanism is explained in following chapters.
+The accelerator does not have a fixed power usage and will use all provided energy to work. The bigger the current, the faster it will go. If the completion percentage doesn't move, try to provide it with a higher current. The energy usage per UUM depends on the size of the accelerator. Generally, the bigger the circle, the better the efficiency. The exact mechanism is explained in the following sections.
 
-An array of MFSUs will be necessary to provide the current in the begining. Design your power system wisely.
+An array of MFSUs will be necessary to provide the current in the beginning. Design your power system wisely.

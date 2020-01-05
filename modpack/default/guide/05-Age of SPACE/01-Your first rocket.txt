@@ -8,6 +8,6 @@ Here is a good tutorial video:
 The production of rocket fuel has been modified, now it uses a 1:1 Hydrazine/UDMH monopropellant. The raw material is not complicated, but you have to design the process well. Due to some bugs, sometimes it's difficult to find where a fluid come from in NEI (mostly in AR chemical reactors). In such case, lood for the fluid itself in NEI, and press U or R over the fluid block or fluid container.
 
 You will be able to find some large deposits of rutile (titanium) which can be spotted on the ground, which indicates a large vein underground.
-There are also astroids and certus quartz from AE2, you will need them to progress too. Use an enderquarry to harvest them.
+There are also asteroids and certus quartz from AE2, you will need them to progress too. Use an ender quarry to harvest them. Once certus quartz is obtained, you can use purified slag solution to grow more certus quartz crystals at your base.
 
 Make sure you bring enough oxygen and rocket fuel with you, space rescue is complicated.
