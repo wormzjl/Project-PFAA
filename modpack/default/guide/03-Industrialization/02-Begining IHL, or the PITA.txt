@@ -6,7 +6,7 @@ The official wiki of this mod can be found in the following link, but a lot of i
 
 To start with IHL, you will need an iron workbench which will hold all your tools and do all the crafting jobs in this mod. All crafting in the iron workbench needs to be done manually and will craft a maximum stack with available resources, so do not put in more materials than you need. Your first objective will be preparing the tools. If you have enough resources, make two or three of each. 
 
-Another major crafting method introduced by IHL is casting with molds. The mold is either made by clay or liquid glass, depending on their type. After crafting the mold, put it down on the ground. Put some metal ingots inside a crucible and heat it up in the muffle furnace. Pour the molten metal into the mold by right clicking its top with the crucible, then wait at least 10 seconds and break the mold to get your product. Some commonly used components can be cast via the foundry mod to reduce manual labor.
+Another major crafting method introduced by IHL is casting with molds. The mold is either made by clay or liquid glass, depending on their type. After crafting the mold, put it down on the ground. Put some metal ingots inside a crucible and heat it up in the muffle furnace. Pour the molten metal into the mold by right clicking its top with the crucible, then wait at least 10 seconds and break the mold to get your product. Some commonly used components can be cast via the Foundry mod to reduce manual labor. It is highly recommended to use the Foundry mod for casting components when creating IHL machines in bulk.
 
 After some work, you will need some additions to your iron workbench: the lathe and the gas welding station. They need to be placed close to the iron workbench and provided with power / material to work.
 For the gas welding station, simply place an oxygen cell in the blue bottle (oxygen from air distillation), and water + calcium carbide in the red bottle to form acetylene.
@@ -15,7 +15,7 @@ For the gas welding station, simply place an oxygen cell in the blue bottle (oxy
 {"image":"welder.png"}
 
 
-The lathe is made of 2 parts, and it needs to be placed like this to work
+The lathe is made of 2 parts, and it needs to be placed like this to work.
 {"image":"lathe.png"}
 
 Now you can craft almost every machine in IHL.

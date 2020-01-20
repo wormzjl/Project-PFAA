@@ -1,0 +1,6 @@
+The images below show ore and rock combinations for all TFC overworld ores as well as flux stones. These are NOT the same as shown on the TFC wiki. For a full resolution image, visit: 
+{"text":"§1https://i.imgur.com/2re6iGB.png", "click":{"type":"url", "data":"https://i.imgur.com/2re6iGB.png"}}
+
+{"image":"oregen1.png"}
+
+{"image":"oregen2.png"}

@@ -1,10 +1,10 @@
 §2§lGuide to fluid automation
 
-Maybe your have already noticed, unlike "chemical reators" provided by other mod, the IHL one is special: It has only one fluid container, if you fill it with a single fluid, others will not be able to get in. Which means, if a recipe contains more than one fluid as input, they need to be introduced propotionally or the reactor will be filled with a single reagent.
-There are more than one way to achieve this, you can try buildcraft gates, where a single redstone pulse it extracts 250mb of fluid, or the IC2 fluid regulator to control the flow rate, or, the dosing pump from IHL.
-The dosing pump was specifically designed for fluid automation with IHL, it can send out a configured amount of fluid upon receiving a redstone pulse. Combined with some control mecanisms, this will allow you to automate every fluid recipes ingame. Test yourself and find out what's the best option for you.
+Maybe you have already noticed, unlike "chemical reators" provided by other mods, the IHL one is special: It has only one fluid container. If you fill it with a single fluid, others will not be able to get in. Which means that if a recipe contains more than one fluid as an input, they need to be introduced proportionally or the reactor will be filled with a single reagent.
+There is more than one way to achieve this: You can try BuildCraft gates, where a single redstone pulse extracts 250mB of fluid, the IC2 fluid regulator to control the flow rate, or the dosing pump from IHL.
+The dosing pump was specifically designed for fluid automation with IHL. It can send out a configured amount of fluid upon receiving a redstone pulse. Combined with some control mechanisms, this will allow you to automate every fluid recipe ingame. Test it yourself and find out what's the best option for you.
 
-Sometimes you might encounter problems when extracting multiple fluid products from the reactor. In fact, lighter product can be extracted from the top of the reactor, and heavier one from the bottom. Or you can just empty everything into an automatic separator and let it deal with the rest.
+Sometimes you might encounter problems when extracting multiple fluid products from the reactor. In fact, the lighter product can be extracted from the top of the reactor, and the heavier one from the bottom. Or you can just empty everything into an automatic separator and let it deal with the rest.
 
 
 

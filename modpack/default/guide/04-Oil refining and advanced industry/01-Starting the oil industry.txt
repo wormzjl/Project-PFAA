@@ -1,27 +1,27 @@
 §2§lStarting the oil industry
 
-After coal, oil and natural gas will be your main energy source for a long time in the furture. And At the same time, it provides the raw material for the chemical industry.
+After coal, oil and natural gas will be your main energy source for a long time into the future. At the same time, it provides the raw material for the chemical industry.
 
-You can find oil wells generated in the ocean. At the bottom of each well, sometimes you can find a infinite oil or natural gas source which can be harvested by TG miners. You will need a stable supply of both, so investment in infrastructures will be necessary.
+You can find oil wells generated in the ocean. At the bottom of each well, sometimes you can find an infinite oil or natural gas source which can be harvested by TG drills. You will need a stable supply of both, so investment in infrastructure will be necessary.
 
-Oil refining comes in many steps. First, crude oil need to be stripped of brine, which is called desalination. Then the processed crude oil is distilled so hydrocarborns in different length range can be separated.
+Oil refining comes in many steps. First, crude oil need to be stripped of brine, which is called desalination. Then the processed crude oil is distilled so hydrocarbons in different length ranges can be separated.
 
-The desalination step is performed ingame with IHL cryogenic distiller. Due to a bug with magneticraft, recipes using MgC refinery cannot be found in NEI, so you need the following flowchart to find out what to do. The flowchart is also included in the infomation package.
+The desalination step is performed ingame with the IHL cryogenic distiller. Due to a bug with Magneticraft, recipes using the MgC refinery cannot be found in NEI, so you need the following flowchart to find out what to do. The flowchart is also included in the infomation package.
 {"text":"§1https://i.imgur.com/6Q6FelE.jpg", "click":{"type":"url", "data":"https://i.imgur.com/6Q6FelE.jpg"}}
 
 If you are lost with the flowchart, here is a simple guide to begin with:
 1. Desalinate crude oil.
-2. Heat up your desalinated oil in a magneticraft oil distillery then pass it into a refinery.
+2. Heat up your desalinated oil in a Magneticraft oil distillery then pass it into an MgC refinery.
 3. You will get a small amount of natural gas, some LPG and some processed oil.
 4. LPG can be separated into butane, propane and propene.
-5. Processed oil need to be further separated into different components in the Pneumaticcraft refinery, which is essential in getting bc gasoline and mineral oil, which is in turn used to craft electrolysis bath to make aluminium.
-6. The primary objective of this period will be getting pneumaticcraft plastic, which is, polyethylene. There are many ways to obtain this, and one major method will be the steam cracking of propane.
-7. For steam cracking processes, the fluid need to be reacted with IC2 superheated steam in an IE refiney, then separated in a MgC refinery.
-8. You get a "hot" fluid after cracking, which means some of the energy can be recovered with an IC2 heat exchanger. Later it can be upgraded into the one from advanced generators to increase efficiency.
-9. Ethylene can be processed into polyethylene, which is liquid plastic from Pneumaticcraft, use a plastic mixer to get your product.
-10. Upgrade your pneumatic gears and get an electrical compressor to allow the refinery operate at full efficiency.
-11. Syngas is something good to have, you can extract CO and H2 from it by simple cryo distillation, or get some really cheap hydrogen by water-gas shifting reaction. No longer you need to electrolyse water which is insanly energy-inefficient.
-12. To progresse further, get polycarbonate and polyurathane plastic.
+5. Processed oil needs to be further separated into different components in the PneumaticCraft refinery, which is essential in getting BC gasoline and mineral oil.
+6. The primary objective of this period will be getting PneumaticCraft plastic, which is polyethylene. There are many ways to obtain this, and one major method will be the steam cracking of propane.
+7. For steam cracking processes, the fluid needs to react with IC2 superheated steam in an IE refinery, then separated in an MgC refinery.
+8. You get a "hot" fluid after cracking, which means some of the energy can be recovered with an IC2 heat exchanger. Later it can be upgraded into the one from Advanced Generators to increase efficiency.
+9. Ethylene can be processed into polyethylene, which is liquid plastic from PneumaticCraft. Use a plastic mixer to get your product.
+10. Upgrade your pneumatic gears and get an electrical compressor to allow the refinery to operate at full efficiency.
+11. Syngas is something good to have: you can extract CO and H2 from it by simple cryo distillation, or get some really cheap hydrogen by the water-gas shift reaction. No longer do you need to electrolyse water which is insanely energy-inefficient.
+12. To progress further, get polycarbonate and polyurathane plastic.
 13. Automate them all. Yes it can be done, and you will need a lot of plastics later.
 
-All alkanes, LPG, LNG can be burnd in the RC boiler as well as IE diesel generator, and later in the advanced generator turbines, their fuel values are adjusted according to real life values.
+All alkanes, LPG, and LNG can be burned in the RC boiler as well as the IE diesel generator, and later in the Advanced Generator gas turbine. Their fuel values are adjusted according to real life values.

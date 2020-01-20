@@ -1,18 +1,18 @@
 ﻿§2§lBasic industrialization
 
-After getting steel and black steel, you can start creating some basic machines, like the railcraft crusher and powered forges.
-The most important device is the improved blast furnace from immersive engineering, which will make ore smelting much easier and more efficient.
+After getting steel and black steel, you can start creating some basic machines, like the Railcraft crusher and powered forges.
+The most important device is the improved blast furnace from Immersive Engineering, which will make ore smelting much easier and more efficient.
 
-By completing the quest "Continuous mining operations", you can obtain a set of ore drills to gather resource from techgun ore clusters, which can be found among regular ores. At the cost of certain power, ores can be harvested infinitely with this device. This will be your main source for ores and your biggest power sink during industrial age.
+By completing the quest "Continuous mining operations", you can obtain a set of ore drills to gather resources from Techguns ore clusters, which can be found among regular TFC ores. At the cost of certain power, ores can be harvested infinitely with this device. This will be your main source of ores and your biggest power sink during the industrial age.
 {"text":"§1Wiki", "click":{"type":"url", "data":"https://github.com/pWn3d1337/Techguns/wiki/Ore-Drills"}}
 {"text":"§1Video tutorial", "click":{"type":"url", "data":"https://www.youtube.com/watch?v=6Q96E9ubay0"}}
-Note: The crafting recipe is intentionally disabled to promote inter-player cooperation, if you want to reenable the recipe, it can be found in techguns.zs.
+Note: The crafting recipe is intentionally disabled to promote inter-player cooperation in multiplayer. If you want to reenable the recipe, it can be found in techguns.zs. The recipes are enabled by default when using the optional singleplayer scripts.
 
-To progress further, you will need to make some IE wires, which in turn requires the usage of TFC tech mod.
+To progress further, you will need to make some IE wires, which in turn requires the usage of the TFCTech mod.
 {"text":"§1Video for wire drawing bench", "click":{"type":"url", "data":"https://www.youtube.com/watch?v=4HG9aLbJNwE"}}
 {"text":"§1Video for making rubber", "click":{"type":"url", "data":"https://www.youtube.com/watch?v=s3Dvji0Mzn0"}}
 
-From this point, you can start building a IE crusher and IC2 macerator, which will give you a great boost in terms of ingot-per-ore.
-With the power demand increasing, the output from basic engines or wind/water mills will become insufficient. With one or two ore drills mining coal and a couple of industrial cokery transforming them into coal coke, railcraft boilers can keep your base running for a long time.
+From this point, you can start building a IE crusher and IC2 macerator, which will give you a great boost in terms of ingots-per-ore.
+With the power demand increasing, the output from basic engines or wind/water mills will become insufficient. With one or two ore drills mining coal and a couple of industrial coke ovens transforming them into coal coke, Railcraft boilers can keep your base running for a long time.
 §4NOTE: IE wires can carry power across unloaded chunks with a reasonable loss rate, but they do not behave well in a large grid. Use them wisely.
-A constant supply of ores will give you much more resources than you will need for the moment being, try to trade them with other players for resources you lack.
+A constant supply of ores will give you much more resources than you will need for the moment being. Try to trade them with other players for resources you lack.

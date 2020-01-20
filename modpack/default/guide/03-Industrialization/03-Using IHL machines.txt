@@ -4,11 +4,11 @@ Crafting and using IHL machines is not simple. This chapter provides some "how-t
 §C§LNote: All IHL machines are direction-sensitive, which means input/output can only be performed on specific sides!
 
 §3§lCryogenic distiller
-This device allows for the distillation of air, it also serves in product separation in several chemical processes.
+This device allows for the distillation of air. It also serves in product separation in several chemical processes.
 It has 1 input side and 2 output sides. When distilling air, the input side must not be blocked.
 {"image":"cryo1.png"}
 
-In other words, if you want the cryo distiller to work on something other than air distillation, you can simply block the input side with a pipe or something else, this will prevent messing up your fluid network when the device is idle.
+In other words, if you want the cryo distiller to work on something other than air distillation, you can simply block the input side with a pipe or something else, this will prevent messing up your fluid network when the device is idle. Be aware that you cannot retrieve fluids that have already been input into the cryogenic distiller!
 
 
 §3§lAutomatic separator
@@ -24,7 +24,9 @@ The wire mill is used to make IHL wires, as well as glass fibers. It needs water
 The wire need to be recovered using a coiler. Below is an image describing the making of fiberglass.
 {"image":"wiremill1.png"}
 
-The setup becomes a bit more complicated when making IHL wires, as it needs to be insulated (uninsulated ones loses power when touching ground).
+§C§LNote: The production of IHL wires is completely optional! They are no longer required in order to make aluminium, magnesium, etc. IHL cables have been found to cause lag in some cases, so be careful if you choose to use them.
+
+The setup becomes a bit more complicated when making IHL wires, as it needs to be insulated (uninsulated ones lose power when touching ground).
 First, you will need a specific die for your cable in the iron workbench. You can right click on the die to craft to set its transverse section.
 The bigger it is, the lower the resistance, and higher the resource consumption. For this pack, I'd recommend setting it to the maximum value (135).
 {"image":"die.png"}
@@ -32,4 +34,4 @@ The bigger it is, the lower the resistance, and higher the resource consumption.
 Then, you need to add an extruder and a vulcanization extruding mold to the setup as shown below. All parts need to be powered.
 {"image":"wiremill2.png"}
 
-Put some rubber and sulfur dust into the extruder, the crafted die, and some copper ingot in the wire mill, then you will get your IHL cable.
+Put some rubber and sulfur dust into the extruder, the crafted die, and some copper ingots in the wire mill, then you will get your IHL cable.

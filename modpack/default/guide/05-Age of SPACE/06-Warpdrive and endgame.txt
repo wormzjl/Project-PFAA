@@ -1,12 +1,12 @@
 §2§lWarpdrive and endgame
 
-In order to travel to planets other than the moon, you will need a space station equipped with warp drive. See AR tutorials about how to build one.
-This drive requires dilithium as, which can only be fabricated using the techreborn fusion reactor in the begining. Afterwards it can be found rarely on certain planets. If you have mined a lot of moondust, it can also be a good power and helium source.
+In order to travel to planets other than the moon, you will need a space station equipped with a warp drive. See AR tutorials about how to build one.
+This drive requires dilithium as fuel, which can only be fabricated using the TechReborn fusion reactor in the beginning. Afterwards, it can be found rarely on certain planets. If you have mined a lot of moon turf, TR fusion can also be a good power and helium source, producing 8192 EU/t. However, this device may be glitchy at times.
 {"image":"fusion.png"}
 
 Your first destination will be the red planet, there you can find tungsten ore. The processing of tungsten and tungsten carbide will be the ultimate automation challenge for this pack. With tungsten, you can make the endgame ore processing system from Magneticraft.
 
-With all resource available, you might want to explore the whole solar system and find tritanium. With this material you can start playing with Matter overdrive. There are also stuffs hidder here and there, have fun.
+With all resources available, you might want to explore the whole solar system and find tritanium. With this material, you can start playing with Matter Overdrive. There are also stuffs hidden here and there, have fun.
 
 The endgame goal will be creating a self-sustainable fusion reactor from Mekanism. If you have a good automation system, this won't be too hard.
 
